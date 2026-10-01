@@ -18,8 +18,10 @@ from . import build, extract, fetch, notify
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config"
-STATE = ROOT / "state"
-DOCS = ROOT / "docs"
+# 生成物（state, docs）は data ブランチに置く。GitHub Actions では DATA_ROOT にそのチェックアウト先を渡す
+DATA_ROOT = Path(os.environ.get("DATA_ROOT", ROOT))
+STATE = DATA_ROOT / "state"
+DOCS = DATA_ROOT / "docs"
 JST = timezone(timedelta(hours=9))
 
 

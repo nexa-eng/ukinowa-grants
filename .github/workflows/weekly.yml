@@ -22,6 +22,11 @@ jobs:
     timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
+      - name: 生成物の置き場（data ブランチ）を取得
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -37,8 +42,10 @@ jobs:
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
           MAX_LLM: ${{ github.event.inputs.max_llm || '120' }}
+          DATA_ROOT: ${{ github.workspace }}/data
         run: python -m grants.run --llm
-      - name: 結果をコミット
+      - name: 結果を data ブランチにコミット
+        working-directory: data
         run: |
           git config user.name "ukinowa-grants-bot"
           git config user.email "actions@users.noreply.github.com"
