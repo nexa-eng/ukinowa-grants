@@ -7,7 +7,7 @@ X-WR-CALNAME:うきのわ 助成金の締切
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:79b0ae4ad81ae24d-0@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:締切: 2026年度 トヨタ財団 特定課題「人口減少と
@@ -23,7 +23,7 @@ URL:https://www.toyotafound.or.jp/grant/population/
 END:VEVENT
 BEGIN:VEVENT
 UID:79b0ae4ad81ae24d-1@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:締切21日前: 2026年度 トヨタ財団 特定課題「人口減
@@ -39,7 +39,7 @@ URL:https://www.toyotafound.or.jp/grant/population/
 END:VEVENT
 BEGIN:VEVENT
 UID:79b0ae4ad81ae24d-2@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:締切7日前: 2026年度 トヨタ財団 特定課題「人口減
@@ -55,7 +55,7 @@ URL:https://www.toyotafound.or.jp/grant/population/
 END:VEVENT
 BEGIN:VEVENT
 UID:00d3067323679afa-0@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:締切: 【助成情報】令和8年熊本地震の被災地での
@@ -71,7 +71,7 @@ URL:https://www.kvoad.com/2026/09/8.html
 END:VEVENT
 BEGIN:VEVENT
 UID:00d3067323679afa-2@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:締切7日前: 【助成情報】令和8年熊本地震の被災地
@@ -87,7 +87,7 @@ URL:https://www.kvoad.com/2026/09/8.html
 END:VEVENT
 BEGIN:VEVENT
 UID:bef630401a9f2c43-0@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:締切: 令和8年熊本地震において被災したこどもの
@@ -100,7 +100,7 @@ URL:https://logoform.jp/f/I7veq
 END:VEVENT
 BEGIN:VEVENT
 UID:bef630401a9f2c43-2@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:締切7日前: 令和8年熊本地震において被災したこど
@@ -113,7 +113,7 @@ URL:https://logoform.jp/f/I7veq
 END:VEVENT
 BEGIN:VEVENT
 UID:f27083b00ec3ea07-0@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:締切: ニッセイ財団 令和9年度（2027年度）「児童
@@ -134,7 +134,7 @@ URL:https://www.parea.pref.kumamoto.jp/2026/09/29/%e3%83%8b%e3%83%83%e3%82%
 END:VEVENT
 BEGIN:VEVENT
 UID:f27083b00ec3ea07-1@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:締切21日前: ニッセイ財団 令和9年度（2027年度）「
@@ -156,7 +156,7 @@ URL:https://www.parea.pref.kumamoto.jp/2026/09/29/%e3%83%8b%e3%83%83%e3%82%
 END:VEVENT
 BEGIN:VEVENT
 UID:f27083b00ec3ea07-2@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:締切7日前: ニッセイ財団 令和9年度（2027年度）「
@@ -178,7 +178,7 @@ URL:https://www.parea.pref.kumamoto.jp/2026/09/29/%e3%83%8b%e3%83%83%e3%82%
 END:VEVENT
 BEGIN:VEVENT
 UID:95f9ec9d50863a23-0@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:締切: ニッセイ財団 令和9年度（2027年度）「児童
@@ -194,7 +194,7 @@ URL:https://www.pref.kumamoto.jp/soshiki/54/280402.html
 END:VEVENT
 BEGIN:VEVENT
 UID:95f9ec9d50863a23-1@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:締切21日前: ニッセイ財団 令和9年度（2027年度）「
@@ -210,7 +210,7 @@ URL:https://www.pref.kumamoto.jp/soshiki/54/280402.html
 END:VEVENT
 BEGIN:VEVENT
 UID:95f9ec9d50863a23-2@ukinowa-grants
-DTSTAMP:20261001T071757Z
+DTSTAMP:20261001T072321Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:締切7日前: ニッセイ財団 令和9年度（2027年度）「
@@ -223,5 +223,295 @@ DESCRIPTION:子ども・青少年の健全育成に取り組む地域の民
  0万円\nhttps://www.pref.kumamoto.jp/soshiki/54/280402.html
 TRANSP:TRANSPARENT
 URL:https://www.pref.kumamoto.jp/soshiki/54/280402.html
+END:VEVENT
+BEGIN:VEVENT
+UID:f4cad137f57cad0c-0@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:締切: ニッセイ財団 2027年度「児童・少年の健全育
+ 成助成」「生き生きシニア活動顕彰」
+DESCRIPTION:子どもが健やかに育つために続けている活動（
+ 自然と親しむ活動、異なる年齢・世代の交流など）に
+ 使う物品の購入費を助成します。あわせて、高齢者が
+ 中心となって行う地域貢献活動を表彰する顕彰（1団体5
+ 万円）も募集しています。\n上限: 80万円\nhttps://www.fukush
+ i-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
+END:VEVENT
+BEGIN:VEVENT
+UID:f4cad137f57cad0c-1@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:締切21日前: ニッセイ財団 2027年度「児童・少年の
+ 健全育成助成」「生き生きシニア活動顕彰」
+DESCRIPTION:子どもが健やかに育つために続けている活動（
+ 自然と親しむ活動、異なる年齢・世代の交流など）に
+ 使う物品の購入費を助成します。あわせて、高齢者が
+ 中心となって行う地域貢献活動を表彰する顕彰（1団体5
+ 万円）も募集しています。\n上限: 80万円\nhttps://www.fukush
+ i-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
+END:VEVENT
+BEGIN:VEVENT
+UID:f4cad137f57cad0c-2@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:締切7日前: ニッセイ財団 2027年度「児童・少年の
+ 健全育成助成」「生き生きシニア活動顕彰」
+DESCRIPTION:子どもが健やかに育つために続けている活動（
+ 自然と親しむ活動、異なる年齢・世代の交流など）に
+ 使う物品の購入費を助成します。あわせて、高齢者が
+ 中心となって行う地域貢献活動を表彰する顕彰（1団体5
+ 万円）も募集しています。\n上限: 80万円\nhttps://www.fukush
+ i-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
+END:VEVENT
+BEGIN:VEVENT
+UID:5ef12f1204c38dba-0@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:締切: 令和9年度 キリン・地域のちから応援事業 
+ 公募助成
+DESCRIPTION:子ども、高齢者、障害のある人などの暮らしを
+ 良くするボランティア活動や、地域を元気にする活動
+ 、災害復興・防災の活動に使える助成です。居場所づ
+ くり、世代間の交流、自然・農業体験、見守りなどの
+ 活動費（交通費、消耗品、会場費、講師謝礼など）に
+ 使えます。\n上限: 30万円\nhttps://foundation.kirinholdings.com/su
+ bsidy/r9/index.html
+TRANSP:TRANSPARENT
+URL:https://foundation.kirinholdings.com/subsidy/r9/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:5ef12f1204c38dba-1@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:締切21日前: 令和9年度 キリン・地域のちから応援
+ 事業 公募助成
+DESCRIPTION:子ども、高齢者、障害のある人などの暮らしを
+ 良くするボランティア活動や、地域を元気にする活動
+ 、災害復興・防災の活動に使える助成です。居場所づ
+ くり、世代間の交流、自然・農業体験、見守りなどの
+ 活動費（交通費、消耗品、会場費、講師謝礼など）に
+ 使えます。\n上限: 30万円\nhttps://foundation.kirinholdings.com/su
+ bsidy/r9/index.html
+TRANSP:TRANSPARENT
+URL:https://foundation.kirinholdings.com/subsidy/r9/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:5ef12f1204c38dba-2@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:締切7日前: 令和9年度 キリン・地域のちから応援
+ 事業 公募助成
+DESCRIPTION:子ども、高齢者、障害のある人などの暮らしを
+ 良くするボランティア活動や、地域を元気にする活動
+ 、災害復興・防災の活動に使える助成です。居場所づ
+ くり、世代間の交流、自然・農業体験、見守りなどの
+ 活動費（交通費、消耗品、会場費、講師謝礼など）に
+ 使えます。\n上限: 30万円\nhttps://foundation.kirinholdings.com/su
+ bsidy/r9/index.html
+TRANSP:TRANSPARENT
+URL:https://foundation.kirinholdings.com/subsidy/r9/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:3fdb1c695eb38c29-0@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:締切: 2027年度日本郵便年賀寄付金配分団体の公募
+DESCRIPTION:年賀はがきや年賀切手の寄付金を、社会貢献や
+ 地域貢献の活動をする団体に配る制度です。活動費、
+ 施設の改修、機器や車両の購入に使え、令和8年熊本地
+ 震の被災者支援・復興のための特別枠もあります。\n上
+ 限: 250万円\nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=
+ 367/r_id=2261
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261
+END:VEVENT
+BEGIN:VEVENT
+UID:3fdb1c695eb38c29-1@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:締切21日前: 2027年度日本郵便年賀寄付金配分団体
+ の公募
+DESCRIPTION:年賀はがきや年賀切手の寄付金を、社会貢献や
+ 地域貢献の活動をする団体に配る制度です。活動費、
+ 施設の改修、機器や車両の購入に使え、令和8年熊本地
+ 震の被災者支援・復興のための特別枠もあります。\n上
+ 限: 250万円\nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=
+ 367/r_id=2261
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261
+END:VEVENT
+BEGIN:VEVENT
+UID:3fdb1c695eb38c29-2@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:締切7日前: 2027年度日本郵便年賀寄付金配分団体の
+ 公募
+DESCRIPTION:年賀はがきや年賀切手の寄付金を、社会貢献や
+ 地域貢献の活動をする団体に配る制度です。活動費、
+ 施設の改修、機器や車両の購入に使え、令和8年熊本地
+ 震の被災者支援・復興のための特別枠もあります。\n上
+ 限: 250万円\nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=
+ 367/r_id=2261
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261
+END:VEVENT
+BEGIN:VEVENT
+UID:08d307b3e6310109-0@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:締切: 令和9年度 キリン・福祉のちから開拓事業 
+ 公募助成
+DESCRIPTION:障害者・高齢者・子ども・地域社会の福祉を高
+ めるボランティア活動のうち、複数の都道府県にまた
+ がって長い目で取り組む活動に助成します。交通費、
+ 消耗品、制作費、会場費、謝金などに使えます。\n上限
+ : 100万円\nhttps://foundation.kirinholdings.com/subsidy/r9/fukushi.html
+TRANSP:TRANSPARENT
+URL:https://foundation.kirinholdings.com/subsidy/r9/fukushi.html
+END:VEVENT
+BEGIN:VEVENT
+UID:08d307b3e6310109-1@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:締切21日前: 令和9年度 キリン・福祉のちから開拓
+ 事業 公募助成
+DESCRIPTION:障害者・高齢者・子ども・地域社会の福祉を高
+ めるボランティア活動のうち、複数の都道府県にまた
+ がって長い目で取り組む活動に助成します。交通費、
+ 消耗品、制作費、会場費、謝金などに使えます。\n上限
+ : 100万円\nhttps://foundation.kirinholdings.com/subsidy/r9/fukushi.html
+TRANSP:TRANSPARENT
+URL:https://foundation.kirinholdings.com/subsidy/r9/fukushi.html
+END:VEVENT
+BEGIN:VEVENT
+UID:08d307b3e6310109-2@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:締切7日前: 令和9年度 キリン・福祉のちから開拓
+ 事業 公募助成
+DESCRIPTION:障害者・高齢者・子ども・地域社会の福祉を高
+ めるボランティア活動のうち、複数の都道府県にまた
+ がって長い目で取り組む活動に助成します。交通費、
+ 消耗品、制作費、会場費、謝金などに使えます。\n上限
+ : 100万円\nhttps://foundation.kirinholdings.com/subsidy/r9/fukushi.html
+TRANSP:TRANSPARENT
+URL:https://foundation.kirinholdings.com/subsidy/r9/fukushi.html
+END:VEVENT
+BEGIN:VEVENT
+UID:5afe5ba22215809d-0@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:締切: セブン-イレブン記念財団 2027年度 環境市民
+ 活動助成
+DESCRIPTION:全国で環境活動を行う非営利団体の地域美化や
+ 環境市民活動を支える助成です。活動の内容や規模に
+ 合わせて、4つの助成の種類から選んで応募します。\n
+ 上限: 400万円\nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_
+ id=367/r_id=2235
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2235
+END:VEVENT
+BEGIN:VEVENT
+UID:5afe5ba22215809d-1@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:締切21日前: セブン-イレブン記念財団 2027年度 環
+ 境市民活動助成
+DESCRIPTION:全国で環境活動を行う非営利団体の地域美化や
+ 環境市民活動を支える助成です。活動の内容や規模に
+ 合わせて、4つの助成の種類から選んで応募します。\n
+ 上限: 400万円\nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_
+ id=367/r_id=2235
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2235
+END:VEVENT
+BEGIN:VEVENT
+UID:5afe5ba22215809d-2@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:締切7日前: セブン-イレブン記念財団 2027年度 環境
+ 市民活動助成
+DESCRIPTION:全国で環境活動を行う非営利団体の地域美化や
+ 環境市民活動を支える助成です。活動の内容や規模に
+ 合わせて、4つの助成の種類から選んで応募します。\n
+ 上限: 400万円\nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_
+ id=367/r_id=2235
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2235
+END:VEVENT
+BEGIN:VEVENT
+UID:c6c5419e0a78b893-0@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:締切: 公益財団法人ヤマト福祉財団 2027年度助成金
+ （障がい者給料増額支援助成金・障がい者福祉助成金
+ ）
+DESCRIPTION:障がいのある方の給料を増やす事業の設備購入
+ 費と、障がいのある方の幸せにつながる会議・講演会
+ 、ボランティア活動、スポーツ・文化活動、調査・出
+ 版などの費用を助成します。障がい者福祉助成金は、
+ 福祉事業所に限らずボランティア団体やサークルも応
+ 募できます。\n上限: 100万円\nhttps://www.fukushi-kumamoto.or.jp/
+ pages/73/detail=1/b_id=367/r_id=1922
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
+END:VEVENT
+BEGIN:VEVENT
+UID:c6c5419e0a78b893-1@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:締切21日前: 公益財団法人ヤマト福祉財団 2027年度
+ 助成金（障がい者給料増額支援助成金・障がい者福祉
+ 助成金）
+DESCRIPTION:障がいのある方の給料を増やす事業の設備購入
+ 費と、障がいのある方の幸せにつながる会議・講演会
+ 、ボランティア活動、スポーツ・文化活動、調査・出
+ 版などの費用を助成します。障がい者福祉助成金は、
+ 福祉事業所に限らずボランティア団体やサークルも応
+ 募できます。\n上限: 100万円\nhttps://www.fukushi-kumamoto.or.jp/
+ pages/73/detail=1/b_id=367/r_id=1922
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
+END:VEVENT
+BEGIN:VEVENT
+UID:c6c5419e0a78b893-2@ukinowa-grants
+DTSTAMP:20261001T072321Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:締切7日前: 公益財団法人ヤマト福祉財団 2027年度
+ 助成金（障がい者給料増額支援助成金・障がい者福祉
+ 助成金）
+DESCRIPTION:障がいのある方の給料を増やす事業の設備購入
+ 費と、障がいのある方の幸せにつながる会議・講演会
+ 、ボランティア活動、スポーツ・文化活動、調査・出
+ 版などの費用を助成します。障がい者福祉助成金は、
+ 福祉事業所に限らずボランティア団体やサークルも応
+ 募できます。\n上限: 100万円\nhttps://www.fukushi-kumamoto.or.jp/
+ pages/73/detail=1/b_id=367/r_id=1922
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
 END:VEVENT
 END:VCALENDAR

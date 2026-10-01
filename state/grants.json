@@ -715,6 +715,115 @@
   "title": "第3回「大分発！ソーシャル・スタートアップ基金」公募助成",
   "url": "https://fields.canpan.info/grant/detail/2529"
  },
+ "https://foundation.kirinholdings.com/kobo/": {
+  "amount_max_yen": null,
+  "amount_note": "",
+  "apply_url": "https://foundation.kirinholdings.com/kobo/",
+  "deadline": null,
+  "deadline_note": "毎年9月から受付が始まり、応募期間は2ヵ月弱です。今年度の具体的な締切日は、このページには書かれていません。助成決定の連絡は3月中です。",
+  "eligible_types": [],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "03",
+   "05"
+  ],
+  "fit_reason": "「地域のちから応援事業」は地域の拠点づくりや世代交流の活動に合う可能性があり、9月開始で2ヵ月弱の受付なので今まさに受付中かもしれません。ただ、このページには対象となる団体（任意団体が応募できるか）、金額、締切日、対象地域が書かれていないため、募集要項をすぐに確認する必要があります。",
+  "fit_score": 45,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人 キリン福祉財団",
+  "public_ok": true,
+  "region_scope": "不明",
+  "source_id": "kirin-fukushi",
+  "source_name": "キリン福祉財団 助成のご案内",
+  "status": "open",
+  "summary": "「キリン・福祉のちから開拓事業」と「キリン・地域のちから応援事業」の2つの助成への応募の流れを紹介するページです。助成を受けた団体は、翌年3月までに事業を行います。",
+  "themes": [
+   "福祉",
+   "地域づくり"
+  ],
+  "title": "キリン福祉財団 公募（キリン・福祉のちから開拓事業／キリン・地域のちから応援事業）",
+  "url": "https://foundation.kirinholdings.com/kobo/"
+ },
+ "https://foundation.kirinholdings.com/subsidy/r9/fukushi.html": {
+  "amount_max_yen": 1000000,
+  "amount_note": "1団体あたり上限100万円（総額500万円）。原則1年間の助成で、内容によっては最長3年まで延長されることがあります。自己資金は問いません。",
+  "apply_url": "https://foundation.kirinholdings.com/subsidy/r9/fukushi.html",
+  "deadline": "2026-10-31",
+  "deadline_note": "受付期間は令和8年9月9日〜10月31日で、当日消印有効です。郵送のみ受け付けます。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "その他法人"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "01",
+   "02",
+   "05"
+  ],
+  "fit_reason": "法人格は問われず10名以上の任意団体なら応募できますが、複数の都道府県にまたがる活動に限られ、熊本県内だけの活動は対象外です。宇城市内での活動なら、受付期間が同じ「キリン・地域のちから応援事業」の方が合っています。",
+  "fit_score": 30,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人キリン福祉財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "kirin-fukushi",
+  "source_name": "キリン福祉財団 助成のご案内",
+  "status": "open",
+  "summary": "障害者・高齢者・子ども・地域社会の福祉を高めるボランティア活動のうち、複数の都道府県にまたがって長い目で取り組む活動に助成します。交通費、消耗品、制作費、会場費、謝金などに使えます。",
+  "themes": [
+   "地域福祉",
+   "高齢者",
+   "子ども",
+   "障害者",
+   "ボランティア"
+  ],
+  "title": "令和9年度 キリン・福祉のちから開拓事業 公募助成",
+  "url": "https://foundation.kirinholdings.com/subsidy/r9/fukushi.html"
+ },
+ "https://foundation.kirinholdings.com/subsidy/r9/index.html": {
+  "amount_max_yen": 300000,
+  "amount_note": "1団体あたり上限30万円で、助成総額は4,500万円です。原則1年限りの助成です。自己資金は必須ではありません。団体メンバーの人件費、事務所の家賃、設備工事、車両購入には使えません。物品購入だけの申し込みも対象外です。",
+  "apply_url": "https://foundation.kirinholdings.com/subsidy/r9/index.html",
+  "deadline": "2026-10-31",
+  "deadline_note": "受付期間は令和8年9月9日〜10月31日で、当日の消印まで有効です。郵送のみで、メールやファックスでは申し込めません。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "その他の団体・グループ（4名以上）"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "05",
+   "01",
+   "03",
+   "04"
+  ],
+  "fit_reason": "法人格の有無は問われないため、4名以上で活動していれば任意団体のうきのわも応募できます。竹を使った世代交流（里山体験）や、震災復興・防災、地域拠点での居場所づくりに直接合いますが、行政の補助を受けている事業は対象外です。また、外部の推薦者による自筆の署名が必要で、締切（10月31日消印）まで約1か月しかないため、早めの準備が必要です。",
+  "fit_score": 80,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人 キリン福祉財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "kirin-fukushi",
+  "source_name": "キリン福祉財団 助成のご案内",
+  "status": "open",
+  "summary": "子ども、高齢者、障害のある人などの暮らしを良くするボランティア活動や、地域を元気にする活動、災害復興・防災の活動に使える助成です。居場所づくり、世代間の交流、自然・農業体験、見守りなどの活動費（交通費、消耗品、会場費、講師謝礼など）に使えます。",
+  "themes": [
+   "地域活性化",
+   "多世代交流",
+   "子ども",
+   "高齢者",
+   "災害復興・防災"
+  ],
+  "title": "令和9年度 キリン・地域のちから応援事業 公募助成",
+  "url": "https://foundation.kirinholdings.com/subsidy/r9/index.html"
+ },
  "https://j-net21.smrj.go.jp/snavi/articles/192782": {
   "amount_max_yen": null,
   "amount_note": "経費の一部を支援します。金額の上限は本文に書かれていません。",
@@ -999,6 +1108,135 @@
   "title": "デジタル化・AI導入補助金2026「複数者連携デジタル化・AI導入枠」（3次締切分）",
   "url": "https://j-net21.smrj.go.jp/snavi/articles/193002"
  },
+ "https://players-koubolist.kyuplat.com/result/564": {
+  "amount_max_yen": 20000000,
+  "amount_note": "総額3,500万円で3団体程度を採択予定です。1団体あたり1,000万〜2,000万円です。",
+  "apply_url": "https://players-koubolist.kyuplat.com/result/564",
+  "deadline": "2026-10-13",
+  "deadline_note": "公募期間は2026年8月31日から10月13日17時まで。事業期間は契約日から2027年2月28日までです。",
+  "eligible_types": [
+   "非営利団体"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "01"
+  ],
+  "fit_reason": "被災者支援という点では震災復興支援の事業と重なりますが、「現在、能登半島で支援活動をしていること」が応募の条件のため、熊本で活動するうきのわは応募できません。さらに、休眠預金の事業で求められる規程類を申請時点で整えておく必要があり、6か月ほどの短い期間に集中して行う事業であることも、今のうきのわには難しい点です。",
+  "fit_score": 12,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "特定非営利活動法人ジャパン・プラットフォーム（休眠預金活用事業の資金分配団体）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "kyuplat-players-koubo",
+  "source_name": "休プラ 実行団体・支援対象団体の公募一覧",
+  "status": "open",
+  "summary": "能登半島地震で長引く避難生活や生活再建に苦しむ被災者を支える活動に使える資金です。被災者が生活再建の見通しを立て、安心して暮らしを立て直せるようにする活動を行う実行団体を募集しています。",
+  "themes": [
+   "災害",
+   "被災者支援",
+   "生活再建",
+   "能登半島地震",
+   "災害時の子ども・女性支援"
+  ],
+  "title": "支援から取り残される被災者への支援体制強化（休眠預金 2023年度通常枠 第2回採択）",
+  "url": "https://players-koubolist.kyuplat.com/result/564"
+ },
+ "https://www.7midori.org/contents/wp-content/uploads/2026/07/7zaidan_panf_web01.pdf": {
+  "amount_max_yen": null,
+  "amount_note": "PDFの本文を読めなかったため、金額はわかりません。",
+  "apply_url": "https://www.7midori.org/contents/wp-content/uploads/2026/07/7zaidan_panf_web01.pdf",
+  "deadline": null,
+  "deadline_note": "PDFの本文を読めなかったため、締切はわかりません。パンフレットで確認が必要です。",
+  "eligible_types": [],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "05"
+  ],
+  "fit_reason": "環境の市民活動向けの助成なので、地元の竹を使う里山体験と関わる可能性があります。ただし、任意団体が応募できるか、締切や金額はパンフレットを見て確かめる必要があります。",
+  "fit_score": 40,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "一般財団法人セブン-イレブン記念財団",
+  "public_ok": true,
+  "region_scope": "不明",
+  "source_id": "7midori-josei",
+  "source_name": "セブン-イレブン記念財団 環境市民活動助成",
+  "status": "open",
+  "summary": "環境をよくするための市民活動を支える助成の案内です。くわしい内容はパンフレット（PDF）に書かれていますが、本文は読み取れていません。",
+  "themes": [
+   "環境",
+   "市民活動"
+  ],
+  "title": "2027年度 環境市民活動助成",
+  "url": "https://www.7midori.org/contents/wp-content/uploads/2026/07/7zaidan_panf_web01.pdf"
+ },
+ "https://www.7midori.org/contents/wp-content/uploads/2026/07/7zaidan_panf_web02.pdf": {
+  "amount_max_yen": null,
+  "amount_note": "",
+  "apply_url": "https://www.7midori.org/contents/wp-content/uploads/2026/07/7zaidan_panf_web02.pdf",
+  "deadline": null,
+  "deadline_note": "PDFのため本文を確認できておらず、締切は不明です。",
+  "eligible_types": [],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "05"
+  ],
+  "fit_reason": "名前から、国の「自然共生サイト」に認定された団体が対象と考えられ、認定を受けていないうきのわは応募できない可能性が高いです。里山体験とは少し関わりがありますが、応募できる団体の形や締切はパンフレットで確かめる必要があります。",
+  "fit_score": 20,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "一般財団法人セブン-イレブン記念財団",
+  "public_ok": true,
+  "region_scope": "不明",
+  "source_id": "7midori-josei",
+  "source_name": "セブン-イレブン記念財団 環境市民活動助成",
+  "status": "open",
+  "summary": "自然共生サイトに認定された場所で活動する団体に向けた助成のようです。詳しい使い道はパンフレット（PDF）の本文を読めていないため、わかりません。",
+  "themes": [
+   "自然保護",
+   "生物多様性",
+   "自然共生サイト",
+   "環境"
+  ],
+  "title": "2027年度 自然共生サイト認定団体助成",
+  "url": "https://www.7midori.org/contents/wp-content/uploads/2026/07/7zaidan_panf_web02.pdf"
+ },
+ "https://www.akaihane-kumamoto.jp/2026/09/18/4033/": {
+  "amount_max_yen": null,
+  "amount_note": "本文に金額の記載はありません。",
+  "apply_url": "https://www.akaihane-kumamoto.jp/2026/09/18/4033/",
+  "deadline": null,
+  "deadline_note": "本文に締切の記載はありません。詳細は中央共同募金会の案内で確認が必要です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "ボランティアグループ"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "01"
+  ],
+  "fit_reason": "ボランティアグループも応募できますが、助成の対象は富山県・石川県・福井県の大雨被災地での活動で、熊本県で活動するうきのわの事業とは地域が合いません。被災地まで出向いて支援する計画がない限り、応募は難しいです。",
+  "fit_score": 15,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "中央共同募金会（案内：熊本県共同募金会）",
+  "public_ok": true,
+  "region_scope": "その他地域",
+  "source_id": "akaihane-kumamoto",
+  "source_name": "熊本県共同募金会（赤い羽根くまもと）",
+  "status": "open",
+  "summary": "令和8年8月27日からの大雨で被災した富山県・石川県・福井県で、災害ボランティアセンターなどと連携して行うボランティア活動にかかる費用を助成するものです。",
+  "themes": [
+   "災害",
+   "被災者支援",
+   "災害ボランティア",
+   "復興"
+  ],
+  "title": "令和8年度風水害に係るボラサポ助成事業「ボラサポ・令和8年8月富山・石川・福井大雨助成」",
+  "url": "https://www.akaihane-kumamoto.jp/2026/09/18/4033/"
+ },
  "https://www.akaihane.or.jp/josei/": {
   "amount_max_yen": null,
   "amount_note": "本文に金額の記載はありません。",
@@ -1213,6 +1451,463 @@
   ],
   "title": "赤い羽根福祉基金 盛和塾 社会人定着応援プログラム 2026年度「就職活動応援助成」「手に職つけよう応援助成」",
   "url": "https://www.akaihane.or.jp/subsidies/sub-corp-prog/47845/"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/206/": {
+  "amount_max_yen": null,
+  "amount_note": "",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/206/",
+  "deadline": null,
+  "deadline_note": "このページには締切の記載がありません。各事業の概要ページで確認が必要です。",
+  "eligible_types": [],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "01",
+   "02",
+   "04",
+   "05"
+  ],
+  "fit_reason": "熊本県内の福祉団体や小規模団体向けの助成で、地域の見守りや交流の活動に使える可能性があります。ただし、このページには対象団体（任意団体が応募できるか）、金額、締切が書かれていないため、各事業の概要ページで確かめる必要があります。",
+  "fit_score": 35,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "社会福祉法人熊本県社会福祉協議会",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "熊本県社会福祉協議会の社会福祉振興基金による助成制度の案内ページです。民間の福祉団体や小規模団体の活動を支える事業が紹介されていますが、このページには中身は書かれていません。",
+  "themes": [
+   "福祉",
+   "小規模団体",
+   "民間福祉団体",
+   "地域活動"
+  ],
+  "title": "熊本県社会福祉協議会 社会福祉振興基金事業（民間福祉団体活動推進事業・小規模団体活動支援事業・社会福祉振興基金助成金事業）",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/206/"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=37": {
+  "amount_max_yen": 100000,
+  "amount_note": "原則として総事業費の3分の2以内で、10万円が上限です（千円未満切り捨て）。予算の範囲内で交付されます。人件費や家賃などの運営費は対象外です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=37",
+  "deadline": "2026-05-29",
+  "deadline_note": "申込期間は令和8年5月1日から5月29日まで（県社協必着）です。予算に達しない場合は追加募集の可能性があります。",
+  "eligible_types": [
+   "小規模団体（熊本県内）"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "03"
+  ],
+  "fit_reason": "締切済みです（申込は2026年5月29日まで）。対象は子ども食堂や認知症カフェなどに限られており、TOYONO-VAのカフェで子どもや高齢者の居場所づくりをする場合には合う可能性があったので、追加募集や来年度の案内を確認するとよいです。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "社会福祉法人熊本県社会福祉協議会",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "closed",
+  "summary": "熊本県内の小規模団体が行う共同作業所、子ども食堂・地域食堂、認知症カフェなどの事業で使う物品の購入費、修繕費、消耗品費に使える助成金です。",
+  "themes": [
+   "子ども食堂",
+   "居場所",
+   "認知症カフェ",
+   "高齢者",
+   "障がい者"
+  ],
+  "title": "令和8年度小規模団体活動支援事業（熊本県社会福祉振興基金助成金事業）",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=37"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=38": {
+  "amount_max_yen": 500000,
+  "amount_note": "民間福祉団体活動助成は対象経費の3分の2以内で、上限50万円です（千円未満切り捨て、継続は3年以内）。各種大会助成は九州規模10万円、全国規模15万円が上限です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=38",
+  "deadline": "2026-05-29",
+  "deadline_note": "応募期間は令和8年5月1日から5月29日まで（県社協必着）です。予算に余りがある場合は追加募集の可能性があります。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "社会福祉法人"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "02",
+   "05"
+  ],
+  "fit_reason": "締切済みです（2026年5月29日締切）。熊本県内の非営利団体が対象で、高齢者の見守りや多世代交流の取り組みには合う可能性があるため、追加募集や来年度の募集を確認するとよいです。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "社会福祉法人 熊本県社会福祉協議会（ボランティアセンター）",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "closed",
+  "summary": "熊本県内の民間の非営利団体が、高齢者・障がい者・子ども・子育て世帯・生活に困っている人などを対象に行う、先駆的な事業や研修会などの新しい取り組みに使える助成金です。県内団体が主催する九州大会・全国大会の開催にも使えます。",
+  "themes": [
+   "地域福祉",
+   "高齢者",
+   "障がい者",
+   "子ども・子育て",
+   "生活困窮者"
+  ],
+  "title": "令和8年度 民間福祉団体活動推進事業（熊本県社会福祉振興基金助成金事業）",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=38"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=39": {
+  "amount_max_yen": null,
+  "amount_note": "金額や補助の割合は本文に書かれていません。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=39",
+  "deadline": null,
+  "deadline_note": "このページは事業の概要のみで、締切は書かれていません。掲載日は2026-04-16のため、今年度の受付が終わっている可能性があります。",
+  "eligible_types": [
+   "民間福祉団体",
+   "小規模団体"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "02",
+   "03"
+  ],
+  "fit_reason": "熊本県内の小規模団体の設備・機材の整備に使えるため、見守り活動や地域拠点の備品に生かせる可能性があります。ただし、任意団体が応募できるか、締切や金額が書かれておらず、福祉活動に限られるため、詳しい募集要項で確かめる必要があります。",
+  "fit_score": 40,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "社会福祉法人熊本県社会福祉協議会（熊本県社会福祉振興基金）",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "熊本県内の地域福祉活動を支えるための助成です。民間福祉団体の先駆的な新しい事業や大会と、小規模団体の設備・機材の整備に使えます。",
+  "themes": [
+   "地域福祉",
+   "設備・機材の整備",
+   "社会参加",
+   "民間福祉団体の育成",
+   "小規模団体の活動"
+  ],
+  "title": "令和8年度熊本県社会福祉振興基金助成金事業",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=39"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=628": {
+  "amount_max_yen": null,
+  "amount_note": "本文に金額の記載はありません。実施要領で確認が必要です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=628",
+  "deadline": null,
+  "deadline_note": "本文に締切の記載はありません。2026年4月16日に掲載された案内のため、すでに受付が終わっている可能性があります。実施要領で確認が必要です。",
+  "eligible_types": [],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "01",
+   "02",
+   "05"
+  ],
+  "fit_reason": "熊本県内の民間福祉団体向けの助成で、被災者の相談や高齢者の見守り、多世代の交流などに合う可能性があります。ただし、任意団体が応募できるか、締切や金額がページに書かれておらず、4月掲載のため受付が終わっている心配もあるので、実施要領での確認が必要です。",
+  "fit_score": 35,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "社会福祉法人熊本県社会福祉協議会",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "熊本県社会福祉振興基金による、民間の福祉団体の活動を後押しする助成事業です。詳しい内容は実施要領と応募の手引きに書かれています。",
+  "themes": [
+   "福祉",
+   "民間福祉団体",
+   "ボランティア",
+   "地域福祉"
+  ],
+  "title": "令和8年度民間福祉団体活動推進事業（熊本県社会福祉振興基金助成金事業）",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=628"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=630": {
+  "amount_max_yen": null,
+  "amount_note": "本文に金額の記載はありません。実施要領・応募の手引きで確認が必要です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=630",
+  "deadline": null,
+  "deadline_note": "本文に締切の記載はありません。掲載日は2026-04-16のため、すでに締切を過ぎている可能性があります。実施要領で確認が必要です。",
+  "eligible_types": [],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "01",
+   "05"
+  ],
+  "fit_reason": "熊本県内の小さな福祉・ボランティア活動向けの助成で、うきのわの被災者支援や世代交流の活動に使える可能性があります。ただし、任意団体が応募できるか、締切や金額がページに書かれておらず、4月の掲載のため締切済みのおそれもあるので、実施要領での確認が必要です。",
+  "fit_score": 40,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "社会福祉法人熊本県社会福祉協議会（ボランティアセンター）",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "熊本県社会福祉振興基金による、小さな規模の地域福祉・ボランティア活動を支えるための助成です。このページには実施要領や応募の手引き、申請様式が載っていますが、詳しい内容は本文に書かれていません。",
+  "themes": [
+   "地域福祉",
+   "ボランティア活動",
+   "小規模活動"
+  ],
+  "title": "令和8年度 小規模活動支援事業（熊本県社会福祉振興基金助成金事業）",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=630"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1738": {
+  "amount_max_yen": 15000000,
+  "amount_note": "社会福祉法人助成・NPO法人助成は1法人80万円〜1,500万円で、総費用の20％以上は自己負担です。文化芸術活動特別助成は1案件30万円〜200万円で、自己負担は10％以上です。海外研修は1名105万円〜225万円、国内研修は受講料無料で交通費・宿泊費も基本的に基金が負担します。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1738",
+  "deadline": "2026-07-20",
+  "deadline_note": "社会福祉法人助成は2026年7月20日17時まで、NPO法人助成と文化芸術活動特別助成は2026年6月20日まででした（いずれも締切済み）。海外研修は2026年10月31日まで、国内研修第18回は2026年11月8日まで受付中です。",
+  "eligible_types": [
+   "社会福祉法人",
+   "NPO法人"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [],
+  "fit_reason": "主な助成（設備・車両・建物、文化芸術）は締切済みです。また、どの助成も障がい福祉の仕事をしている社会福祉法人・NPO法人に限られており、任意団体のうきのわは応募できず、活動内容とも合いません。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "社会福祉法人清水基金",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "closed",
+  "summary": "障がいのある方の福祉を進めるため、社会福祉法人やNPO法人が使う機器・車両・建物、文化芸術活動の道具や楽器の購入費を助成します。あわせて、障がい福祉の仕事をする職員の海外・国内研修の費用も助成します。",
+  "themes": [
+   "障がい者福祉",
+   "設備整備",
+   "車両",
+   "文化芸術",
+   "研修"
+  ],
+  "title": "清水基金 2026年度助成事業",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1738"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922": {
+  "amount_max_yen": 1000000,
+  "amount_note": "障がい者福祉助成金は上限100万円で、10〜20件程度です。障がい者給料増額支援助成金は50万円〜500万円で、30件程度です。給料増額支援は就労支援事業所などに限られ、自己負担10%以上が必要です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922",
+  "deadline": "2026-11-30",
+  "deadline_note": "応募期間は2026年10月1日〜11月30日です（当日18時まで入力できます）。対象は2027年4月以降に始まる事業です。",
+  "eligible_types": [
+   "任意団体",
+   "ボランティア団体",
+   "サークル",
+   "福祉事業所・施設"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "05",
+   "03"
+  ],
+  "fit_reason": "障がい者福祉助成金は任意団体でも応募できますが、2025年4月から1年以上の活動実績が必要で、障がいのある方の幸せにつながる事業であることが条件です。うきのわの事業は障がい福祉が主な目的ではないため、里山体験や地域拠点の催しを障がいのある方向けに組み立てる場合に限って関連する、弱いつながりにとどまります。",
+  "fit_score": 35,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人ヤマト福祉財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "障がいのある方の給料を増やす事業の設備購入費と、障がいのある方の幸せにつながる会議・講演会、ボランティア活動、スポーツ・文化活動、調査・出版などの費用を助成します。障がい者福祉助成金は、福祉事業所に限らずボランティア団体やサークルも応募できます。",
+  "themes": [
+   "障がい者福祉",
+   "ボランティア活動",
+   "文化活動",
+   "スポーツ活動",
+   "講演会"
+  ],
+  "title": "公益財団法人ヤマト福祉財団 2027年度助成金（障がい者給料増額支援助成金・障がい者福祉助成金）",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2235": {
+  "amount_max_yen": 4000000,
+  "amount_note": "地域美化助成は最大50万円/年、未来へつなごう助成は最大30万円/年、活動助成は最大100万円/年、NPO基盤強化助成は最大400万円/年（3年間で最大1,200万円）です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2235",
+  "deadline": "2026-10-30",
+  "deadline_note": "地域美化助成は2026年9月1日から、未来へつなごう助成・活動助成・NPO基盤強化助成は2026年9月15日から受付し、いずれも10月30日（金）締切です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "自治会・町内会"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "05",
+   "03"
+  ],
+  "fit_reason": "任意団体も応募でき、全国が対象なので、うきのわも応募できます。ただし環境活動が対象のため、里山の竹林の手入れや竹を生かした活動を「環境活動」として組み立てられるかどうかが決め手になります。",
+  "fit_score": 50,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "一般財団法人セブン-イレブン記念財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "全国で環境活動を行う非営利団体の地域美化や環境市民活動を支える助成です。活動の内容や規模に合わせて、4つの助成の種類から選んで応募します。",
+  "themes": [
+   "環境",
+   "地域美化",
+   "環境市民活動",
+   "団体の基盤づくり"
+  ],
+  "title": "セブン-イレブン記念財団 2027年度 環境市民活動助成",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2235"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2260": {
+  "amount_max_yen": 300000,
+  "amount_note": "1団体30万円（総額300万円）",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2260",
+  "deadline": "2026-10-09",
+  "deadline_note": "募集期間は2026年9月1日〜10月9日17時です。原則として2028年3月末までに所轄庁へ認定の申請を行うことが必要です。",
+  "eligible_types": [
+   "NPO法人"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [],
+  "fit_reason": "応募できるのは認定NPO法人の取得を計画しているNPO法人に限られるため、任意団体で一般社団法人化を準備中のうきのわは応募できません。また、助成の目的が認定取得の費用であり、うきのわの事業とも直接つながりません。",
+  "fit_score": 3,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人SOMPO福祉財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "社会福祉分野で活動するNPO法人が「認定NPO法人」を取るためにかかる費用を助成します。会合費や人件費、器材費など、認定取得に関わる費用であれば使い道は問いません。",
+  "themes": [
+   "社会福祉",
+   "NPO法人",
+   "認定NPO法人",
+   "組織づくり"
+  ],
+  "title": "SOMPO福祉財団 認定NPO法人取得資金助成（2026年度）",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2260"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261": {
+  "amount_max_yen": 2500000,
+  "amount_note": "1件あたりの上限は250万円です。活動・チャレンジプログラムのみ上限50万円です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261",
+  "deadline": "2026-11-18",
+  "deadline_note": "申請受付期間は2026年9月29日〜11月18日です。申請フォームから申し込み、一部の書類は期間内に郵送します（当日消印有効）。",
+  "eligible_types": [
+   "社会福祉法人",
+   "更生保護法人",
+   "一般社団法人",
+   "一般財団法人",
+   "公益社団法人",
+   "公益財団法人",
+   "NPO法人",
+   "営利を目的としない法人（特別枠のみ）"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "01",
+   "02",
+   "03"
+  ],
+  "fit_reason": "熊本地震の被災者支援・復興の特別枠や、防災・施設改修・機器購入の分野は、震災復興支援、寺院の防災拠点化、地域拠点づくりにそのまま合います。ただし応募できるのは法人だけで、任意団体のうきのわは今のままでは応募できません。締切の11月18日までに一般社団法人の設立が間に合えば応募を検討できます。",
+  "fit_score": 60,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "日本郵便株式会社",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "年賀はがきや年賀切手の寄付金を、社会貢献や地域貢献の活動をする団体に配る制度です。活動費、施設の改修、機器や車両の購入に使え、令和8年熊本地震の被災者支援・復興のための特別枠もあります。",
+  "themes": [
+   "災害",
+   "復興",
+   "被災者支援",
+   "防災",
+   "社会福祉"
+  ],
+  "title": "2027年度日本郵便年賀寄付金配分団体の公募",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2262": {
+  "amount_max_yen": 500000,
+  "amount_note": "上限50万円。1つの施設につき1回限りです。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2262",
+  "deadline": "2026-10-15",
+  "deadline_note": "受付は2026年8月17日から10月15日まで（当日必着）。原則オンラインで申請し、郵送でも受け付けます。",
+  "eligible_types": [
+   "障害者支援施設",
+   "生活介護の事業所",
+   "児童発達支援の事業所",
+   "障害児入所施設"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [],
+  "fit_reason": "応募できるのは障がい者や障がい児向けの福祉施設に限られており、施設を運営していないうきのわは応募できません。また、助成の中身も障がい福祉施設の設備改善などで、うきのわの防災・復興・地域交流の事業とは重なりません。",
+  "fit_score": 5,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "一般財団法人オリーブ・共生財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "障がいのある人や子どもを支える施設の設備や環境の改善、自立を助ける活動にお金を出す制度です。2026年4月1日から2027年3月31日までに行う事業が対象です。",
+  "themes": [
+   "障がい者福祉",
+   "障がい児支援",
+   "設備・環境の改善",
+   "自立支援"
+  ],
+  "title": "令和8年度障がい者（児）福祉支援助成金",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2262"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266": {
+  "amount_max_yen": 800000,
+  "amount_note": "児童・少年の健全育成助成は1団体30万円〜80万円で、物品の購入費に限ります。生き生きシニア活動顕彰は1団体5万円です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266",
+  "deadline": "2026-11-09",
+  "deadline_note": "両部門とも2026年11月9日（月）必着です。申請は都道府県を通して受け付けるため、熊本県への提出方法は県のホームページで確認が必要です。",
+  "eligible_types": [
+   "団体（応募できる団体の条件は要項で確認が必要）"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "05",
+   "03"
+  ],
+  "fit_reason": "竹の子掘りや竹トンボ作りなどの里山体験は「自然と親しむ活動」「異世代交流活動」にぴったり合い、道具や物品の購入に使えます。ただ、任意団体が応募できるかや活動実績の条件がこのページには書かれていないため、要項と熊本県の案内で確認が必要です。",
+  "fit_score": 68,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人日本生命財団（ニッセイ財団）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "子どもが健やかに育つために続けている活動（自然と親しむ活動、異なる年齢・世代の交流など）に使う物品の購入費を助成します。あわせて、高齢者が中心となって行う地域貢献活動を表彰する顕彰（1団体5万円）も募集しています。",
+  "themes": [
+   "子ども",
+   "自然体験",
+   "多世代",
+   "交流",
+   "高齢者"
+  ],
+  "title": "ニッセイ財団 2027年度「児童・少年の健全育成助成」「生き生きシニア活動顕彰」",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266"
  },
  "https://www.janpia.or.jp/dormant-deposits/po/": {
   "amount_max_yen": null,
@@ -1721,6 +2416,391 @@
   "title": "2026年度 資金分配団体（助成）〈緊急枠第3次〉の公募",
   "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260930"
  },
+ "https://www.jbf.ne.jp/wp-content/uploads/site211/files/pdf/shien/jyoseikin32.pdf": {
+  "amount_max_yen": null,
+  "amount_note": "",
+  "apply_url": "https://www.jbf.ne.jp/wp-content/uploads/site211/files/pdf/shien/jyoseikin32.pdf",
+  "deadline": null,
+  "deadline_note": "PDFの本文を取得できていないため、締切は不明です。募集要項で確認が必要です。",
+  "eligible_types": [],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "01",
+   "02"
+  ],
+  "fit_reason": "仏教会による災害救援の助成で、お寺を拠点に熊本地震の被災者支援をしているうきのわの活動に合う可能性があります。ただし締切、金額、任意団体が応募できるかが確認できないため、募集要項PDFでの確認が必要です。",
+  "fit_score": 55,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人全日本仏教会",
+  "public_ok": true,
+  "region_scope": "不明",
+  "source_id": "jbf-rescue-grant",
+  "source_name": "全日本仏教会 災害救援活動助成金",
+  "status": "open",
+  "summary": "災害救援活動に使える助成金の募集要項です。本文（PDF）を取得できていないため、対象となる活動や条件の詳細は不明です。",
+  "themes": [
+   "災害",
+   "被災者支援",
+   "災害救援",
+   "仏教"
+  ],
+  "title": "第32次災害救援活動助成金",
+  "url": "https://www.jbf.ne.jp/wp-content/uploads/site211/files/pdf/shien/jyoseikin32.pdf"
+ },
+ "https://www.jfc.or.jp/subsidy/grants241031-001/": {
+  "amount_max_yen": 1000000,
+  "amount_note": "1団体（個人の場合は1名）につき100万円が上限です。助成件数は1件で、対象者なしの場合もあります。",
+  "apply_url": "https://www.jfc.or.jp/subsidy/grants241031-001/",
+  "deadline": "2025-01-10",
+  "deadline_note": "募集期間は令和6年11月1日から令和7年1月10日まで（当日消印有効）",
+  "eligible_types": [
+   "大学",
+   "公益法人",
+   "NPO法人",
+   "研究グループ",
+   "個人"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [],
+  "fit_reason": "締切済みです（2025年1月10日締切）。また、主に山口県内の医療・福祉関係団体による調査研究が対象のため、熊本県宇城市で地域活動を行ううきのわには合いません。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "一般財団法人 山口老年総合研究所",
+  "public_ok": true,
+  "region_scope": "その他地域",
+  "source_id": "jfc-subsidy-news",
+  "source_name": "助成財団センター 助成金募集ニュース",
+  "status": "closed",
+  "summary": "主に山口県内で活動する医療・福祉関係団体などが行う、高齢者の医療・福祉・介護予防・社会活動などに関する調査研究に使える助成金です。",
+  "themes": [
+   "高齢者",
+   "認知症",
+   "介護予防",
+   "高齢者福祉",
+   "調査研究"
+  ],
+  "title": "令和6年度 山口老年総合研究所 研究助成",
+  "url": "https://www.jfc.or.jp/subsidy/grants241031-001/"
+ },
+ "https://www.jfc.or.jp/subsidy/grants241031-002/": {
+  "amount_max_yen": 1000000,
+  "amount_note": "受賞者1名に100万円を贈ります（表彰の賞金です）",
+  "apply_url": "https://www.jfc.or.jp/subsidy/grants241031-002/",
+  "deadline": "2025-01-06",
+  "deadline_note": "募集期間は令和6年10月11日から令和7年1月6日まで（当日消印有効）",
+  "eligible_types": [
+   "個人",
+   "研究グループ"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [],
+  "fit_reason": "締切済みです。また、山口県にゆかりのある50歳以下の若手研究者を表彰する賞なので、宇城市で活動するうきのわは対象になりません。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "一般財団法人 山口老年総合研究所",
+  "public_ok": true,
+  "region_scope": "その他地域",
+  "source_id": "jfc-subsidy-news",
+  "source_name": "助成財団センター 助成金募集ニュース",
+  "status": "closed",
+  "summary": "高齢者の医療・福祉・介護や、高齢者の社会参加・生きがいづくりに関する調査研究で成果をあげた、山口県にゆかりのある若手研究者を表彰する賞です。受賞者には賞金が贈られます。",
+  "themes": [
+   "高齢者",
+   "老年医学",
+   "介護",
+   "社会福祉",
+   "調査研究"
+  ],
+  "title": "第22回 老年研究頴原(えはら)賞",
+  "url": "https://www.jfc.or.jp/subsidy/grants241031-002/"
+ },
+ "https://www.jfc.or.jp/subsidy/grants241113-001/": {
+  "amount_max_yen": 300000,
+  "amount_note": "1件あたり30万円以内。補助率の制限はありません。同じ団体の2回目以降の応募は、実績報告書の提出後に可能です。",
+  "apply_url": "https://www.jfc.or.jp/subsidy/grants241113-001/",
+  "deadline": "2025-05-20",
+  "deadline_note": "第1期 2024年11月20日、第2期 2025年2月20日、第3期 2025年5月20日（いずれも17時締切。各期2件程度）",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "非営利団体（法人格は問わない）"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [],
+  "fit_reason": "締切済みです（最終の第3期は2025年5月20日に締め切られています）。また、建設業界で働く女性の支援が目的で、建設業界で働く人が団体の活動に参加していることが条件のため、うきのわの事業とは合いません。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人 公益推進協会（関東防水管理事業協同組合の寄付による）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "jfc-subsidy-news",
+  "source_name": "助成財団センター 助成金募集ニュース",
+  "status": "closed",
+  "summary": "建設業界で女性が長く働き続けられる環境づくりや、女性・若い人に向けた建設業の魅力発信の活動に使える助成金です。情報発信、講習会、交流会、現場見学会などが対象です。",
+  "themes": [
+   "建設業",
+   "女性活躍",
+   "働きやすい環境",
+   "人材育成",
+   "キャリア形成"
+  ],
+  "title": "建設女子応援ファンド 助成先募集（第1期〜第3期）",
+  "url": "https://www.jfc.or.jp/subsidy/grants241113-001/"
+ },
+ "https://www.jfc.or.jp/subsidy/grants241119-001/": {
+  "amount_max_yen": 2000000,
+  "amount_note": "1団体あたり最大200万円。採択数6〜8件程度、助成金総額1,200万円（予定）",
+  "apply_url": "https://www.jfc.or.jp/subsidy/grants241119-001/",
+  "deadline": "2025-01-08",
+  "deadline_note": "2025年1月8日（水）17:00締切",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "公益法人",
+   "その他非営利団体"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "05"
+  ],
+  "fit_reason": "締切済みです（2025年1月8日締切）。また、困難を抱える子ども・若者の自立支援が対象で、うきのわの事業との関わりは里山体験の一部にとどまります。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人日本フィランソロピック財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "jfc-subsidy-news",
+  "source_name": "助成財団センター 助成金募集ニュース",
+  "status": "closed",
+  "summary": "経済的な貧困や経験の不足などの困難を抱える子どもや若者が、希望を持って自立できる力を伸ばす機会と環境を提供する事業に使える助成金です。対象期間は2025年4月から2026年3月までです。",
+  "themes": [
+   "子ども",
+   "若者",
+   "貧困",
+   "学習支援",
+   "自立支援"
+  ],
+  "title": "第4回「ソーシャル・グッド基金」助成先募集",
+  "url": "https://www.jfc.or.jp/subsidy/grants241119-001/"
+ },
+ "https://www.jfc.or.jp/subsidy/grants241119-002/": {
+  "amount_max_yen": 1000000,
+  "amount_note": "1団体あたり最大100万円です。採択数は5〜7件程度、助成金総額は500万円（予定）です。",
+  "apply_url": "https://www.jfc.or.jp/subsidy/grants241119-002/",
+  "deadline": "2025-01-08",
+  "deadline_note": "2025年1月8日（水）17:00締切。助成対象期間は2025年4月〜2026年3月です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "企業"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "05"
+  ],
+  "fit_reason": "締切済みです（2025年1月8日に締め切られています）。また、活動実績2年以上の団体が対象で、寺での日本文化体験には少し関係しますが、うきのわの事業との結びつきは弱めです。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人日本フィランソロピック財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "jfc-subsidy-news",
+  "source_name": "助成財団センター 助成金募集ニュース",
+  "status": "closed",
+  "summary": "日本の歴史・哲学・政治・文学・芸術・文化などを学ぶ機会を提供する事業に使える助成金です。日本国内で行う事業が対象です。",
+  "themes": [
+   "日本文化",
+   "歴史",
+   "哲学",
+   "学び",
+   "多世代"
+  ],
+  "title": "第4回「日本の学び応援基金」助成先募集",
+  "url": "https://www.jfc.or.jp/subsidy/grants241119-002/"
+ },
+ "https://www.jfc.or.jp/subsidy/grants241202-001/": {
+  "amount_max_yen": 300000,
+  "amount_note": "教育研究資金は年額30万円、研究補助金は年額20万円です。1研究者につきどちらか1件です。",
+  "apply_url": "https://www.jfc.or.jp/subsidy/grants241202-001/",
+  "deadline": "2025-02-28",
+  "deadline_note": "募集期間は2025年1月6日〜2025年2月28日（期限厳守）",
+  "eligible_types": [
+   "大学",
+   "公的研究機関",
+   "研究者"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [],
+  "fit_reason": "締切済みです（2025年2月28日締切）。また、大学や研究機関の研究者向けの軽金属研究の資金で、うきのわの事業とは関係がありません。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人 軽金属奨学会",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "jfc-subsidy-news",
+  "source_name": "助成財団センター 助成金募集ニュース",
+  "status": "closed",
+  "summary": "アルミニウムやマグネシウムなど軽金属の材料研究を行う大学や公的研究機関の研究者に、教育研究資金や研究補助金を出す制度です。軽金属工学の進歩を目的としています。",
+  "themes": [
+   "軽金属",
+   "材料研究",
+   "工学",
+   "大学研究"
+  ],
+  "title": "2025年度「教育研究資金・研究補助金」",
+  "url": "https://www.jfc.or.jp/subsidy/grants241202-001/"
+ },
+ "https://www.jfc.or.jp/subsidy/grants241203-001/": {
+  "amount_max_yen": 10000000,
+  "amount_note": "助成総額6,000万円を予定。1活動あたり上限1,000万円。期間は最大3年間（2028年3月31日まで）で、1年ごとに継続の可否を審査します。",
+  "apply_url": "https://www.jfc.or.jp/subsidy/grants241203-001/",
+  "deadline": "2024-12-26",
+  "deadline_note": "2024年12月26日23時59分まで。Web応募フォーム「e応募」で事前に団体登録が必要です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "社会福祉法人"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "01"
+  ],
+  "fit_reason": "締切済みです（2024年12月26日締切）。法人格がなくても応募できる制度ですが、すでに募集は終わっており、宗教を広める目的の活動は対象外のため、次回の募集を確認する場合も寺院拠点の事業は福祉目的として組み立てる必要があります。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "社会福祉法人中央共同募金会",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "jfc-subsidy-news",
+  "source_name": "助成財団センター 助成金募集ニュース",
+  "status": "closed",
+  "summary": "公的な制度やサービスでは対応できない福祉の課題を解決するため、先駆的で全国や広い地域への広がりが期待できる事業・活動に使える助成金です。生活に困っている人などへの直接の支援、支援のためのネットワークづくり、調査・研究が対象です。",
+  "themes": [
+   "福祉",
+   "生活困難者支援",
+   "ネットワークづくり",
+   "調査研究",
+   "権利擁護"
+  ],
+  "title": "「赤い羽根福祉基金」2025年度新規事業助成",
+  "url": "https://www.jfc.or.jp/subsidy/grants241203-001/"
+ },
+ "https://www.jfc.or.jp/subsidy/grants241210-001-2/": {
+  "amount_max_yen": 1500000,
+  "amount_note": "1事業あたり原則として上限150万円。審査により増額または減額される場合があります。予算総額は800万円です。",
+  "apply_url": "https://www.jfc.or.jp/subsidy/grants241210-001-2/",
+  "deadline": "2025-02-20",
+  "deadline_note": "申請期間は2025年1月15日から2025年2月20日14:00まで。事業実施期間は2025年4月1日から2026年3月31日です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "個人"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [],
+  "fit_reason": "締切済みです（2025年2月20日締切）。また、在住外国人を対象とした事業が条件のため、うきのわの今の事業とのつながりは弱いです。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人かめのり財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "jfc-subsidy-news",
+  "source_name": "助成財団センター 助成金募集ニュース",
+  "status": "closed",
+  "summary": "日本に住むアジア・オセアニア出身の外国人と、その人たちが暮らす地域の課題を解決する取り組みに使える助成金です。とくに保健や教育など暮らしに身近な基盤づくりや、地域での相互理解を深める事業を優先します。",
+  "themes": [
+   "多文化共生",
+   "外国人支援",
+   "国際交流",
+   "保健",
+   "教育"
+  ],
+  "title": "2025年度 多文化共生地域ネットワーク支援事業助成",
+  "url": "https://www.jfc.or.jp/subsidy/grants241210-001-2/"
+ },
+ "https://www.jfc.or.jp/subsidy/grants241213-001/": {
+  "amount_max_yen": 10000000,
+  "amount_note": "法人設立後2年以上の団体は上限100万円です。そのうち自然公園で国や自治体と協働する事業は上限1,000万円です。法人設立後2年未満の団体と法人格がない団体は上限50万円です。他の助成金と併用できません。",
+  "apply_url": "https://www.jfc.or.jp/subsidy/grants241213-001/",
+  "deadline": "2025-02-03",
+  "deadline_note": "募集期間は2024年12月2日10時〜2025年2月3日17時です。対象期間は2025年4月1日〜2026年3月31日です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "公益法人",
+   "その他の非営利団体"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "05",
+   "01"
+  ],
+  "fit_reason": "締切済みです（2025年2月3日締切）。内容は里山体験や子どもへの自然体験と合い、法人格のない団体も応募できるため、次の募集があれば候補になります。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人 公益推進協会",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "jfc-subsidy-news",
+  "source_name": "助成財団センター 助成金募集ニュース",
+  "status": "closed",
+  "summary": "日本国内での自然環境の保全、生物多様性の保全、子どもや住民への自然体験・里山文化の伝承、被災地の自然環境の復興などの活動に使える助成金です。",
+  "themes": [
+   "里山",
+   "自然体験",
+   "環境教育",
+   "生物多様性",
+   "被災地の自然復興"
+  ],
+  "title": "自然公園等保護基金（2025年度助成）",
+  "url": "https://www.jfc.or.jp/subsidy/grants241213-001/"
+ },
+ "https://www.jfc.or.jp/subsidy/grants250110-001/": {
+  "amount_max_yen": 300000,
+  "amount_note": "教育研究資金は年額30万円、研究補助金は年額20万円です。1人の研究者につきどちらか1件です。",
+  "apply_url": "https://www.jfc.or.jp/subsidy/grants250110-001/",
+  "deadline": "2025-02-28",
+  "deadline_note": "募集期間は2025年1月6日〜2025年2月28日（期限厳守）",
+  "eligible_types": [
+   "個人"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [],
+  "fit_reason": "締切済みです（2025年2月28日）。また、大学や公的研究機関の常勤の研究者だけが対象で、市民活動団体のうきのわは応募できず、事業の内容とも合いません。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "公益財団法人 軽金属奨学会",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "jfc-subsidy-news",
+  "source_name": "助成財団センター 助成金募集ニュース",
+  "status": "closed",
+  "summary": "アルミニウムやマグネシウムなどの軽い金属の材料について研究する、大学や公的研究機関の研究者に研究費を出す制度です。軽い金属の技術の進歩を目的としています。",
+  "themes": [
+   "軽金属",
+   "材料研究",
+   "大学研究",
+   "工学"
+  ],
+  "title": "2025年度「教育研究資金・研究補助金」",
+  "url": "https://www.jfc.or.jp/subsidy/grants250110-001/"
+ },
  "https://www.kvoad.com/2026/09/8.html": {
   "amount_max_yen": null,
   "amount_note": "制度ごとに異なります。日本郵便の年賀寄付金特別枠は1件あたり上限250万円です。大学災害ボランティア助成（上限50万円）は大学・高専向けです。こどもの居場所支援などは金額の記載がありません。",
@@ -1759,6 +2839,42 @@
   ],
   "title": "【助成情報】令和8年熊本地震の被災地での活動助成など（KVOADによる助成金まとめ）",
   "url": "https://www.kvoad.com/2026/09/8.html"
+ },
+ "https://www.mlit.go.jp/jutakukentiku/house/akiya-model-07/guideline.html": {
+  "amount_max_yen": null,
+  "amount_note": "調査検討・計画策定・普及広報などは定額。改修工事は1/3（木造220,000円/㎡、非木造332,000円/㎡まで）、除却工事は2/5（木造33,000円/㎡、非木造47,000円/㎡まで）、除却後の土地整備は1/3。1件あたりの上限額は記載がありません。",
+  "apply_url": "https://www.mlit.go.jp/jutakukentiku/house/akiya-model-07/guideline.html",
+  "deadline": null,
+  "deadline_note": "本文に締切の記載はありません。令和7年度中（2026年3月まで）に行う取り組みが対象です。",
+  "eligible_types": [
+   "NPO法人",
+   "企業",
+   "自治体"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "04"
+  ],
+  "fit_reason": "締切済みです。令和7年度の事業で実施期間がすでに終わっているうえ、応募できるのはNPO・民間事業者・自治体などで任意団体が応募できるかは書かれていないため、次の年度の募集が出たら空き家相談の取り組みで改めて確認するとよいです。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "国土交通省（評価事務局：株式会社日経BP）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "mlit-akiya-model",
+  "source_name": "国土交通省 空き家対策モデル事業",
+  "status": "open",
+  "summary": "NPOや民間事業者、自治体などが行う、空き家の相談体制づくり、新しい事業の仕組みづくり、子育て世帯への住まい提供や二地域居住などの先進的な空き家対策を支援する補助金です。調査や広報などのソフト面の取り組みと、空き家の改修・除却などのハード面の取り組みが対象です。",
+  "themes": [
+   "空き家",
+   "空き家相談",
+   "二地域居住",
+   "移住",
+   "官民連携"
+  ],
+  "title": "令和7年度 空き家対策モデル事業",
+  "url": "https://www.mlit.go.jp/jutakukentiku/house/akiya-model-07/guideline.html"
  },
  "https://www.parea.pref.kumamoto.jp/2026/09/04/%e3%80%8c%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e7%86%8a%e6%9c%ac%e5%9c%b0%e9%9c%87%e3%81%ab%e3%81%8a%e3%81%84%e3%81%a6%e8%a2%ab%e7%81%bd%e3%81%97%e3%81%9f%e3%81%93%e3%81%a9%e3%82%82%e3%81%ae%e5%b1%85/": {
   "amount_max_yen": null,
@@ -2025,5 +3141,76 @@
   ],
   "title": "令和8年熊本地震に係る「くまもと事業者再出発支援補助金」",
   "url": "https://www.pref.kumamoto.jp/soshiki/61/280961.html"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/josei.html": {
+  "amount_max_yen": 500000,
+  "amount_note": "1団体1事業のみです。助成総額は2,000万円の予定です。人件費（謝金を含む）は申請額の半分までです。",
+  "apply_url": "https://www.zenrosai.coop/zenrosai/csr/josei.html",
+  "deadline": null,
+  "deadline_note": "2026年度の応募は締め切ったと書かれています。受付開始日は2026年8月31日ですが、締切日は本文に書かれていません。",
+  "eligible_types": [
+   "NPO法人",
+   "一般社団法人",
+   "任意団体",
+   "市民団体"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [
+   "02",
+   "03",
+   "05"
+  ],
+  "fit_reason": "締切済みです。2026年度の応募はすでに締め切られています。任意団体も応募でき、防災や子どもの活動は合っていますが、特定の宗教の利益につながる活動は対象外なので、次の年度に応募するときは、寺を拠点にしながらも地域に開かれた活動であることを示す必要があります。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "こくみん共済 coop（全労済）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "zenrosai-chiiki",
+  "source_name": "こくみん共済 coop 地域貢献助成",
+  "status": "open",
+  "summary": "自然災害への備え、自然環境の保全、子どもや親子の孤立を防ぐ活動、共創による社会づくりなど、地域に根ざした継続的な活動に使える助成金です。2027年1月から12月までに行う活動の旅費、会場の使用料、物品購入費、人件費などが対象です。",
+  "themes": [
+   "防災・減災",
+   "環境保全",
+   "子ども",
+   "親子の孤立防止",
+   "共創による社会づくり"
+  ],
+  "title": "こくみん共済 coop 2026年度地域貢献助成",
+  "url": "https://www.zenrosai.coop/zenrosai/csr/josei.html"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/tasukeai/research-koboitaku.html": {
+  "amount_max_yen": null,
+  "amount_note": "",
+  "apply_url": "https://www.zenrosai.coop/zenrosai/csr/tasukeai/research-koboitaku.html",
+  "deadline": "2026-06-30",
+  "deadline_note": "募集期間は2026年4月1日〜6月30日（必着）です。ページ上で「終了しました」と書かれています。",
+  "eligible_types": [
+   "個人"
+  ],
+  "first_seen": "2026-10-01",
+  "fit_programs": [],
+  "fit_reason": "締切済みです。また、既に発表した論文を添えて応募する研究者向けの研究助成のため、地域での活動を行ううきのわの事業には合いません。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-10-01",
+  "provider": "こくみん共済 coop（全労済）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_id": "zenrosai-chiiki",
+  "source_name": "こくみん共済 coop 地域貢献助成",
+  "status": "closed",
+  "summary": "助け合いの考え方の普及や福祉の向上につながる研究に、費用を助成する制度です。共済・保険（防災・減災を含む）、協同組合、労働問題・社会福祉などに関する社会科学的な研究が対象です。",
+  "themes": [
+   "共済・保険",
+   "防災・減災",
+   "協同組合",
+   "社会福祉",
+   "労働問題"
+  ],
+  "title": "公募委託調査研究（2026年11月採用）",
+  "url": "https://www.zenrosai.coop/zenrosai/csr/tasukeai/research-koboitaku.html"
  }
 }

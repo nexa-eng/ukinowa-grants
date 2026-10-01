@@ -49,6 +49,61 @@
   "is_grant": false,
   "reason": "not_grant"
  },
+ "https://foundation.kirinholdings.com/aboutus/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://foundation.kirinholdings.com/activity/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://foundation.kirinholdings.com/kobo/faq.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://foundation.kirinholdings.com/kobo/schedule.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://foundation.kirinholdings.com/leaflet.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://foundation.kirinholdings.com/privacy.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://foundation.kirinholdings.com/sitemap.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://foundation.kirinholdings.com/subsidy/keikaku.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://foundation.kirinholdings.com/subsidy/keikaku_jigyo.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://foundation.kirinholdings.com/subsidy/nendo.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://foundation.kirinholdings.com/subsidy/pastkobo.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://j-net21.smrj.go.jp/snavi/articles/191756": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -145,6 +200,771 @@
   "reason": "prefilter"
  },
  "https://j-net21.smrj.go.jp/snavi/articles/192969": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/antisocial/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/api_collaboration/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/article_source/data/campaign/files/20250220_npo.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/article_source/data/campaign/files/202610_kenkou.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/article_source/data/important/files/2025NPOjoseiichiran.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/article_source/data/important/files/AIpolicy.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/article_source/data/important/files/DX.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/campaign/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/common/2018NPOreport.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/201909_NO16_NPO.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/202102_No17_NPO.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/202203_No18_NPO_1.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/202303_No19_NPO.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/202402_No20_NPO.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo02.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo03.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo04.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo05.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo06.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo07.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo08.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo09.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo10houkoku.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo11.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo12houkoku.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo13houkoku.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/common/npo14houkoku.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/company/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/company/sdgs-csr/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/company/sdgs-csr/action/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/company/sdgs-csr/community/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/company/sdgs-csr/npo/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/company/sdgs-csr/welfare/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/complaint/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/customer-harassment/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/customer/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/customeroriented/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/deposit/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/deposit/list/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/gender/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/guide/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/insurance/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/line/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/application/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/car/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/card-myplan-tsukaeru/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/card-myplan/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/center/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/cuts/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/find/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/free/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/home/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/home/house_maker/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/list/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/municipality/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/reform/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/relief/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/simulation/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/loan/support/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/lp/kr_app/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/member/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/mutual/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://kyusyu-rokin.com/mynumber/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/next/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/operation/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/operation/bonds/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/operation/heritage/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/operation/insurance/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/operation/jr-support-mutual/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/operation/simulation/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/operation/will/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/owner/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/persuade/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/privacy/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/profit/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/rate/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/scene/inheritance/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/site/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/sitemap/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/store/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/uses/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/uses/debit/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/uses/deduction-support/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/uses/matome/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/uses/mobile-payment/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/uses/onlinecash/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/uses/payeasy/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/uses/qrreceipt/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/uses/request/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/webloan/car/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/webloan/education/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/webloan/free/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://kyusyu-rokin.com/webloan/myplan/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/bokin/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/bokin/bokinkihu/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.7midori.org/bokin/bokinsuii/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/bokin/donation/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.7midori.org/josei/dantai-old/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.7midori.org/josei/dantai/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.7midori.org/josei/josei/faq/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/kouhou/amamo/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/kouhou/chiikiseiso/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/kouhou/datsutanso/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/kouhou/gmc-summit/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/kouhou/kaze/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/kouhou/morikindergarten/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/kouhou/scout/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/kouhou/sportsfes/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/kouhou/tayousei-award/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/saigaifukkou/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.7midori.org/katsudo/saigaifukkou/ecopoint/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/saigaifukkou/gienkin/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/saigaifukkou/miyakejima/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/saigaifukkou/shikotsuko/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/saigaifukkou/tohoku_fukkou/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/saigaifukkou/tohokumidori/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/sizen/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/sizen/711forest/fukuoka-umi/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/sizen/711forest/miyazaki-mizube/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/sizen/711forest/nagano/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/sizen/711forest/okinawa/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/sizen/fujisan/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/sizen/kiritappu/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/sizen/tokyo-midori/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/sizen/tokyo-umiproject/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/sizen/tokyobay/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/support/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.7midori.org/katsudo/support/chiikishien/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/support/leader/meeting/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/katsudo/support/leader/seido/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/kokonoe/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/lets/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/lets/park/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/midori/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/midori/aisatsu/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/midori/bokin/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/midori/katsudo/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/midori/map/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/midorifaq/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/midorimap/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/midoripolicy/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/midoriprivacy/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/snslist/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.7midori.org/takao/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.akaihane-kumamoto.jp/2026/09/03/4038/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane-kumamoto.jp/2026/09/04/4015/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.akaihane-kumamoto.jp/2026/09/14/4043/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane-kumamoto.jp/2026/10/01/4052/": {
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
@@ -425,6 +1245,876 @@
   "reason": "prefilter"
  },
  "https://www.city.uki.kumamoto.jp/ukinisum/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/hoikufair2026/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/humanresource/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/kisokouza-r7/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/101/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/102/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/105/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/106/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/107/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/108/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/109/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/110/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/113/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/115/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/116/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/120/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/121/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/131/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/132/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/133/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/134/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/135/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/136/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/139/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/140/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/141/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/142/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/143/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/144/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/145/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/146/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/151/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/155/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/156/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/158/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/159/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/161/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/162/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/164/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/184/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/185/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/186/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/188/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/189/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/198/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/199/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/203/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/207/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/215/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/221/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/222/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/223/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/231/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/250/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/251/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/261/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/262/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/264/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/265/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/304/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/331/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/349/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/353/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/354/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/355/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/4/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/50/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/53/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/54/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/57/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/58/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/59/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/60/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/61/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/62/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/63/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/64/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/65/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/66/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/67/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/68/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/69/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/7/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/70/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/71/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/72/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2236": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2242": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/74/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/75/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/76/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/77/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/78/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/79/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/8/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/80/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/81/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/82/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/83/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/85/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/86/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/87/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/88/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/89/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/90/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/91/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/92/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/94/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/95/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/96/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/97/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/98/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/99/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.fukushi-kumamoto.or.jp/startup2026/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/about/guide/shoseien/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/about/higashihonganji/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/about/history/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/about/sermon/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/about/shinran/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/about/shinshu-ohtaniha/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/application/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/application/gohonzon/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/application/group/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/application/kikyoshiki/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/application/marriage/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/application/okyou/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/application/otoki/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/application/shuukotsunoukotsu/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/application/time_schedule/202606/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/congressionelection/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/doboshimbun/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/donation/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/faq/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/info_recruit/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/jushin_butchi/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/00015750/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/00256133/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/04108379/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/07445785/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/13305901/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/14445791/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/265013642/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/27505857/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/29269782/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/30505821/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/37298597/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/42146211/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/45376063/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/55396963/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/news/relief/594211119/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/officialnotices/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/ohtaniha/kyoka-management/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/ohtaniha/souran/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/organization/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/policy/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/prelim-report/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/privacy/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/shinshu/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/sitemap/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/socialmediapolicy/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/spend/tour/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/spring-houonkou/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/teachings/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/teachings/butsudan/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/teachings/life-qa/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/teachings/sogi-hoji-ohaka/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/teachings/teaching-qa/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/worship/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/worship/access/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/worship/daily/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/worship/houwa/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/worship/houyouhouwa/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.higashihonganji.or.jp/worship/midokoro/": {
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
@@ -944,6 +2634,311 @@
   "is_grant": false,
   "reason": "not_grant"
  },
+ "https://www.jbf.ne.jp/about/about_JBF": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/about/about_index/memberlist": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/activities": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/culture": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/daizokyo": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/2010mtg": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/2014forum": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/24th": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/25th": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/directions": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/earthquake": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/federation": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/fellowship": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/jbf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/nepalearthquake": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/fellowship/english/rainbow-sticker-2021": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/financialreport": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/kouhou": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/project": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/rescue_operations/eventcont/telephone_advice": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/sponsored": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/activity/statement": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/archive/campus": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/archive/concent": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/archive/doutoku": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/archive/sousougirei": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/archive/symposium_inochi": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/archive/symposium_sougi": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/contact": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/eventcont/Hallowed": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/eventcont/charactor": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/eventcont/prison_chaplain": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/eventcont/school": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/eventcont/telephone_advice": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/eventcont/useful_links": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/history": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/history/1900-1959": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/history/1960-1969": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/history/1970-1979": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/history/1980-1989": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/history/1990-1999": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/history/2000-2009": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/info?cate1=2948&keyword=": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/info?cate1=2949&cate1=3025&cate1=3026&cate1=3022&cate1=3154&cate1=3027&cate1=3028&cate1=3029&keyword=": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/info?cate1=2975&cate1=3023&keyword=": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/info?cate1=3023&keyword=": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/interest/about_Buddhism": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/interest/buddhism_qanda": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/interest/qa": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/interest/symbols": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/interest/whois": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/link": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/member": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/newsletters": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/sitemap": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/support/consultation": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/support/doc_download": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/support/law": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/support/required_doc": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/support/tax": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.jbf.ne.jp/wp-content/uploads/site211/files/pdf/shien/jyoseikin32.zip": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.kvoad.com/2024/12/lne.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -1050,6 +3045,36 @@
   "reason": "prefilter"
  },
  "https://www.kvoad.com/2026/08/npo.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.mlit.go.jp/jutakukentiku/house/akiya-model-07/adopted-name-list.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.mlit.go.jp/jutakukentiku/house/akiya-model-07/adopted-project-list.html?division=sh": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.mlit.go.jp/jutakukentiku/house/akiya-model-07/adopted-project-list.html?theme=1": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.mlit.go.jp/jutakukentiku/house/akiya-model-07/adopted-project-list.html?theme=2": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.mlit.go.jp/jutakukentiku/house/akiya-model-07/adopted-project-list.html?theme=3": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.mlit.go.jp/jutakukentiku/house/akiya-model/realestate/akiya_ninaite_vmi/": {
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
@@ -1255,6 +3280,476 @@
   "reason": "prefilter"
  },
  "https://www.parea.pref.kumamoto.jp/category/parea/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/cm/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2012.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2013.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2014.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2015.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2016.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2017.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2018.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2019.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2020.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2021.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2022.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/2023.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/allocations/applications.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/allocations/applications/opinion.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/allocations/status.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/konkyo.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/h261110_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/h270409_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/h271028_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/h281124_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/h291108_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/h301112_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/r020205_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/r031215_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/r040831_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/r050831_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/r060830_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/r070829_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/r070829_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/r080326_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/r080831_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/csr/society/donation/topics/r080831_01.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/about/fiduciary/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/accessibility/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/apps/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/assets/docs/about/csr/society/donation/keiri.pdf": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bank/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bank/addresschange/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bank/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bank/lossreport/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bank/specialsystem/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bizpost/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bizpost/service/businesstoolbox/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bizpost/service/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bizpost/strength/domestic/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bizpost/strength/logistics/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bizpost/strength/overseas/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/bizpost/strength/sales_promotion/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/business/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/buy/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/campaign/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/culture/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/deli_days/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/finance/assetmanagement/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/finance/financial_reserve.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/finance/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/finance/inheritance.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/finance/investment.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/finance/prepare.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/index_en.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/insurance/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/insurance/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/insurance/information/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/kifu/data/link.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/kifu/faq/faq.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/life/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/newsrelease/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/newsrelease/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/office_search/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/office_search/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/privacy.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/procedure/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/question/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/question/contact_us/csrmail.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/receive/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/send/compare/index.php": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/send/create/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/send/deli_days/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/send/fee/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/service/compare.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/service/e_assist/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/service/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/service/sisho/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/service/tenkyo/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/service/you_pack/convenience/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/sitemap.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/sitepolicy.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/social_media/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/zipcode/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.post.japanpost.jp/zipcode/index.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
@@ -1735,6 +4230,196 @@
   "reason": "prefilter"
  },
  "https://www.pref.kumamoto.jp/soshiki/95/264971.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/contact.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/customer-harassment.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/dantai.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/english/english.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/gokentou.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/index.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/kumiaiin.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/moushikomi.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/privacy_policy.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/site_policy.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/sitemap.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/tebiki.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/area.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/bousai.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/eco.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/eco/report.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/gaiyou.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/josei/archive.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/kodomo.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/report": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/report.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/tasukeai.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/tasukeai/research-kifukoza.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/csr/tasukeai/research-kyakuin.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/disclosure.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/disclosure/factbook.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile/about.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile/about/overview.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile/assessment_policy.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile/coop.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile/group.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile/hoshou.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile/kumiaiin.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile/prevention_antisocial.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile/shikumi.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.zenrosai.coop/zenrosai/profile/soshiki/tokusei.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
