@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .env
+# 生成物は data ブランチで管理する（main には入れない）
+state/
+docs/
