@@ -50,3 +50,14 @@ def test_build_all_writes_outputs_and_filters(tmp_path: Path):
                     today, now, tmp_path)
     log = (tmp_path / "collected" / "2026-10-01.html").read_text()
     assert "hidden" not in log and 'class="card slim"' in log and 'data-d="助成"' in log
+
+
+def test_group_grants_merges_same_program_and_keeps_best():
+    from grants.build import group_grants
+    a = {"url": "https://a.jp/1", "title": "令和9年度 キリン・地域のちから応援事業 公募助成", "provider": "キリン福祉財団", "fit_score": 80, "deadline": "2026-10-31", "summary": "x", "source_name": "A"}
+    b = {"url": "https://b.jp/2", "title": "キリン福祉財団 公募（キリン・地域のちから応援事業）", "provider": "キリン福祉財団", "fit_score": 45, "deadline": None, "summary": "yy", "source_name": "B"}
+    c = {"url": "https://c.jp/3", "title": "年賀寄付金 配分団体の公募", "provider": "日本郵便", "fit_score": 60, "deadline": "2026-11-18", "summary": "z", "source_name": "C"}
+    out = group_grants([a, b, c])
+    assert len(out) == 2
+    kirin = next(g for g in out if "キリン" in g["title"])
+    assert kirin["url"] == "https://a.jp/1" and kirin["also_at"][0]["url"] == "https://b.jp/2"

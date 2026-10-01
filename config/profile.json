@@ -98,5 +98,6 @@
     "/search",
     "/tag/",
     "/category/"
-  ]
+  ],
+  "decide_days_before": 21
 }

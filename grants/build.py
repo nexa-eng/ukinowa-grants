@@ -80,8 +80,21 @@ def _card(g: dict, today: date) -> str:
   <div class="row">{_deadline_chip(g, today)} <span class="score">合う度 {_score(g)}</span> <span>上限 {_yen(g.get('amount_max_yen'))}</span> <span>{_esc(g.get('provider', ''))}</span> <span>{_esc(g.get('region_scope', ''))}</span></div>
   <p style="margin:8px 0 4px">{_esc(g.get('summary', ''))}</p>
   <p class="muted" style="margin:0 0 6px">{_esc(g.get('fit_reason', ''))}</p>
-  <div class="row">{progs} <span>対象: {_esc('、'.join(g.get('eligible_types', [])) or '不明')}</span> <span>出所: {_esc(g.get('source_name', ''))}</span></div>
+  <div class="row">{progs} <span>対象: {_esc('、'.join(g.get('eligible_types', [])) or '不明')}</span> <span>出所: {_esc(g.get('source_name', ''))}{_also(g)}</span>{_decide(g)}</div>
 </div>"""
+
+
+def _also(g: dict) -> str:
+    also = g.get("also_at") or []
+    if not also:
+        return ""
+    links = "、".join(f'<a href="{_esc(a["url"])}" target="_blank" rel="noopener">{_esc(a["source_name"])}</a>' for a in also if safe_url(a.get("url")))
+    return f"（ほか {len(also)}件: {links}）"
+
+
+def _decide(g: dict) -> str:
+    d = g.get("decide_by")
+    return f'<span class="chip warn">応募可否の判定日 {_esc(d)}</span>' if d else ""
 
 
 def _page(title: str, body: str, generated: datetime, depth: int = 0) -> str:
@@ -188,8 +201,12 @@ def build_ics(grants: list[dict], today: date, now: datetime, out: Path, alarm_d
 
 
 def build_all(grants: list[dict], new_urls: set[str], today: date, now: datetime, out: Path, profile: dict) -> Path:
-    # 合う度が低いものは公開しない（state には残す）
+    # 合う度が低いものは公開しない（state には残す）。同じ制度は1件に束ね、判定日を付ける
     grants = [g for g in grants if g.get("fit_score", 0) >= profile.get("min_fit_public", 0)]
+    grants = group_grants(grants)
+    for g in grants:
+        g["decide_by"] = decide_by(g, profile.get("decide_days_before", 21))
+    new_urls = {g["url"] for g in grants if g["url"] in new_urls or any(a["url"] in new_urls for a in g.get("also_at", []))}
     out.mkdir(parents=True, exist_ok=True)
     (out / ".nojekyll").touch()
     build_index(grants, today, now, out)
@@ -251,3 +268,67 @@ def build_subscribe(out: Path, now: datetime, base_url: str) -> None:
 <h2>内容</h2>
 <p>締切の当日と、21日前・7日前に終日の予定として出ます。締切が過ぎたものは次の更新で消えます。</p>"""
     (out / "subscribe.html").write_text(_page("カレンダー登録", body, now), encoding="utf-8")
+
+
+# ---- 束ね（同じ制度を1件にまとめる。state は URL ごとのまま） ----
+import difflib
+from .validate import program_key
+
+
+def _norm_title(g: dict) -> str:
+    return program_key(g.get("title", ""), "").split("|", 1)[1]
+
+
+def _key(g: dict) -> str:
+    k = (g.get("program_key") or "").strip().lower()
+    if "|" in k and len(k) > 4:
+        return program_key(k.split("|", 1)[1], k.split("|", 1)[0])
+    return program_key(g.get("title", ""), g.get("provider", ""))
+
+
+def _better(a: dict, b: dict) -> dict:
+    """代表に残す方。合う度 → 締切が分かる → 専用の情報源 → 要約の長さ の順で優先。"""
+    def rank(g):
+        return (g.get("fit_score", 0), 1 if g.get("deadline") else 0, 1 if g.get("source_dedicated") else 0, len(g.get("summary") or ""))
+    return a if rank(a) >= rank(b) else b
+
+
+def group_grants(grants: list[dict], threshold: float = 0.86) -> list[dict]:
+    """正規化キーが一致、または制度名がほぼ同じ（difflib）ものを束ねる。代表に also_at（他の出所）を付ける。"""
+    groups: list[dict] = []
+    for g in sorted(grants, key=lambda x: -x.get("fit_score", 0)):
+        k = _key(g); nt = _norm_title(g)
+        target = None
+        for grp in groups:
+            if grp["key"] == k or (nt and grp["nt"] and difflib.SequenceMatcher(None, nt, grp["nt"]).ratio() >= threshold):
+                target = grp
+                break
+        if target is None:
+            groups.append({"key": k, "nt": nt, "members": [g]})
+        else:
+            target["members"].append(g)
+    out = []
+    for grp in groups:
+        primary = grp["members"][0]
+        for m in grp["members"][1:]:
+            primary = _better(primary, m)
+        rec = dict(primary)
+        rec["also_at"] = [{"source_name": m.get("source_name", ""), "url": m["url"]} for m in grp["members"] if m is not primary]
+        # 締切は、代表に無ければ他の出所から補う
+        if not rec.get("deadline"):
+            for m in grp["members"]:
+                if m.get("deadline"):
+                    rec["deadline"] = m["deadline"]
+                    break
+        out.append(rec)
+    return out
+
+
+def decide_by(g: dict, days_before: int) -> str | None:
+    d = g.get("deadline")
+    if not d:
+        return None
+    try:
+        return (date.fromisoformat(d) - timedelta(days=days_before)).isoformat()
+    except ValueError:
+        return None
