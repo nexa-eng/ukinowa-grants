@@ -56,6 +56,7 @@ def main(argv: list[str] | None = None) -> int:
     g.add_argument("--no-llm", action="store_true", help="規則だけで判定する（確認用）")
     ap.add_argument("--max-llm", type=int, default=int(os.environ.get("MAX_LLM", "120")), help="1回の実行で判定する上限件数")
     ap.add_argument("--no-mail", action="store_true")
+    ap.add_argument("--collect-only", action="store_true", help="収集と規則の絞り込みだけ行い、判定・状態更新・通知はしない")
     args = ap.parse_args(argv)
     use_llm = not args.no_llm
 
@@ -73,6 +74,7 @@ def main(argv: list[str] | None = None) -> int:
 
     # 1. 収集
     candidates: list[tuple[fetch.RawItem, dict]] = []
+    collected: list[dict] = []
     stats = {"sources_ok": 0, "sources_failed": [], "items": 0, "new": 0, "prefiltered": 0, "evaluated": 0,
              "grants_added": 0, "usage": {"input_tokens": 0, "output_tokens": 0}}
     for src in sources:
@@ -85,15 +87,29 @@ def main(argv: list[str] | None = None) -> int:
             continue
         stats["items"] += len(items)
         for it in items:
-            if it.url in seen or it.url in grants:
-                continue
-            stats["new"] += 1
-            if extract.prefilter(it, src, profile):
-                candidates.append((it, src))
+            row = {"source_id": src["id"], "source_name": src["name"], "title": it.title, "url": it.url,
+                   "published": it.published, "prefilter": None, "decision": None, "fit_score": None}
+            if it.url in grants:
+                row.update(prefilter=True, decision="既知（助成）", fit_score=grants[it.url].get("fit_score"))
+            elif it.url in seen:
+                row.update(prefilter=seen[it.url].get("reason") != "prefilter",
+                           decision="既知（除外）" if seen[it.url].get("reason") == "prefilter" else "既知（助成ではない）")
             else:
-                seen[it.url] = {"first_seen": today.isoformat(), "is_grant": False, "reason": "prefilter"}
+                stats["new"] += 1
+                passed = extract.prefilter(it, src, profile)
+                row.update(prefilter=passed, decision="判定へ" if passed else "規則で除外")
+                if passed:
+                    candidates.append((it, src))
+                elif not args.collect_only:
+                    seen[it.url] = {"first_seen": today.isoformat(), "is_grant": False, "reason": "prefilter"}
+            collected.append(row)
     stats["prefiltered"] = len(candidates)
     print(f"収集: {stats['items']}件 / 新着 {stats['new']}件 / 判定対象 {len(candidates)}件")
+    save_json(STATE / "collected" / f"{today.isoformat()}.json", collected)
+    build.build_collected(collected, today, now, DOCS)
+    if args.collect_only:
+        print("収集のみ（判定・状態更新・通知はしない）")
+        return 0
 
     # 2. 判定
     new_urls: set[str] = set()
@@ -118,9 +134,14 @@ def main(argv: list[str] | None = None) -> int:
             print(f"[warn] 判定失敗 {it.url}: {e}", file=sys.stderr)
             traceback.print_exc()
             continue  # 次回また試す（seen に入れない）
+        row = next((c for c in collected if c["url"] == it.url), None)
         if not result["is_grant_program"]:
             seen[it.url] = {"first_seen": today.isoformat(), "is_grant": False, "reason": "not_grant"}
+            if row:
+                row["decision"] = "助成ではない"
             continue
+        if row:
+            row.update(decision="助成", fit_score=result.get("fit_score"))
         record = dict(result)
         record.update({"url": it.url, "source_id": src["id"], "source_name": src["name"],
                        "public_ok": bool(src.get("public_ok", True)), "first_seen": today.isoformat(),
@@ -136,10 +157,12 @@ def main(argv: list[str] | None = None) -> int:
         rec["status"] = "closed" if d is not None and d < 0 else "open"
     save_json(STATE / "seen.json", seen)
     save_json(STATE / "grants.json", grants)
+    save_json(STATE / "collected" / f"{today.isoformat()}.json", collected)
 
     # 4. 生成
     public_grants = [rec for rec in grants.values() if rec.get("public_ok", True)]
     report_path = build.build_all(public_grants, new_urls, today, now, DOCS, profile)
+    build.build_collected(collected, today, now, DOCS)
     report_url = f"{pages_base_url()}/reports/{report_path.name}"
     stats["report_url"] = report_url
     save_json(STATE / "last_run.json", {"ran_at": now.isoformat(), **stats})
