@@ -152,6 +152,8 @@ def build_ics(grants: list[dict], today: date, now: datetime, out: Path, alarm_d
 
 
 def build_all(grants: list[dict], new_urls: set[str], today: date, now: datetime, out: Path, profile: dict) -> Path:
+    # 合う度が低いものは公開しない（state には残す）
+    grants = [g for g in grants if g.get("fit_score", 0) >= profile.get("min_fit_public", 0)]
     out.mkdir(parents=True, exist_ok=True)
     (out / ".nojekyll").touch()
     build_index(grants, today, now, out)

@@ -1,1 +1,33 @@
-[]
+[
+ {
+  "is_grant_program": true,
+  "title": "熊本県地域交通燃料価格高騰対策事業補助金（タクシー・自動車運転代行業 R8.10月受付開始分）",
+  "provider": "熊本県（交通政策課）",
+  "summary": "燃料価格の値上がりなどで経営が厳しいタクシー事業者・自動車運転代行事業者を支える補助金です。令和8年4月から9月までの期間が対象です。",
+  "deadline": null,
+  "deadline_note": "申請受付は2026年10月9日から開始です。締切はこのページには書かれていません。",
+  "amount_max_yen": null,
+  "amount_note": "",
+  "eligible_types": [
+   "企業"
+  ],
+  "region_scope": "熊本県",
+  "themes": [
+   "地域交通",
+   "タクシー",
+   "自動車運転代行",
+   "燃料価格高騰"
+  ],
+  "fit_programs": [],
+  "fit_score": 0,
+  "fit_reason": "タクシー事業者と自動車運転代行事業者だけが対象のため、市民活動団体のうきのわは応募できません。うきのわの事業との関わりもありません。",
+  "apply_url": "https://www.pref.kumamoto.jp/soshiki/25/281235.html",
+  "url": "https://www.pref.kumamoto.jp/soshiki/25/281235.html",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "public_ok": true,
+  "first_seen": "2026-10-01",
+  "last_checked": "2026-10-01",
+  "status": "open"
+ }
+]

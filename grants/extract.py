@@ -31,7 +31,7 @@ GRANT_SCHEMA = {
         "region_scope": {"type": "string", "enum": ["全国", "九州", "熊本県", "宇城市", "その他地域", "不明"], "description": "対象地域"},
         "themes": {"type": "array", "items": {"type": "string"}, "description": "対象テーマの語（5つまで）"},
         "fit_programs": {"type": "array", "items": {"type": "string", "enum": ["01", "02", "03", "04", "05"]}, "description": "うきのわのどの事業に合うか"},
-        "fit_score": {"type": "integer", "minimum": 0, "maximum": 100, "description": "うきのわが応募できて、事業に合う度合い"},
+        "fit_score": {"type": "integer", "description": "うきのわが応募できて、事業に合う度合い。0〜100の整数"},
         "fit_reason": {"type": "string", "description": "合う理由、または合わない理由。1〜2文"},
         "apply_url": {"type": "string", "description": "申請案内の URL。本文中になければ元の URL"},
     },

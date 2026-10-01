@@ -81,5 +81,6 @@
   "alarm_days_before": [
     21,
     7
-  ]
+  ],
+  "min_fit_public": 30
 }

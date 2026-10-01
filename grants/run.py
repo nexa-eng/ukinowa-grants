@@ -145,9 +145,10 @@ def main(argv: list[str] | None = None) -> int:
 
     # 5. 通知
     if not args.no_mail:
-        open_new = sorted((grants[u] for u in new_urls if grants[u]["status"] == "open"), key=lambda r: -r["fit_score"])
+        min_fit = profile.get("min_fit_public", 0)
+        open_new = sorted((grants[u] for u in new_urls if grants[u]["status"] == "open" and grants[u]["fit_score"] >= min_fit), key=lambda r: -r["fit_score"])
         closing = sorted(
-            (rec for rec in grants.values() if rec["status"] == "open" and rec["url"] not in new_urls
+            (rec for rec in grants.values() if rec["status"] == "open" and rec["fit_score"] >= min_fit and rec["url"] not in new_urls
              and (dl := _days_left(rec.get("deadline"), today)) is not None and 0 <= dl <= profile["closing_soon_days"]),
             key=lambda r: r["deadline"])
         lines = [f"うきのわ 助成金の週報（{today.isoformat()}）", "",
