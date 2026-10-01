@@ -20,8 +20,15 @@ def test_prefilter_keyword_source_requires_keyword():
     assert not prefilter(item("ごみ収集カレンダー"), src, PROFILE)
 
 
-def test_prefilter_dedicated_source_passes_without_keyword_but_respects_exclusions():
-    src = {"id": "s", "dedicated": True}
+def test_prefilter_dedicated_html_source_limits_to_base_path_or_keyword():
+    src = {"id": "s", "dedicated": True, "kind": "html", "url": "https://example.jp/subsidy/"}
+    assert prefilter(item("第3回 のお知らせ", url="https://example.jp/subsidy/2026/"), src, PROFILE)
+    assert prefilter(item("○○助成のお知らせ", url="https://example.jp/news/1"), src, PROFILE)
+    assert not prefilter(item("個人情報の保護について", url="https://example.jp/privacy-policy/"), src, PROFILE)
+
+
+def test_prefilter_dedicated_rss_source_passes_without_keyword_but_respects_exclusions():
+    src = {"id": "s", "dedicated": True, "kind": "rss", "url": "https://example.jp/feed/"}
     assert prefilter(item("第3回 公募のお知らせ"), src, PROFILE)
     assert not prefilter(item("職員の求人"), src, PROFILE)
     assert not prefilter(item("公募のお知らせ", url="https://example.jp/tag/news"), src, PROFILE)

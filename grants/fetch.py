@@ -95,8 +95,9 @@ def _allowed_by_robots(url: str) -> bool:
     if base not in _robots_cache:
         try:
             _throttle(parsed.netloc)
+            # robots.txt は同一サイト内の http→https 等のリダイレクトが普通にあるので追う（本文は上限付きで読む）
             resp = requests.get(f"{base}/robots.txt", headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT,
-                                allow_redirects=False, stream=True)
+                                allow_redirects=True, stream=True)
             if resp.status_code == 200:
                 body = resp.raw.read(200_000, decode_content=True).decode("utf-8", errors="replace")
                 rp = urllib.robotparser.RobotFileParser()
@@ -105,7 +106,7 @@ def _allowed_by_robots(url: str) -> bool:
             elif 400 <= resp.status_code < 500:
                 _robots_cache[base] = None   # 無い → 許可
             else:
-                _robots_cache[base] = False  # 5xx・リダイレクト → 拒否
+                _robots_cache[base] = False  # 5xx → 拒否（RFC 9309）
         except requests.RequestException:
             _robots_cache[base] = False
     rp = _robots_cache[base]
