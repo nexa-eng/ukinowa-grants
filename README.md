@@ -79,3 +79,11 @@ python -m grants.run --llm --no-mail      # AI 判定あり（ANTHROPIC_API_KEY 
 ## 置かないもの
 
 個人情報、運営の内部文書、応募の判断。助成情報はもともと公開情報です。
+
+## ライセンス
+
+- **コード**（`grants/`、`config/`、`scripts`、ワークフロー）: [MIT License](LICENSE)。Copyright (c) 2026 Nexa Engineering Co., Ltd.
+- **生成データ**（`docs/` の一覧・週報・`grants.json`・`grants.ics`、`state/`）: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)。出典として「うきのわ 助成金カレンダー（Nexa Engineering）」と表示すれば、転載・加工・再配布ができます
+- 元の助成情報の権利は、それぞれの財団・自治体・団体にあります。このリポジトリは要約と出典 URL だけを保存し、本文は保存しません
+- 「うきのわ」の名称と写真・ロゴは、このライセンスの対象外です。団体の許可なく使えません
+- 内容の正確性は保証しません。応募の可否・締切・条件は必ず公式ページで確認してください

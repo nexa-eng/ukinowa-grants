@@ -80,7 +80,7 @@ def _page(title: str, body: str, generated: datetime, depth: int = 0) -> str:
 <p class="kicker">うきのわ 助成金カレンダー</p>
 <nav><a href="{rel}index.html">募集中の一覧</a><a href="{rel}reports/index.html">週報</a><a href="{rel}grants.ics">カレンダー購読（ics）</a><a href="{rel}grants.json">データ（JSON）</a></nav>
 {body}
-<p class="muted" style="margin-top:36px">生成: {generated.strftime('%Y-%m-%d %H:%M')} JST。情報源の公開情報を自動収集し AI が整理したものです。応募の可否は必ず公式ページで確認してください。</p>
+<p class="muted" style="margin-top:36px">生成: {generated.strftime('%Y-%m-%d %H:%M')} JST。情報源の公開情報を自動収集し AI が整理したものです。応募の可否は必ず公式ページで確認してください。データは <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY 4.0</a>、仕組みは <a href="https://github.com/nexa-eng/ukinowa-grants">MIT（GitHub）</a>。</p>
 </div>
 <script>
 document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{{
