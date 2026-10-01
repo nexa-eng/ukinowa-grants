@@ -49,4 +49,4 @@ def test_build_all_writes_outputs_and_filters(tmp_path: Path):
                      {"source_name": "S", "title": "hidden", "url": "https://a.jp/3", "decision": "判定へ", "fit_score": None, "public_ok": False}],
                     today, now, tmp_path)
     log = (tmp_path / "collected" / "2026-10-01.html").read_text()
-    assert "hidden" not in log and 'class="dec"' in log
+    assert "hidden" not in log and 'class="card slim"' in log and 'data-d="助成"' in log
