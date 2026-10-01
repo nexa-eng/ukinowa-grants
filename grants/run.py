@@ -282,7 +282,7 @@ def main(argv: list[str] | None = None) -> int:
         lines += [f"・[{rec['fit_score']}点] {rec['title']}（締切 {rec['deadline'] or '不明'}）" for rec in open_new[:10]]
         if closing:
             lines += ["", "締切が近いもの:"] + [f"・{rec['deadline']} {rec['title']}" for rec in closing[:10]]
-        lines += ["", f"一覧: {pages_base_url()}/", f"カレンダー購読: {pages_base_url()}/grants.ics"]
+        lines += ["", f"一覧: {pages_base_url()}/", f"カレンダー登録: {pages_base_url()}/subscribe.html"]
         if stats["sources_failed"] or stats["eval_failed"]:
             lines += ["", f"※ 取得できなかった情報源 {len(stats['sources_failed'])}件、判定を次回に回したページ {stats['eval_failed']}件。詳しくは収集ログを確認してください。"]
         text = "\n".join(lines)

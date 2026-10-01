@@ -4,7 +4,7 @@
 
 - **募集中の一覧**: <https://nexa-eng.github.io/ukinowa-grants/>
 - **週報**: <https://nexa-eng.github.io/ukinowa-grants/reports/>
-- **カレンダー購読**: <https://nexa-eng.github.io/ukinowa-grants/grants.ics> （スマホのカレンダーに登録すると、締切の21日前と7日前に予定として出ます）
+- **カレンダー登録**: <https://nexa-eng.github.io/ukinowa-grants/subscribe.html> （手元のカレンダーに登録すると、締切の21日前と7日前に予定として出ます）
 - **データ**: <https://nexa-eng.github.io/ukinowa-grants/grants.json>
 - **収集ログ**（判定前の全件と判断）: <https://nexa-eng.github.io/ukinowa-grants/collected/>
 
