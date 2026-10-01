@@ -30,7 +30,10 @@
 - 情報源は `config/sources.json`、うきのわの関心（地域・事業・テーマ語）は `config/profile.json`
 - 一度判定したページは `state/` に記録し、二度と判定しません。締切が過ぎたものは一覧から外れます
 - ページ本文は判定のためだけに読み、保存しません。保存するのは要約と出典 URL です
-- 情報源のサイトには週1回だけアクセスし、robots.txt を守り、連絡先入りの名前（User-Agent）を名乗ります
+- 情報源のサイトには週1回だけアクセスし、同じサイトには1.5秒以上の間隔を空け、robots.txt を守り、連絡先入りの名前（User-Agent）を名乗ります。http/https 以外や内部アドレスには接続せず、1ページ2MB まで・HTML/XML だけを読みます
+- AI の出力（締切・金額・リンクなど）は公開前に検証します。申請リンクは元ページと同じサイトのときだけ採用し、それ以外は元ページに戻します
+- 取得や判定に失敗したページは次回に再試行し、3回失敗したら諦めます。「助成ではない」と判定したページも1年後に見直します（年度更新の取りこぼし対策）
+- 失敗（情報源の全滅、判定ゼロ、メール送信失敗）は実行を赤にし、週報の末尾にも件数を載せます
 
 ## 運用（Nexa 向け）
 
@@ -65,9 +68,17 @@ python -m grants.run --no-llm --no-mail   # 規則だけで確認（API キー�
 python -m grants.run --llm --no-mail      # AI 判定あり（ANTHROPIC_API_KEY が必要）
 ```
 
+### テスト
+
+```bash
+pip install pytest && python -m pytest -q
+```
+
+PR では CI（テストとコンパイル確認）が自動で走ります。
+
 ### 情報源を足す
 
-`config/sources.json` に1件追加します。`kind` は `rss` か `html`。専用の助成情報ページなら `dedicated: true`（規則の絞り込みを通さず全件を AI 判定に回す）。公開ページに載せてよい情報源なら `public_ok: true`。
+`config/sources.json` に1件追加します。`kind` は `rss` か `html`。専用の助成情報ページなら `dedicated: true`（キーワードの絞り込みを通さず AI 判定に回す。除外語と除外 URL パターンは効く）。公開ページに載せてよい情報源なら `public_ok: true`。
 
 ### 精度の測り方
 
@@ -85,7 +96,7 @@ python -m grants.run --llm --no-mail      # AI 判定あり（ANTHROPIC_API_KEY 
 
 ## ライセンス
 
-- **コード**（`grants/`、`config/`、`scripts`、ワークフロー）: [MIT License](LICENSE)。Copyright (c) 2026 Nexa Engineering Co., Ltd.
+- **コード**（`grants/`、`config/`、`tests/`、ワークフロー）: [MIT License](LICENSE)。Copyright (c) 2026 Nexa Engineering Co., Ltd.
 - **生成データ**（`docs/` の一覧・週報・`grants.json`・`grants.ics`、`state/`）: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)。出典として「うきのわ 助成金カレンダー（Nexa Engineering）」と表示すれば、転載・加工・再配布ができます
 - 元の助成情報の権利は、それぞれの財団・自治体・団体にあります。このリポジトリは要約と出典 URL だけを保存し、本文は保存しません
 - 「うきのわ」の名称と写真・ロゴは、このライセンスの対象外です。団体の許可なく使えません

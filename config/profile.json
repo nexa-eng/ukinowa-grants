@@ -82,5 +82,21 @@
     21,
     7
   ],
-  "min_fit_public": 30
+  "min_fit_public": 30,
+  "exclude_url_patterns": [
+    "/sitemap",
+    "/privacy",
+    "/contact",
+    "/access",
+    "/english",
+    "/en/",
+    "/faq",
+    "/link",
+    "/about",
+    "/recruit",
+    "/login",
+    "/search",
+    "/tag/",
+    "/category/"
+  ]
 }

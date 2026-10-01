@@ -7,6 +7,8 @@ import json
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
+from .validate import CONTROL, safe_url
+
 PROGRAM_LABELS = {"01": "震災復興支援", "02": "寺院BCP", "03": "TOYONO-VA", "04": "移住・空き家", "05": "里山体験"}
 
 CSS = """
@@ -51,6 +53,13 @@ def _days_left(deadline: str | None, today: date) -> int | None:
         return None
 
 
+def _score(g: dict) -> int:
+    try:
+        return max(0, min(100, int(g.get("fit_score", 0))))
+    except (TypeError, ValueError):
+        return 0
+
+
 def _deadline_chip(g: dict, today: date) -> str:
     d = _days_left(g.get("deadline"), today)
     if d is None:
@@ -62,11 +71,12 @@ def _deadline_chip(g: dict, today: date) -> str:
 
 
 def _card(g: dict, today: date) -> str:
-    progs = " ".join(f'<span class="chip p">{PROGRAM_LABELS.get(p, p)}</span>' for p in g.get("fit_programs", []))
-    link = g.get("apply_url") or g["url"]
+    progs = " ".join(f'<span class="chip p">{_esc(PROGRAM_LABELS.get(p, p))}</span>' for p in g.get("fit_programs", []))
+    link = safe_url(g.get("apply_url")) or safe_url(g.get("url")) or ""
+    title_html = f'<a href="{_esc(link)}" target="_blank" rel="noopener">{_esc(g["title"])}</a>' if link else _esc(g["title"])
     return f"""<div class="card" data-programs="{_esc(' '.join(g.get('fit_programs', [])))}">
-  <h3><a href="{_esc(link)}" target="_blank" rel="noopener">{_esc(g['title'])}</a></h3>
-  <div class="row">{_deadline_chip(g, today)} <span class="score">合う度 {g.get('fit_score', 0)}</span> <span>上限 {_yen(g.get('amount_max_yen'))}</span> <span>{_esc(g.get('provider', ''))}</span> <span>{_esc(g.get('region_scope', ''))}</span></div>
+  <h3>{title_html}</h3>
+  <div class="row">{_deadline_chip(g, today)} <span class="score">合う度 {_score(g)}</span> <span>上限 {_yen(g.get('amount_max_yen'))}</span> <span>{_esc(g.get('provider', ''))}</span> <span>{_esc(g.get('region_scope', ''))}</span></div>
   <p style="margin:8px 0 4px">{_esc(g.get('summary', ''))}</p>
   <p class="muted" style="margin:0 0 6px">{_esc(g.get('fit_reason', ''))}</p>
   <div class="row">{progs} <span>対象: {_esc('、'.join(g.get('eligible_types', [])) or '不明')}</span> <span>出所: {_esc(g.get('source_name', ''))}</span></div>
@@ -76,6 +86,7 @@ def _card(g: dict, today: date) -> str:
 def _page(title: str, body: str, generated: datetime, depth: int = 0) -> str:
     rel = "../" * depth
     return f"""<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
 <title>{_esc(title)}</title><style>{CSS}</style></head><body><div class="wrap">
 <p class="kicker">うきのわ 助成金カレンダー</p>
 <nav><a href="{rel}index.html">募集中の一覧</a><a href="{rel}reports/index.html">週報</a><a href="{rel}collected/index.html">収集ログ</a><a href="{rel}grants.ics">カレンダー購読（ics）</a><a href="{rel}grants.json">データ（JSON）</a></nav>
@@ -124,7 +135,22 @@ def build_json(grants: list[dict], out: Path) -> None:
 
 
 def _ics_escape(s: str) -> str:
+    s = CONTROL.sub("", str(s)).replace("\r", "")
     return s.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+
+
+def _ics_fold(line: str) -> str:
+    """RFC 5545: 1行は75オクテットまで。超える分は CRLF + 空白で続ける。"""
+    out, cur, size = [], "", 0
+    for ch in line:
+        n = len(ch.encode("utf-8"))
+        if size + n > 75:
+            out.append(cur)
+            cur, size = " " + ch, 1 + n
+        else:
+            cur, size = cur + ch, size + n
+    out.append(cur)
+    return "\r\n".join(out)
 
 
 def build_ics(grants: list[dict], today: date, now: datetime, out: Path, alarm_days: list[int]) -> None:
@@ -139,16 +165,17 @@ def build_ics(grants: list[dict], today: date, now: datetime, out: Path, alarm_d
         except ValueError:
             continue
         uid_base = hashlib.sha1(g["url"].encode("utf-8")).hexdigest()[:16]
-        desc = _ics_escape(f"{g.get('summary', '')}\n上限: {_yen(g.get('amount_max_yen'))}\n{g.get('apply_url') or g['url']}")
+        link = safe_url(g.get("apply_url")) or safe_url(g.get("url")) or ""
+        desc = _ics_escape(f"{g.get('summary', '')}\n上限: {_yen(g.get('amount_max_yen'))}\n{link}")
         events = [(d, f"締切: {g['title']}")] + [(d - timedelta(days=n), f"締切{n}日前: {g['title']}") for n in alarm_days]
         for i, (day, summary) in enumerate(events):
             if day < today:
                 continue
             lines += ["BEGIN:VEVENT", f"UID:{uid_base}-{i}@ukinowa-grants", f"DTSTAMP:{stamp}",
                       f"DTSTART;VALUE=DATE:{day.strftime('%Y%m%d')}", f"DTEND;VALUE=DATE:{(day + timedelta(days=1)).strftime('%Y%m%d')}",
-                      f"SUMMARY:{_ics_escape(summary)}", f"DESCRIPTION:{desc}", f"URL:{g.get('apply_url') or g['url']}", "END:VEVENT"]
+                      f"SUMMARY:{_ics_escape(summary)}", f"DESCRIPTION:{desc}"] + ([f"URL:{link}"] if link else []) + ["END:VEVENT"]
     lines.append("END:VCALENDAR")
-    (out / "grants.ics").write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
+    (out / "grants.ics").write_text("\r\n".join(_ics_fold(l) for l in lines) + "\r\n", encoding="utf-8")
 
 
 def build_all(grants: list[dict], new_urls: set[str], today: date, now: datetime, out: Path, profile: dict) -> Path:
@@ -168,13 +195,14 @@ def build_collected(collected: list[dict], today: date, now: datetime, out: Path
     d = out / "collected"
     d.mkdir(parents=True, exist_ok=True)
     order = {"助成": 0, "既知（助成）": 1, "判定へ": 2, "助成ではない": 3, "既知（助成ではない）": 4, "規則で除外": 5, "既知（除外）": 6}
-    rows = sorted(collected, key=lambda r: (order.get(r.get("decision") or "", 9), r["source_name"], r["title"]))
+    rows = sorted((r for r in collected if r.get("public_ok", True)),
+                  key=lambda r: (order.get(r.get("decision") or "", 9), r["source_name"], r["title"]))
     counts: dict[str, int] = {}
     for r in rows:
         counts[r.get("decision") or "不明"] = counts.get(r.get("decision") or "不明", 0) + 1
     summary = " ".join(f'<span class="chip p">{_esc(k)} {v}</span>' for k, v in counts.items())
     trs = "\n".join(
-        f"<tr><td>{_esc(r['source_name'])}</td><td><a href=\"{_esc(r['url'])}\" target=\"_blank\" rel=\"noopener\">{_esc(r['title'])}</a></td>"
+        f"<tr><td>{_esc(r['source_name'])}</td><td>{(f'<a href=\"{_esc(safe_url(r['url']))}\" target=\"_blank\" rel=\"noopener\">{_esc(r['title'])}</a>' if safe_url(r['url']) else _esc(r['title']))}</td>"
         f"<td class=\"dec\">{_esc(r.get('decision') or '')}</td><td class=\"sc\">{'' if r.get('fit_score') is None else r['fit_score']}</td></tr>"
         for r in rows)
     body = (f"<h1>収集ログ {today.isoformat()}（{len(rows)}件）</h1>"
