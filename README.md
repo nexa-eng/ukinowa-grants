@@ -6,6 +6,7 @@
 - **週報**: <https://nexa-eng.github.io/ukinowa-grants/reports/>
 - **カレンダー購読**: <https://nexa-eng.github.io/ukinowa-grants/grants.ics> （スマホのカレンダーに登録すると、締切の21日前と7日前に予定として出ます）
 - **データ**: <https://nexa-eng.github.io/ukinowa-grants/grants.json>
+- **収集ログ**（判定前の全件と判断）: <https://nexa-eng.github.io/ukinowa-grants/collected/>
 
 ## 使い方（受け取る側）
 
@@ -59,6 +60,7 @@ GitHub の Actions タブから「weekly」を「Run workflow」で実行でき�
 ```bash
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
+python -m grants.run --collect-only       # 収集と規則の絞り込みだけ（判定も状態更新もしない）
 python -m grants.run --no-llm --no-mail   # 規則だけで確認（API キー不要）
 python -m grants.run --llm --no-mail      # AI 判定あり（ANTHROPIC_API_KEY が必要）
 ```

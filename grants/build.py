@@ -78,7 +78,7 @@ def _page(title: str, body: str, generated: datetime, depth: int = 0) -> str:
     return f"""<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{_esc(title)}</title><style>{CSS}</style></head><body><div class="wrap">
 <p class="kicker">うきのわ 助成金カレンダー</p>
-<nav><a href="{rel}index.html">募集中の一覧</a><a href="{rel}reports/index.html">週報</a><a href="{rel}grants.ics">カレンダー購読（ics）</a><a href="{rel}grants.json">データ（JSON）</a></nav>
+<nav><a href="{rel}index.html">募集中の一覧</a><a href="{rel}reports/index.html">週報</a><a href="{rel}collected/index.html">収集ログ</a><a href="{rel}grants.ics">カレンダー購読（ics）</a><a href="{rel}grants.json">データ（JSON）</a></nav>
 {body}
 <p class="muted" style="margin-top:36px">生成: {generated.strftime('%Y-%m-%d %H:%M')} JST。情報源の公開情報を自動収集し AI が整理したものです。応募の可否は必ず公式ページで確認してください。データは <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY 4.0</a>、仕組みは <a href="https://github.com/nexa-eng/ukinowa-grants">MIT（GitHub）</a>。</p>
 </div>
@@ -161,3 +161,27 @@ def build_all(grants: list[dict], new_urls: set[str], today: date, now: datetime
     build_json(grants, out)
     build_ics(grants, today, now, out, profile["alarm_days_before"])
     return report
+
+
+def build_collected(collected: list[dict], today: date, now: datetime, out: Path) -> None:
+    """判定前の全件（収集ログ）。見逃しの点検に使う。"""
+    d = out / "collected"
+    d.mkdir(parents=True, exist_ok=True)
+    order = {"助成": 0, "既知（助成）": 1, "判定へ": 2, "助成ではない": 3, "既知（助成ではない）": 4, "規則で除外": 5, "既知（除外）": 6}
+    rows = sorted(collected, key=lambda r: (order.get(r.get("decision") or "", 9), r["source_name"], r["title"]))
+    counts: dict[str, int] = {}
+    for r in rows:
+        counts[r.get("decision") or "不明"] = counts.get(r.get("decision") or "不明", 0) + 1
+    summary = " ".join(f'<span class="chip p">{_esc(k)} {v}</span>' for k, v in counts.items())
+    trs = "\n".join(
+        f"<tr><td>{_esc(r['source_name'])}</td><td><a href=\"{_esc(r['url'])}\" target=\"_blank\" rel=\"noopener\">{_esc(r['title'])}</a></td>"
+        f"<td>{_esc(r.get('decision') or '')}</td><td>{'' if r.get('fit_score') is None else r['fit_score']}</td></tr>"
+        for r in rows)
+    body = (f"<h1>収集ログ {today.isoformat()}（{len(rows)}件）</h1>"
+            f"<p class='muted'>情報源から拾った全件と、規則と AI の判断。「知っていた助成が出ていない」を見つけるための一覧です。</p>"
+            f"<div class='row' style='margin:10px 0'>{summary}</div>"
+            f"<div class='tbl'><table><thead><tr><th>情報源</th><th>見出し</th><th>判断</th><th>合う度</th></tr></thead><tbody>{trs}</tbody></table></div>")
+    (d / f"{today.isoformat()}.html").write_text(_page(f"収集ログ {today.isoformat()}", body, now, depth=1), encoding="utf-8")
+    files = sorted((f for f in d.glob("*.html") if f.name != "index.html"), reverse=True)
+    links = "\n".join(f'<li><a href="./{f.name}">{f.stem}</a></li>' for f in files)
+    (d / "index.html").write_text(_page("収集ログ一覧", f"<h1>収集ログ一覧</h1><ul>{links}</ul>", now, depth=1), encoding="utf-8")
