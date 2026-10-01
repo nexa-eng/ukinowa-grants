@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 CONTROL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 MAX_TEXT = {"title": 200, "provider": 120, "summary": 600, "deadline_note": 120, "amount_note": 200,
-            "fit_reason": 600, "region_scope": 20}
+            "fit_reason": 600, "region_scope": 20, "program_key": 120}
 MAX_LIST_ITEMS = 10
 MAX_LIST_ITEM_LEN = 40
 
@@ -83,3 +83,22 @@ def sanitize_grant(result: dict, source_url: str, today: date) -> dict:
     out["apply_url"] = apply if apply and same_site(apply, source_url) else source_url
     out["is_grant_program"] = bool(out.get("is_grant_program"))
     return out
+
+
+_YEAR = re.compile(r"(令和|平成)\s*\d+\s*年度?|\d{4}\s*年度?|20\d{2}|第\s*\d+\s*[次回期]|\d+\s*[次回期]目?")
+_NOISE = re.compile(r"(公募|募集|のお知らせ|お知らせ|について|ご案内|案内|候補団体|受付|開始|終了|配分団体|助成金|助成事業|助成|事業|プログラム|の|・|、|,|\s|「|」|『|』|【|】|（|）|\(|\)|〈|〉|《|》|:|：|/|／|－|-|—|～|〜)")
+_Z2H = str.maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ",
+                     "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
+
+
+def program_key(title: str, provider: str = "") -> str:
+    """同じ制度を束ねるためのキー。年度・回次・飾り語・記号を落として小文字にする。"""
+    t = (title or "").translate(_Z2H)
+    t = _YEAR.sub("", t)
+    t = _NOISE.sub("", t)
+    p = _NOISE.sub("", (provider or "").translate(_Z2H))
+    p = re.sub(r"(公益財団法人|一般財団法人|社会福祉法人|一般社団法人|特定非営利活動法人|株式会社|財団法人)", "", p)
+    t = re.sub(r"(公益財団法人|一般財団法人|社会福祉法人|一般社団法人|特定非営利活動法人|株式会社|財団法人)", "", t)
+    if p and p in t:  # 見出しに出し手の名前が入っている場合は落とす（「キリン福祉財団 公募（…）」など）
+        t = t.replace(p, "")
+    return (p[:20] + "|" + t).lower()

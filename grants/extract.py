@@ -37,8 +37,9 @@ GRANT_SCHEMA = {
         "fit_score": {"type": "integer", "description": "うきのわが応募できて、事業に合う度合い。0〜100の整数"},
         "fit_reason": {"type": "string", "description": "合う理由、または合わない理由。1〜2文"},
         "apply_url": {"type": "string", "description": "申請案内の URL。本文中になければ元の URL"},
+        "program_key": {"type": "string", "description": "同じ制度を束ねるための正規化名。出し手の略称と制度名を『出し手|制度名』の形で、年度・回次・『公募』『募集』などの飾り語を除く。例: キリン福祉財団|地域のちから応援事業"},
     },
-    "required": ["is_grant_program", "title", "provider", "summary", "deadline", "deadline_note", "amount_max_yen", "amount_note", "eligible_types", "region_scope", "themes", "fit_programs", "fit_score", "fit_reason", "apply_url"],
+    "required": ["is_grant_program", "title", "provider", "summary", "deadline", "deadline_note", "amount_max_yen", "amount_note", "eligible_types", "region_scope", "themes", "fit_programs", "fit_score", "fit_reason", "apply_url", "program_key"],
     "additionalProperties": False,
 }
 
@@ -93,7 +94,7 @@ def rule_based(item: RawItem, page_text: str, today: date) -> dict:
         "is_grant_program": True, "title": item.title, "provider": item.source_name,
         "summary": (item.summary or page_text[:160]).strip(), "deadline": deadline, "deadline_note": "",
         "amount_max_yen": None, "amount_note": "", "eligible_types": [], "region_scope": "不明", "themes": [],
-        "fit_programs": [], "fit_score": 50, "fit_reason": "AI 判定なし（規則のみ）。内容は人が確認してください。", "apply_url": item.url,
+        "fit_programs": [], "fit_score": 50, "fit_reason": "AI 判定なし（規則のみ）。内容は人が確認してください。", "apply_url": item.url, "program_key": "",
     }
     return sanitize_grant(result, item.url, today)
 

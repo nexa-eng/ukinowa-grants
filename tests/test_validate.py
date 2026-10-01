@@ -46,3 +46,11 @@ def test_sanitize_grant_clamps_and_falls_back_apply_url():
 
 def test_clean_text_strips_control_characters():
     assert clean_text("a\x00b\x1fc  d\n e") == "abc d e"
+
+
+def test_program_key_ignores_year_round_and_noise():
+    from grants.validate import program_key
+    a = program_key("令和9年度 キリン・地域のちから応援事業 公募助成", "公益財団法人キリン福祉財団")
+    b = program_key("キリン福祉財団 公募（キリン・地域のちから応援事業）", "キリン福祉財団")
+    assert a.split("|")[1] == b.split("|")[1]
+    assert program_key("第32次災害救援活動助成金", "全日本仏教会") == program_key("第３１次 災害救援活動助成金", "全日本仏教会")
