@@ -175,12 +175,12 @@ def build_collected(collected: list[dict], today: date, now: datetime, out: Path
     summary = " ".join(f'<span class="chip p">{_esc(k)} {v}</span>' for k, v in counts.items())
     trs = "\n".join(
         f"<tr><td>{_esc(r['source_name'])}</td><td><a href=\"{_esc(r['url'])}\" target=\"_blank\" rel=\"noopener\">{_esc(r['title'])}</a></td>"
-        f"<td>{_esc(r.get('decision') or '')}</td><td>{'' if r.get('fit_score') is None else r['fit_score']}</td></tr>"
+        f"<td class=\"dec\">{_esc(r.get('decision') or '')}</td><td class=\"sc\">{'' if r.get('fit_score') is None else r['fit_score']}</td></tr>"
         for r in rows)
     body = (f"<h1>収集ログ {today.isoformat()}（{len(rows)}件）</h1>"
             f"<p class='muted'>情報源から拾った全件と、規則と AI の判断。「知っていた助成が出ていない」を見つけるための一覧です。</p>"
             f"<div class='row' style='margin:10px 0'>{summary}</div>"
-            f"<div class='tbl'><table><thead><tr><th>情報源</th><th>見出し</th><th>判断</th><th>合う度</th></tr></thead><tbody>{trs}</tbody></table></div>")
+            f"<div class='tbl'><table><thead><tr><th style='min-width:9em'>情報源</th><th>見出し</th><th class='dec'>判断</th><th class='sc'>合う度</th></tr></thead><tbody>{trs}</tbody></table></div>")
     (d / f"{today.isoformat()}.html").write_text(_page(f"収集ログ {today.isoformat()}", body, now, depth=1), encoding="utf-8")
     files = sorted((f for f in d.glob("*.html") if f.name != "index.html"), reverse=True)
     links = "\n".join(f'<li><a href="./{f.name}">{f.stem}</a></li>' for f in files)
