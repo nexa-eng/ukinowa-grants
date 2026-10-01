@@ -1,1 +1,15 @@
-{"ran_at": null, "note": "初回実行前"}
+{
+ "evaluated": 0,
+ "grants_added": 0,
+ "items": 418,
+ "new": 415,
+ "prefiltered": 233,
+ "ran_at": "2026-10-01T13:39:18.594383+09:00",
+ "report_url": "https://nexa-eng.github.io/ukinowa-grants/reports/2026-10-01.html",
+ "sources_failed": [],
+ "sources_ok": 11,
+ "usage": {
+  "input_tokens": 0,
+  "output_tokens": 0
+ }
+}
