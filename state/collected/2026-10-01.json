@@ -1,0 +1,4182 @@
+[
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和８年熊本地震に関する情報",
+  "url": "https://www.pref.kumamoto.jp/soshiki/1/274517.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-27T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "線状降水帯直前予測の発表に伴う知事コメント",
+  "url": "https://www.pref.kumamoto.jp/soshiki/222/280988.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-11T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "パブリック・コメント（意見提出手続）",
+  "url": "https://www.pref.kumamoto.jp/site/public-comment/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-08-24T15:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "災害ボランティアへの積極的な参加をお願いします",
+  "url": "https://www.pref.kumamoto.jp/soshiki/27/275523.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年熊本地震により住宅被害を受けた方への住まいの支援制度のご紹介",
+  "url": "https://www.pref.kumamoto.jp/soshiki/117/277826.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T15:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "ホテル等避難のご案内",
+  "url": "https://www.pref.kumamoto.jp/soshiki/208/275618.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": "2026-10-01T13:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "熊本県地域交通燃料価格高騰対策事業補助金（タクシー・自動車運転代行業 R8.10月受付開始分）について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/25/281235.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T13:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【自然保護課】：令和8年度任用熊本県自然保護課育休等代替臨時職員採用試験結果について（9月29日実施）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/52/281087.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": "2026-10-01T12:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【募集：保育士又は児童指導員】 熊本県福祉総合相談所一時保護課 育休等代替臨時職員（保育士又は児童指導員）を募集しています",
+  "url": "https://www.pref.kumamoto.jp/soshiki/28/281357.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 10,
+  "prefilter": true,
+  "published": "2026-10-01T12:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年熊本地震に係る「くまもと事業者再出発支援補助金」の交付申請手続きについて",
+  "url": "https://www.pref.kumamoto.jp/soshiki/61/280961.html"
+ },
+ {
+  "decision": "規則で除外",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T10:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "2026年度「医療関係機関等を対象にした特別管理産業廃棄物管理責任者に関する講習会」のご案内",
+  "url": "https://www.pref.kumamoto.jp/soshiki/53/247140.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "県営住宅の子育て世帯の優先入居について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/117/254610.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "県政広報テレビ番組のご案内(令和8年10月分)",
+  "url": "https://www.pref.kumamoto.jp/soshiki/1/277821.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【追加募集】令和8年熊本地震により住宅被害を受けた方への県営住宅等の一時的な入居のご案内",
+  "url": "https://www.pref.kumamoto.jp/soshiki/117/57462.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": "2026-10-01T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "県営住宅の常時募集について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/117/113336.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）障害者支援施設等、シルバー人材センター、母子・父子福祉団体、就労訓練事業者及び新商品販売者からの随意契約の手続きについて",
+  "url": "https://www.pref.kumamoto.jp/soshiki/119/262776.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 10,
+  "prefilter": true,
+  "published": "2026-10-01T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年熊本地震に係る「くまもと事業者再出発支援補助金」の”事業者向け”説明会のご案内",
+  "url": "https://www.pref.kumamoto.jp/soshiki/61/280503.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【県央広域本部】熊本県農業農村整備業務事務嘱託員（会計年度任用職員）を募集します",
+  "url": "https://www.pref.kumamoto.jp/soshiki/159/281260.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【公募型プロポーザル】熊本県金融広報委員会専任書記業務に係る労働者派遣業務委託",
+  "url": "https://www.pref.kumamoto.jp/soshiki/55/274676.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T08:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "熊本県の組織について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/6/262660.html"
+ },
+ {
+  "decision": "判定へ",
+  "fit_score": null,
+  "prefilter": true,
+  "published": "2026-10-01T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【高等技術専門校】令和9年度（2027年度）入校生募集（高等学校卒業者）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/63/204255.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "有限会社ミューズプランニングが令和8年防災功労者防災担当大臣表彰を受賞しました！",
+  "url": "https://www.pref.kumamoto.jp/soshiki/56/281274.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度(2026年度)指定公金事務取扱者の公金事務に係る検査の実施について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/118/280756.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-10-01T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "熊本県の代表番号に「手話リンク」を導入しました",
+  "url": "https://www.pref.kumamoto.jp/soshiki/39/278448.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T23:45:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）熊本県水田収益力強化ビジョンについて",
+  "url": "https://www.pref.kumamoto.jp/soshiki/76/281290.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T17:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【受付終了】熊本県女性が働きやすい職場環境整備支援事業補助金について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/62/273076.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T16:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "「くらしとお金の講演会inくまもと」開催のお知らせ",
+  "url": "https://www.pref.kumamoto.jp/soshiki/55/279187.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T13:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "今週の人権啓発映画上映会",
+  "url": "https://www.pref.kumamoto.jp/soshiki/57/123039.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T13:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和7年度（2025年度）熊本県産農林畜水産物等の輸出実績について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/209/273597.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T12:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "農林水産部生産経営局畜産課育休等代替臨時的任用職員（一般事務） 合格発表",
+  "url": "https://www.pref.kumamoto.jp/soshiki/77/279706.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T10:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度熊本県精神保健福祉センター関係会計年度任用職員採用試験の結果について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/40/233114.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T10:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年 毎月勤労統計調査（月報）",
+  "url": "https://www.pref.kumamoto.jp/site/maitsuki-kinrou/263780.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T10:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【企画コンペ】熊本県立高校魅力化のための情報発信業務について",
+  "url": "https://www.pref.kumamoto.jp/site/kyouiku/281070.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "病害虫発生予察情報（令和8年度）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/75/201204.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "水稲海外飛来性害虫情報（トビイロウンカ、セジロウンカ、コブノメイガ）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/75/131112.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【担い手支援課】熊本地震営農再開支援事務嘱託員採用試験結果",
+  "url": "https://www.pref.kumamoto.jp/soshiki/83/280909.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【企画コンペ】荒尾・玉名地域における乗合タクシー広域連携の可能性検討に向けた調査事業業務委託に関する企画を募集します",
+  "url": "https://www.pref.kumamoto.jp/soshiki/174/279778.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）障がい者雇用優良事業所等知事表彰の受賞者を決定しました！",
+  "url": "https://www.pref.kumamoto.jp/soshiki/62/278084.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T00:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "調査データ（令和8年度）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/75/201915.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "きくちの風 第1回公開授業を大津南小学校で行いました！",
+  "url": "https://www.pref.kumamoto.jp/soshiki/137/281196.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和9年度（2027年度）熊本県立併設型中学校学校案内",
+  "url": "https://www.pref.kumamoto.jp/site/kyouiku/281188.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "熊本県教育広報誌「ばとん・ぱす」",
+  "url": "https://www.pref.kumamoto.jp/site/tamaws/178242.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-29T14:15:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和7年国勢調査の結果「熊本県人口（確定値）」",
+  "url": "https://www.pref.kumamoto.jp/site/kokusei-chousa/268855.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-29T13:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年（2026年）熊本県の人口と世帯数（月報）",
+  "url": "https://www.pref.kumamoto.jp/site/jinko/256673.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T18:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "10月は臓器移植普及推進月間です！",
+  "url": "https://www.pref.kumamoto.jp/soshiki/45/110964.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T16:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "「気になる！くまもと」3ch．県政広報テレビ",
+  "url": "https://www.pref.kumamoto.jp/site/kini-kuma/90402.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T15:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "感染症発生情報（週報）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/30/51400.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T10:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "農業革新支援センター情報：地震の影響により枯死した水稲の有効利用について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/74/281065.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "統計アラカルト",
+  "url": "https://www.pref.kumamoto.jp/soshiki/20/50343.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【令和8年10月～】あらたま（荒尾・玉名）地域イベント",
+  "url": "https://www.pref.kumamoto.jp/site/kenhoku/274666.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【プロポーザル参加募集】令和8年熊本地震復興・県南地域雇用維持促進事業 実施業務委託",
+  "url": "https://www.pref.kumamoto.jp/site/kennan/273770.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年熊本地震復旧・復興本部",
+  "url": "https://www.pref.kumamoto.jp/soshiki/5/278881.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【公募型企画コンペ】令和8年度（2026年度）上益城地域復興マルシェ実施業務委託に関する企画提案募集について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/166/280181.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "竜野川流域水害対策協議会・竜野川流域水害対策計画について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/105/279876.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "「第４回 竜野川流域水害対策協議会」の開催について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/105/278460.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "竜野川流域水害対策計画（素案）に関する意見募集の結果について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/105/278370.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "くまジョブ（ハローワーク水道町：熊本県地域共同就職支援センター・マザーズハローワーク、熊本県しごと相談・支援センター）の臨時閉庁について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/62/191099.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）熊本県認知症介護研修について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/33/157157.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度スクールソーシャルワーカー（会計年度任用職員）を追加募集します。",
+  "url": "https://www.pref.kumamoto.jp/soshiki/132/280941.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-28T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "「2026年度 多職種のための熊本緩和医療研究会」が開催されます",
+  "url": "https://www.pref.kumamoto.jp/soshiki/44/267872.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": "2026-09-28T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "認知症介護実践者研修（第4回）の受講者を募集します！",
+  "url": "https://www.pref.kumamoto.jp/soshiki/33/187207.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T16:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年熊本地震に係る被害情報",
+  "url": "https://www.pref.kumamoto.jp/soshiki/222/276831.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T15:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和9年度熊本県公立学校教員採用選考考査第二次考査合格者の掲載について",
+  "url": "https://www.pref.kumamoto.jp/site/kyouiku/280721.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T13:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "第56回全国中学校剣道大会優勝の大活躍に伴い、九州学院中学校剣道部が知事を表敬！",
+  "url": "https://www.pref.kumamoto.jp/site/chiji/280905.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T13:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "教職員のための子育てリーフレット",
+  "url": "https://www.pref.kumamoto.jp/site/kyouiku/181796.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T12:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年熊本地震における仮設住宅団地に整備する「みんなの家」について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/115/277965.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T12:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "くまもとアートポリス 【トップページ】",
+  "url": "https://www.pref.kumamoto.jp/soshiki/115/85889.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T11:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年熊本地震に伴う支援物資のお礼",
+  "url": "https://www.pref.kumamoto.jp/soshiki/27/275384.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T10:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度） 熊本県職員等採用試験合格者受験番号及び試験実施結果",
+  "url": "https://www.pref.kumamoto.jp/site/saiyou/266260.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T09:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【環境センター】イベント「秋の自然体験教室」を開催します！",
+  "url": "https://www.pref.kumamoto.jp/soshiki/50/255232.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": "2026-09-25T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年熊本地震における被災井戸復旧のための井戸掘削業者の募集について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/51/280731.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": "2026-09-25T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "熊本県テクノ中央緑地及び本妙寺山緑地公園の指定管理者の募集について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/103/280729.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": "2026-09-25T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "熊本県農業公園の指定管理者の募集について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/71/108251.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "熊本県環境影響評価条例に基づく公聴会の開催について【（仮称）伊佐・えびの・人吉風力発電事業】",
+  "url": "https://www.pref.kumamoto.jp/soshiki/51/280690.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "お出かけ知事室～ともに未来を語る会～（球磨村）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/1/279240.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T08:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "菊池恵楓園絵画クラブ金陽会作品展「『知らない』を観に行こう。」を開催します",
+  "url": "https://www.pref.kumamoto.jp/soshiki/44/214654.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度建築士事務所の開設者及び管理建築士等を対象とする講習について【知事指定講習】",
+  "url": "https://www.pref.kumamoto.jp/soshiki/115/280927.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-25T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）市民後見人等への意思決定支援研修の開催について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/33/244751.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-24T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【9月21日】認知症の日（世界アルツハイマーデー）オレンジライトアップイベントについて",
+  "url": "https://www.pref.kumamoto.jp/soshiki/33/50322.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 65,
+  "prefilter": true,
+  "published": "2026-09-24T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "ニッセイ財団「児童・少年の健全育成助成」「生き生きシニア活動顕彰」候補団体募集中！",
+  "url": "https://www.pref.kumamoto.jp/soshiki/54/280402.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 10,
+  "prefilter": true,
+  "published": "2026-09-24T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）子ども芸術文化活動支援（伝統芸能団体交流）事業補助事業者を再募集します！",
+  "url": "https://www.pref.kumamoto.jp/soshiki/219/279676.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-24T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "赤潮情報",
+  "url": "https://www.pref.kumamoto.jp/soshiki/95/264971.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-24T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "高齢者関係資料集（令和8年度版）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/32/280418.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": "2026-09-24T00:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）新人看護職員等受入研修事業費補助金について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/42/148705.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-23T11:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "熊本地震から10年 仏像 国宝×肥後仏",
+  "url": "https://www.pref.kumamoto.jp/site/museum/263546.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T17:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "2026年度 恐竜の島・化石発見クルーズ！予約受付中！",
+  "url": "https://www.pref.kumamoto.jp/site/amakusa/243186.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T15:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "災害弔慰金、災害障害見舞金について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/27/246224.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T15:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "eLTAXを使った電子納税に関するQ＆A",
+  "url": "https://www.pref.kumamoto.jp/soshiki/16/217529.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T13:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "【企画コンペ参加募集】セミコン・ジャパン２０２６熊本県ブース装飾業務委託の企画提案を募集します",
+  "url": "https://www.pref.kumamoto.jp/soshiki/68/248177.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": "2026-09-18T12:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）子育て支援員研修の募集は終了しました！",
+  "url": "https://www.pref.kumamoto.jp/soshiki/35/280388.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T10:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年（2026年）熊本市の消費者物価指数（月報）",
+  "url": "https://www.pref.kumamoto.jp/site/shouhisha-bukka/258885.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T10:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和８年度（2026年度）熊本県毒物劇物取扱者試験合格発表",
+  "url": "https://www.pref.kumamoto.jp/soshiki/45/182837.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T10:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）職業訓練指導員試験の合格者の決定について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/62/279413.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T09:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "『第6回あらたま窯元めぐり』を開催します！",
+  "url": "https://www.pref.kumamoto.jp/site/kenhoku/184494.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "熊本県渋滞対策パートナー登録制度について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/25/232455.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": "2026-09-18T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "熊本県総合福祉センターの指定管理者を募集します",
+  "url": "https://www.pref.kumamoto.jp/soshiki/27/280170.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "くろまぐろ遊漁の案内をする遊漁船業者の皆様へ（全国説明会）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/94/280433.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）第4回狩猟免許試験合格者について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/52/280179.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T09:00:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "令和8年度（2026年度）熊本県職員（学芸員）選考考査 第2次考査 合格者発表",
+  "url": "https://www.pref.kumamoto.jp/soshiki/125/279595.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-18T08:30:00+09:00",
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "title": "感染症法に基づく医療措置協定について",
+  "url": "https://www.pref.kumamoto.jp/soshiki/30/205438.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T09:00:00+09:00",
+  "source_id": "pref-kumamoto-urgent",
+  "source_name": "熊本県 緊急・重要情報",
+  "title": "令和８年熊本地震に関する情報",
+  "url": "https://www.pref.kumamoto.jp/soshiki/1/274517.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-27T00:00:00+09:00",
+  "source_id": "pref-kumamoto-urgent",
+  "source_name": "熊本県 緊急・重要情報",
+  "title": "線状降水帯直前予測の発表に伴う知事コメント",
+  "url": "https://www.pref.kumamoto.jp/soshiki/222/280988.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-08-24T15:00:00+09:00",
+  "source_id": "pref-kumamoto-urgent",
+  "source_name": "熊本県 緊急・重要情報",
+  "title": "災害ボランティアへの積極的な参加をお願いします",
+  "url": "https://www.pref.kumamoto.jp/soshiki/27/275523.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【群馬県】補助金・助成金：【令和8年11月2日〆】令和8年度ホームヘルパー人材確保対策（ホームヘルパー同行支援）事業費補助金について",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192941"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【青森県】補助金・助成金：「令和9年度農林水産物・食品輸出促進対策事業のうち食品産業の輸出向けHACCP等対応施設整備事業の要望調査の実施について」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192946"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【岩手県】補助金・助成金 ：「令和9年度地域介護・福祉空間整備等施設整備事業費補助金の活用の意向調査について」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192918"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【千葉県】融資・貸付：「令和8年台風第25号に伴う中小企業者への資金繰り支援について（令和8年9月28日）」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192884"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【長野県】補助金・助成金：「農業用生産資材価格高騰対策事業」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192913"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【小郡市】補助金・助成金：「農業物価高騰対応支援補助金の交付」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192914"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 25,
+  "prefilter": true,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "補助金・助成金：「天然ガス利用設備による強靱性向上対策事業費補助金（令和8年度）」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192973"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【塩谷町】補助金・助成金：「野生鳥獣侵入防止柵設置費用の一部を補助します」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192942"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【ひたちなか市】補助金・助成金：「令和8年度 地域公共交通事業者等燃料費高騰対策支援補助金のお知らせ」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192944"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "補助金・助成金：「令和8年度 中小企業等海外展開支援事業費補助金（海外出願支援事業）の募集を開始しました～海外展開を目指す中小企業等の特許や商標等の出願経費を助成～」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192969"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 2,
+  "prefilter": true,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【球磨村】補助金・助成金：「農業者等物価高騰対策支援金のご案内」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/193001"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【宮城県】補助金・助成金：【二次募集開始】陸上養殖システム導入支援事業（補助金）",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/191756"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【井原市】補助金・助成金：「井原市農業者物価高騰対策支援補助金」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192578"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【福岡県】補助金・助成金：「事業を円滑に引き継ぐための取組みを応援します（事業承継に向けた中小企業収益力強化補助金のご案内）」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192772"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【鶴岡市】補助金・助成金 ：「令和8年度鶴岡産農産物等販路拡大チャレンジ支援事業」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192773"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【小金井市】融資・貸付：「中東情勢等対策緊急資金融資あっせん制度のご案内」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192775"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【塩尻市】補助金・助成金：「塩尻市農業用生産資材価格高騰対策補助金」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192776"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【新潟県】補助金・助成金：【第2回募集受付開始】ビジネスモデル変革に向けた取組を支援します。",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192779"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 3,
+  "prefilter": true,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "補助金・助成金：「2026年度地域における新人向け教育訓練に係る支援金事業について」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192782"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【大村市】補助金・助成金：「渇水対策事業の実施」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192838"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "補助金・助成金：「令和8年度 工業団地構造変化等対応支援事業（工業団地組合向け調査費等助成）」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192783"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 3,
+  "prefilter": true,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【八代市】支援情報：「①早期営農再開支援事業（令和8年熊本地震）」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192784"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "【富山県】補助金・助成金：「令和8年度富山県光熱費高騰対策緊急支援事業費補助金（医療分）について」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192876"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "補助金・助成金：「令和8年度サテライトオフィス勤務導入奨励金（概要）」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192961"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "補助金・助成金：「令和8年度テレワーク定着強化奨励金（概要）」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192962"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 5,
+  "prefilter": true,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "補助金・助成金：「デジタル化・AI導入補助金2026「通常枠」※6次締切分」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192997"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 3,
+  "prefilter": true,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "補助金・助成金：「デジタル化・AI導入補助金2026「インボイス枠（電子取引類型）」※6次締切分」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/192999"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 5,
+  "prefilter": true,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "補助金・助成金：「デジタル化・AI導入補助金2026「複数者連携デジタル化・AI導入枠」※3次締切分」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/193002"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 5,
+  "prefilter": true,
+  "published": "2026-09-30T18:30:00+09:00",
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "title": "補助金・助成金：「デジタル化・AI導入補助金2026「セキュリティ対策推進枠」※6次締切分」",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/193000"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 65,
+  "prefilter": true,
+  "published": "2026-09-06T09:28:48.885+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "【助成情報】令和8年熊本地震の被災地での活動助成など",
+  "url": "https://www.kvoad.com/2026/09/8.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-08-28T19:39:44.096+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "今後の日程【火の国会議】行政、社協、NPO等の情報共有",
+  "url": "https://www.kvoad.com/2026/08/npo.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-08-25T20:08:35.316+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "全国からの温かいご支援に心より感謝申し上げます（令和8年熊本地震）",
+  "url": "https://www.kvoad.com/2026/08/8.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-08-04T16:37:27.476+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "火の国会議の開催について",
+  "url": "https://www.kvoad.com/2026/08/blog-post.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2026-01-28T18:09:00.006+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "【延長】災害ボランティア車両の高速道路の無料措置",
+  "url": "https://www.kvoad.com/2026/01/blog-post.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-11-11T12:25:00.005+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "本日の火の国会議はお休み【災害時の連携を考える】JVOAD全国フォーラム",
+  "url": "https://www.kvoad.com/2025/11/jvoad.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-10-28T13:50:00.007+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "本日の火の国会議【建築士による講和】ご参加ください",
+  "url": "https://www.kvoad.com/2025/10/blog-post_28.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-10-07T17:36:00.010+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "本日開催【火の国会議】ハイブリッド",
+  "url": "https://www.kvoad.com/2025/10/blog-post.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-09-23T16:46:00.002+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "本日開催日【お知らせ】火の国会議",
+  "url": "https://www.kvoad.com/2025/09/blog-post.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-09-09T18:40:00.009+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "【お知らせ】9月9日より週２回（火・金）開催となります",
+  "url": "https://www.kvoad.com/2025/09/99.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-08-27T17:30:00.004+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "【お知らせ】8/25より月水金（週３）開催となります",
+  "url": "https://www.kvoad.com/2025/08/825.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-08-23T15:05:00.005+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "8/23 火の国会開催のお知らせ",
+  "url": "https://www.kvoad.com/2025/08/823.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-08-22T20:13:00.004+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "8/22 【発令中】大雨洪水警報",
+  "url": "https://www.kvoad.com/2025/08/822.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-08-21T18:50:00.004+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "8/21,8/22 火の国会議開催のお知らせ",
+  "url": "https://www.kvoad.com/2025/08/821822.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-08-20T10:31:00.006+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "8/20【臨時】火の国会議開催のお知らせ",
+  "url": "https://www.kvoad.com/2025/08/820.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-08-19T16:43:00.004+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "8/19【臨時】火の国会議開催します",
+  "url": "https://www.kvoad.com/2025/08/819.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-08-14T18:15:00.005+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "8/14【臨時】火の国会議開催します",
+  "url": "https://www.kvoad.com/2025/08/814.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-08-13T17:42:00.005+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "【臨時】8/13 火の国会議開催のお知らせ",
+  "url": "https://www.kvoad.com/2025/08/813.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-08-12T12:56:00.003+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "【臨時】火の国会議開催のお知らせ",
+  "url": "https://www.kvoad.com/2025/08/blog-post.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-08-11T22:18:00.004+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "線状降水帯停滞の影響による災害【記録的豪雨】KVOADのうごき",
+  "url": "https://www.kvoad.com/2025/08/kvoad.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-06-30T12:38:00.001+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "備えは大丈夫？災害に備えよ！【JC研修】",
+  "url": "https://www.kvoad.com/2025/06/jc.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2025-05-23T16:11:00.005+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "災害中間支援組織支援【来熊】各県から続々と…",
+  "url": "https://www.kvoad.com/2025/05/blog-post.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": "2024-12-01T16:13:00.001+09:00",
+  "source_id": "kvoad",
+  "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
+  "title": "こどくこりつ相談＠熊本【LNEで相談】相談窓口",
+  "url": "https://www.kvoad.com/2024/12/lne.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "for World Wide partners",
+  "url": "https://www.akaihane.or.jp/english/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 65,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "助成を受ける",
+  "url": "https://www.akaihane.or.jp/josei/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "知る・調べる",
+  "url": "https://www.akaihane.or.jp/find/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "地域・社会貢献",
+  "url": "https://www.akaihane.or.jp/kouken/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "中央共同募金会について",
+  "url": "https://www.akaihane.or.jp/chuo/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "その他の助成情報",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-orther/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【助成先団体決定】「被害者やその家族等への支援活動助成」2026年度の助成先を決定しました",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-orther/50273/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "訪問レポート",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-visit-report/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "日本人も外国にルーツがある人も、お互いが歩み寄ることの大切さ",
+  "url": "https://www.akaihane.or.jp/visit-report/02/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "“地域のつながりが命を守る” ——災害関連死を防ぐために、岩手で聞いた声",
+  "url": "https://www.akaihane.or.jp/visit-report/01/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "赤い羽根福祉基金",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-kikin/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【助成先団体決定】居場所を失った人への支援活動応援助成の第13回助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-kikin/49235/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【応募受付終了】「外国にルーツがある人々への支援活動応援助成」第7回助成の公募について",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-kikin/49192/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "企業冠プログラム",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-corp-prog/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【応募受付終了】コープみらい×中央共同募金会「子ども・子育て支援助成～生活に困難がある子どもやその家族への支援活動を応援！～」第5回助成について",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-corp-prog/48824/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【助成先決定】前田和子基金「重症児等とその家族に対する支援活動応援助成」第５回の助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-kikin/48801/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【応募受付終了】清水育英会×中央共同募金会「経済的困窮や社会的孤立の状態にある子どもの学習と生活を一体的に応援する助成」第３回の公募について",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-corp-prog/48765/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【応募受付終了】「被害者やその家族等への支援活動助成」2026 助成先を公募します",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-orther/48527/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "社会課題解決キャンペーン",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-problem-solving/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【2026年度】地域での孤立に気づき、つながり合い、見守り合える人材 「つながりワーカー」養成研修・講座 実施団体登録について",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-problem-solving/48645/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 3,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【第2回応募受付中・11/27締切】児童養護施設や自立援助ホーム等を退所して大学や専門学校等に進学した学生を応援します！ ～盛和塾 社会人定着応援プログラム 2026年度 「就職活動応援助成」「手に職つけよう応援助成」～",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-corp-prog/47845/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【助成先団体決定】ソフトバンク・チャリティスマイル 第10回「安心して社会に巣立とう」応援助成先を決定しました",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-corp-prog/47858/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【助成先団体決定】赤い羽根福祉基金「盛和塾リスタート応援助成」2026年度の助成先施設・機関を決定しました",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-corp-prog/47719/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【応募受付終了】「居場所を失った人への支援活動応援助成」の第13回公募について",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-kikin/47687/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【助成先団体決定】赤い羽根福祉基金２０２６年度継続事業助成の助成先団体を決定しました",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-kikin/47284/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【助成先団体決定】赤い羽根福祉基金２０２６年度事業助成の助成先団体を決定しました",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-kikin/47101/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【応募受付終了】前田和子基金「重症児等とその家族に対する支援活動応援助成」第５回の公募について",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-kikin/46127/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【助成先団体決定】居場所を失った人への支援活動応援助成の第12回助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-kikin/45146/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【助成先団体決定】令和7年度「篠原欣子(しのはらよしこ)記念財団こども食堂応援プログラム」の助成先を決定しました",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-corp-prog/43430/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "【応募受付終了】ソフトバンク・チャリティスマイル 第10回（最終）「安心して社会に巣立とう」応援助成の公募について",
+  "url": "https://www.akaihane.or.jp/subsidies/sub-corp-prog/43338/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "寄付に関するご質問・お問い合わせ",
+  "url": "https://www.akaihane.or.jp/contact/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "プライバシーポリシー",
+  "url": "https://www.akaihane.or.jp/privacypolicy/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "title": "サイトマップ",
+  "url": "https://www.akaihane.or.jp/sitemap/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "for World Wide partners",
+  "url": "https://www.akaihane.or.jp/english/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 65,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "助成を受ける",
+  "url": "https://www.akaihane.or.jp/josei/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "知る・調べる",
+  "url": "https://www.akaihane.or.jp/find/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "地域・社会貢献",
+  "url": "https://www.akaihane.or.jp/kouken/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "中央共同募金会について",
+  "url": "https://www.akaihane.or.jp/chuo/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "災害・被災地支援等",
+  "url": "https://www.akaihane.or.jp/saigai-news/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【助成先団体決定】「ボラサポ・令和8年熊本地震」第1回短期助成事業・中期助成事業の助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/news/50236/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【応募受付中・9/30締切】「令和8（2026）年度の風水害にかかるボラサポ助成」の募集を開始しました ～「ボラサポ・令和８年８月千葉豪雨」助成並びに「令和８年８月富山・石川・福井大雨」助成の実施～",
+  "url": "https://www.akaihane.or.jp/saigai-news/vorasapo/50070/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "「ボラサポ・令和8年8月富山・石川・福井大雨」(災害支援金)の寄付受付を開始しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/vorasapo/50023/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【応募受付終了】「ボラサポ・令和8年熊本地震」中長期助成の募集を開始しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/49839/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 10,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "「災害ボランティア・NPO活動サポート募金（ボラサポ・令和8年8月千葉豪雨）」助成実施の予定について",
+  "url": "https://www.akaihane.or.jp/saigai-news/49867/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "「ボラサポ・令和8年8月千葉豪雨」(災害支援金)の寄付受付を 開始しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/vorasapo/49832/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【応募受付終了】「ボラサポ・令和8年熊本地震」助成の募集を開始しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/49584/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 75,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "「災害ボランティア・NPO活動サポート募金（ボラサポ・令和8年熊本地震）」助成実施の予定について",
+  "url": "https://www.akaihane.or.jp/saigai-news/vorasapo/49530/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 60,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "「ボラサポ・令和8年熊本地震」(災害支援金)の寄付受付を 開始しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/vorasapo/49434/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "「ボラサポ・九州」(熊本地震被災地支援）ご寄付受付終了の お礼と今後のお願いについて",
+  "url": "https://www.akaihane.or.jp/saigai-news/vorasapo/47918/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【助成先団体決定】「ボラサポ（事前登録審査）」 2026年度　災害中間支援組織助成事業の助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/vorasapo/47668/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【助成先団体決定】「ボラサポ（事前登録審査）」 2026年度　被災地支援ＮＰＯ助成事業の助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/47670/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【助成先団体決定】2026年度ボラサポ「日頃からのつながりづくりで災害関連死を起こさない地域をめざす活動助成」事業の助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/47077/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【助成先団体決定】「ボラサポ・令和6年能登半島地震」第10回長期助成事業の助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/47074/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【応募受付終了】「ボラサポ（事前登録審査）」 2026年度 被災地支援ＮＰＯ助成事業の募集を開始しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/vorasapo/43486/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【応募受付終了】2026年度ボラサポ「日頃からのつながりづくりで災害関連死を起こさない地域をめざす活動」助成の募集を開始しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/43515/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【応募受付終了】「ボラサポ・令和6年能登半島地震」第10回助成の募集を開始しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/43501/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【助成先団体決定】「ボラサポ・令和6年能登半島地震」第9回中長期助成事業の助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/42886/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【助成先団体決定】「ボラサポ・令和6年能登半島地震」第9回短期助成事業の助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/42884/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "【助成先団体決定】「ボラサポ・令和7年大船渡火災」第2回短期助成事業の助成団体を決定しました",
+  "url": "https://www.akaihane.or.jp/saigai-news/42888/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "寄付に関するご質問・お問い合わせ",
+  "url": "https://www.akaihane.or.jp/contact/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "プライバシーポリシー",
+  "url": "https://www.akaihane.or.jp/privacypolicy/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "title": "サイトマップ",
+  "url": "https://www.akaihane.or.jp/sitemap/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "日本財団について TOP",
+  "url": "https://www.nippon-foundation.or.jp/who"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "日本財団ってどんな団体?",
+  "url": "https://www.nippon-foundation.or.jp/who/introduction"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "会長メッセージ",
+  "url": "https://www.nippon-foundation.or.jp/who/message"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "活動 TOP",
+  "url": "https://www.nippon-foundation.or.jp/what/projects"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "個人で寄付をお考えの方",
+  "url": "https://www.nippon-foundation.or.jp/donation/kifusha-supporter"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "企業・団体の方",
+  "url": "https://www.nippon-foundation.or.jp/donation/kigyou-dantai"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "過去の助成プログラム",
+  "url": "https://www.nippon-foundation.or.jp/grant_application/past"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "子どもたちの「海が好き」を未来の職業につなげたい 一般社団法人 海洋文化・研究拠点化推進協議会（助成金額：2,699万円）",
+  "url": "https://www.nippon-foundation.or.jp/journal/2025/116200/education"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "海の変化をデータ化し共有することで、漁業現場の課題解決を目指す 全国漁業協同組合連合会（助成金額：4,203万円）",
+  "url": "https://www.nippon-foundation.or.jp/journal/2025/116161/academy"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "洋上風力発電を支えるプロフェッショナルを育成 NPO法人長崎海洋産業クラスター形成推進協議会（助成金額：4億9,963万円）",
+  "url": "https://www.nippon-foundation.or.jp/journal/2025/116146/academy"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "【障害者】強度行動障害者の地域生活を支援 社会福祉法人たからばこ（助成金：8,924万円）",
+  "url": "https://www.nippon-foundation.or.jp/journal/2025/116713/academy"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "【障害者】「脱福祉」型就労施設 社会福祉法人チャレンジドらいふ（助成金額：2億6,860万円）",
+  "url": "https://www.nippon-foundation.or.jp/journal/2025/116063/academy"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "【子ども】札幌市内における家庭養育の推進 社会福祉法人麦の子会（助成金額：849万円）",
+  "url": "https://www.nippon-foundation.or.jp/journal/2025/116227/academy"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "採択団体向け 事業実施ガイドブック",
+  "url": "https://www.nippon-foundation.or.jp/grant_application/guidebooks"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "日本財団ジャーナルとは",
+  "url": "https://www.nippon-foundation.or.jp/journal/about"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "すべての記事",
+  "url": "https://www.nippon-foundation.or.jp/journal/all"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "お問い合わせ",
+  "url": "https://www.nippon-foundation.or.jp/contact"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "サイトの利用について",
+  "url": "https://www.nippon-foundation.or.jp/usage"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "個人情報保護",
+  "url": "https://www.nippon-foundation.or.jp/privacy"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "ウェブアクセシビリティ方針",
+  "url": "https://www.nippon-foundation.or.jp/web_accessibility"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "nippon-foundation",
+  "source_name": "日本財団 助成事業",
+  "title": "サイトマップ",
+  "url": "https://www.nippon-foundation.or.jp/sitemap"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "助成制度の登録について、 詳しくはこちら",
+  "url": "https://fields.canpan.info/help/grant4.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "募集開始時期",
+  "url": "https://fields.canpan.info/grant/?page=1&sort=start&dir=desc"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "募集終了時期",
+  "url": "https://fields.canpan.info/grant/?page=1&sort=end&dir=desc"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "第3回「大分発！ソーシャル・スタートアップ基金」公募助成",
+  "url": "https://fields.canpan.info/grant/detail/2529"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "日本フィランソロピック財団",
+  "url": "https://fields.canpan.info/organization/detail/1585986308"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 20,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "2027年度 展覧会･公演等の開催費用に対する助成金給付",
+  "url": "https://fields.canpan.info/grant/detail/2528"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "戸部眞紀財団",
+  "url": "https://fields.canpan.info/organization/detail/1074441401"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 10,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "2026年度　ＮＡＧＡＳＥこどもみらい財団事業助成",
+  "url": "https://fields.canpan.info/grant/detail/2527"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "ＮＡＧＡＳＥこどもみらい財団",
+  "url": "https://fields.canpan.info/organization/detail/1674414923"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 12,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "2027年度　広域安全事業助成",
+  "url": "https://fields.canpan.info/grant/detail/2140"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "日工組社会安全研究財団",
+  "url": "https://fields.canpan.info/organization/detail/1729733558"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 22,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "2027年度　県域安全事業助成",
+  "url": "https://fields.canpan.info/grant/detail/2141"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 2,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "ローム　研究公募2027",
+  "url": "https://fields.canpan.info/grant/detail/1854"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "ローム株式会社　研究公募事務局",
+  "url": "https://fields.canpan.info/organization/detail/1538011527"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 25,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "【2027年度】日本郵便年賀寄付金配分事業",
+  "url": "https://fields.canpan.info/grant/detail/2526"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 8,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "実用化支援（技術開発）助成",
+  "url": "https://fields.canpan.info/grant/detail/2525"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "カインズデジタルイノベーション財団",
+  "url": "https://fields.canpan.info/organization/detail/1114656539"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 5,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "社会実装化支援（研究開発）助成",
+  "url": "https://fields.canpan.info/grant/detail/2524"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 10,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "2026年度特定課題「先端技術と共創する新たな人間社会」",
+  "url": "https://fields.canpan.info/grant/detail/2336"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 3,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "第3回「東海演奏家の架け橋基金」",
+  "url": "https://fields.canpan.info/grant/detail/2522"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 5,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "第3回「東海子どもワクワク基金」公募助成",
+  "url": "https://fields.canpan.info/grant/detail/2521"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 5,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "第1回「茅ヶ崎１００年基金」",
+  "url": "https://fields.canpan.info/grant/detail/2520"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 3,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "第4回「ダウン症住居と就労環境整備基金」",
+  "url": "https://fields.canpan.info/grant/detail/2519"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 40,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "2026年度 トヨタ財団 特定課題「人口減少と日本社会」",
+  "url": "https://fields.canpan.info/grant/detail/2340"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 20,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "トヨタ財団2026年度特定課題「外国人材の受け入れと日本社会」",
+  "url": "https://fields.canpan.info/grant/detail/2518"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 3,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "東海３県「食×農」応援基金",
+  "url": "https://fields.canpan.info/grant/detail/2359"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "公益推進協会",
+  "url": "https://fields.canpan.info/organization/detail/1607134168"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 10,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "サイレントフィルム基金（作品制作資金助成）～映像・アート・演劇～",
+  "url": "https://fields.canpan.info/grant/detail/2516"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 3,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "山本洋子環境と平和活動基金",
+  "url": "https://fields.canpan.info/grant/detail/2515"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 2,
+  "prefilter": true,
+  "published": null,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "title": "山本洋子北杜福祉基金",
+  "url": "https://fields.canpan.info/grant/detail/2514"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金活用事業について",
+  "url": "https://www.janpia.or.jp/dormant-deposits/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用制度について",
+  "url": "https://www.janpia.or.jp/dormant-deposits/system/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 30,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "公募（助成・出資）について",
+  "url": "https://www.janpia.or.jp/dormant-deposits/po/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "審査について",
+  "url": "https://www.janpia.or.jp/dormant-deposits/examine/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "公募結果について",
+  "url": "https://www.janpia.or.jp/dormant-deposits/result/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "事業実施について （社会的インパクト評価等）",
+  "url": "https://www.janpia.or.jp/dormant-deposits/ongoing/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "監査について",
+  "url": "https://www.janpia.or.jp/dormant-deposits/audit/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "私たちの取り組み",
+  "url": "https://www.janpia.or.jp/activities/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "総合評価・第三者評価等",
+  "url": "https://www.janpia.or.jp/activities/evaluation/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "コンプライアンス対応",
+  "url": "https://www.janpia.or.jp/activities/operations/compliance/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "JANPIAレポート",
+  "url": "https://www.janpia.or.jp/activities/event/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "JANPIAについて",
+  "url": "https://www.janpia.or.jp/about/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "理事長メッセージ",
+  "url": "https://www.janpia.or.jp/about/message/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "JANPIAが目指す社会",
+  "url": "https://www.janpia.or.jp/about/toc/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "組織図・委員会名簿",
+  "url": "https://www.janpia.or.jp/about/organization/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "定款・規程類",
+  "url": "https://www.janpia.or.jp/about/rule/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "English",
+  "url": "https://www.janpia.or.jp/en/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "メディアの 皆様",
+  "url": "https://www.janpia.or.jp/other/media/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "プレスリリース",
+  "url": "https://www.janpia.or.jp/category/press/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 12,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度 資金分配団体（助成）〈 緊急枠第3次 〉の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260930"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【JANPIAレポート】2026年度JANPIA職員向け「ハラスメント研修」",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260929_01"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 10,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度 資金分配団体（助成）〈 通常枠第2回 〉の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260928"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金活用プラットフォーム（休プラ）に、新コンテンツ「ナレッジ」を新設 ～休眠預金活用事業の知見・成果を集約し、社会課題解決に活かす～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260914_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【現場レポート】休眠預金活用事業の現場から⑦ 支援をもっと身近なものに。えんまるがつくる、地域で支え合うプラットフォーム",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260910_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【JANPIAレポート】2026年度ガバナンス・コンプライアンス研修「平時・災害時の安心・安全な支援のためのハラスメント研修」を実行団体、資金分配団体、支援対象団体、活動支援団体向けに開催",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260826_01"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度資金分配団体（助成）〈緊急枠・第1次〉の公募結果について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260824_01"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく2025年度出資事業の資金分配団体を選定",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260803_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度 資金分配団体（助成）〈緊急枠第２次〉の公募開始について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260807_01"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 35,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度 資金分配団体（助成）〈 緊急枠〉の公募における令和8年熊本地震への対応について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260731_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "役員体制についてのお知らせ",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260724_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【JANPIAレポート】企業とNPOの連携促進に向けた勉強会 〜佐藤 大吾委員×JANPIA企業連携チーム〜",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260716_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "第2回 JANPIAメディアセミナーを開催 「妊娠・出産・子育て期の『孤立』をどう防ぐか」 ～休眠預金活用事業で広がる、地域に寄り添う支援～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260714_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度 資金分配団体（出資）の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260714_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【現場レポート】休眠預金活用事業の現場から⑥ お金だけでなく「つながり」を生み出す。 リズカーレが四国初のコミュニティ財団で挑む支援のかたち",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260709_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "〈出資〉評価ガイドラインを改訂しました",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260707_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度事業報告書・決算報告書を掲載",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260703_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度 通常枠〈第1回〉・緊急枠〈第1次〉資金分配団体の公募申請状況について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260629_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【現場レポート】休眠預金活用事業の現場から⑤ 児童養護施設や里親家庭で暮らす子どもたちや若者の未来の選択肢を広げる ～フェアスタートサポートが取り組むキャリア教育と就労支援～",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260625_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金活用団体(NPO等) × 企業で社会的インパクトを！ 東京マッチング会 「成果報告会」を開催（7/16）",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260623_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "JANPIA職員向け コンプライアンス研修の実施【JANPIAレポート】",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260624_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【現場レポート】休眠預金活用事業の現場から④ 北海道から奄美大島まで、全国6団体と進めた“デジタル創作の居場所”づくり ～みんなのコードによる「創造性の格差」をなくす挑戦～",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260615_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度 活動支援団体の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260601_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【現場レポート】休眠預金活用事業の現場から③ ギャンブル依存症者の自死をなくすために。 正しい知識と支援を広げる「ギャンブル依存症問題を考える会」の取り組み",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260529_01.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "一般競争入札（モバイルノート型パソコンの調達）の実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260525_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【開催レポート】第1回 JANPIAメディアセミナーを開催 ～認知度調査結果の公表と子ども・若者支援の現場事例を共有～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260515_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【開催レポート】SusHi Tech Tokyo 2026パートナーイベント 「地域金融機機関が切り拓くインパクト投資の最前線」を開催 ～地域金融機関の関係者を中心に約80名が参加～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260511_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【現場レポート】休眠預金活用事業の現場から② こども食堂支援から広がる、地域ネットワークのつくり方 ― 活動支援団体の取り組み ―",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260508_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "総合評価（第4回）の公開について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260427_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【現場レポート】休眠預金活用事業の現場から① 「やさしい避難所」を、あたりまえに。防災から始まるレベルフリーの地域づくり",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260416_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度活動支援団体の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260414_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用制度の公募に向けた申請サポートプログラムを開始 ～2026年度通常枠の資金分配団体の公募に向け、申請検討団体を支援～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260407_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 3,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度 資金分配団体（出資）の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260407_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2026年度 資金分配団体（助成）〈 通常枠第1回・緊急枠第1次〉の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260403_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等交付金の活用に関する2026年度事業計画等の認可について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260331_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金活用事業に採択されたインパクト投資ファンド 「群馬サステナブル観光ファンド」が設立 ～地域金融機関等と連携し、持続可能な観光地づくりを推進～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260331_02.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "SusHi Tech Tokyo 2026パートナーイベント 「地域金融機関が切り拓くインパクト投資の最前線」を開催",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260331_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "第22回 専門家会議 開催　【JANPIAレポート】",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260330_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "社会課題への関心広がる一方、制度の仕組み理解には課題 ～JANPIA、休眠預金等活用制度に関する認知度調査結果を公表～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260324_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【開催レポート】RISTEX×JANPIA共催イベント 研究と現場の連携による社会課題解決の可能性を議論",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260318_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "第１回 JANPIAメディアセミナーを開催 休眠預金等活用制度の認知度調査結果を公表 ～第二部では「虐待等から子どもを守る取り組みの現状と課題」を共有～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260302_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【開催レポート】学生が社会課題とキャリアを考えるイベント 「現役学生のための Social Student Summit」を開催",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260225_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく資金分配団体の決定について ～2025年度通常枠〈第2回〉の助成対象事業を選定～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260220_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく資金分配団体の決定について ～2025年度緊急枠〈第2次〉の助成対象事業を選定～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260219_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "理事・評議員体制変更のお知らせ",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260218_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく資金分配団体の決定について ～2025年度緊急枠〈第2次〉の助成対象事業を選定～2026年1月 30日時点",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260130_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度 資金分配団体（出資）の申請状況について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260121_02.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【登壇レポート】「アジア・フィランソロピー会議2025」に登壇 ～企業とソーシャルセクターをつなぐ連携事例を紹介～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260121_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金活用事業の情報発信を支える「休眠預金活用プラットフォーム」に事業実施団体によるイベント登録機能を新たに追加 ～　休眠預金活用事業に関するイベント情報を随時公開　～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260119_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "現役学生のためのキャリアイベント「SOCIAL STUDENT SUMMIT」を開催 ～　企業とソーシャルセクターの両分野でキャリアを築いてきた、4名の実践者に学ぶ　～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260115_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【開催レポート】「休眠預金活用事業シンポジウム2025」 ～申込者数125名、現場と専門家が語る制度の現在地とこれから～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20260109_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【開催レポート】地域での休眠預金活用の促進を目指した制度説明会を開催 ～大分県・秋田県にて「休眠預金等活用制度説明会」を実施～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20251225_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度 資金分配団体（出資）の公募 ～事前エントリー申請状況について～",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20251224_02.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "年末年始の休業について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20251224_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく活動支援団体の決定について ～2025年度公募により4事業を選定～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20251223_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【開催レポート】休眠預金活用事業に参画する団体（NPO等）と企業の連携・協働で社会課題解決を目指す「東京マッチング会」 ～企業33社、休眠預金活用事業に参画する44団体が参加～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20251215_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金を活用した出資事業を行うファンド「ソーシャルXインパクトファンド」が、第１号案件を決定",
+  "url": "https://www.janpia.or.jp/3642/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用制度の現在地からこれからを考える 「休眠預金活用事業シンポジウム2025」を開催 ～　11月25日（火）、会場・オンライン同時開催　～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20251113_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度 通常枠〈第2回〉・緊急枠〈第2次〉資金分配団体の公募申請状況について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20251110_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "～休眠預金活用団体  × 企業で社会的インパクトを！～ 「東京マッチング会」を開催（11/14）",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20251014_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく資金分配団体の決定について ～2025年度通常枠〈第1回〉の助成対象事業を選定～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20251002_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度 資金分配団体（助成）〈 通常枠第2回・緊急枠第2次〉の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20251001_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【関連情報】国勢調査について～インターネット回答開始～",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250925_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "〈出資〉評価ガイドラインを公開",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250917_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "「2025年度 活動支援団体」の申請状況について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250912_01.html-2"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度 資金分配団体（助成）〈 通常枠第2回・緊急枠第2次〉の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250912_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度 資金分配団体（出資）の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250910_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく資金分配団体の決定について ～2025年度緊急枠〈第1次〉の助成対象事業を選定～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20250902_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく出資事業の資金分配団体を選定 ～2024年度公募により2事業を選定～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20250901_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "【関連情報】国勢調査についてのご案内",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250821_02.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "「JANPIAが目指す社会」ページを公開",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250821_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度 活動支援団体（助成）の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250701_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2024年度事業報告書・決算報告書を掲載",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250703_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "社会課題解決を目指す休眠預金活用団体と企業とのSDGsへの貢献につなげる関西マッチング会「成果報告会」を開催",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20250624_01.html"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "「一般競争入札（「追跡評価」の外部評価者の調達）の実施について」",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250611_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度 通常枠〈第1回〉・緊急枠〈第1次〉資金分配団体の公募申請状況について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250610_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度 資金分配団体（出資）の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250603_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "総合評価（第3回）の公開について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250529_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2025年度 資金分配団体（助成）〈 通常枠第1回・緊急枠第1次〉の公募実施について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250415_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2024年度 資金分配団体（出資）の申請状況について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250403_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等交付金の活用に関する2025年度事業計画等の認可について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250331_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく活動支援団体の決定について ～2024年度公募により3事業を選定～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20250307_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく資金分配団体の決定について ～2024年度通常枠〈第2回〉の助成対象事業を選定～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_2025020_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "物価高騰及び子育て対応支援枠 資金分配団体公募の決定 ～〈2024年度 随時募集（3次）〉の助成対象事業を選定～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20250120_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "「2024年度 活動支援団体」「物価高騰及び子育て対応支援枠〈2024年度随時募集〉」の申請状況について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20250117_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "年末年始の休業について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20241225_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2024年度 通常枠〈第2回〉資金分配団体の公募申請状況について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20241129_01.html"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 0,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "物価高騰及び、子育て対応支援枠（4次）公募開始",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20241122_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金等活用法に基づく出資事業の資金分配団体を選定 ～休眠預金を活用したファンド出資がはじまります～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20241108_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "物価高騰及び子育て対応支援枠 資金分配団体公募の決定 ～〈2024年度 随時募集（2次）〉の助成対象事業を選定～",
+  "url": "https://www.janpia.or.jp/news/janpia/press/news_20241106_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "団体専用ページについてのご案内",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20241031_04.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "休眠預金活用プラットフォームを開設",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20241031_03.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "JANPIAウェブサイトのリニューアル",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20241031_02.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "資金分配団体の事業承継について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20241031_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "2024年度事業計画等の変更認可について",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20241029_01.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "過去のお知らせ一覧を見る",
+  "url": "https://www.janpia.or.jp/other/news/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "過去の公募についてを見る",
+  "url": "https://www.janpia.or.jp/other/news/koubo_about.html"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "コンプライアンス 相談・通報窓口",
+  "url": "https://www.janpia.or.jp/other/compliance/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "プライバシーポリシー",
+  "url": "https://www.janpia.or.jp/other/privacy/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "ソーシャルメディア運用方針",
+  "url": "https://www.janpia.or.jp/other/sns-policy/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "title": "サイトの推奨環境について",
+  "url": "https://www.janpia.or.jp/other/accessibility/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "uki-city",
+  "source_name": "宇城市 トップページ新着",
+  "title": "2026年10月1日 令和8年熊本地震　関連情報　（10月1日12時00分更新）",
+  "url": "https://www.city.uki.kumamoto.jp/toppage/kinkyu/2606699"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "uki-city",
+  "source_name": "宇城市 トップページ新着",
+  "title": "8月10日の大雨に関する情報",
+  "url": "https://www.city.uki.kumamoto.jp/search?q=8月10日の大雨に関する情報"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "uki-city",
+  "source_name": "宇城市 トップページ新着",
+  "title": "印鑑登録・証明",
+  "url": "https://www.city.uki.kumamoto.jp/search?q=印鑑登録・証明"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "uki-city",
+  "source_name": "宇城市 トップページ新着",
+  "title": "ごみの出し方",
+  "url": "https://www.city.uki.kumamoto.jp/search?q=ごみの出し方"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "uki-city",
+  "source_name": "宇城市 トップページ新着",
+  "title": "行政・くらし",
+  "url": "https://www.city.uki.kumamoto.jp/index.php"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "uki-city",
+  "source_name": "宇城市 トップページ新着",
+  "title": "移住定住・空き家空き地バンク",
+  "url": "https://www.city.uki.kumamoto.jp/ukinisum/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "uki-city",
+  "source_name": "宇城市 トップページ新着",
+  "title": "ふるさと納税",
+  "url": "https://www.city.uki.kumamoto.jp/toppage/furusato/2023809"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "uki-city",
+  "source_name": "宇城市 トップページ新着",
+  "title": "宇城市へのアクセス",
+  "url": "https://www.city.uki.kumamoto.jp/toppage/gaiyo/shokai/2020525"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "令和８年度下半期　パレアロビー展のお知らせ",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/29/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e5%ba%a6%e4%b8%8b%e5%8d%8a%e6%9c%9f%e3%80%80%e3%83%91%e3%83%ac%e3%82%a2%e3%83%ad%e3%83%93%e3%83%bc%e5%b1%95%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "「くまもと ミライ・キャリアラボ」参加者募集のお知らせ（※募集期間延長）",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/25/%e3%80%8c%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8-%e3%83%9f%e3%83%a9%e3%82%a4%e3%83%bb%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2%e3%83%a9%e3%83%9c%e3%80%8d%e5%8f%82%e5%8a%a0%e8%80%85%e5%8b%9f%e9%9b%86%e3%81%ae/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "男女共同参画 in パレア　ワークショップ②（10/24・25）",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/15/%e7%94%b7%e5%a5%b3%e5%85%b1%e5%90%8c%e5%8f%82%e7%94%bb-in-%e3%83%91%e3%83%ac%e3%82%a2%e3%80%80%e3%83%af%e3%83%bc%e3%82%af%e3%82%b7%e3%83%a7%e3%83%83%e3%83%97%e2%91%a1%ef%bc%8810-24%e3%83%bb25%ef%bc%89/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "【重要】くまもと県民交流館施設予約システム変更に伴うお知らせ",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/11/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e4%ba%a4%e6%b5%81%e9%a4%a8%e6%96%bd%e8%a8%ad%e4%ba%88%e7%b4%84%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e5%a4%89/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "2027年（令和9年）4月分施設予約について",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/04/2027%e5%b9%b4%ef%bc%88%e4%bb%a4%e5%92%8c9%e5%b9%b4%ef%bc%894%e6%9c%88%e5%88%86%e6%96%bd%e8%a8%ad%e4%ba%88%e7%b4%84%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "お知らせ一覧",
+  "url": "https://www.parea.pref.kumamoto.jp/category/parea/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 60,
+  "prefilter": true,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "ニッセイ財団「児童・少年の健全育成助成」「生き生きシニア活動顕彰」候補団体募集のお知らせ",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/29/%e3%83%8b%e3%83%83%e3%82%bb%e3%82%a4%e8%b2%a1%e5%9b%a3%e3%80%8c%e5%85%90%e7%ab%a5%e3%83%bb%e5%b0%91%e5%b9%b4%e3%81%ae%e5%81%a5%e5%85%a8%e8%82%b2%e6%88%90%e5%8a%a9%e6%88%90%e3%80%8d%e3%80%8c%e7%94%9f/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "【参加無料・定員20名】10/21スタート「NPO組織基盤強化セミナー（全3回）」の参加団体を募集します！",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/19/%e3%80%90%e5%8f%82%e5%8a%a0%e7%84%a1%e6%96%99%e3%83%bb%e5%ae%9a%e5%93%a120%e5%90%8d%e3%80%9110-21%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%88%e3%80%8cnpo%e7%b5%84%e7%b9%94%e5%9f%ba%e7%9b%a4%e5%bc%b7%e5%8c%96/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "「ボランティアセミナー」参加募集のお知らせ",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/16/%e3%80%8c%e3%83%9c%e3%83%a9%e3%83%b3%e3%83%86%e3%82%a3%e3%82%a2%e3%82%bb%e3%83%9f%e3%83%8a%e3%83%bc%e3%80%8d%e5%8f%82%e5%8a%a0%e5%8b%9f%e9%9b%86%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "パレアルーム通信99号（2026年９月号）公開",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/11/%e3%83%91%e3%83%ac%e3%82%a2%e3%83%ab%e3%83%bc%e3%83%a0%e9%80%9a%e4%bf%a199%e5%8f%b7%ef%bc%882026%e5%b9%b4%ef%bc%99%e6%9c%88%e5%8f%b7%ef%bc%89%e5%85%ac%e9%96%8b/"
+ },
+ {
+  "decision": "既知（助成）",
+  "fit_score": 65,
+  "prefilter": true,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "「令和８年熊本地震において被災したこどもの居場所づくり」支援事業のご案内",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/04/%e3%80%8c%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e7%86%8a%e6%9c%ac%e5%9c%b0%e9%9c%87%e3%81%ab%e3%81%8a%e3%81%84%e3%81%a6%e8%a2%ab%e7%81%bd%e3%81%97%e3%81%9f%e3%81%93%e3%81%a9%e3%82%82%e3%81%ae%e5%b1%85/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "お知らせ一覧",
+  "url": "https://www.parea.pref.kumamoto.jp/category/npo/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "熊本県女性人材バンク（リストが更新されました）",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/10/01/%e7%86%8a%e6%9c%ac%e7%9c%8c%e5%a5%b3%e6%80%a7%e4%ba%ba%e6%9d%90%e3%83%90%e3%83%b3%e3%82%af/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "マインドアップセミナー②「私、このままで大丈夫？」産婦人科医が教える、一生モノのカラダの整え方",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/03/%e3%83%9e%e3%82%a4%e3%83%b3%e3%83%89%e3%82%a2%e3%83%83%e3%83%97%e3%82%bb%e3%83%9f%e3%83%8a%e3%83%bc%e2%91%a1%e3%80%8c%e7%a7%81%e3%80%81%e3%81%93%e3%81%ae%e3%81%be%e3%81%be%e3%81%a7%e5%a4%a7%e4%b8%88/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "【受付終了】男女共同参画inパレア　女性のための法律講座「自分らしく生きるための離婚の知識」〜これからの人生の選択〜",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/08/18/%e7%94%b7%e5%a5%b3%e5%85%b1%e5%90%8c%e5%8f%82%e7%94%bbin%e3%83%91%e3%83%ac%e3%82%a2%e3%80%80%e5%a5%b3%e6%80%a7%e3%81%ae%e3%81%9f%e3%82%81%e3%81%ae%e6%b3%95%e5%be%8b%e8%ac%9b%e5%ba%a7%e3%80%80%e3%80%8c/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "お知らせ一覧",
+  "url": "https://www.parea.pref.kumamoto.jp/category/danjo/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "令和8年度（2026年度）くまもと県民カレッジ主催講座【後期】受講生公開抽選会を行いました！",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/25/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6%ef%bc%882026%e5%b9%b4%e5%ba%a6%ef%bc%89%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e3%82%ab%e3%83%ac%e3%83%83%e3%82%b8%e4%b8%bb%e5%82%ac%e8%ac%9b-5/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "くまもと県民カレッジ　講座動画追加のお知らせ",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/11/%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e3%82%ab%e3%83%ac%e3%83%83%e3%82%b8%e3%80%80%e8%ac%9b%e5%ba%a7%e5%8b%95%e7%94%bb%e8%bf%bd%e5%8a%a0%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-6/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "みてみて～令和８年度くまもと県民カレッジ主催講座【前期】",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/09/02/%e3%81%bf%e3%81%a6%e3%81%bf%e3%81%a6%ef%bd%9e%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e5%ba%a6%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e3%82%ab%e3%83%ac%e3%83%83%e3%82%b8%e4%b8%bb%e5%82%ac/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "令和8年度（2026年度）くまもと県民カレッジ主催講座【後期】の受講生募集‼",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/08/26/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6%ef%bc%882026%e5%b9%b4%e5%ba%a6%ef%bc%89%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e3%82%ab%e3%83%ac%e3%83%83%e3%82%b8%e4%b8%bb%e5%82%ac%e8%ac%9b-4/"
+ },
+ {
+  "decision": "既知（助成ではない）",
+  "fit_score": null,
+  "prefilter": true,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "令和8年度（2026年度）くまもと県民カレッジパレアミュージアム【16講座】受講生募集！",
+  "url": "https://www.parea.pref.kumamoto.jp/2026/08/18/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6%ef%bc%882026%e5%b9%b4%e5%ba%a6%ef%bc%89%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e3%82%ab%e3%83%ac%e3%83%83%e3%82%b8%e3%83%91%e3%83%ac%e3%82%a2-4/"
+ },
+ {
+  "decision": "既知（除外）",
+  "fit_score": null,
+  "prefilter": false,
+  "published": null,
+  "source_id": "parea",
+  "source_name": "くまもと県民交流館パレア",
+  "title": "お知らせ一覧",
+  "url": "https://www.parea.pref.kumamoto.jp/category/manabi/"
+ }
+]
