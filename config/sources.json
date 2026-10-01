@@ -1,0 +1,13 @@
+[
+  {"id": "pref-kumamoto-news", "name": "熊本県 新着情報", "kind": "rss", "url": "https://www.pref.kumamoto.jp/rss/10/list1.xml", "dedicated": false, "public_ok": true},
+  {"id": "pref-kumamoto-urgent", "name": "熊本県 緊急・重要情報", "kind": "rss", "url": "https://www.pref.kumamoto.jp/rss/10/list3.xml", "dedicated": false, "public_ok": true},
+  {"id": "jnet21-support", "name": "J-Net21 支援情報", "kind": "rss", "url": "https://j-net21.smrj.go.jp/snavi/support/support.xml", "dedicated": true, "region_filter": ["熊本", "全国", "九州"], "public_ok": true},
+  {"id": "kvoad", "name": "KVOAD（くまもと災害ボランティア団体ネットワーク）", "kind": "rss", "url": "https://www.kvoad.com/feeds/posts/default", "dedicated": false, "public_ok": true},
+  {"id": "akaihane-subsidies", "name": "中央共同募金会 助成情報", "kind": "html", "url": "https://www.akaihane.or.jp/subsidies/", "dedicated": true, "same_domain": true, "public_ok": true},
+  {"id": "akaihane-vorasapo", "name": "中央共同募金会 ボラサポ", "kind": "html", "url": "https://www.akaihane.or.jp/saigai-news/vorasapo/", "dedicated": true, "same_domain": true, "public_ok": true},
+  {"id": "nippon-foundation", "name": "日本財団 助成事業", "kind": "html", "url": "https://www.nippon-foundation.or.jp/grant_application/programs", "dedicated": true, "same_domain": true, "public_ok": true},
+  {"id": "canpan-grant", "name": "CANPAN 助成制度", "kind": "html", "url": "https://fields.canpan.info/grant/", "dedicated": true, "same_domain": true, "public_ok": true},
+  {"id": "janpia-news", "name": "JANPIA（休眠預金活用）お知らせ", "kind": "html", "url": "https://www.janpia.or.jp/news/", "dedicated": true, "same_domain": true, "public_ok": true},
+  {"id": "uki-city", "name": "宇城市 トップページ新着", "kind": "html", "url": "https://www.city.uki.kumamoto.jp/", "dedicated": false, "same_domain": true, "public_ok": true},
+  {"id": "parea", "name": "くまもと県民交流館パレア", "kind": "html", "url": "https://www.parea.pref.kumamoto.jp/", "dedicated": false, "same_domain": true, "public_ok": true}
+]

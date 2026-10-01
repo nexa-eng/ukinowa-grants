@@ -1,0 +1,161 @@
+"""公開ページ・週報・カレンダー・一覧データの生成（docs/ 配下）。"""
+from __future__ import annotations
+
+import hashlib
+import html
+import json
+from datetime import date, datetime, timedelta
+from pathlib import Path
+
+PROGRAM_LABELS = {"01": "震災復興支援", "02": "寺院BCP", "03": "TOYONO-VA", "04": "移住・空き家", "05": "里山体験"}
+
+CSS = """
+:root{--bg:#fbfaf6;--surface:#fdfcf9;--sunken:#f5f3ee;--ink:#1c1f25;--text:#34383e;--muted:#62666d;
+--primary:#009988;--wash:#d6f7f1;--accent-ink:#02544c;--line:#d9d7d2;--warn-bg:#fff3d6;--warn-fg:#8a5a00}
+@media (prefers-color-scheme:dark){:root{--bg:#15181d;--surface:#1d2127;--sunken:#121519;--ink:#f1f1ee;--text:#d7d8d4;--muted:#9aa0a8;
+--primary:#2fc2ae;--wash:#133c37;--accent-ink:#8fe3d6;--line:#2f343c;--warn-bg:#3d3015;--warn-fg:#f1c766}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",-apple-system,sans-serif;font-size:15px;line-height:1.75;line-break:strict;overflow-wrap:anywhere}
+.wrap{max-width:960px;margin:0 auto;padding:16px 20px 64px}h1{font-family:"Hiragino Mincho ProN","Noto Serif JP",serif;font-size:26px;color:var(--ink);margin:12px 0 4px}
+h2{font-size:19px;color:var(--ink);margin:28px 0 10px;border-left:4px solid var(--primary);padding-left:10px}
+.kicker{font-size:12px;letter-spacing:.16em;color:var(--accent-ink);font-weight:700}.muted{color:var(--muted);font-size:13px}
+nav a{margin-right:14px;color:var(--accent-ink)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:10px 0}
+.card h3{margin:0 0 6px;font-size:16px;color:var(--ink)}.card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
+.chip{display:inline-block;font-size:11.5px;padding:1px 9px;border-radius:4px;font-weight:700}
+.chip.ok{background:var(--wash);color:var(--accent-ink)}.chip.warn{background:var(--warn-bg);color:var(--warn-fg)}.chip.p{background:var(--sunken);color:var(--text);border:1px solid var(--line)}
+.score{font-weight:700;color:var(--primary)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.filters button{border:1px solid var(--line);background:var(--surface);color:var(--text);padding:5px 12px;border-radius:999px;cursor:pointer;font-size:13px}
+.filters button[aria-pressed="true"]{background:var(--primary);color:#fff;border-color:var(--primary)}
+"""
+
+
+def _esc(s) -> str:
+    return html.escape(str(s if s is not None else ""))
+
+
+def _yen(n) -> str:
+    if n is None:
+        return "—"
+    if n >= 10000 and n % 10000 == 0:
+        return f"{n // 10000:,}万円"
+    return f"{n:,}円"
+
+
+def _days_left(deadline: str | None, today: date) -> int | None:
+    if not deadline:
+        return None
+    try:
+        return (date.fromisoformat(deadline) - today).days
+    except ValueError:
+        return None
+
+
+def _deadline_chip(g: dict, today: date) -> str:
+    d = _days_left(g.get("deadline"), today)
+    if d is None:
+        return f'<span class="chip p">{_esc(g.get("deadline_note") or "締切不明")}</span>'
+    if d < 0:
+        return '<span class="chip p">締切済み</span>'
+    cls = "warn" if d <= 21 else "ok"
+    return f'<span class="chip {cls}">締切 {_esc(g["deadline"])}（あと{d}日）</span>'
+
+
+def _card(g: dict, today: date) -> str:
+    progs = " ".join(f'<span class="chip p">{PROGRAM_LABELS.get(p, p)}</span>' for p in g.get("fit_programs", []))
+    link = g.get("apply_url") or g["url"]
+    return f"""<div class="card" data-programs="{_esc(' '.join(g.get('fit_programs', [])))}">
+  <h3><a href="{_esc(link)}" target="_blank" rel="noopener">{_esc(g['title'])}</a></h3>
+  <div class="row">{_deadline_chip(g, today)} <span class="score">合う度 {g.get('fit_score', 0)}</span> <span>上限 {_yen(g.get('amount_max_yen'))}</span> <span>{_esc(g.get('provider', ''))}</span> <span>{_esc(g.get('region_scope', ''))}</span></div>
+  <p style="margin:8px 0 4px">{_esc(g.get('summary', ''))}</p>
+  <p class="muted" style="margin:0 0 6px">{_esc(g.get('fit_reason', ''))}</p>
+  <div class="row">{progs} <span>対象: {_esc('、'.join(g.get('eligible_types', [])) or '不明')}</span> <span>出所: {_esc(g.get('source_name', ''))}</span></div>
+</div>"""
+
+
+def _page(title: str, body: str, generated: datetime, depth: int = 0) -> str:
+    rel = "../" * depth
+    return f"""<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{_esc(title)}</title><style>{CSS}</style></head><body><div class="wrap">
+<p class="kicker">うきのわ 助成金カレンダー</p>
+<nav><a href="{rel}index.html">募集中の一覧</a><a href="{rel}reports/index.html">週報</a><a href="{rel}grants.ics">カレンダー購読（ics）</a><a href="{rel}grants.json">データ（JSON）</a></nav>
+{body}
+<p class="muted" style="margin-top:36px">生成: {generated.strftime('%Y-%m-%d %H:%M')} JST。情報源の公開情報を自動収集し AI が整理したものです。応募の可否は必ず公式ページで確認してください。</p>
+</div>
+<script>
+document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{{
+  const p=b.dataset.p;document.querySelectorAll('.filters button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  document.querySelectorAll('.card[data-programs]').forEach(c=>{{c.style.display=(p==='all'||c.dataset.programs.split(' ').includes(p))?'':'none'}});
+}}));
+</script></body></html>"""
+
+
+def build_index(grants: list[dict], today: date, now: datetime, out: Path) -> None:
+    open_grants = sorted([g for g in grants if g.get("status") == "open"],
+                         key=lambda g: (g.get("deadline") or "9999-12-31", -g.get("fit_score", 0)))
+    filters = '<div class="filters"><button data-p="all" aria-pressed="true">すべて</button>' + "".join(
+        f'<button data-p="{k}" aria-pressed="false">{v}</button>' for k, v in PROGRAM_LABELS.items()) + "</div>"
+    cards = "\n".join(_card(g, today) for g in open_grants) or '<p class="muted">募集中の助成はまだ登録されていません。</p>'
+    body = f"<h1>募集中の助成金（{len(open_grants)}件）</h1><p class='muted'>締切が近い順。合う度は、うきのわが応募できて事業に合う度合いの目安です（100点満点）。</p>{filters}{cards}"
+    (out / "index.html").write_text(_page("うきのわ 助成金カレンダー", body, now), encoding="utf-8")
+
+
+def build_report(grants: list[dict], new_urls: set[str], today: date, now: datetime, out: Path, closing_days: int) -> Path:
+    new_items = sorted([g for g in grants if g["url"] in new_urls and g.get("status") == "open"], key=lambda g: -g.get("fit_score", 0))
+    closing = sorted(
+        [g for g in grants if g.get("status") == "open" and g["url"] not in new_urls
+         and (d := _days_left(g.get("deadline"), today)) is not None and 0 <= d <= closing_days],
+        key=lambda g: g["deadline"])
+    body = f"<h1>週報 {today.isoformat()}</h1>"
+    body += f"<h2>今週の新着（{len(new_items)}件）</h2>" + ("\n".join(_card(g, today) for g in new_items) or "<p class='muted'>新着はありませんでした。</p>")
+    body += f"<h2>締切が{closing_days}日以内（{len(closing)}件）</h2>" + ("\n".join(_card(g, today) for g in closing) or "<p class='muted'>該当なし。</p>")
+    reports = out / "reports"
+    reports.mkdir(parents=True, exist_ok=True)
+    path = reports / f"{today.isoformat()}.html"
+    path.write_text(_page(f"週報 {today.isoformat()}", body, now, depth=1), encoding="utf-8")
+    files = sorted((f for f in reports.glob("*.html") if f.name != "index.html"), reverse=True)
+    links = "\n".join(f'<li><a href="./{f.name}">{f.stem}</a></li>' for f in files)
+    (reports / "index.html").write_text(_page("週報一覧", f"<h1>週報一覧</h1><ul>{links}</ul>", now, depth=1), encoding="utf-8")
+    return path
+
+
+def build_json(grants: list[dict], out: Path) -> None:
+    (out / "grants.json").write_text(json.dumps([g for g in grants if g.get("status") == "open"], ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def _ics_escape(s: str) -> str:
+    return s.replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+
+
+def build_ics(grants: list[dict], today: date, now: datetime, out: Path, alarm_days: list[int]) -> None:
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//ukinowa//grants//JA", "CALSCALE:GREGORIAN",
+             "X-WR-CALNAME:うきのわ 助成金の締切", "X-WR-TIMEZONE:Asia/Tokyo"]
+    stamp = now.strftime("%Y%m%dT%H%M%S")
+    for g in grants:
+        if g.get("status") != "open" or not g.get("deadline"):
+            continue
+        try:
+            d = date.fromisoformat(g["deadline"])
+        except ValueError:
+            continue
+        uid_base = hashlib.sha1(g["url"].encode("utf-8")).hexdigest()[:16]
+        desc = _ics_escape(f"{g.get('summary', '')}\n上限: {_yen(g.get('amount_max_yen'))}\n{g.get('apply_url') or g['url']}")
+        events = [(d, f"締切: {g['title']}")] + [(d - timedelta(days=n), f"締切{n}日前: {g['title']}") for n in alarm_days]
+        for i, (day, summary) in enumerate(events):
+            if day < today:
+                continue
+            lines += ["BEGIN:VEVENT", f"UID:{uid_base}-{i}@ukinowa-grants", f"DTSTAMP:{stamp}",
+                      f"DTSTART;VALUE=DATE:{day.strftime('%Y%m%d')}", f"DTEND;VALUE=DATE:{(day + timedelta(days=1)).strftime('%Y%m%d')}",
+                      f"SUMMARY:{_ics_escape(summary)}", f"DESCRIPTION:{desc}", f"URL:{g.get('apply_url') or g['url']}", "END:VEVENT"]
+    lines.append("END:VCALENDAR")
+    (out / "grants.ics").write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
+
+
+def build_all(grants: list[dict], new_urls: set[str], today: date, now: datetime, out: Path, profile: dict) -> Path:
+    out.mkdir(parents=True, exist_ok=True)
+    (out / ".nojekyll").touch()
+    build_index(grants, today, now, out)
+    report = build_report(grants, new_urls, today, now, out, profile["closing_soon_days"])
+    build_json(grants, out)
+    build_ics(grants, today, now, out, profile["alarm_days_before"])
+    return report

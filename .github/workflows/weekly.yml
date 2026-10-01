@@ -1,0 +1,48 @@
+name: weekly
+
+on:
+  schedule:
+    - cron: "0 20 * * 0"   # 毎週月曜 05:00 JST
+  workflow_dispatch:
+    inputs:
+      max_llm:
+        description: "AI 判定の上限件数"
+        default: "120"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 収集・判定・生成・通知
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAX_LLM: ${{ github.event.inputs.max_llm || '120' }}
+        run: python -m grants.run --llm
+      - name: 結果をコミット
+        run: |
+          git config user.name "ukinowa-grants-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state docs
+          if git diff --cached --quiet; then echo "変更なし"; exit 0; fi
+          git commit -m "chore: 週次更新 $(TZ=Asia/Tokyo date +%F)"
+          git push
