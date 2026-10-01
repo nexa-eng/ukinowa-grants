@@ -1624,6 +1624,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/53/247140.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/55/274676.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -1673,6 +1678,11 @@
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/63/204255.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.pref.kumamoto.jp/soshiki/68/248177.html": {
   "first_seen": "2026-10-01",
