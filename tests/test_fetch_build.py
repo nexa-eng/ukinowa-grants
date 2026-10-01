@@ -14,7 +14,7 @@ def test_decode_prefers_declared_then_meta_then_cp932():
 
 
 def test_ics_escape_and_fold():
-    assert _ics_escape("a;b,c\\d\r\ne") == "a\;b\\,c\\\\d\\ne"
+    assert _ics_escape("a;b,c\\d\r\ne") == "a\\;b\\,c\\\\d\\ne"
     folded = _ics_fold("SUMMARY:" + "あ" * 80)
     assert all(len(line.encode("utf-8")) <= 75 for line in folded.split("\r\n"))
     assert folded.replace("\r\n ", "") == "SUMMARY:" + "あ" * 80
