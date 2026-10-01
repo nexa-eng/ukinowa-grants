@@ -4,7 +4,7 @@ from __future__ import annotations
 import hashlib
 import html
 import json
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .validate import CONTROL, safe_url
@@ -90,7 +90,7 @@ def _page(title: str, body: str, generated: datetime, depth: int = 0) -> str:
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
 <title>{_esc(title)}</title><style>{CSS}</style></head><body><div class="wrap">
 <p class="kicker">うきのわ 助成金カレンダー</p>
-<nav><a href="{rel}index.html">募集中の一覧</a><a href="{rel}reports/index.html">週報</a><a href="{rel}collected/index.html">収集ログ</a><a href="{rel}grants.ics">カレンダー購読（ics）</a><a href="{rel}grants.json">データ（JSON）</a></nav>
+<nav><a href="{rel}index.html">募集中の一覧</a><a href="{rel}reports/index.html">週報</a><a href="{rel}collected/index.html">収集ログ</a><a href="{rel}grants.ics">カレンダー（ics）</a><a href="{rel}subscribe.html">購読のしかた</a><a href="{rel}grants.json">データ（JSON）</a></nav>
 {body}
 <footer class="foot">
 <p class="muted">生成: {generated.strftime('%Y-%m-%d %H:%M')} JST。情報源の公開情報を自動収集し AI が整理したものです。応募の可否・締切・条件は必ず公式ページで確認してください。助成情報の権利は、それぞれの財団・自治体・団体にあります。</p>
@@ -158,9 +158,10 @@ def _ics_fold(line: str) -> str:
 
 
 def build_ics(grants: list[dict], today: date, now: datetime, out: Path, alarm_days: list[int]) -> None:
-    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//ukinowa//grants//JA", "CALSCALE:GREGORIAN",
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//ukinowa//grants//JA", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
              "X-WR-CALNAME:うきのわ 助成金の締切", "X-WR-TIMEZONE:Asia/Tokyo"]
-    stamp = now.strftime("%Y%m%dT%H%M%S")
+    # DTSTAMP は RFC 5545 で UTC（末尾 Z）必須。Google 経由の取り込みはここが厳しい
+    stamp = now.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     for g in grants:
         if g.get("status") != "open" or not g.get("deadline"):
             continue
@@ -177,7 +178,7 @@ def build_ics(grants: list[dict], today: date, now: datetime, out: Path, alarm_d
                 continue
             lines += ["BEGIN:VEVENT", f"UID:{uid_base}-{i}@ukinowa-grants", f"DTSTAMP:{stamp}",
                       f"DTSTART;VALUE=DATE:{day.strftime('%Y%m%d')}", f"DTEND;VALUE=DATE:{(day + timedelta(days=1)).strftime('%Y%m%d')}",
-                      f"SUMMARY:{_ics_escape(summary)}", f"DESCRIPTION:{desc}"] + ([f"URL:{link}"] if link else []) + ["END:VEVENT"]
+                      f"SUMMARY:{_ics_escape(summary)}", f"DESCRIPTION:{desc}", "TRANSP:TRANSPARENT"] + ([f"URL:{link}"] if link else []) + ["END:VEVENT"]
     lines.append("END:VCALENDAR")
     (out / "grants.ics").write_text("\r\n".join(_ics_fold(l) for l in lines) + "\r\n", encoding="utf-8")
 
@@ -191,6 +192,7 @@ def build_all(grants: list[dict], new_urls: set[str], today: date, now: datetime
     report = build_report(grants, new_urls, today, now, out, profile["closing_soon_days"])
     build_json(grants, out)
     build_ics(grants, today, now, out, profile["alarm_days_before"])
+    build_subscribe(out, now, profile.get("pages_base_url", "https://nexa-eng.github.io/ukinowa-grants"))
     return report
 
 
@@ -217,3 +219,21 @@ def build_collected(collected: list[dict], today: date, now: datetime, out: Path
     files = sorted((f for f in d.glob("*.html") if f.name != "index.html"), reverse=True)
     links = "\n".join(f'<li><a href="./{f.name}">{f.stem}</a></li>' for f in files)
     (d / "index.html").write_text(_page("収集ログ一覧", f"<h1>収集ログ一覧</h1><ul>{links}</ul>", now, depth=1), encoding="utf-8")
+
+
+def build_subscribe(out: Path, now: datetime, base_url: str) -> None:
+    """カレンダー購読の案内ページ。取り込み（コピー）ではなく購読（自動更新）を勧める。"""
+    ics_https = f"{base_url}/grants.ics"
+    ics_webcal = ics_https.replace("https://", "webcal://", 1)
+    body = f"""<h1>カレンダーの購読のしかた</h1>
+<p>「購読」にすると、毎週月曜の更新が自動で手元のカレンダーに反映されます。ファイルを開いて取り込む方法はその時点のコピーで、以後は更新されません。</p>
+<h2>Google カレンダー（パソコンの Web 版で1回だけ設定）</h2>
+<ol><li>左の「他のカレンダー」の「+」→「URL で追加」</li><li>次の URL を貼る: <code>{_esc(ics_https)}</code></li><li>「カレンダーを追加」。スマホの Google カレンダーにも自動で出ます</li></ol>
+<h2>iPhone・iPad</h2>
+<ol><li>設定 → カレンダー → アカウント → アカウントを追加 → その他 → 照会カレンダーを追加</li><li>サーバーに次の URL を貼る: <code>{_esc(ics_https)}</code></li></ol>
+<h2>Mac のカレンダー</h2>
+<ol><li>ファイル → 新規照会カレンダー に次の URL を貼る: <code>{_esc(ics_https)}</code></li><li>または <a href="{_esc(ics_webcal)}">このリンク（webcal）</a> を開く</li></ol>
+<p class="muted">「ファイル → 読み込む」で Google のカレンダーに入れようとするとエラーになることがあります。上の「照会」を使ってください。</p>
+<h2>内容</h2>
+<p>締切の当日と、21日前・7日前に終日の予定として出ます。締切が過ぎたものは次の更新で消えます。</p>"""
+    (out / "subscribe.html").write_text(_page("カレンダーの購読のしかた", body, now), encoding="utf-8")

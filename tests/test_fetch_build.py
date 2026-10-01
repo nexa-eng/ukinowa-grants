@@ -43,6 +43,8 @@ def test_build_all_writes_outputs_and_filters(tmp_path: Path):
     assert [g["url"] for g in data] == ["https://a.jp/1"]
     ics = (tmp_path / "grants.ics").read_text()
     assert ics.count("BEGIN:VEVENT") == 3 and "DTSTART;VALUE=DATE:20261120" in ics
+    assert "METHOD:PUBLISH" in ics and "DTSTAMP:20260930T200000Z" in ics
+    assert (tmp_path / "subscribe.html").exists()
     build_collected([{"source_name": "S", "title": "t", "url": "https://a.jp/1", "decision": "助成", "fit_score": 80, "public_ok": True},
                      {"source_name": "S", "title": "hidden", "url": "https://a.jp/3", "decision": "判定へ", "fit_score": None, "public_ok": False}],
                     today, now, tmp_path)
