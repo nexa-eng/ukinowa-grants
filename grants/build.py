@@ -29,6 +29,7 @@ nav a{margin-right:14px;color:var(--accent-ink)}
 .score{font-weight:700;color:var(--primary)}
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.filters button{border:1px solid var(--line);background:var(--surface);color:var(--text);padding:5px 12px;border-radius:999px;cursor:pointer;font-size:13px}
 .filters button[aria-pressed="true"]{background:var(--primary);color:#fff;border-color:var(--primary)}
+.foot{margin-top:40px;padding-top:14px;border-top:1px solid var(--line)}.foot p{margin:4px 0}.foot a{color:var(--accent-ink)}
 """
 
 
@@ -91,7 +92,10 @@ def _page(title: str, body: str, generated: datetime, depth: int = 0) -> str:
 <p class="kicker">うきのわ 助成金カレンダー</p>
 <nav><a href="{rel}index.html">募集中の一覧</a><a href="{rel}reports/index.html">週報</a><a href="{rel}collected/index.html">収集ログ</a><a href="{rel}grants.ics">カレンダー購読（ics）</a><a href="{rel}grants.json">データ（JSON）</a></nav>
 {body}
-<p class="muted" style="margin-top:36px">生成: {generated.strftime('%Y-%m-%d %H:%M')} JST。情報源の公開情報を自動収集し AI が整理したものです。応募の可否は必ず公式ページで確認してください。データは <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY 4.0</a>、仕組みは <a href="https://github.com/nexa-eng/ukinowa-grants">MIT（GitHub）</a>。</p>
+<footer class="foot">
+<p class="muted">生成: {generated.strftime('%Y-%m-%d %H:%M')} JST。情報源の公開情報を自動収集し AI が整理したものです。応募の可否・締切・条件は必ず公式ページで確認してください。助成情報の権利は、それぞれの財団・自治体・団体にあります。</p>
+<p class="muted">&copy; 2026 <a href="https://nexa-eng.com/">Nexa Engineering株式会社</a>（企画・開発・運用）。仕組みは <a href="https://github.com/nexa-eng/ukinowa-grants">MIT ライセンス（GitHub）</a>、このページのデータは <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY 4.0</a>（出典「うきのわ 助成金カレンダー（Nexa Engineering）」の表示で転載・加工可）。「うきのわ」の名称は団体のものです。</p>
+</footer>
 </div>
 <script>
 document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{{
