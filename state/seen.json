@@ -1,4 +1,54 @@
 {
+ "https://fields.canpan.info/grant/?page=1&sort=end&dir=desc": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://fields.canpan.info/grant/?page=1&sort=start&dir=desc": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://fields.canpan.info/help/grant4.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://fields.canpan.info/organization/detail/1074441401": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://fields.canpan.info/organization/detail/1114656539": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://fields.canpan.info/organization/detail/1538011527": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://fields.canpan.info/organization/detail/1585986308": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://fields.canpan.info/organization/detail/1607134168": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://fields.canpan.info/organization/detail/1674414923": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://fields.canpan.info/organization/detail/1729733558": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://j-net21.smrj.go.jp/snavi/articles/191756": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -99,10 +149,45 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.akaihane.or.jp/chuo/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/contact/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/english/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/find/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/kouken/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.akaihane.or.jp/news/50236/": {
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.akaihane.or.jp/privacypolicy/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/saigai-news/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.akaihane.or.jp/saigai-news/42884/": {
   "first_seen": "2026-10-01",
@@ -169,6 +254,26 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.akaihane.or.jp/saigai-news/vorasapo/49832/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/saigai-news/vorasapo/50023/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/sitemap/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/subsidies/sub-corp-prog/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.akaihane.or.jp/subsidies/sub-corp-prog/43338/": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -198,6 +303,11 @@
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.akaihane.or.jp/subsidies/sub-kikin/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.akaihane.or.jp/subsidies/sub-kikin/45146/": {
   "first_seen": "2026-10-01",
@@ -239,6 +349,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.akaihane.or.jp/subsidies/sub-orther/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.akaihane.or.jp/subsidies/sub-orther/48527/": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -248,6 +363,31 @@
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.akaihane.or.jp/subsidies/sub-problem-solving/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/subsidies/sub-problem-solving/48645/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/subsidies/sub-visit-report/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/visit-report/01/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.akaihane.or.jp/visit-report/02/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.city.uki.kumamoto.jp/index.php": {
   "first_seen": "2026-10-01",
@@ -269,6 +409,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.city.uki.kumamoto.jp/toppage/furusato/2023809": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.city.uki.kumamoto.jp/toppage/gaiyo/shokai/2020525": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -284,15 +429,520 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.janpia.or.jp/3642/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/about/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/about/message/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/about/organization/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/about/rule/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/about/toc/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/activities/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/activities/evaluation/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/activities/event/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/activities/operations/compliance/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/category/press/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/dormant-deposits/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/dormant-deposits/audit/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/dormant-deposits/examine/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/dormant-deposits/ongoing/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/dormant-deposits/result/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/dormant-deposits/system/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/en/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20241029_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20241031_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20241031_02.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20241031_03.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20241031_04.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20241129_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20241225_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250117_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250331_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250403_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250529_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250610_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.janpia.or.jp/news/janpia/notice/news_20250611_01.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250703_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250821_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250821_02.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250912_01.html-2": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250917_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20250925_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20251110_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20251224_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20251224_02.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260121_02.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260218_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260330_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260331_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260416_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260427_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260508_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.janpia.or.jp/news/janpia/notice/news_20260525_01.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260529_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260615_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260624_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260625_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260629_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260703_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260707_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260709_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260716_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260724_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260824_01": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260826_01": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260910_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20260929_01": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20241106_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20241108_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20250120_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_2025020_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20250307_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20250624_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20250901_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20250902_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20251002_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20251014_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20251113_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20251215_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20251223_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20251225_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260109_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260115_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260119_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260121_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260130_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260219_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260220_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260225_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260302_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260318_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260324_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260331_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260331_02.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260407_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260511_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260515_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260623_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260714_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260803_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/news/janpia/press/news_20260914_01.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/other/accessibility/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/other/compliance/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/other/media/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/other/news/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/other/news/koubo_about.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/other/privacy/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.janpia.or.jp/other/sns-policy/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.kvoad.com/2024/12/lne.html": {
   "first_seen": "2026-10-01",
@@ -404,10 +1054,125 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.nippon-foundation.or.jp/contact": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/donation/kifusha-supporter": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/donation/kigyou-dantai": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/grant_application/guidebooks": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/grant_application/past": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/journal/2025/116063/academy": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/journal/2025/116146/academy": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/journal/2025/116161/academy": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/journal/2025/116200/education": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/journal/2025/116227/academy": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/journal/2025/116713/academy": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/journal/about": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/journal/all": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/privacy": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/sitemap": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/usage": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/web_accessibility": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/what/projects": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/who": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/who/introduction": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.nippon-foundation.or.jp/who/message": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.parea.pref.kumamoto.jp/2026/08/18/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6%ef%bc%882026%e5%b9%b4%e5%ba%a6%ef%bc%89%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e3%82%ab%e3%83%ac%e3%83%83%e3%82%b8%e3%83%91%e3%83%ac%e3%82%a2-4/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.parea.pref.kumamoto.jp/2026/08/18/%e7%94%b7%e5%a5%b3%e5%85%b1%e5%90%8c%e5%8f%82%e7%94%bbin%e3%83%91%e3%83%ac%e3%82%a2%e3%80%80%e5%a5%b3%e6%80%a7%e3%81%ae%e3%81%9f%e3%82%81%e3%81%ae%e6%b3%95%e5%be%8b%e8%ac%9b%e5%ba%a7%e3%80%80%e3%80%8c/": {
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.parea.pref.kumamoto.jp/2026/08/26/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6%ef%bc%882026%e5%b9%b4%e5%ba%a6%ef%bc%89%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e3%82%ab%e3%83%ac%e3%83%83%e3%82%b8%e4%b8%bb%e5%82%ac%e8%ac%9b-4/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.parea.pref.kumamoto.jp/2026/09/02/%e3%81%bf%e3%81%a6%e3%81%bf%e3%81%a6%ef%bd%9e%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e5%ba%a6%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e3%82%ab%e3%83%ac%e3%83%83%e3%82%b8%e4%b8%bb%e5%82%ac/": {
   "first_seen": "2026-10-01",
@@ -443,6 +1208,21 @@
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.parea.pref.kumamoto.jp/2026/09/16/%e3%80%8c%e3%83%9c%e3%83%a9%e3%83%b3%e3%83%86%e3%82%a3%e3%82%a2%e3%82%bb%e3%83%9f%e3%83%8a%e3%83%bc%e3%80%8d%e5%8f%82%e5%8a%a0%e5%8b%9f%e9%9b%86%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.parea.pref.kumamoto.jp/2026/09/19/%e3%80%90%e5%8f%82%e5%8a%a0%e7%84%a1%e6%96%99%e3%83%bb%e5%ae%9a%e5%93%a120%e5%90%8d%e3%80%9110-21%e3%82%b9%e3%82%bf%e3%83%bc%e3%83%88%e3%80%8cnpo%e7%b5%84%e7%b9%94%e5%9f%ba%e7%9b%a4%e5%bc%b7%e5%8c%96/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.parea.pref.kumamoto.jp/2026/09/25/%e3%80%8c%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8-%e3%83%9f%e3%83%a9%e3%82%a4%e3%83%bb%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2%e3%83%a9%e3%83%9c%e3%80%8d%e5%8f%82%e5%8a%a0%e8%80%85%e5%8b%9f%e9%9b%86%e3%81%ae/": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.parea.pref.kumamoto.jp/2026/09/25/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6%ef%bc%882026%e5%b9%b4%e5%ba%a6%ef%bc%89%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e3%82%ab%e3%83%ac%e3%83%83%e3%82%b8%e4%b8%bb%e5%82%ac%e8%ac%9b-5/": {
   "first_seen": "2026-10-01",
@@ -589,6 +1369,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/103/280729.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.pref.kumamoto.jp/soshiki/105/278370.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -618,6 +1403,11 @@
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/117/113336.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.pref.kumamoto.jp/soshiki/117/254610.html": {
   "first_seen": "2026-10-01",
@@ -724,6 +1514,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/27/280170.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.pref.kumamoto.jp/soshiki/28/281357.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -749,6 +1544,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/33/187207.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.pref.kumamoto.jp/soshiki/33/244751.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -758,6 +1558,11 @@
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/35/280388.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.pref.kumamoto.jp/soshiki/39/278448.html": {
   "first_seen": "2026-10-01",
@@ -803,6 +1608,11 @@
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/51/280731.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.pref.kumamoto.jp/soshiki/52/280179.html": {
   "first_seen": "2026-10-01",
@@ -868,6 +1678,11 @@
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/71/108251.html": {
+  "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.pref.kumamoto.jp/soshiki/74/281065.html": {
   "first_seen": "2026-10-01",
