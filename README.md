@@ -2,10 +2,10 @@
 
 熊本県宇城市の市民活動団体「うきのわ」のために、非営利団体向けの助成金・補助金の情報を毎週月曜の朝に自動で集め、整理して届ける仕組みです。
 
-- **募集中の一覧**: https://nexa-eng.github.io/ukinowa-grants/
-- **週報**: https://nexa-eng.github.io/ukinowa-grants/reports/
-- **カレンダー購読**: https://nexa-eng.github.io/ukinowa-grants/grants.ics（スマホのカレンダーに登録すると、締切の21日前と7日前に予定として出ます）
-- **データ**: https://nexa-eng.github.io/ukinowa-grants/grants.json
+- **募集中の一覧**: <https://nexa-eng.github.io/ukinowa-grants/>
+- **週報**: <https://nexa-eng.github.io/ukinowa-grants/reports/>
+- **カレンダー購読**: <https://nexa-eng.github.io/ukinowa-grants/grants.ics> （スマホのカレンダーに登録すると、締切の21日前と7日前に予定として出ます）
+- **データ**: <https://nexa-eng.github.io/ukinowa-grants/grants.json>
 
 ## 使い方（受け取る側）
 
