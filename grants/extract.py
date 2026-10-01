@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import re
 from datetime import date
+from urllib.parse import urlparse
 
 import anthropic
 
@@ -67,9 +68,15 @@ def prefilter(item: RawItem, src: dict, profile: dict) -> bool:
         return False
     if src.get("region_filter") and not any(r in text for r in src["region_filter"]):
         return False
+    keyword_hit = any(k in text for k in profile["prefilter_keywords"])
     if src.get("dedicated"):
-        return True
-    return any(k in text for k in profile["prefilter_keywords"])
+        if src.get("kind") != "html":
+            return True
+        # 専用ページ型: 情報源の配下のパスにあるリンクか、助成の語を含むリンクだけ（メニュー・フッターを AI に回さない）
+        base_path = urlparse(src["url"]).path.rstrip("/")
+        under_base = bool(base_path) and urlparse(item.url).path.startswith(base_path)
+        return under_base or keyword_hit
+    return keyword_hit
 
 
 def rule_based(item: RawItem, page_text: str, today: date) -> dict:
