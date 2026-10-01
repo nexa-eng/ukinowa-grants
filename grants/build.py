@@ -90,7 +90,7 @@ def _page(title: str, body: str, generated: datetime, depth: int = 0) -> str:
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
 <title>{_esc(title)}</title><style>{CSS}</style></head><body><div class="wrap">
 <p class="kicker">うきのわ 助成金カレンダー</p>
-<nav><a href="{rel}index.html">募集中の一覧</a><a href="{rel}reports/index.html">週報</a><a href="{rel}collected/index.html">収集ログ</a><a href="{rel}grants.ics">カレンダー（ics）</a><a href="{rel}subscribe.html">購読のしかた</a><a href="{rel}grants.json">データ（JSON）</a></nav>
+<nav><a href="{rel}index.html">募集中の一覧</a><a href="{rel}reports/index.html">週報</a><a href="{rel}collected/index.html">収集ログ</a><a href="{rel}subscribe.html">カレンダー登録</a><a href="{rel}grants.json">データ（JSON）</a></nav>
 {body}
 <footer class="foot">
 <p class="muted">生成: {generated.strftime('%Y-%m-%d %H:%M')} JST。情報源の公開情報を自動収集し AI が整理したものです。応募の可否・締切・条件は必ず公式ページで確認してください。助成情報の権利は、それぞれの財団・自治体・団体にあります。</p>
@@ -225,7 +225,7 @@ def build_subscribe(out: Path, now: datetime, base_url: str) -> None:
     """カレンダー購読の案内ページ。取り込み（コピー）ではなく購読（自動更新）を勧める。"""
     ics_https = f"{base_url}/grants.ics"
     ics_webcal = ics_https.replace("https://", "webcal://", 1)
-    body = f"""<h1>カレンダーの購読のしかた</h1>
+    body = f"""<h1>カレンダー登録</h1>
 <p>「購読」にすると、毎週月曜の更新が自動で手元のカレンダーに反映されます。ファイルを開いて取り込む方法はその時点のコピーで、以後は更新されません。</p>
 <h2>Google カレンダー（パソコンの Web 版で1回だけ設定）</h2>
 <ol><li>左の「他のカレンダー」の「+」→「URL で追加」</li><li>次の URL を貼る: <code>{_esc(ics_https)}</code></li><li>「カレンダーを追加」。スマホの Google カレンダーにも自動で出ます</li></ol>
@@ -236,4 +236,4 @@ def build_subscribe(out: Path, now: datetime, base_url: str) -> None:
 <p class="muted">「ファイル → 読み込む」で Google のカレンダーに入れようとするとエラーになることがあります。上の「照会」を使ってください。</p>
 <h2>内容</h2>
 <p>締切の当日と、21日前・7日前に終日の予定として出ます。締切が過ぎたものは次の更新で消えます。</p>"""
-    (out / "subscribe.html").write_text(_page("カレンダーの購読のしかた", body, now), encoding="utf-8")
+    (out / "subscribe.html").write_text(_page("カレンダー登録", body, now), encoding="utf-8")
