@@ -11,7 +11,7 @@ h2{font-size:19px;color:var(--ink);margin:28px 0 10px;border-left:4px solid var(
 .kicker{font-size:12px;letter-spacing:.16em;color:var(--accent-ink);font-weight:700}.muted{color:var(--muted);font-size:13px}
 nav a{margin-right:14px;color:var(--accent-ink)}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:10px 0}
-.card h3{margin:0 0 6px;font-size:16px;color:var(--ink)}.card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.card h3{margin:0 0 6px;font-size:16px;color:var(--ink)}.card.slim{padding:10px 14px;margin:8px 0}.card.slim h3{font-size:14.5px;line-height:1.5}.card.slim .row{font-size:12.5px}.card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{text-decoration:underline}
 .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
 .chip{display:inline-block;font-size:11.5px;padding:1px 9px;border-radius:4px;font-weight:700}
 .chip.ok{background:var(--wash);color:var(--accent-ink)}.chip.warn{background:var(--warn-bg);color:var(--warn-fg)}.chip.p{background:var(--sunken);color:var(--text);border:1px solid var(--line)}
@@ -24,7 +24,7 @@ nav a{margin-right:14px;color:var(--accent-ink)}
 <nav><a href="../index.html">募集中の一覧</a><a href="../reports/index.html">週報</a><a href="../collected/index.html">収集ログ</a><a href="../subscribe.html">カレンダー登録</a><a href="../grants.json">データ（JSON）</a></nav>
 <h1>収集ログ一覧</h1><ul><li><a href="./2026-10-01.html">2026-10-01</a></li></ul>
 <footer class="foot">
-<p class="muted">生成: 2026-10-01 15:47 JST。情報源の公開情報を自動収集し AI が整理したものです。応募の可否・締切・条件は必ず公式ページで確認してください。助成情報の権利は、それぞれの財団・自治体・団体にあります。</p>
+<p class="muted">生成: 2026-10-01 16:17 JST。情報源の公開情報を自動収集し AI が整理したものです。応募の可否・締切・条件は必ず公式ページで確認してください。助成情報の権利は、それぞれの財団・自治体・団体にあります。</p>
 <p class="muted">&copy; 2026 <a href="https://nexa-eng.com/">Nexa Engineering株式会社</a>（企画・開発・運用）。仕組みは <a href="https://github.com/nexa-eng/ukinowa-grants">MIT ライセンス（GitHub）</a>、このページのデータは <a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BY 4.0</a>（出典「うきのわ 助成金カレンダー（Nexa Engineering）」の表示で転載・加工可）。「うきのわ」の名称は団体のものです。</p>
 </footer>
 </div>
@@ -32,5 +32,9 @@ nav a{margin-right:14px;color:var(--accent-ink)}
 document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{
   const p=b.dataset.p;document.querySelectorAll('.filters button').forEach(x=>x.setAttribute('aria-pressed',x===b));
   document.querySelectorAll('.card[data-programs]').forEach(c=>{c.style.display=(p==='all'||c.dataset.programs.split(' ').includes(p))?'':'none'});
+}));
+document.querySelectorAll('.filters button[data-d]').forEach(b=>b.addEventListener('click',()=>{
+  const d=b.dataset.d;document.querySelectorAll('.filters button[data-d]').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  document.querySelectorAll('.card[data-d]').forEach(c=>{c.style.display=(d==='all'||c.dataset.d===d)?'':'none'});
 }));
 </script></body></html>
