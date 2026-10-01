@@ -22,7 +22,7 @@ h2{font-size:19px;color:var(--ink);margin:28px 0 10px;border-left:4px solid var(
 .kicker{font-size:12px;letter-spacing:.16em;color:var(--accent-ink);font-weight:700}.muted{color:var(--muted);font-size:13px}
 nav a{margin-right:14px;color:var(--accent-ink)}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:10px 0}
-.card h3{margin:0 0 6px;font-size:16px;color:var(--ink)}.card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.card h3{margin:0 0 6px;font-size:16px;color:var(--ink)}.card.slim{padding:10px 14px;margin:8px 0}.card.slim h3{font-size:14.5px;line-height:1.5}.card.slim .row{font-size:12.5px}.card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{text-decoration:underline}
 .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
 .chip{display:inline-block;font-size:11.5px;padding:1px 9px;border-radius:4px;font-weight:700}
 .chip.ok{background:var(--wash);color:var(--accent-ink)}.chip.warn{background:var(--warn-bg);color:var(--warn-fg)}.chip.p{background:var(--sunken);color:var(--text);border:1px solid var(--line)}
@@ -101,6 +101,10 @@ def _page(title: str, body: str, generated: datetime, depth: int = 0) -> str:
 document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{{
   const p=b.dataset.p;document.querySelectorAll('.filters button').forEach(x=>x.setAttribute('aria-pressed',x===b));
   document.querySelectorAll('.card[data-programs]').forEach(c=>{{c.style.display=(p==='all'||c.dataset.programs.split(' ').includes(p))?'':'none'}});
+}}));
+document.querySelectorAll('.filters button[data-d]').forEach(b=>b.addEventListener('click',()=>{{
+  const d=b.dataset.d;document.querySelectorAll('.filters button[data-d]').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  document.querySelectorAll('.card[data-d]').forEach(c=>{{c.style.display=(d==='all'||c.dataset.d===d)?'':'none'}});
 }}));
 </script></body></html>"""
 
@@ -197,28 +201,38 @@ def build_all(grants: list[dict], new_urls: set[str], today: date, now: datetime
 
 
 def build_collected(collected: list[dict], today: date, now: datetime, out: Path) -> None:
-    """判定前の全件（収集ログ）。見逃しの点検に使う。"""
+    """判定前の全件（収集ログ）。見逃しの点検に使う。カード表示でスマホでも読める。"""
     d = out / "collected"
     d.mkdir(parents=True, exist_ok=True)
-    order = {"助成": 0, "既知（助成）": 1, "判定へ": 2, "助成ではない": 3, "既知（助成ではない）": 4, "規則で除外": 5, "既知（除外）": 6}
+    order = {"助成": 0, "既知（助成）": 1, "判定へ": 2, "再確認": 2, "助成ではない": 3, "既知（助成ではない）": 4,
+             "規則で除外": 5, "既知（除外）": 6, "取得不可（諦め）": 7, "既知（取得不可）": 7, "重複（同じ回で既出）": 8}
+    chip_class = {"助成": "ok", "既知（助成）": "ok", "判定へ": "warn", "再確認": "warn"}
     rows = sorted((r for r in collected if r.get("public_ok", True)),
                   key=lambda r: (order.get(r.get("decision") or "", 9), r["source_name"], r["title"]))
     counts: dict[str, int] = {}
     for r in rows:
-        counts[r.get("decision") or "不明"] = counts.get(r.get("decision") or "不明", 0) + 1
-    summary = " ".join(f'<span class="chip p">{_esc(k)} {v}</span>' for k, v in counts.items())
-    trs = "\n".join(
-        f"<tr><td>{_esc(r['source_name'])}</td><td>{(f'<a href=\"{_esc(safe_url(r['url']))}\" target=\"_blank\" rel=\"noopener\">{_esc(r['title'])}</a>' if safe_url(r['url']) else _esc(r['title']))}</td>"
-        f"<td class=\"dec\">{_esc(r.get('decision') or '')}</td><td class=\"sc\">{'' if r.get('fit_score') is None else r['fit_score']}</td></tr>"
-        for r in rows)
-    body = (f"<h1>収集ログ {today.isoformat()}（{len(rows)}件）</h1>"
+        k = r.get("decision") or "不明"
+        counts[k] = counts.get(k, 0) + 1
+    filters = '<div class="filters"><button data-d="all" aria-pressed="true">すべて ' + str(len(rows)) + '</button>' + "".join(
+        f'<button data-d="{_esc(k)}" aria-pressed="false">{_esc(k)} {v}</button>'
+        for k, v in sorted(counts.items(), key=lambda kv: order.get(kv[0], 9))) + "</div>"
+    cards = []
+    for r in rows:
+        dec = r.get("decision") or "不明"
+        url = safe_url(r["url"])
+        title = f'<a href="{_esc(url)}" target="_blank" rel="noopener">{_esc(r["title"])}</a>' if url else _esc(r["title"])
+        score = "" if r.get("fit_score") is None else f'<span class="score">合う度 {_score(r)}</span>'
+        cards.append(
+            f'<div class="card slim" data-d="{_esc(dec)}"><h3>{title}</h3>'
+            f'<div class="row"><span class="chip {chip_class.get(dec, "p")}">{_esc(dec)}</span>{score}<span>{_esc(r["source_name"])}</span></div></div>')
+    body = (f"<h1>収集ログ {today.isoformat()}</h1>"
             f"<p class='muted'>情報源から拾った全件と、規則と AI の判断。「知っていた助成が出ていない」を見つけるための一覧です。</p>"
-            f"<div class='row' style='margin:10px 0'>{summary}</div>"
-            f"<div class='tbl'><table><thead><tr><th style='min-width:9em'>情報源</th><th>見出し</th><th class='dec'>判断</th><th class='sc'>合う度</th></tr></thead><tbody>{trs}</tbody></table></div>")
+            f"{filters}" + "\n".join(cards))
     (d / f"{today.isoformat()}.html").write_text(_page(f"収集ログ {today.isoformat()}", body, now, depth=1), encoding="utf-8")
     files = sorted((f for f in d.glob("*.html") if f.name != "index.html"), reverse=True)
     links = "\n".join(f'<li><a href="./{f.name}">{f.stem}</a></li>' for f in files)
     (d / "index.html").write_text(_page("収集ログ一覧", f"<h1>収集ログ一覧</h1><ul>{links}</ul>", now, depth=1), encoding="utf-8")
+
 
 
 def build_subscribe(out: Path, now: datetime, base_url: str) -> None:
