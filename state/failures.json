@@ -1,12 +1,12 @@
 {
  "https://www.7midori.org/katsudo/support/leader/bosyuyoko/": {
-  "count": 1,
+  "count": 2,
   "kind": "fetch",
-  "last": "2026-10-01"
+  "last": "2026-10-05"
  },
  "https://www.post.japanpost.jp/kifu/nenga/index.html": {
-  "count": 1,
+  "count": 2,
   "kind": "fetch",
-  "last": "2026-10-01"
+  "last": "2026-10-05"
  }
 }

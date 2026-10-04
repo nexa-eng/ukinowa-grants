@@ -1,18 +1,18 @@
 {
  "eval_failed": 2,
- "evaluated": 85,
+ "evaluated": 7,
  "exit_code": 0,
- "grants_added": 34,
- "items": 991,
- "new": 573,
- "prefiltered": 87,
- "ran_at": "2026-10-01T16:23:21.917817+09:00",
- "report_url": "https://nexa-eng.github.io/ukinowa-grants/reports/2026-10-01.html",
+ "grants_added": 5,
+ "items": 1027,
+ "new": 99,
+ "prefiltered": 9,
+ "ran_at": "2026-10-05T07:51:36.620943+09:00",
+ "report_url": "https://nexa-eng.github.io/ukinowa-grants/reports/2026-10-05.html",
  "sources_failed": [],
  "sources_ok": 23,
  "usage": {
-  "cache_read_input_tokens": 249564,
-  "input_tokens": 189268,
-  "output_tokens": 45423
+  "cache_read_input_tokens": 20190,
+  "input_tokens": 18584,
+  "output_tokens": 4265
  }
 }
