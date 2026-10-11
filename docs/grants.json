@@ -1,44 +1,88 @@
 [
  {
-  "amount_max_yen": 300000,
-  "amount_note": "1団体あたり上限30万円で、助成総額は4,500万円です。原則1年限りの助成です。自己資金は必須ではありません。団体メンバーの人件費、事務所の家賃、設備工事、車両購入には使えません。物品購入だけの申し込みも対象外です。",
-  "apply_url": "https://foundation.kirinholdings.com/subsidy/r9/index.html",
-  "deadline": "2026-10-31",
-  "deadline_note": "受付期間は令和8年9月9日〜10月31日で、当日の消印まで有効です。郵送のみで、メールやファックスでは申し込めません。",
+  "is_grant_program": true,
+  "title": "ボラサポ・令和8年熊本地震 第2回助成（2026年10月中旬公募予定）",
+  "provider": "社会福祉法人中央共同募金会（赤い羽根共同募金）",
+  "summary": "令和8年熊本地震で被災した方々を支えるボランティアグループやNPOなどの支援活動にかかる費用を助成するものです。対象期間中であれば、すでに終わった活動も応募できます。",
+  "deadline": null,
+  "deadline_note": "第2回助成の公募は10月中旬に始まる予定です。締切などの詳細はまだ発表されていません。応募は「e応募」から行い、事前の団体登録が必要です。",
+  "amount_max_yen": null,
+  "amount_note": "金額は未発表です。",
   "eligible_types": [
    "任意団体",
-   "NPO法人",
-   "一般社団法人",
-   "その他の団体・グループ（4名以上）"
+   "ボランティアグループ",
+   "NPO法人"
   ],
-  "first_seen": "2026-10-01",
+  "region_scope": "熊本県",
+  "themes": [
+   "災害",
+   "復興",
+   "被災者支援",
+   "ボランティア",
+   "熊本地震"
+  ],
+  "fit_programs": [
+   "01"
+  ],
+  "fit_score": 85,
+  "fit_reason": "令和8年熊本地震の被災者支援に使える助成で、任意団体も応募できるため、うきのわの震災復興支援に直結します。詳細は10月中旬に発表されるので、今のうちに団体登録（会則と5名以上の名簿）を済ませ、活動費の団体名義の領収書を保管しておくことをおすすめします。",
+  "apply_url": "https://www.akaihane.or.jp/saigai-news/50401/",
+  "program_key": "中央共同募金会|ボラサポ・令和8年熊本地震",
+  "url": "https://www.akaihane.or.jp/saigai-news/50401/",
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-10-12",
+  "last_checked": "2026-10-12",
+  "status": "open",
+  "also_at": [],
+  "decide_by": null
+ },
+ {
+  "is_grant_program": true,
+  "title": "キリン福祉財団 令和9年度「キリン・地域のちから応援事業」公募助成",
+  "provider": "公益財団法人キリン福祉財団",
+  "summary": "子ども・子育て世代、高齢者、障害や困りごとのある人を元気にする活動や、地域のつながりづくり・災害復興などのボランティア活動に使える助成金です。活動期間は2027年4月1日から2028年3月31日までです。",
+  "deadline": "2026-10-31",
+  "deadline_note": "受付期間は2026年9月9日〜10月31日で、当日消印有効です。",
+  "amount_max_yen": 300000,
+  "amount_note": "1件（1団体）あたりの上限は30万円です。総額は4,500万円です。",
+  "eligible_types": [
+   "任意団体",
+   "4名以上のメンバーが活動する団体・グループ"
+  ],
+  "region_scope": "全国",
+  "themes": [
+   "子ども・子育て",
+   "高齢者",
+   "障害・困りごと",
+   "地域活性化",
+   "災害復興"
+  ],
   "fit_programs": [
    "05",
    "01",
-   "03",
-   "04"
+   "03"
   ],
-  "fit_reason": "法人格の有無は問われないため、4名以上で活動していれば任意団体のうきのわも応募できます。竹を使った世代交流（里山体験）や、震災復興・防災、地域拠点での居場所づくりに直接合いますが、行政の補助を受けている事業は対象外です。また、外部の推薦者による自筆の署名が必要で、締切（10月31日消印）まで約1か月しかないため、早めの準備が必要です。",
   "fit_score": 80,
-  "is_grant_program": true,
-  "last_checked": "2026-10-01",
-  "provider": "公益財団法人 キリン福祉財団",
+  "fit_reason": "4名以上の団体なら任意団体でも応募でき、竹を使った世代交流や地震からの復興、地域拠点でのつながりづくりに合っています。ただし締切の10月31日まで3週間ほどしかないため、すぐに準備を始める必要があります。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2285",
+  "program_key": "キリン福祉財団|キリン・地域のちから応援事業",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2285",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "source_dedicated": true,
   "public_ok": true,
-  "region_scope": "全国",
-  "source_id": "kirin-fukushi",
-  "source_name": "キリン福祉財団 助成のご案内",
+  "first_seen": "2026-10-12",
+  "last_checked": "2026-10-12",
   "status": "open",
-  "summary": "子ども、高齢者、障害のある人などの暮らしを良くするボランティア活動や、地域を元気にする活動、災害復興・防災の活動に使える助成です。居場所づくり、世代間の交流、自然・農業体験、見守りなどの活動費（交通費、消耗品、会場費、講師謝礼など）に使えます。",
-  "themes": [
-   "地域活性化",
-   "多世代交流",
-   "子ども",
-   "高齢者",
-   "災害復興・防災"
+  "also_at": [
+   {
+    "source_name": "キリン福祉財団 助成のご案内",
+    "url": "https://foundation.kirinholdings.com/subsidy/r9/index.html"
+   }
   ],
-  "title": "令和9年度 キリン・地域のちから応援事業 公募助成",
-  "url": "https://foundation.kirinholdings.com/subsidy/r9/index.html",
-  "also_at": [],
   "decide_by": "2026-10-10"
  },
  {
@@ -84,6 +128,46 @@
    }
   ],
   "decide_by": null
+ },
+ {
+  "is_grant_program": true,
+  "title": "2026年度子どもサポート基金（熊本地震支援）",
+  "provider": "公益財団法人子ども未来支援財団",
+  "summary": "令和熊本地震で被災した子どもたちを支える活動に使える助成金です。心と体の健康を保つ取り組み、不安をやわらげる取り組み、夏休みに代わる成長や休息の機会づくりなどが対象です。",
+  "deadline": "2026-10-19",
+  "deadline_note": "2026年10月19日（月）18時必着。申請書類はメールで提出します。",
+  "amount_max_yen": 3000000,
+  "amount_note": "上限300万円。対象期間は2026年11月（助成決定日）から2027年11月30日までの1年間です。",
+  "eligible_types": [
+   "熊本県内の団体（法人格の条件は本文に記載なし）"
+  ],
+  "region_scope": "熊本県",
+  "themes": [
+   "子ども",
+   "被災者支援",
+   "震災復興",
+   "心のケア",
+   "居場所"
+  ],
+  "fit_programs": [
+   "01",
+   "05",
+   "03"
+  ],
+  "fit_score": 72,
+  "fit_reason": "熊本地震で被災した子どもの支援が対象で、震災復興支援や竹を使った子ども向けの里山体験、居場所づくりに直結します。ただし、宇城市が災害救助法の適用を受けた10市10町1村に入っているか、任意団体が応募できるかが本文に書かれていないため、財団のホームページで確認が必要で、締切まで7日しかありません。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2287",
+  "program_key": "子ども未来支援財団|子どもサポート基金（熊本地震支援）",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2287",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-10-12",
+  "last_checked": "2026-10-12",
+  "status": "open",
+  "also_at": [],
+  "decide_by": "2026-09-28"
  },
  {
   "amount_max_yen": 800000,
@@ -324,6 +408,50 @@
   "url": "https://www.jbf.ne.jp/wp-content/uploads/site211/files/pdf/shien/jyoseikin32.pdf",
   "also_at": [],
   "decide_by": null
+ },
+ {
+  "is_grant_program": true,
+  "title": "公益財団法人大阪コミュニティ財団 2027年度助成",
+  "provider": "公益財団法人大阪コミュニティ財団（OCF）",
+  "summary": "1年以上の活動実績がある非営利団体が、2027年4月から2028年3月までに行う公益のための事業に使える助成金です。法人格がなくても応募できます。",
+  "deadline": "2026-11-24",
+  "deadline_note": "受付期間は2026年10月1日〜11月24日（当日消印有効）。郵送またはメールで申請します。",
+  "amount_max_yen": null,
+  "amount_note": "金額はこのページに書かれていません。財団のホームページで確認が必要です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "非営利団体（法人格不問）"
+  ],
+  "region_scope": "不明",
+  "themes": [
+   "公益事業",
+   "地域福祉",
+   "市民活動",
+   "非営利団体"
+  ],
+  "fit_programs": [
+   "01",
+   "02",
+   "03",
+   "04",
+   "05"
+  ],
+  "fit_score": 55,
+  "fit_reason": "法人格を問わないため任意団体のうきのわも応募でき、幅広い公益事業が対象なので震災復興や地域拠点の事業にも使える可能性があります。ただし「1年以上の活動実績」が条件で、対象地域や金額もこのページでは分からないため、財団のホームページで確認が必要です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283",
+  "program_key": "大阪コミュニティ財団|助成",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-10-12",
+  "last_checked": "2026-10-12",
+  "status": "open",
+  "also_at": [],
+  "decide_by": "2026-11-03"
  },
  {
   "amount_max_yen": 4000000,
@@ -656,44 +784,48 @@
   "decide_by": null
  },
  {
-  "amount_max_yen": 1000000,
-  "amount_note": "1団体あたり上限100万円（総額500万円）。原則1年間の助成で、内容によっては最長3年まで延長されることがあります。自己資金は問いません。",
-  "apply_url": "https://foundation.kirinholdings.com/subsidy/r9/fukushi.html",
+  "is_grant_program": true,
+  "title": "キリン福祉財団 令和9年度「キリン・福祉のちから開拓事業」公募助成",
+  "provider": "公益財団法人キリン福祉財団",
+  "summary": "全国や複数の都道府県にまたがる社会の課題に、長い目で取り組むボランティア活動を応援する助成です。障害者・高齢者・子どもや若者・地域社会の福祉を良くする事業に使えます。",
   "deadline": "2026-10-31",
-  "deadline_note": "受付期間は令和8年9月9日〜10月31日で、当日消印有効です。郵送のみ受け付けます。",
+  "deadline_note": "受付期間は令和8年9月9日〜10月31日で、当日の消印まで有効です。事業の実施期間は令和9年4月1日〜令和10年3月31日です。",
+  "amount_max_yen": 1000000,
+  "amount_note": "1件（1団体）あたり上限100万円で、総額は500万円です。",
   "eligible_types": [
    "任意団体",
-   "NPO法人",
-   "一般社団法人",
-   "その他法人"
+   "10名以上のメンバーが活動する団体・グループ"
   ],
-  "first_seen": "2026-10-01",
-  "fit_programs": [
-   "01",
-   "02",
-   "05"
-  ],
-  "fit_reason": "法人格は問われず10名以上の任意団体なら応募できますが、複数の都道府県にまたがる活動に限られ、熊本県内だけの活動は対象外です。宇城市内での活動なら、受付期間が同じ「キリン・地域のちから応援事業」の方が合っています。",
-  "fit_score": 30,
-  "is_grant_program": true,
-  "last_checked": "2026-10-01",
-  "provider": "公益財団法人キリン福祉財団",
-  "public_ok": true,
   "region_scope": "全国",
-  "source_id": "kirin-fukushi",
-  "source_name": "キリン福祉財団 助成のご案内",
-  "status": "open",
-  "summary": "障害者・高齢者・子ども・地域社会の福祉を高めるボランティア活動のうち、複数の都道府県にまたがって長い目で取り組む活動に助成します。交通費、消耗品、制作費、会場費、謝金などに使えます。",
   "themes": [
+   "障害者福祉",
+   "高齢者福祉",
+   "児童・青少年",
    "地域福祉",
-   "高齢者",
-   "子ども",
-   "障害者",
    "ボランティア"
   ],
-  "title": "令和9年度 キリン・福祉のちから開拓事業 公募助成",
-  "url": "https://foundation.kirinholdings.com/subsidy/r9/fukushi.html",
-  "also_at": [],
+  "fit_programs": [
+   "01",
+   "05"
+  ],
+  "fit_score": 30,
+  "fit_reason": "10名以上の団体なら任意団体でも応募できますが、この助成は複数の都道府県にまたがる取り組みに限られます。宇城市内での活動が中心のうきのわには、同じ財団の「キリン・地域のちから応援事業」のほうが合っています。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2286",
+  "program_key": "キリン福祉財団|キリン・福祉のちから開拓事業",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2286",
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-10-12",
+  "last_checked": "2026-10-12",
+  "status": "open",
+  "also_at": [
+   {
+    "source_name": "キリン福祉財団 助成のご案内",
+    "url": "https://foundation.kirinholdings.com/subsidy/r9/fukushi.html"
+   }
+  ],
   "decide_by": "2026-10-10"
  },
  {
