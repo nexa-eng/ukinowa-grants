@@ -7,7 +7,7 @@ X-WR-CALNAME:うきのわ 助成金の締切
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:6501696bb1bb1651-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:締切: キリン福祉財団 令和9年度「キリン・地域の
@@ -23,7 +23,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2285
 END:VEVENT
 BEGIN:VEVENT
 UID:6501696bb1bb1651-2@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:締切7日前: キリン福祉財団 令和9年度「キリン・
@@ -39,7 +39,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2285
 END:VEVENT
 BEGIN:VEVENT
 UID:f2d9689e64df1e07-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:締切: 2026年度子どもサポート基金（熊本地震支援
@@ -53,23 +53,8 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2287
 END:VEVENT
 BEGIN:VEVENT
-UID:f2d9689e64df1e07-2@ukinowa-grants
-DTSTAMP:20261011T232941Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-SUMMARY:締切7日前: 2026年度子どもサポート基金（熊本地震
- 支援）
-DESCRIPTION:令和熊本地震で被災した子どもたちを支える活
- 動に使える助成金です。心と体の健康を保つ取り組み
- 、不安をやわらげる取り組み、夏休みに代わる成長や
- 休息の機会づくりなどが対象です。\n上限: 300万円\nhttps
- ://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2287
-TRANSP:TRANSPARENT
-URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2287
-END:VEVENT
-BEGIN:VEVENT
 UID:f4cad137f57cad0c-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:締切: ニッセイ財団 2027年度「児童・少年の健全育
@@ -85,7 +70,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
 END:VEVENT
 BEGIN:VEVENT
 UID:f4cad137f57cad0c-1@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:締切21日前: ニッセイ財団 2027年度「児童・少年の
@@ -101,7 +86,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
 END:VEVENT
 BEGIN:VEVENT
 UID:f4cad137f57cad0c-2@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:締切7日前: ニッセイ財団 2027年度「児童・少年の
@@ -116,37 +101,8 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
 END:VEVENT
 BEGIN:VEVENT
-UID:00d3067323679afa-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:締切: 【助成情報】令和8年熊本地震の被災地での
- 活動助成など（KVOADによる助成金まとめ）
-DESCRIPTION:令和8年熊本地震の被災地での支援活動に使え
- る助成金や基金をまとめた案内です。被災したこども
- の居場所づくり、被災者支援・復興、ボランティア活
- 動、災害用キッチンカーの出動などに使える資金が紹
- 介されています。\n上限: —\nhttps://www.kvoad.com/2026/09/8.htm
- l
-TRANSP:TRANSPARENT
-URL:https://www.kvoad.com/2026/09/8.html
-END:VEVENT
-BEGIN:VEVENT
-UID:bef630401a9f2c43-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:締切: 令和8年熊本地震において被災したこどもの
- 居場所づくり支援事業
-DESCRIPTION:令和8年熊本地震で被災したこどもの居場所づ
- くりの取り組みを支援する事業です。\n上限: —\nhttps://
- logoform.jp/f/I7veq
-TRANSP:TRANSPARENT
-URL:https://logoform.jp/f/I7veq
-END:VEVENT
-BEGIN:VEVENT
 UID:3fdb1c695eb38c29-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:締切: 2027年度日本郵便年賀寄付金配分団体の公募
@@ -161,7 +117,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261
 END:VEVENT
 BEGIN:VEVENT
 UID:3fdb1c695eb38c29-1@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:締切21日前: 2027年度日本郵便年賀寄付金配分団体
@@ -177,7 +133,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261
 END:VEVENT
 BEGIN:VEVENT
 UID:3fdb1c695eb38c29-2@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:締切7日前: 2027年度日本郵便年賀寄付金配分団体の
@@ -193,7 +149,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261
 END:VEVENT
 BEGIN:VEVENT
 UID:3898ceb240cc4017-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:締切: 公益財団法人大阪コミュニティ財団 2027年度
@@ -207,7 +163,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283
 END:VEVENT
 BEGIN:VEVENT
 UID:3898ceb240cc4017-1@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:締切21日前: 公益財団法人大阪コミュニティ財団 20
@@ -221,7 +177,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283
 END:VEVENT
 BEGIN:VEVENT
 UID:3898ceb240cc4017-2@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:締切7日前: 公益財団法人大阪コミュニティ財団 202
@@ -235,7 +191,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283
 END:VEVENT
 BEGIN:VEVENT
 UID:5afe5ba22215809d-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:締切: セブン-イレブン記念財団 2027年度 環境市民
@@ -250,7 +206,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2235
 END:VEVENT
 BEGIN:VEVENT
 UID:5afe5ba22215809d-2@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:締切7日前: セブン-イレブン記念財団 2027年度 環境
@@ -264,8 +220,56 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2235
 END:VEVENT
 BEGIN:VEVENT
+UID:a17cfcf56de8157d-0@ukinowa-grants
+DTSTAMP:20261018T221651Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:締切: 公益財団法人キユーピーみらいたまご財団 2
+ 027年度 第Ⅰ期 助成事業
+DESCRIPTION:子どもを対象にした食育活動や、子ども食堂な
+ どの食を通した居場所づくりを行う団体を支える助成
+ です。講座やイベントの費用、拠点の改修や設備・備
+ 品の購入、食材費、業務用冷凍冷蔵庫の提供など、5つ
+ のプログラムがあります。\n上限: 100万円\nhttps://www.fukus
+ hi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
+END:VEVENT
+BEGIN:VEVENT
+UID:a17cfcf56de8157d-1@ukinowa-grants
+DTSTAMP:20261018T221651Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:締切21日前: 公益財団法人キユーピーみらいたまご
+ 財団 2027年度 第Ⅰ期 助成事業
+DESCRIPTION:子どもを対象にした食育活動や、子ども食堂な
+ どの食を通した居場所づくりを行う団体を支える助成
+ です。講座やイベントの費用、拠点の改修や設備・備
+ 品の購入、食材費、業務用冷凍冷蔵庫の提供など、5つ
+ のプログラムがあります。\n上限: 100万円\nhttps://www.fukus
+ hi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
+END:VEVENT
+BEGIN:VEVENT
+UID:a17cfcf56de8157d-2@ukinowa-grants
+DTSTAMP:20261018T221651Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:締切7日前: 公益財団法人キユーピーみらいたまご
+ 財団 2027年度 第Ⅰ期 助成事業
+DESCRIPTION:子どもを対象にした食育活動や、子ども食堂な
+ どの食を通した居場所づくりを行う団体を支える助成
+ です。講座やイベントの費用、拠点の改修や設備・備
+ 品の購入、食材費、業務用冷凍冷蔵庫の提供など、5つ
+ のプログラムがあります。\n上限: 100万円\nhttps://www.fukus
+ hi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
+END:VEVENT
+BEGIN:VEVENT
 UID:79b0ae4ad81ae24d-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:締切: 2026年度 トヨタ財団 特定課題「人口減少と
@@ -281,7 +285,7 @@ URL:https://www.toyotafound.or.jp/grant/population/
 END:VEVENT
 BEGIN:VEVENT
 UID:79b0ae4ad81ae24d-2@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:締切7日前: 2026年度 トヨタ財団 特定課題「人口減
@@ -297,7 +301,7 @@ URL:https://www.toyotafound.or.jp/grant/population/
 END:VEVENT
 BEGIN:VEVENT
 UID:c6c5419e0a78b893-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:締切: 公益財団法人ヤマト福祉財団 2027年度助成金
@@ -315,7 +319,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
 END:VEVENT
 BEGIN:VEVENT
 UID:c6c5419e0a78b893-1@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:締切21日前: 公益財団法人ヤマト福祉財団 2027年度
@@ -333,7 +337,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
 END:VEVENT
 BEGIN:VEVENT
 UID:c6c5419e0a78b893-2@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:締切7日前: 公益財団法人ヤマト福祉財団 2027年度
@@ -351,7 +355,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
 END:VEVENT
 BEGIN:VEVENT
 UID:94a2a767466a4570-0@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:締切: キリン福祉財団 令和9年度「キリン・福祉の
@@ -366,7 +370,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2286
 END:VEVENT
 BEGIN:VEVENT
 UID:94a2a767466a4570-2@ukinowa-grants
-DTSTAMP:20261011T232941Z
+DTSTAMP:20261018T221651Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:締切7日前: キリン福祉財団 令和9年度「キリン・

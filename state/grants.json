@@ -940,6 +940,125 @@
   "title": "令和8(2026)年度 継続助成（西日本・首都圏）",
   "url": "https://fields.canpan.info/grant/detail/2534"
  },
+ "https://fields.canpan.info/grant/detail/2535": {
+  "amount_max_yen": 5000000,
+  "amount_note": "助成金の総額は1,500万円です。昨年度は23件の応募のうち6件が採択されました。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2535",
+  "deadline": null,
+  "deadline_note": "募集時期は「随時」と書かれていますが、具体的な締切日は本文にありません。採否の決定は2027年1月下旬の予定です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "一般財団法人",
+   "公益社団法人",
+   "公益財団法人",
+   "社会福祉法人"
+  ],
+  "first_seen": "2026-10-19",
+  "fit_programs": [
+   "01"
+  ],
+  "fit_reason": "任意団体も応募できますが、活動実績2年以上が条件で、生活に困っている幼い子どもへの急ぎの支援が中心のため、うきのわの事業とは震災で被災した子育て家庭への物資配布などに限って重なります。被災した子どもへの支援として事業を組み立てられるかどうか次第です。",
+  "fit_score": 40,
+  "is_grant_program": true,
+  "last_checked": "2026-10-19",
+  "program_key": "日本フィランソロピック財団|子どもすこやか基金",
+  "provider": "日本フィランソロピック財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "生活に困っている家庭の幼い子ども（主に乳幼児から小学生）に、急いで必要な支援をすばやく届ける国内の事業に使える助成金です。助成の対象期間は2027年3月から2028年2月までです。",
+  "themes": [
+   "子ども",
+   "子どもの貧困",
+   "生活困窮",
+   "健康",
+   "緊急支援"
+  ],
+  "title": "第4回「子どもすこやか基金」",
+  "url": "https://fields.canpan.info/grant/detail/2535"
+ },
+ "https://fields.canpan.info/grant/detail/2536": {
+  "amount_max_yen": 3000000,
+  "amount_note": "助成金の総額は1,000万円です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2536",
+  "deadline": "2026-12-17",
+  "deadline_note": "募集期間は2026年10月15日〜2026年12月17日です。結果は2027年3月下旬に決まる予定です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "公益社団法人",
+   "公益財団法人",
+   "一般社団法人（非営利型）",
+   "一般財団法人（非営利型）",
+   "社会福祉法人"
+  ],
+  "first_seen": "2026-10-19",
+  "fit_programs": [],
+  "fit_reason": "任意団体も応募できますが、対象は石垣島と八重山地域で行う海の環境教育に限られます。宇城市で活動するうきのわの事業とは地域もテーマも合わないため、応募は難しいです。",
+  "fit_score": 3,
+  "is_grant_program": true,
+  "last_checked": "2026-10-19",
+  "program_key": "日本フィランソロピック財団|Tethys基金 石垣島・海の教育事業助成",
+  "provider": "日本フィランソロピック財団",
+  "public_ok": true,
+  "region_scope": "その他地域",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "石垣島と八重山地域で、地域の人たちが海に親しみ、学び、環境問題への理解を深める教育・科学・政策の事業に使える助成金です。対象期間は2027年4月から2028年3月までです。",
+  "themes": [
+   "海洋環境保全",
+   "環境教育",
+   "石垣島",
+   "八重山地域",
+   "自然環境"
+  ],
+  "title": "第3回「Tethys 基金～石垣島・海の教育事業助成～」助成",
+  "url": "https://fields.canpan.info/grant/detail/2536"
+ },
+ "https://fields.canpan.info/grant/detail/2537": {
+  "amount_max_yen": 10000000,
+  "amount_note": "助成金の総額は3,000万円です。1団体につき1件まで応募できます。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2537",
+  "deadline": "2026-11-20",
+  "deadline_note": "募集期間は2026年10月16日〜2026年11月20日です。決定は2027年3月中旬の予定です。",
+  "eligible_types": [
+   "社会福祉法人",
+   "NPO法人",
+   "一般社団法人（非営利型）",
+   "公益法人"
+  ],
+  "first_seen": "2026-10-19",
+  "fit_programs": [],
+  "fit_reason": "児童養護施設を運営する法人か、施設と続けて連携してきた実績のある法人だけが応募でき、任意団体のうきのわは応募できません。内容も児童養護施設の子どもの自立支援に限られ、うきのわの事業とは重なりません。",
+  "fit_score": 5,
+  "is_grant_program": true,
+  "last_checked": "2026-10-19",
+  "program_key": "SMBCグループ財団|子どもの未来助成事業",
+  "provider": "SMBCグループ財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "児童養護施設で暮らす子どもが、入所中から退所後まで切れ目なく支援を受けられる環境づくりのための資金です。退所後の住まいや生活・進学・就労の支援、施設と外部団体が組んで続ける支援の体制づくりなどに使えます。",
+  "themes": [
+   "子ども",
+   "児童養護施設",
+   "自立支援",
+   "退所後支援",
+   "居場所"
+  ],
+  "title": "2026年度 子どもの未来助成事業",
+  "url": "https://fields.canpan.info/grant/detail/2537"
+ },
  "https://foundation.kirinholdings.com/kobo/": {
   "amount_max_yen": null,
   "amount_note": "",
@@ -1132,7 +1251,7 @@
   "region_scope": "その他地域",
   "source_id": "jnet21-support",
   "source_name": "J-Net21 支援情報",
-  "status": "open",
+  "status": "closed",
   "summary": "令和8年熊本地震で被災した八代市内の農業者が、早く農業を再開できるよう支援する補助金です。",
   "themes": [
    "災害",
@@ -1502,6 +1621,39 @@
   "title": "令和8年熊本地震に係る「くまもと事業者再出発支援補助金」",
   "url": "https://j-net21.smrj.go.jp/snavi/articles/193211"
  },
+ "https://j-net21.smrj.go.jp/snavi/articles/194103": {
+  "amount_max_yen": null,
+  "amount_note": "",
+  "apply_url": "https://j-net21.smrj.go.jp/snavi/articles/194103",
+  "deadline": "2026-10-23",
+  "deadline_note": "第2回要望調査。令和8年10月23日（金）17時必着",
+  "eligible_types": [
+   "個人"
+  ],
+  "first_seen": "2026-10-19",
+  "fit_programs": [],
+  "fit_reason": "就農に向けた研修を受ける中高年の個人を支援する制度で、団体は応募できません。実施しているのも宇土市で、うきのわの事業内容とも合いません。",
+  "fit_score": 3,
+  "is_grant_program": true,
+  "last_checked": "2026-10-19",
+  "program_key": "宇土市|中高年就農研修支援事業",
+  "provider": "宇土市",
+  "public_ok": true,
+  "region_scope": "その他地域",
+  "source_dedicated": true,
+  "source_id": "jnet21-support",
+  "source_name": "J-Net21 支援情報",
+  "status": "open",
+  "summary": "熊本県内での就農を予定し、就農に向けた研修を受ける50代などの中高年の方を支援する制度です。研修を受ける個人が対象です。",
+  "themes": [
+   "就農",
+   "農業",
+   "研修",
+   "中高年"
+  ],
+  "title": "中高年就農研修支援事業 第2回要望調査",
+  "url": "https://j-net21.smrj.go.jp/snavi/articles/194103"
+ },
  "https://players-koubolist.kyuplat.com/result/564": {
   "amount_max_yen": 20000000,
   "amount_note": "総額3,500万円で3団体程度を採択予定です。1団体あたり1,000万〜2,000万円です。",
@@ -1524,7 +1676,7 @@
   "region_scope": "全国",
   "source_id": "kyuplat-players-koubo",
   "source_name": "休プラ 実行団体・支援対象団体の公募一覧",
-  "status": "open",
+  "status": "closed",
   "summary": "能登半島地震で長引く避難生活や生活再建に苦しむ被災者を支える活動に使える資金です。被災者が生活再建の見通しを立て、安心して暮らしを立て直せるようにする活動を行う実行団体を募集しています。",
   "themes": [
    "災害",
@@ -2295,7 +2447,7 @@
   "region_scope": "全国",
   "source_id": "kumamoto-shakyo-grants",
   "source_name": "熊本県社会福祉協議会 助成金情報",
-  "status": "open",
+  "status": "closed",
   "summary": "障がいのある人や子どもを支える施設の設備や環境の改善、自立を助ける活動にお金を出す制度です。2026年4月1日から2027年3月31日までに行う事業が対象です。",
   "themes": [
    "障がい者福祉",
@@ -2497,6 +2649,46 @@
   ],
   "title": "2026年度子どもサポート基金（熊本地震支援）",
   "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2287"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292": {
+  "amount_max_yen": 1000000,
+  "amount_note": "プログラムA（食育活動）は100万円まで、B-1（居場所づくり）は70万円まで、B-2（立ち上げ）は一律15万円、B-4（食材費）は一律10万円です。B-3は現金ではなく業務用冷凍冷蔵庫（1団体2台まで）の提供です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292",
+  "deadline": "2026-11-16",
+  "deadline_note": "応募期間は2026年10月19日正午から11月16日正午までです。助成金を使える期間は2027年4月1日から2028年3月31日までです。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "その他の団体"
+  ],
+  "first_seen": "2026-10-19",
+  "fit_programs": [
+   "05",
+   "03"
+  ],
+  "fit_reason": "法人の種類の決まりはなく、任意団体のうきのわも応募できそうです。ただ、子どもへの食育や子ども食堂をすでに行っていることが条件で、竹の子掘りやそうめん流しを食育として位置づけたり、TOYONO-VAで子ども食堂を始めたりする必要があります。また宗教的な活動をしないことが条件なので、お寺を拠点にしていても活動自体は宗教と切り離していると説明できることが大切です。",
+  "fit_score": 45,
+  "is_grant_program": true,
+  "last_checked": "2026-10-19",
+  "program_key": "キユーピーみらいたまご財団|助成事業",
+  "provider": "公益財団法人キユーピーみらいたまご財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "子どもを対象にした食育活動や、子ども食堂などの食を通した居場所づくりを行う団体を支える助成です。講座やイベントの費用、拠点の改修や設備・備品の購入、食材費、業務用冷凍冷蔵庫の提供など、5つのプログラムがあります。",
+  "themes": [
+   "子ども",
+   "食育",
+   "居場所",
+   "子ども食堂",
+   "食支援"
+  ],
+  "title": "公益財団法人キユーピーみらいたまご財団 2027年度 第Ⅰ期 助成事業",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292"
  },
  "https://www.janpia.or.jp/dormant-deposits/po/": {
   "amount_max_yen": null,
@@ -3005,6 +3197,36 @@
   "title": "2026年度 資金分配団体（助成）〈緊急枠第3次〉の公募",
   "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260930"
  },
+ "https://www.janpia.or.jp/news/janpia/notice/news_20261013": {
+  "amount_max_yen": null,
+  "amount_note": "1件あたりの上限は本文に記載がありません。第2回の助成総額は約40.1億円が目安です（年度全体は限度額65億円、目安60億円）",
+  "apply_url": "https://www.janpia.or.jp/news/janpia/notice/news_20261013",
+  "deadline": "2026-10-30",
+  "deadline_note": "通常枠第2回。公募期間は2026年9月28日〜10月30日17時、申請受付開始は10月21日",
+  "eligible_types": [],
+  "first_seen": "2026-10-19",
+  "fit_programs": [],
+  "fit_reason": "資金を受け取って他の団体に配る「資金分配団体」向けの募集で、うきのわのように現場で活動する団体が直接応募するものではありません。うきのわは、今後この制度で選ばれた団体が行う「実行団体」向けの募集を待つのがよいです。",
+  "fit_score": 5,
+  "is_grant_program": true,
+  "last_checked": "2026-10-19",
+  "program_key": "JANPIA|資金分配団体（助成）通常枠",
+  "provider": "一般財団法人 日本民間公益活動連携機構（JANPIA）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "janpia-news",
+  "source_name": "JANPIA（休眠預金活用）お知らせ",
+  "status": "open",
+  "summary": "休眠預金を活用し、地域の活動団体へ資金を配る役目の「資金分配団体」を募集する制度です。このページは、その第2回募集の助成総額（約40.1億円が目安）をお知らせするものです。",
+  "themes": [
+   "休眠預金",
+   "資金分配",
+   "民間公益活動"
+  ],
+  "title": "2026年度 資金分配団体（助成）〈通常枠第2回〉",
+  "url": "https://www.janpia.or.jp/news/janpia/notice/news_20261013"
+ },
  "https://www.jbf.ne.jp/wp-content/uploads/site211/files/pdf/shien/jyoseikin32.pdf": {
   "amount_max_yen": null,
   "amount_note": "",
@@ -3417,7 +3639,7 @@
   "region_scope": "熊本県",
   "source_id": "kvoad",
   "source_name": "KVOAD（くまもと災害ボランティア団体ネットワーク）",
-  "status": "open",
+  "status": "closed",
   "summary": "令和8年熊本地震の被災地での支援活動に使える助成金や基金をまとめた案内です。被災したこどもの居場所づくり、被災者支援・復興、ボランティア活動、災害用キッチンカーの出動などに使える資金が紹介されています。",
   "themes": [
    "災害",
@@ -3487,7 +3709,7 @@
   "region_scope": "熊本県",
   "source_id": "parea",
   "source_name": "くまもと県民交流館パレア",
-  "status": "open",
+  "status": "closed",
   "summary": "令和8年熊本地震で被災したこどもの居場所づくりの取り組みを支援する事業です。",
   "themes": [
    "震災復興",
@@ -3555,7 +3777,7 @@
   "region_scope": "熊本県",
   "source_id": "pref-kumamoto-news",
   "source_name": "熊本県 新着情報",
-  "status": "open",
+  "status": "closed",
   "summary": "小中学生が参加する伝統芸能団体が、熊本県内で複数の地域の団体と交流する事業にかかる費用を補助します。会場使用料、楽器などの運搬費、講師へのお礼、広報費などに使えます。",
   "themes": [
    "伝統芸能",
@@ -3591,7 +3813,7 @@
   "source_dedicated": false,
   "source_id": "pref-kumamoto-news",
   "source_name": "熊本県 新着情報",
-  "status": "open",
+  "status": "closed",
   "summary": "人吉球磨地域で、県南産の食材や農林畜水産物の加工品を広めて販売を増やすためのイベントなどを開く経費を補助します。くまもと県南フードバレー推進協議会の会員の収益改善を後押しするための補助金です。",
   "themes": [
    "食",
@@ -3787,7 +4009,7 @@
   "source_dedicated": false,
   "source_id": "pref-kumamoto-news",
   "source_name": "熊本県 新着情報",
-  "status": "open",
+  "status": "closed",
   "summary": "お産を扱わず、妊婦健診や産前・産後のケアを行う県内の産科医療機関が、建物や設備を整えるための補助金について、使う意向があるかを確かめる調査です。国で予算がつけば県も予算化を検討しており、この調査に回答しないと補助金を受けられません。",
   "themes": [
    "周産期医療",
@@ -3934,6 +4156,39 @@
   ],
   "title": "令和8年熊本地震に係る「くまもと事業者再出発支援補助金」",
   "url": "https://www.pref.kumamoto.jp/soshiki/61/280961.html"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/61/282260.html": {
+  "amount_max_yen": null,
+  "amount_note": "金額や補助の割合は本文に書かれていません。",
+  "apply_url": "https://www.pref.kumamoto.jp/soshiki/61/282260.html",
+  "deadline": null,
+  "deadline_note": "申請の締切は本文に書かれていません。現地サポートセンターの開設期間は2026年10月19日から2027年3月31日までです（予約制、電話096-284-7660）。",
+  "eligible_types": [
+   "企業"
+  ],
+  "first_seen": "2026-10-19",
+  "fit_programs": [],
+  "fit_reason": "被災した中小企業などの事業を立て直すための補助金で、市民活動団体のうきのわが応募できる対象とは書かれていません。震災復興とは関係しますが、うきのわの事業に使うのは難しいと考えられます。",
+  "fit_score": 10,
+  "is_grant_program": true,
+  "last_checked": "2026-10-19",
+  "program_key": "熊本県|くまもと事業者再出発支援補助金",
+  "provider": "熊本県（商工労働部 商工振興金融課）",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_dedicated": false,
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "status": "open",
+  "summary": "令和8年熊本地震で被災した中小企業者等が、施設や設備を元に戻すための補助金です。このページは、補助金の相談を受ける現地サポートセンター（宇城市商工会松橋支所など3か所）の開設を知らせるものです。",
+  "themes": [
+   "震災復興",
+   "事業再建",
+   "中小企業",
+   "施設・設備の復旧"
+  ],
+  "title": "令和8年熊本地震にかかる「くまもと事業者再出発支援補助金」（現地サポートセンター開設のご案内）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/61/282260.html"
  },
  "https://www.pref.kumamoto.jp/soshiki/73/281779.html": {
   "amount_max_yen": 25000000,
