@@ -58,8 +58,17 @@
     "id": "nippon-foundation",
     "name": "日本財団 助成事業",
     "kind": "html",
-    "url": "https://www.nippon-foundation.or.jp/grant_application/programs",
+    "url": "https://www.nippon-foundation.or.jp/grant_application",
     "dedicated": true,
+    "same_domain": true,
+    "public_ok": true
+  },
+  {
+    "id": "nippon-foundation-news",
+    "name": "日本財団 お知らせ",
+    "kind": "html",
+    "url": "https://www.nippon-foundation.or.jp/who/news/information",
+    "dedicated": false,
     "same_domain": true,
     "public_ok": true
   },

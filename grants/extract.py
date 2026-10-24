@@ -19,10 +19,9 @@ from .validate import sanitize_grant
 MODEL = "claude-opus-5-5"
 MAX_TOKENS = 16000
 
-GRANT_SCHEMA = {
+PROGRAM_SCHEMA = {
     "type": "object",
     "properties": {
-        "is_grant_program": {"type": "boolean", "description": "助成金・補助金・支援金・基金など、団体が応募して資金を受けられる制度の案内か。入札・求人・一般ニュース・採択結果の報告のみ・団体紹介は false"},
         "title": {"type": "string", "description": "制度の正式名称（回次や年度を含む）"},
         "provider": {"type": "string", "description": "出し手（財団・自治体・共同募金会など）"},
         "summary": {"type": "string", "description": "何に使える資金か。2文以内、です・ます調"},
@@ -39,7 +38,19 @@ GRANT_SCHEMA = {
         "apply_url": {"type": "string", "description": "申請案内の URL。本文中になければ元の URL"},
         "program_key": {"type": "string", "description": "同じ制度を束ねるための正規化名。出し手の略称と制度名を『出し手|制度名』の形で、年度・回次・『公募』『募集』などの飾り語を除く。例: キリン福祉財団|地域のちから応援事業"},
     },
-    "required": ["is_grant_program", "title", "provider", "summary", "deadline", "deadline_note", "amount_max_yen", "amount_note", "eligible_types", "region_scope", "themes", "fit_programs", "fit_score", "fit_reason", "apply_url", "program_key"],
+    "required": ["title", "provider", "summary", "deadline", "deadline_note", "amount_max_yen", "amount_note", "eligible_types", "region_scope", "themes", "fit_programs", "fit_score", "fit_reason", "apply_url", "program_key"],
+    "additionalProperties": False,
+}
+
+MAX_PROGRAMS = 10
+
+GRANT_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "is_grant_program": {"type": "boolean", "description": "助成金・補助金・支援金・基金など、団体が応募して資金を受けられる制度の案内か。入札・求人・一般ニュース・採択結果の報告のみ・団体紹介は false"},
+        "programs": {"type": "array", "items": PROGRAM_SCHEMA, "description": "案内されている制度。ふつうは1件。1ページに別々の募集要項を持つ制度が並ぶとき（年1回の一斉募集のお知らせなど）は制度ごとに1件。is_grant_program が false なら空配列"},
+    },
+    "required": ["is_grant_program", "programs"],
     "additionalProperties": False,
 }
 
@@ -56,6 +67,7 @@ SYSTEM_PROMPT = """あなたは熊本県宇城市の市民活動団体「うき�
 - 対象地域が熊本県・宇城市・九州・全国のどれかに当てはまらなければ fit_score を大きく下げる
 - 締切が今日より前なら fit_score を 0 にし、理由に「締切済み」と書く
 - fit_score の目安: 80以上 = 応募できて事業に直結、50〜79 = 条件次第、20〜49 = 弱い関連、19以下 = 合わない
+- 1ページに別々の募集要項を持つ制度が並ぶとき（「2027年度助成金の募集」で海洋・福祉・子どもの居場所などが並ぶ場合など）は、制度ごとに programs に分け、それぞれ採点する。締切や対象団体がページ全体で共通なら各制度に同じ値を入れる。1つの制度の中のコース・区分（プログラムA/B、上限額の枠など）は分けずに1件にまとめる
 - 文章はです・ます調で、専門用語は使わない
 """
 
@@ -80,7 +92,7 @@ def prefilter(item: RawItem, src: dict, profile: dict) -> bool:
     return keyword_hit
 
 
-def rule_based(item: RawItem, page_text: str, today: date) -> dict:
+def rule_based(item: RawItem, page_text: str, today: date) -> list[dict]:
     """AI を使わない簡易版（ローカル確認用）。締切は本文の日付表記から拾う。"""
     deadline = None
     m = re.search(r"(締切|締め切り|期限|まで)[^\d]{0,20}(\d{4})年\s*(\d{1,2})月\s*(\d{1,2})日", page_text)
@@ -96,15 +108,27 @@ def rule_based(item: RawItem, page_text: str, today: date) -> dict:
         "amount_max_yen": None, "amount_note": "", "eligible_types": [], "region_scope": "不明", "themes": [],
         "fit_programs": [], "fit_score": 50, "fit_reason": "AI 判定なし（規則のみ）。内容は人が確認してください。", "apply_url": item.url, "program_key": "",
     }
-    return sanitize_grant(result, item.url, today)
+    return [sanitize_grant(result, item.url, today)]
 
 
 class ModelStopped(Exception):
-    """モデルが完了せずに止まった（refusal / max_tokens）。次回に再試行する。"""
+    """モデルが完了せずに止まった（refusal / max_tokens / 矛盾した出力）。次回に再試行する。"""
 
 
-def evaluate(client: anthropic.Anthropic, item: RawItem, page_text: str, profile: dict, today: date) -> tuple[dict, dict]:
-    """Claude で判定する。戻り値は (検証済みの結果, usage)。"""
+def parse_result(raw: dict, source_url: str, today: date) -> list[dict]:
+    """LLM の出力を制度ごとの検証済みレコードにする。空なら助成の案内ではない。"""
+    if not raw.get("is_grant_program"):
+        return []
+    programs = [p for p in (raw.get("programs") or []) if isinstance(p, dict)][:MAX_PROGRAMS]
+    out = [sanitize_grant({**p, "is_grant_program": True}, source_url, today) for p in programs]
+    out = [p for p in out if p["title"]]
+    if not out:
+        raise ModelStopped("助成の案内と判定したのに制度が空")
+    return out
+
+
+def evaluate(client: anthropic.Anthropic, item: RawItem, page_text: str, profile: dict, today: date) -> tuple[list[dict], dict]:
+    """Claude で判定する。戻り値は (制度ごとの検証済みレコード。助成でなければ空, usage)。"""
     user = (
         f"今日の日付: {today.isoformat()}\n\n"
         f"うきのわのプロフィール:\n{json.dumps(profile, ensure_ascii=False, indent=1)}\n\n"
@@ -130,4 +154,4 @@ def evaluate(client: anthropic.Anthropic, item: RawItem, page_text: str, profile
         "output_tokens": response.usage.output_tokens,
         "cache_read_input_tokens": getattr(response.usage, "cache_read_input_tokens", 0) or 0,
     }
-    return sanitize_grant(json.loads(text), item.url, today), usage
+    return parse_result(json.loads(text), item.url, today), usage
