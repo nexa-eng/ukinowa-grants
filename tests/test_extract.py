@@ -1,8 +1,10 @@
+import json
 from datetime import date
+from types import SimpleNamespace
 
 import pytest
 
-from grants.extract import GRANT_SCHEMA, MAX_PROGRAMS, PROGRAM_SCHEMA, ModelStopped, parse_result, prefilter, rule_based
+from grants.extract import GRANT_SCHEMA, MAX_PROGRAMS, PROGRAM_SCHEMA, ModelStopped, evaluate, parse_result, prefilter, rule_based
 from grants.fetch import RawItem
 
 PROFILE = {
@@ -108,3 +110,25 @@ def _union_params(schema) -> int:
 def test_grant_schema_stays_within_union_limit():
     assert _union_params(GRANT_SCHEMA) <= 16
     assert GRANT_SCHEMA["properties"]["programs"]["items"] is PROGRAM_SCHEMA
+
+
+class _FakeMessages:
+    def __init__(self, text, stop_reason="end_turn"):
+        self.text, self.stop_reason = text, stop_reason
+
+    def create(self, **kwargs):
+        assert kwargs["output_config"]["format"]["schema"] is GRANT_SCHEMA
+        block = SimpleNamespace(type="text", text=self.text)
+        usage = SimpleNamespace(input_tokens=10, output_tokens=5, cache_read_input_tokens=3)
+        return SimpleNamespace(stop_reason=self.stop_reason, content=[block], usage=usage)
+
+
+def test_evaluate_returns_programs_and_usage_and_retries_on_max_tokens():
+    raw = {"is_grant_program": True, "programs": [program("2027年度 子ども第三の居場所"), program("2027年度 公益・福祉募集")]}
+    client = SimpleNamespace(messages=_FakeMessages(json.dumps(raw, ensure_ascii=False)))
+    out, usage = evaluate(client, item("募集", url=NF_URL), "本文", {}, date(2026, 10, 24))
+    assert [p["title"] for p in out] == ["2027年度 子ども第三の居場所", "2027年度 公益・福祉募集"]
+    assert usage == {"input_tokens": 10, "output_tokens": 5, "cache_read_input_tokens": 3}
+    client = SimpleNamespace(messages=_FakeMessages("{}", stop_reason="max_tokens"))
+    with pytest.raises(ModelStopped):
+        evaluate(client, item("募集", url=NF_URL), "本文", {}, date(2026, 10, 24))

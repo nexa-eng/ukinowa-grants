@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 from datetime import date
 from urllib.parse import urlparse
 
@@ -119,11 +120,14 @@ def parse_result(raw: dict, source_url: str, today: date) -> list[dict]:
     """LLM の出力を制度ごとの検証済みレコードにする。空なら助成の案内ではない。"""
     if not raw.get("is_grant_program"):
         return []
-    programs = [p for p in (raw.get("programs") or []) if isinstance(p, dict)][:MAX_PROGRAMS]
+    received = raw.get("programs") or []
+    programs = [p for p in received if isinstance(p, dict)][:MAX_PROGRAMS]
     out = [sanitize_grant({**p, "is_grant_program": True}, source_url, today) for p in programs]
     out = [p for p in out if p["title"]]
     if not out:
         raise ModelStopped("助成の案内と判定したのに制度が空")
+    if len(out) < len(received):
+        print(f"[warn] 制度 {len(received)} 件のうち {len(received) - len(out)} 件を捨てた（上限 {MAX_PROGRAMS} 件・名称なし）{source_url}", file=sys.stderr)
     return out
 
 

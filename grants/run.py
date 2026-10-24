@@ -31,6 +31,7 @@ JST = timezone(timedelta(hours=9))
 MAX_LLM_HARD_CAP = 300
 FAILURES_BEFORE_GIVE_UP = 3      # 取得・判定に3回失敗した URL は seen に入れて諦める
 SEEN_RECHECK_DAYS = 365          # 「助成ではない」と判定した URL は1年後にもう一度見る（年次更新の取りこぼし対策）
+EVAL_FAILED_RECHECK_DAYS = 28    # 判定を3回失敗して諦めた URL は4週後にもう一度見る（取得はできているので助成の可能性がある）
 CLOSED_RECHECK_DAYS = 300        # 締切済みの助成の URL は約10か月後にもう一度見る
 CHECKPOINT_EVERY = 10
 
@@ -177,13 +178,15 @@ def main(argv: list[str] | None = None) -> int:
             recheck = (known_grant and known_grant.get("status") == "closed"
                        and _age_days(known_grant.get("last_checked"), today) >= CLOSED_RECHECK_DAYS) or \
                       (known_seen and known_seen.get("reason") == "not_grant"
-                       and _age_days(known_seen.get("first_seen"), today) >= SEEN_RECHECK_DAYS)
+                       and _age_days(known_seen.get("first_seen"), today) >= SEEN_RECHECK_DAYS) or \
+                      (known_seen and known_seen.get("reason") == "evaluate_failed"
+                       and _age_days(known_seen.get("first_seen"), today) >= EVAL_FAILED_RECHECK_DAYS)
             if known_grant and not recheck:
                 row.update(prefilter=True, decision="既知（助成）", fit_score=known_grant.get("fit_score"))
             elif known_seen and not recheck:
                 is_pre = known_seen.get("reason") == "prefilter"
                 row.update(prefilter=not is_pre, decision="既知（除外）" if is_pre else
-                           ("既知（取得不可）" if known_seen.get("reason") == "fetch_failed" else "既知（助成ではない）"))
+                           {"fetch_failed": "既知（取得不可）", "evaluate_failed": "既知（判定不可）"}.get(known_seen.get("reason"), "既知（助成ではない）"))
             elif it.url in seen_urls_this_run:
                 row.update(decision="重複（同じ回で既出）")
             else:
@@ -218,11 +221,11 @@ def main(argv: list[str] | None = None) -> int:
         f["kind"] = kind
         failures[url] = f
         if f["count"] >= FAILURES_BEFORE_GIVE_UP:
-            seen[url] = {"first_seen": today.isoformat(), "is_grant": False, "reason": "fetch_failed"}
+            seen[url] = {"first_seen": today.isoformat(), "is_grant": False, "reason": "fetch_failed" if kind == "fetch" else "evaluate_failed"}
             failures.pop(url, None)
             r = row_for(url)
             if r:
-                r["decision"] = "取得不可（諦め）"
+                r["decision"] = "取得不可（諦め）" if kind == "fetch" else "判定不可（諦め）"
 
     ordered = _interleave(candidates)
     for i, (it, src) in enumerate(ordered):

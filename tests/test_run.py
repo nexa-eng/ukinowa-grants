@@ -1,6 +1,8 @@
-from datetime import date
+import re
+from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
 
-from grants.build import group_grants
+from grants.build import build_all, group_grants
 from grants.run import store_programs
 
 PAGE = "https://www.nippon-foundation.or.jp/who/news/information/2026/20260915-125201.html"
@@ -34,3 +36,19 @@ def test_group_grants_keeps_nippon_foundation_programs_separate():
     grants: dict = {}
     store_programs(grants, PAGE, [program(t) for t in NF_PROGRAMS], SRC, date(2026, 10, 26))
     assert len(group_grants(list(grants.values()))) == len(NF_PROGRAMS)
+
+
+def test_build_all_lists_each_program_with_its_own_calendar_events(tmp_path: Path):
+    grants: dict = {}
+    records = store_programs(grants, PAGE, [program(t, fit=60) for t in NF_PROGRAMS], SRC, date(2026, 10, 26))
+    for r in records:
+        r.update(status="open", apply_url=PAGE, amount_max_yen=None, eligible_types=[], region_scope="全国", themes=[],
+                 fit_programs=[], fit_reason="r", deadline_note="", amount_note="")
+    now = datetime(2026, 10, 26, 5, 0, tzinfo=timezone(timedelta(hours=9)))
+    profile = {"closing_soon_days": 60, "alarm_days_before": [], "min_fit_public": 30}
+    build_all(records, {r["url"] for r in records}, now.date(), now, tmp_path, profile)
+    index = (tmp_path / "index.html").read_text()
+    assert all(t in index for t in NF_PROGRAMS)
+    ics = (tmp_path / "grants.ics").read_text()
+    assert len(set(re.findall(r"UID:(\w+)-0@", ics))) == len(NF_PROGRAMS)
+    assert "#program-" not in ics  # 申請リンクは記事そのもの
