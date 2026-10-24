@@ -222,7 +222,7 @@ def build_collected(collected: list[dict], today: date, now: datetime, out: Path
     d = out / "collected"
     d.mkdir(parents=True, exist_ok=True)
     order = {"助成": 0, "既知（助成）": 1, "判定へ": 2, "再確認": 2, "助成ではない": 3, "既知（助成ではない）": 4,
-             "規則で除外": 5, "既知（除外）": 6, "取得不可（諦め）": 7, "既知（取得不可）": 7, "重複（同じ回で既出）": 8}
+             "規則で除外": 5, "既知（除外）": 6, "取得不可（諦め）": 7, "既知（取得不可）": 7, "判定不可（諦め）": 7, "既知（判定不可）": 7, "重複（同じ回で既出）": 8}
     chip_class = {"助成": "ok", "既知（助成）": "ok", "判定へ": "warn", "再確認": "warn"}
     rows = sorted((r for r in collected if r.get("public_ok", True)),
                   key=lambda r: (order.get(r.get("decision") or "", 9), r["source_name"], r["title"]))

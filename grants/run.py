@@ -31,6 +31,7 @@ JST = timezone(timedelta(hours=9))
 MAX_LLM_HARD_CAP = 300
 FAILURES_BEFORE_GIVE_UP = 3      # 取得・判定に3回失敗した URL は seen に入れて諦める
 SEEN_RECHECK_DAYS = 365          # 「助成ではない」と判定した URL は1年後にもう一度見る（年次更新の取りこぼし対策）
+EVAL_FAILED_RECHECK_DAYS = 28    # 判定を3回失敗して諦めた URL は4週後にもう一度見る（取得はできているので助成の可能性がある）
 CLOSED_RECHECK_DAYS = 300        # 締切済みの助成の URL は約10か月後にもう一度見る
 CHECKPOINT_EVERY = 10
 
@@ -74,6 +75,39 @@ def _parse_max(value: str | None, default: int) -> int:
     except ValueError:
         n = default
     return max(0, min(n, MAX_LLM_HARD_CAP))
+
+
+def _sub_key(page_url: str, index: int) -> str:
+    """1ページに複数の制度があるとき、2件目以降を置くキー。1件目はページの URL そのもの（既知判定がそのまま効く）。"""
+    return page_url if index == 0 else f"{page_url}#program-{index + 1}"
+
+
+def _page_keys(grants: dict, page_url: str) -> list[str]:
+    return [k for k in grants if k == page_url or k.startswith(f"{page_url}#program-")]
+
+
+def _drop_page(grants: dict, page_url: str) -> None:
+    """そのページから取り出したレコードを全部消す（再判定で制度の数が変わっても古いものを残さない）。"""
+    for key in _page_keys(grants, page_url):
+        grants.pop(key)
+
+
+def store_programs(grants: dict, page_url: str, programs: list[dict], src: dict, today: date) -> list[dict]:
+    """判定結果（制度ごと）を grants に書く。first_seen は同じキーの前回分が新しければ引き継ぐ。"""
+    previous = {k: grants[k] for k in _page_keys(grants, page_url)}
+    _drop_page(grants, page_url)
+    records = []
+    for i, program in enumerate(programs):
+        key = _sub_key(page_url, i)
+        prev = previous.get(key, {})
+        record = dict(program)
+        record.update({"url": key, "source_id": src["id"], "source_name": src["name"], "source_dedicated": bool(src.get("dedicated")),
+                       "public_ok": bool(src.get("public_ok", True)),
+                       "first_seen": prev.get("first_seen") if prev and _age_days(prev.get("first_seen"), today) < CLOSED_RECHECK_DAYS else today.isoformat(),
+                       "last_checked": today.isoformat()})
+        grants[key] = record
+        records.append(record)
+    return records
 
 
 def _interleave(candidates: list[tuple[fetch.RawItem, dict]]) -> list[tuple[fetch.RawItem, dict]]:
@@ -144,13 +178,15 @@ def main(argv: list[str] | None = None) -> int:
             recheck = (known_grant and known_grant.get("status") == "closed"
                        and _age_days(known_grant.get("last_checked"), today) >= CLOSED_RECHECK_DAYS) or \
                       (known_seen and known_seen.get("reason") == "not_grant"
-                       and _age_days(known_seen.get("first_seen"), today) >= SEEN_RECHECK_DAYS)
+                       and _age_days(known_seen.get("first_seen"), today) >= SEEN_RECHECK_DAYS) or \
+                      (known_seen and known_seen.get("reason") == "evaluate_failed"
+                       and _age_days(known_seen.get("first_seen"), today) >= EVAL_FAILED_RECHECK_DAYS)
             if known_grant and not recheck:
                 row.update(prefilter=True, decision="既知（助成）", fit_score=known_grant.get("fit_score"))
             elif known_seen and not recheck:
                 is_pre = known_seen.get("reason") == "prefilter"
                 row.update(prefilter=not is_pre, decision="既知（除外）" if is_pre else
-                           ("既知（取得不可）" if known_seen.get("reason") == "fetch_failed" else "既知（助成ではない）"))
+                           {"fetch_failed": "既知（取得不可）", "evaluate_failed": "既知（判定不可）"}.get(known_seen.get("reason"), "既知（助成ではない）"))
             elif it.url in seen_urls_this_run:
                 row.update(decision="重複（同じ回で既出）")
             else:
@@ -185,11 +221,11 @@ def main(argv: list[str] | None = None) -> int:
         f["kind"] = kind
         failures[url] = f
         if f["count"] >= FAILURES_BEFORE_GIVE_UP:
-            seen[url] = {"first_seen": today.isoformat(), "is_grant": False, "reason": "fetch_failed"}
+            seen[url] = {"first_seen": today.isoformat(), "is_grant": False, "reason": "fetch_failed" if kind == "fetch" else "evaluate_failed"}
             failures.pop(url, None)
             r = row_for(url)
             if r:
-                r["decision"] = "取得不可（諦め）"
+                r["decision"] = "取得不可（諦め）" if kind == "fetch" else "判定不可（諦め）"
 
     ordered = _interleave(candidates)
     for i, (it, src) in enumerate(ordered):
@@ -227,24 +263,19 @@ def main(argv: list[str] | None = None) -> int:
             continue
         failures.pop(it.url, None)
         row = row_for(it.url)
-        if not result["is_grant_program"]:
+        if not result:
             seen[it.url] = {"first_seen": today.isoformat(), "is_grant": False, "reason": "not_grant"}
-            grants.pop(it.url, None)
+            _drop_page(grants, it.url)
             if row:
                 row["decision"] = "助成ではない"
         else:
-            previous = grants.get(it.url, {})
-            record = dict(result)
-            record.update({"url": it.url, "source_id": src["id"], "source_name": src["name"], "source_dedicated": bool(src.get("dedicated")),
-                           "public_ok": bool(src.get("public_ok", True)),
-                           "first_seen": previous.get("first_seen") if previous and _age_days(previous.get("first_seen"), today) < CLOSED_RECHECK_DAYS else today.isoformat(),
-                           "last_checked": today.isoformat()})
-            grants[it.url] = record
+            records = store_programs(grants, it.url, result, src, today)
             seen.pop(it.url, None)
-            stats["grants_added"] += 1
+            stats["grants_added"] += len(records)
             if row:
-                row.update(decision="助成", fit_score=record["fit_score"])
-            print(f"  + [{record['fit_score']:>3}] {record['title'][:70]}  締切 {record['deadline'] or '不明'}")
+                row.update(decision="助成", fit_score=max(r["fit_score"] for r in records))
+            for record in records:
+                print(f"  + [{record['fit_score']:>3}] {record['title'][:70]}  締切 {record['deadline'] or '不明'}")
         if stats["evaluated"] % CHECKPOINT_EVERY == 0:
             checkpoint()
     if use_llm and candidates and stats["evaluated"] == 0 and max_eval > 0:
