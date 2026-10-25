@@ -1,5 +1,95 @@
 [
  {
+  "title": "「ボラサポ・令和8年熊本地震」第2回短期助成事業",
+  "provider": "社会福祉法人中央共同募金会",
+  "summary": "令和8年熊本地震で被災した方々を支える、活動日数30日以内の支援活動に使える助成金です。避難所での炊き出し、在宅・車中泊の避難者の見守り、物資支援、倒壊した家や施設の復旧支援などが対象です。",
+  "deadline": "2026-11-04",
+  "deadline_note": "受付期間は2026年10月21日から11月4日23時59分までです。応募はウェブの応募フォーム「e応募」のみで、メールや郵送は受け付けていません。11月上旬から第2回中長期助成事業の公募も予定されています。",
+  "amount_max_yen": 500000,
+  "amount_note": "1件50万円以内です。人件費は応募できません。寄付金の状況から財源が限られるため、必要性や緊急性の高い活動が優先され、減額されることもあります。ボラGOの対象となる交通費は、そちらを優先して使う必要があります。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "ボランティアグループ"
+  ],
+  "region_scope": "熊本県",
+  "themes": [
+   "災害",
+   "被災者支援",
+   "避難所",
+   "見守り",
+   "物資支援"
+  ],
+  "fit_programs": [
+   "01"
+  ],
+  "fit_score": 88,
+  "fit_reason": "ボランティアグループも応募でき、5名以上の構成員と会則があれば任意団体のうきのわでも応募できる見込みで、震災復興支援の避難受入・給水・物資配布にそのまま合います。ただし活動は30日以内、人件費は対象外で、締切の11月4日まで約9日と短いため、すぐに準備を始める必要があります。",
+  "apply_url": "https://www.akaihane.or.jp/saigai-news/50550/",
+  "program_key": "中央共同募金会|ボラサポ・令和8年熊本地震 短期助成事業",
+  "is_grant_program": true,
+  "url": "https://www.akaihane.or.jp/saigai-news/50550/",
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-10-26",
+  "last_checked": "2026-10-26",
+  "status": "open",
+  "also_at": [
+   {
+    "source_name": "中央共同募金会 ボラサポ",
+    "url": "https://www.akaihane.or.jp/saigai-news/50578/"
+   }
+  ],
+  "decide_by": "2026-10-14"
+ },
+ {
+  "title": "令和９（2027）年度 住まいとコミュニティづくり活動助成",
+  "provider": "一般財団法人ハウジングアンドコミュニティ財団",
+  "summary": "住民が主体となって取り組む地域づくり・住まいづくりの活動に使える助成金です。空き家の活用、地域の拠点づくり、里山の保全、子どもの居場所、災害からの復興や備えなどが対象になります。",
+  "deadline": "2027-01-12",
+  "deadline_note": "募集期間は2026年11月2日〜2027年1月12日です。メールで申し込みます。結果は2027年3月下旬までに財団のホームページで公開されます。",
+  "amount_max_yen": 1200000,
+  "amount_note": "1件120万円以内です（成果報告会などへの参加交通費を含みます）。希望額どおりにならないことがあり、始めたばかりの活動は少額になることがあります。昨年度は172件の応募に対して19件が採択されました。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "学生団体",
+   "営利を目的としない民間団体"
+  ],
+  "region_scope": "全国",
+  "themes": [
+   "空き家",
+   "地域拠点",
+   "里山",
+   "災害復興",
+   "子どもの居場所"
+  ],
+  "fit_programs": [
+   "03",
+   "04",
+   "05",
+   "01",
+   "02"
+  ],
+  "fit_score": 88,
+  "fit_reason": "法人になっていない任意団体も応募でき、空き家の活用、地域の拠点づくり、里山の保全、災害からの復興や備えといった例が、うきのわの事業にそのまま当てはまります。団体名義の口座や会計のしくみが整っていることが条件で、採択されるのは約1割と狭き門なので、写真や地図を使った分かりやすい資料づくりが大切です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2538",
+  "program_key": "ハウジングアンドコミュニティ財団|住まいとコミュニティづくり活動助成",
+  "is_grant_program": true,
+  "url": "https://fields.canpan.info/grant/detail/2538",
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-10-26",
+  "last_checked": "2026-10-26",
+  "status": "open",
+  "also_at": [],
+  "decide_by": "2026-12-22"
+ },
+ {
   "amount_max_yen": null,
   "amount_note": "金額は未発表です。",
   "apply_url": "https://www.akaihane.or.jp/saigai-news/50401/",
@@ -128,46 +218,6 @@
    }
   ],
   "decide_by": null
- },
- {
-  "amount_max_yen": 3000000,
-  "amount_note": "上限300万円。対象期間は2026年11月（助成決定日）から2027年11月30日までの1年間です。",
-  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2287",
-  "deadline": "2026-10-19",
-  "deadline_note": "2026年10月19日（月）18時必着。申請書類はメールで提出します。",
-  "eligible_types": [
-   "熊本県内の団体（法人格の条件は本文に記載なし）"
-  ],
-  "first_seen": "2026-10-12",
-  "fit_programs": [
-   "01",
-   "05",
-   "03"
-  ],
-  "fit_reason": "熊本地震で被災した子どもの支援が対象で、震災復興支援や竹を使った子ども向けの里山体験、居場所づくりに直結します。ただし、宇城市が災害救助法の適用を受けた10市10町1村に入っているか、任意団体が応募できるかが本文に書かれていないため、財団のホームページで確認が必要で、締切まで7日しかありません。",
-  "fit_score": 72,
-  "is_grant_program": true,
-  "last_checked": "2026-10-12",
-  "program_key": "子ども未来支援財団|子どもサポート基金（熊本地震支援）",
-  "provider": "公益財団法人子ども未来支援財団",
-  "public_ok": true,
-  "region_scope": "熊本県",
-  "source_dedicated": true,
-  "source_id": "kumamoto-shakyo-grants",
-  "source_name": "熊本県社会福祉協議会 助成金情報",
-  "status": "open",
-  "summary": "令和熊本地震で被災した子どもたちを支える活動に使える助成金です。心と体の健康を保つ取り組み、不安をやわらげる取り組み、夏休みに代わる成長や休息の機会づくりなどが対象です。",
-  "themes": [
-   "子ども",
-   "被災者支援",
-   "震災復興",
-   "心のケア",
-   "居場所"
-  ],
-  "title": "2026年度子どもサポート基金（熊本地震支援）",
-  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2287",
-  "also_at": [],
-  "decide_by": "2026-09-28"
  },
  {
   "amount_max_yen": 800000,
@@ -378,6 +428,49 @@
   "decide_by": null
  },
  {
+  "title": "赤い羽根福祉基金 2027年度事業助成",
+  "provider": "社会福祉法人 中央共同募金会",
+  "summary": "生活上の困難や生きづらさを抱える人を支える活動に使える助成です。直接の支援活動のほか、支援の土台づくりやつながりづくり、調査・研究にも使えます。",
+  "deadline": null,
+  "deadline_note": "公募期間は11月中旬〜12月中旬の予定です。正式な締切日は公募開始時に発表されます。公募期間中にオンライン説明会が2回ほど開かれる予定です。",
+  "amount_max_yen": 10000000,
+  "amount_note": "上限は1年あたり1,000万円です。助成期間は2027年4月1日からで、単年度・2か年・3か年から選べます。複数年の場合も1年ごとに継続できるかどうか審査されます。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "社会福祉法人",
+   "非営利の団体（法人格の有無は問わない）"
+  ],
+  "region_scope": "全国",
+  "themes": [
+   "福祉",
+   "生活困難者支援",
+   "被災者支援",
+   "ネットワークづくり",
+   "先駆的な取り組み"
+  ],
+  "fit_programs": [
+   "01",
+   "02"
+  ],
+  "fit_score": 55,
+  "fit_reason": "法人格がなくても応募できるため、任意団体のうきのわも対象になり、震災の被災者支援や寺院を拠点にした高齢者の見守りなどが当てはまる可能性があります。ただし、全国のお手本になる新しい取り組みであることや、さまざまな団体と協力することが求められ、特定の宗教を広める活動は対象外なので、お寺の活動を福祉の取り組みとしてしっかり示す必要があります。",
+  "apply_url": "https://www.akaihane.or.jp/news/kikin/50586/",
+  "program_key": "中央共同募金会|赤い羽根福祉基金 事業助成",
+  "is_grant_program": true,
+  "url": "https://www.akaihane.or.jp/news/kikin/50586/",
+  "source_id": "akaihane-subsidies",
+  "source_name": "中央共同募金会 助成情報",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-10-26",
+  "last_checked": "2026-10-26",
+  "status": "open",
+  "also_at": [],
+  "decide_by": null
+ },
+ {
   "amount_max_yen": 4000000,
   "amount_note": "地域美化助成は最大50万円/年、未来へつなごう助成は最大30万円/年、活動助成は最大100万円/年、NPO基盤強化助成は最大400万円/年（3年間で最大1,200万円）です。",
   "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2235",
@@ -454,21 +547,35 @@
   "decide_by": null
  },
  {
-  "is_grant_program": true,
-  "title": "公益財団法人キユーピーみらいたまご財団 2027年度 第Ⅰ期 助成事業",
-  "provider": "公益財団法人キユーピーみらいたまご財団",
-  "summary": "子どもを対象にした食育活動や、子ども食堂などの食を通した居場所づくりを行う団体を支える助成です。講座やイベントの費用、拠点の改修や設備・備品の購入、食材費、業務用冷凍冷蔵庫の提供など、5つのプログラムがあります。",
-  "deadline": "2026-11-16",
-  "deadline_note": "応募期間は2026年10月19日正午から11月16日正午までです。助成金を使える期間は2027年4月1日から2028年3月31日までです。",
   "amount_max_yen": 1000000,
   "amount_note": "プログラムA（食育活動）は100万円まで、B-1（居場所づくり）は70万円まで、B-2（立ち上げ）は一律15万円、B-4（食材費）は一律10万円です。B-3は現金ではなく業務用冷凍冷蔵庫（1団体2台まで）の提供です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292",
+  "deadline": "2026-11-16",
+  "deadline_note": "応募期間は2026年10月19日正午から11月16日正午までです。助成金を使える期間は2027年4月1日から2028年3月31日までです。",
   "eligible_types": [
    "任意団体",
    "NPO法人",
    "一般社団法人",
    "その他の団体"
   ],
+  "first_seen": "2026-10-19",
+  "fit_programs": [
+   "05",
+   "03"
+  ],
+  "fit_reason": "法人の種類の決まりはなく、任意団体のうきのわも応募できそうです。ただ、子どもへの食育や子ども食堂をすでに行っていることが条件で、竹の子掘りやそうめん流しを食育として位置づけたり、TOYONO-VAで子ども食堂を始めたりする必要があります。また宗教的な活動をしないことが条件なので、お寺を拠点にしていても活動自体は宗教と切り離していると説明できることが大切です。",
+  "fit_score": 45,
+  "is_grant_program": true,
+  "last_checked": "2026-10-19",
+  "program_key": "キユーピーみらいたまご財団|助成事業",
+  "provider": "公益財団法人キユーピーみらいたまご財団",
+  "public_ok": true,
   "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "子どもを対象にした食育活動や、子ども食堂などの食を通した居場所づくりを行う団体を支える助成です。講座やイベントの費用、拠点の改修や設備・備品の購入、食材費、業務用冷凍冷蔵庫の提供など、5つのプログラムがあります。",
   "themes": [
    "子ども",
    "食育",
@@ -476,22 +583,8 @@
    "子ども食堂",
    "食支援"
   ],
-  "fit_programs": [
-   "05",
-   "03"
-  ],
-  "fit_score": 45,
-  "fit_reason": "法人の種類の決まりはなく、任意団体のうきのわも応募できそうです。ただ、子どもへの食育や子ども食堂をすでに行っていることが条件で、竹の子掘りやそうめん流しを食育として位置づけたり、TOYONO-VAで子ども食堂を始めたりする必要があります。また宗教的な活動をしないことが条件なので、お寺を拠点にしていても活動自体は宗教と切り離していると説明できることが大切です。",
-  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292",
-  "program_key": "キユーピーみらいたまご財団|助成事業",
+  "title": "公益財団法人キユーピーみらいたまご財団 2027年度 第Ⅰ期 助成事業",
   "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292",
-  "source_id": "kumamoto-shakyo-grants",
-  "source_name": "熊本県社会福祉協議会 助成金情報",
-  "source_dedicated": true,
-  "public_ok": true,
-  "first_seen": "2026-10-19",
-  "last_checked": "2026-10-19",
-  "status": "open",
   "also_at": [],
   "decide_by": "2026-10-26"
  },
@@ -532,6 +625,50 @@
   "url": "https://fields.canpan.info/grant/detail/2340",
   "also_at": [],
   "decide_by": "2026-10-09"
+ },
+ {
+  "amount_max_yen": 5000000,
+  "amount_note": "助成金の総額は1,500万円です。昨年度は23件の応募のうち6件が採択されました。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2535",
+  "deadline": null,
+  "deadline_note": "募集時期は「随時」と書かれていますが、具体的な締切日は本文にありません。採否の決定は2027年1月下旬の予定です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "一般財団法人",
+   "公益社団法人",
+   "公益財団法人",
+   "社会福祉法人"
+  ],
+  "first_seen": "2026-10-19",
+  "fit_programs": [
+   "01"
+  ],
+  "fit_reason": "任意団体も応募できますが、活動実績2年以上が条件で、生活に困っている幼い子どもへの急ぎの支援が中心のため、うきのわの事業とは震災で被災した子育て家庭への物資配布などに限って重なります。被災した子どもへの支援として事業を組み立てられるかどうか次第です。",
+  "fit_score": 40,
+  "is_grant_program": true,
+  "last_checked": "2026-10-19",
+  "program_key": "日本フィランソロピック財団|子どもすこやか基金",
+  "provider": "日本フィランソロピック財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "生活に困っている家庭の幼い子ども（主に乳幼児から小学生）に、急いで必要な支援をすばやく届ける国内の事業に使える助成金です。助成の対象期間は2027年3月から2028年2月までです。",
+  "themes": [
+   "子ども",
+   "子どもの貧困",
+   "生活困窮",
+   "健康",
+   "緊急支援"
+  ],
+  "title": "第4回「子どもすこやか基金」",
+  "url": "https://fields.canpan.info/grant/detail/2535",
+  "also_at": [],
+  "decide_by": null
  },
  {
   "amount_max_yen": null,
@@ -601,50 +738,6 @@
   ],
   "title": "令和8年度 小規模活動支援事業（熊本県社会福祉振興基金助成金事業）",
   "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=366/r_id=630",
-  "also_at": [],
-  "decide_by": null
- },
- {
-  "is_grant_program": true,
-  "title": "第4回「子どもすこやか基金」",
-  "provider": "日本フィランソロピック財団",
-  "summary": "生活に困っている家庭の幼い子ども（主に乳幼児から小学生）に、急いで必要な支援をすばやく届ける国内の事業に使える助成金です。助成の対象期間は2027年3月から2028年2月までです。",
-  "deadline": null,
-  "deadline_note": "募集時期は「随時」と書かれていますが、具体的な締切日は本文にありません。採否の決定は2027年1月下旬の予定です。",
-  "amount_max_yen": 5000000,
-  "amount_note": "助成金の総額は1,500万円です。昨年度は23件の応募のうち6件が採択されました。",
-  "eligible_types": [
-   "任意団体",
-   "NPO法人",
-   "一般社団法人",
-   "一般財団法人",
-   "公益社団法人",
-   "公益財団法人",
-   "社会福祉法人"
-  ],
-  "region_scope": "全国",
-  "themes": [
-   "子ども",
-   "子どもの貧困",
-   "生活困窮",
-   "健康",
-   "緊急支援"
-  ],
-  "fit_programs": [
-   "01"
-  ],
-  "fit_score": 40,
-  "fit_reason": "任意団体も応募できますが、活動実績2年以上が条件で、生活に困っている幼い子どもへの急ぎの支援が中心のため、うきのわの事業とは震災で被災した子育て家庭への物資配布などに限って重なります。被災した子どもへの支援として事業を組み立てられるかどうか次第です。",
-  "apply_url": "https://fields.canpan.info/grant/detail/2535",
-  "program_key": "日本フィランソロピック財団|子どもすこやか基金",
-  "url": "https://fields.canpan.info/grant/detail/2535",
-  "source_id": "canpan-grant",
-  "source_name": "CANPAN 助成制度",
-  "source_dedicated": true,
-  "public_ok": true,
-  "first_seen": "2026-10-19",
-  "last_checked": "2026-10-19",
-  "status": "open",
   "also_at": [],
   "decide_by": null
  },
@@ -792,6 +885,101 @@
   "url": "https://www.janpia.or.jp/news/janpia/notice/news_20260731_01.html",
   "also_at": [],
   "decide_by": null
+ },
+ {
+  "title": "2027年度「公益・福祉募集」",
+  "provider": "日本財団",
+  "summary": "社会福祉・教育・文化などの事業に使える助成金です。子ども、障害者、高齢者、社会、災害がテーマです。",
+  "deadline": "2026-10-30",
+  "deadline_note": "17:00締切。事前に日本財団助成ポータルでのアカウント作成・団体登録・代表者の本人確認が必要です（法人番号13桁が必要、確認に数日かかる場合あり）。毎年度の募集です。",
+  "amount_max_yen": null,
+  "amount_note": "",
+  "eligible_types": [
+   "一般財団法人（非営利型）",
+   "一般社団法人（非営利型）",
+   "公益財団法人",
+   "公益社団法人",
+   "社会福祉法人",
+   "NPO法人"
+  ],
+  "region_scope": "全国",
+  "themes": [
+   "災害",
+   "高齢者",
+   "子ども",
+   "福祉",
+   "地域社会"
+  ],
+  "fit_programs": [
+   "01",
+   "02",
+   "03"
+  ],
+  "fit_score": 35,
+  "fit_reason": "災害や高齢者・子どものテーマは震災復興支援や寺院の防災拠点化に合いますが、法人格が必要で任意団体の今は応募できず、締切まで4日で法人番号の準備も間に合いません。非営利型一般社団法人になった後の来年度募集で狙う価値があります。",
+  "apply_url": "https://www.nippon-foundation.or.jp/who/news/information/2026/20261001-125381.html",
+  "program_key": "日本財団|公益・福祉",
+  "is_grant_program": true,
+  "url": "https://www.nippon-foundation.or.jp/who/news/information/2026/20261001-125381.html#program-2",
+  "source_id": "nippon-foundation-news",
+  "source_name": "日本財団 お知らせ",
+  "source_dedicated": false,
+  "public_ok": true,
+  "first_seen": "2026-10-26",
+  "last_checked": "2026-10-26",
+  "status": "open",
+  "also_at": [
+   {
+    "source_name": "日本財団 お知らせ",
+    "url": "https://www.nippon-foundation.or.jp/who/news/information/2026/20260915-125201.html#program-2"
+   }
+  ],
+  "decide_by": "2026-10-09"
+ },
+ {
+  "title": "「令和8（2026）年度の風水害にかかるボラサポ」第2回助成事業",
+  "provider": "社会福祉法人中央共同募金会",
+  "summary": "令和8年8月千葉豪雨、富山・石川・福井大雨、9月大雨、台風25号で被災した地域での、緊急支援から生活再建までの支援活動に使える資金です。30日以内の短期助成と、15日以上で人件費も対象になる中期助成があります。",
+  "deadline": "2026-11-16",
+  "deadline_note": "短期・中期共通で10月21日〜11月16日23:59まで。ウェブの応募フォーム「e応募」のみで受け付けます。決定は1月上旬の予定です。",
+  "amount_max_yen": 1000000,
+  "amount_note": "短期助成は1件50万円まで（人件費は対象外）、中期助成は1件100万円まで（人件費も対象）です。同じ災害には1件のみ、異なる災害ならそれぞれ応募でき、最大4件です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "ボランティアグループ"
+  ],
+  "region_scope": "全国",
+  "themes": [
+   "災害",
+   "被災者支援",
+   "風水害",
+   "復旧",
+   "ボランティア"
+  ],
+  "fit_programs": [
+   "01"
+  ],
+  "fit_score": 35,
+  "fit_reason": "5名以上で活動するボランティアグループなら任意団体でも応募できますが、対象は千葉・北陸の大雨や9月大雨、台風25号の被災地での活動に限られ、熊本地震の復興支援は対象外です。熊本県が対象地域に含まれるかは助成実施要領で確かめる必要があり、被災地へ出向いて支援する場合に限って関係します。",
+  "apply_url": "https://www.akaihane.or.jp/saigai-news/50541/",
+  "program_key": "中央共同募金会|風水害にかかるボラサポ",
+  "is_grant_program": true,
+  "url": "https://www.akaihane.or.jp/saigai-news/50541/",
+  "source_id": "akaihane-vorasapo",
+  "source_name": "中央共同募金会 ボラサポ",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-10-26",
+  "last_checked": "2026-10-26",
+  "status": "open",
+  "also_at": [
+   {
+    "source_name": "中央共同募金会 ボラサポ",
+    "url": "https://www.akaihane.or.jp/saigai-news/50578/#program-2"
+   }
+  ],
+  "decide_by": "2026-10-26"
  },
  {
   "amount_max_yen": 1000000,
