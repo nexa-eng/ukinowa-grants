@@ -30,6 +30,42 @@
   "title": "ローム 研究公募2027",
   "url": "https://fields.canpan.info/grant/detail/1854"
  },
+ "https://fields.canpan.info/grant/detail/2004": {
+  "amount_max_yen": 500000,
+  "amount_note": "【一般】は1年間で最大50万円（60～70件程度）です。【特別研究指定校】は2年間で150万円と研究者の学校訪問（年3回×2年）が付きます（3～5件程度、過去の助成実績などがある学校に限ります）。助成金の総額は4,000万円です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2004",
+  "deadline": "2027-01-20",
+  "deadline_note": "募集期間は2026年10月26日～2027年1月20日です。決定は2027年3月15日頃の予定です。",
+  "eligible_types": [
+   "学校（小・中・義務教育学校・高校・中等教育学校・特別支援学校）",
+   "教育委員会・教育センター・教育研究所",
+   "複数校の教員による教育研究グループ"
+  ],
+  "first_seen": "2026-11-02",
+  "fit_programs": [],
+  "fit_reason": "応募できるのは学校や教育委員会、先生方の研究グループに限られており、任意団体や一般社団法人のうきのわは応募できません。内容も学校でのデジタル学習の研究で、うきのわの事業とは合いません。",
+  "fit_score": 3,
+  "is_grant_program": true,
+  "last_checked": "2026-11-02",
+  "program_key": "パナソニック教育財団|実践研究助成",
+  "provider": "パナソニック教育財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "学校で1人1台端末などのデジタル学習の仕組みを使い、授業や先生の研修、校務の負担軽減などに取り組む実践研究を支えるお金です。",
+  "themes": [
+   "学校教育",
+   "デジタル学習",
+   "教員研修",
+   "校務の効率化",
+   "子ども"
+  ],
+  "title": "2027年度（第53回）実践研究助成",
+  "url": "https://fields.canpan.info/grant/detail/2004"
+ },
  "https://fields.canpan.info/grant/detail/2049": {
   "amount_max_yen": 300000,
   "amount_note": "助成金の総額は180万円です。家賃や通常の人件費、パソコンなど他の活動にも使う物、光熱費・通信費・燃料費は対象外です。1つあたり5万円を超える経費には見積書などが必要です。",
@@ -99,7 +135,7 @@
   "region_scope": "全国",
   "source_id": "canpan-grant",
   "source_name": "CANPAN 助成制度",
-  "status": "open",
+  "status": "closed",
   "summary": "犯罪の予防を中心に、少年非行の防止や犯罪被害者の支援など、安全で安心なまちづくりの活動にお金を出す制度です。複数の都道府県にまたがって行う事業、または国をまたいで行う事業が対象です。",
   "themes": [
    "防犯",
@@ -139,7 +175,7 @@
   "region_scope": "全国",
   "source_id": "canpan-grant",
   "source_name": "CANPAN 助成制度",
-  "status": "open",
+  "status": "closed",
   "summary": "犯罪の予防を中心に、少年非行の防止や犯罪被害者の支援など、安全で安心なまちづくりの活動に使える助成金です。1つの都道府県の中で、複数の市町村にまたがって行う事業が対象です。",
   "themes": [
    "地域安全",
@@ -207,7 +243,7 @@
   "region_scope": "全国",
   "source_id": "canpan-grant",
   "source_name": "CANPAN 助成制度",
-  "status": "open",
+  "status": "closed",
   "summary": "人口減少を和らげる取り組みや、人口減少に合わせた地域の仕組み・暮らし方について、調べて分析し、これからの計画や提案をまとめる2〜3年間の取り組みに使える資金です。調べることと提案することが中心の助成です。",
   "themes": [
    "人口減少",
@@ -452,7 +488,7 @@
   "region_scope": "その他地域",
   "source_id": "canpan-grant",
   "source_name": "CANPAN 助成制度",
-  "status": "open",
+  "status": "closed",
   "summary": "茅ヶ崎市と寒川町で行う、子どもや若者など次世代を応援する活動に使える助成金です。次世代の挑戦支援、リーダー育成、多様な体験の提供などの事業が対象です。",
   "themes": [
    "子ども",
@@ -491,7 +527,7 @@
   "region_scope": "その他地域",
   "source_id": "canpan-grant",
   "source_name": "CANPAN 助成制度",
-  "status": "open",
+  "status": "closed",
   "summary": "東海4県（愛知・静岡・三重・岐阜）に住む子どもに、楽しみや発見、感動につながる体験型の催しを届ける事業を助成します。交通費・謝金・消耗品など、催しの開催に必要な経費に使えます（固定資産は対象外です）。",
   "themes": [
    "子ども",
@@ -528,7 +564,7 @@
   "region_scope": "その他地域",
   "source_id": "canpan-grant",
   "source_name": "CANPAN 助成制度",
-  "status": "open",
+  "status": "closed",
   "summary": "東海4県を中心に活動する演奏家を支援する事業（公演やアウトリーチなど演奏の場づくり）に使える助成金です。対象期間は2027年4月から2028年3月までです。",
   "themes": [
    "音楽",
@@ -676,7 +712,7 @@
   "region_scope": "全国",
   "source_id": "canpan-grant",
   "source_name": "CANPAN 助成制度",
-  "status": "open",
+  "status": "closed",
   "summary": "家庭の事情で支援や機会につながりにくい子どもを支える事業（生活の安定、孤立の解消、機会の差をなくす取り組み）に使える資金です。人件費も対象で、2年度にわたる支援を基本としています。",
   "themes": [
    "子ども",
@@ -744,7 +780,7 @@
   "region_scope": "その他地域",
   "source_id": "canpan-grant",
   "source_name": "CANPAN 助成制度",
-  "status": "open",
+  "status": "closed",
   "summary": "大分県内でソーシャルビジネスに取り組むスタートアップが、社会課題を解決する新しい技術・商品・サービスを立ち上げるための開発・調査・研究の費用を助成します。人件費、専門家経費、外注・委託費などに使えます。",
   "themes": [
    "ソーシャルビジネス",
@@ -1159,7 +1195,7 @@
   "region_scope": "全国",
   "source_id": "kirin-fukushi",
   "source_name": "キリン福祉財団 助成のご案内",
-  "status": "open",
+  "status": "closed",
   "summary": "障害者・高齢者・子ども・地域社会の福祉を高めるボランティア活動のうち、複数の都道府県にまたがって長い目で取り組む活動に助成します。交通費、消耗品、制作費、会場費、謝金などに使えます。",
   "themes": [
    "地域福祉",
@@ -1199,7 +1235,7 @@
   "region_scope": "全国",
   "source_id": "kirin-fukushi",
   "source_name": "キリン福祉財団 助成のご案内",
-  "status": "open",
+  "status": "closed",
   "summary": "子ども、高齢者、障害のある人などの暮らしを良くするボランティア活動や、地域を元気にする活動、災害復興・防災の活動に使える助成です。居場所づくり、世代間の交流、自然・農業体験、見守りなどの活動費（交通費、消耗品、会場費、講師謝礼など）に使えます。",
   "themes": [
    "地域活性化",
@@ -1361,7 +1397,7 @@
   "region_scope": "全国",
   "source_id": "jnet21-support",
   "source_name": "J-Net21 支援情報",
-  "status": "open",
+  "status": "closed",
   "summary": "中小企業・小規模事業者などが、自社の課題に合ったITツールを入れるときの費用の一部を補助する制度です。仕事の効率を上げることが目的です。",
   "themes": [
    "IT導入",
@@ -1391,7 +1427,7 @@
   "region_scope": "全国",
   "source_id": "jnet21-support",
   "source_name": "J-Net21 支援情報",
-  "status": "open",
+  "status": "closed",
   "summary": "取引の発注者がインボイス制度に対応した受発注ソフトを導入し、取引先の中小企業・小規模事業者に使ってもらう場合に、その導入費用の一部を補助する制度です。中小企業の仕事の効率化とインボイス制度への対応を後押しすることが目的です。",
   "themes": [
    "IT化",
@@ -1422,7 +1458,7 @@
   "region_scope": "全国",
   "source_id": "jnet21-support",
   "source_name": "J-Net21 支援情報",
-  "status": "open",
+  "status": "closed",
   "summary": "中小企業・小規模事業者などが、サイバー攻撃などへの備えを強めるための道具（登録されたセキュリティサービス）を導入する費用の一部を補助します。サービス利用料を最大2年分補助します。",
   "themes": [
    "IT化",
@@ -1484,7 +1520,7 @@
   "region_scope": "全国",
   "source_id": "jnet21-support",
   "source_name": "J-Net21 支援情報",
-  "status": "open",
+  "status": "closed",
   "summary": "複数の中小企業・小規模事業者が連携してITツールを導入し、地域や取引先ぐるみでデジタル化や生産性の向上を進める取り組みを支援する補助金です。ITツールの導入費に加えて、連携のための調整費や助言する専門家への謝金なども対象になります。",
   "themes": [
    "IT化",
@@ -1518,7 +1554,7 @@
   "source_dedicated": true,
   "source_id": "jnet21-support",
   "source_name": "J-Net21 支援情報",
-  "status": "open",
+  "status": "closed",
   "summary": "中小水力発電を始めたい自治体や民間事業者が行う、発電に向く場所選びや事業計画づくりのための調査・設計の費用を補助するものです。",
   "themes": [
    "再生可能エネルギー",
@@ -1858,6 +1894,44 @@
   ],
   "title": "令和8年度風水害に係るボラサポ助成事業「ボラサポ・令和8年8月富山・石川・福井大雨助成」",
   "url": "https://www.akaihane-kumamoto.jp/2026/09/18/4033/"
+ },
+ "https://www.akaihane-kumamoto.jp/2026/10/26/4113/": {
+  "amount_max_yen": 500000,
+  "amount_note": "1件あたりの上限額は50万円",
+  "apply_url": "https://www.akaihane-kumamoto.jp/2026/10/26/4113/",
+  "deadline": "2026-11-04",
+  "deadline_note": "第2回。応募期間は10月21日(水)～11月4日(水)23:59まで。中央共同募金会のWeb応募フォーム「e応募」からのみ応募でき、メール・郵送は受け付けていません",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人"
+  ],
+  "first_seen": "2026-11-02",
+  "fit_programs": [
+   "01",
+   "02"
+  ],
+  "fit_reason": "ボランティアグループも応募でき、避難受入・物資配布・見守りといった震災復興支援の活動にそのまま使えます。ただし締切が11月4日23:59と目前なので、30日以内の活動計画をすぐにまとめて応募する必要があります。",
+  "fit_score": 85,
+  "is_grant_program": true,
+  "last_checked": "2026-11-02",
+  "program_key": "中央共同募金会|ボラサポ・令和8年熊本地震 短期活動助成",
+  "provider": "中央共同募金会（案内：熊本県共同募金会）",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_dedicated": false,
+  "source_id": "akaihane-kumamoto",
+  "source_name": "熊本県共同募金会（赤い羽根くまもと）",
+  "status": "open",
+  "summary": "令和8年熊本地震で被災された方々の生活再建を支えるボランティアグループやNPO法人などの災害支援活動に使える助成です。避難所での炊き出し、在宅・車中泊避難者の見守り、物資支援、倒壊家屋や施設の復旧支援など、活動日数30日以内の活動が対象です。",
+  "themes": [
+   "災害",
+   "被災者支援",
+   "避難所",
+   "見守り",
+   "復興"
+  ],
+  "title": "「ボラサポ・令和8年熊本地震」第2回短期活動助成",
+  "url": "https://www.akaihane-kumamoto.jp/2026/10/26/4113/"
  },
  "https://www.akaihane.or.jp/josei/": {
   "amount_max_yen": null,
@@ -2598,7 +2672,7 @@
   "region_scope": "全国",
   "source_id": "kumamoto-shakyo-grants",
   "source_name": "熊本県社会福祉協議会 助成金情報",
-  "status": "open",
+  "status": "closed",
   "summary": "全国で環境活動を行う非営利団体の地域美化や環境市民活動を支える助成です。活動の内容や規模に合わせて、4つの助成の種類から選んで応募します。",
   "themes": [
    "環境",
@@ -2821,7 +2895,7 @@
   "source_dedicated": true,
   "source_id": "kumamoto-shakyo-grants",
   "source_name": "熊本県社会福祉協議会 助成金情報",
-  "status": "open",
+  "status": "closed",
   "summary": "子ども・子育て世代、高齢者、障害や困りごとのある人を元気にする活動や、地域のつながりづくり・災害復興などのボランティア活動に使える助成金です。活動期間は2027年4月1日から2028年3月31日までです。",
   "themes": [
    "子ども・子育て",
@@ -2859,7 +2933,7 @@
   "source_dedicated": true,
   "source_id": "kumamoto-shakyo-grants",
   "source_name": "熊本県社会福祉協議会 助成金情報",
-  "status": "open",
+  "status": "closed",
   "summary": "全国や複数の都道府県にまたがる社会の課題に、長い目で取り組むボランティア活動を応援する助成です。障害者・高齢者・子どもや若者・地域社会の福祉を良くする事業に使えます。",
   "themes": [
    "障害者福祉",
@@ -2948,6 +3022,86 @@
   ],
   "title": "公益財団法人キユーピーみらいたまご財団 2027年度 第Ⅰ期 助成事業",
   "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299": {
+  "amount_max_yen": 1500000,
+  "amount_note": "1件150万円以内です。申請額100万円以上（総事業費125万円以上）の事業が対象です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299",
+  "deadline": "2026-12-04",
+  "deadline_note": "申請期間は2026年11月16日（月）～12月4日（金）15:00 申請書データ必着です。郵送は当日消印有効です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "社会福祉法人",
+   "その他の非営利団体"
+  ],
+  "first_seen": "2026-11-02",
+  "fit_programs": [
+   "05",
+   "03"
+  ],
+  "fit_reason": "法人格を問わない非営利団体が対象なので任意団体のうきのわも応募でき、竹を使った里山体験やTOYONO-VAでの子どもの居場所づくりは「子どもの健全育成」に当てはまります。ただし申請額が100万円以上と大きめで、宗教活動を目的としないことが条件のため、寺を拠点にしていても宗教色のない子ども向け事業として組み立てる必要があります。",
+  "fit_score": 55,
+  "is_grant_program": true,
+  "last_checked": "2026-11-02",
+  "program_key": "POSC|社会貢献活動支援のための助成",
+  "provider": "一般社団法人パチンコ・パチスロ社会貢献機構（POSC）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "パチンコ・パチスロ依存問題の予防と解決、子どもの居場所づくりや学習支援・情操教育など子どもの健全育成、全国規模の社会貢献事業に使える助成金です。2027年4月から2028年3月までの1年間に行う事業が対象です。",
+  "themes": [
+   "子どもの健全育成",
+   "子どもの居場所",
+   "学習支援",
+   "情操教育",
+   "依存問題"
+  ],
+  "title": "2027年度 POSC社会貢献活動支援のための助成",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299"
+ },
+ "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305": {
+  "amount_max_yen": 800000,
+  "amount_note": "Aコースは上限80万円、Bコースは上限20万円、Cコースは上限20万円を最長3年間（複数年の助成）です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305",
+  "deadline": "2026-12-21",
+  "deadline_note": "募集期間は2026年11月1日から12月21日までです。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "非営利団体"
+  ],
+  "first_seen": "2026-11-02",
+  "fit_programs": [
+   "05"
+  ],
+  "fit_reason": "法人格がなくても応募でき、九州が対象なので、里山体験（竹林の手入れや竹を使った子どもとの体験）を自然の大切さを学ぶ活動として組み立てれば合います。ただし、応募の日までに1年以上続けて活動していることが原則のため、その実績を示せるかの確認が必要です。",
+  "fit_score": 68,
+  "is_grant_program": true,
+  "last_checked": "2026-11-02",
+  "program_key": "九電みらい財団|環境分野の次世代育成支援活動",
+  "provider": "公益財団法人九電みらい財団",
+  "public_ok": true,
+  "region_scope": "九州",
+  "source_dedicated": true,
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "九州で子どもたち（おおむね高校生まで）を対象に、山・川・海の保全や自然・資源の大切さを学ぶ活動に使える助成金です。活動期間は2027年4月1日から2028年3月26日までです。",
+  "themes": [
+   "環境",
+   "子ども",
+   "自然体験",
+   "里山",
+   "保全活動"
+  ],
+  "title": "2027年度環境分野の次世代育成支援活動（助成事業）",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305"
  },
  "https://www.janpia.or.jp/dormant-deposits/po/": {
   "amount_max_yen": null,
@@ -3320,7 +3474,7 @@
   "region_scope": "全国",
   "source_id": "janpia-news",
   "source_name": "JANPIA（休眠預金活用）お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "休眠預金を使い、出資のかたちで資金を地域や団体に届ける「資金分配団体」を募集するものです。現場の活動団体に直接お金を出す制度ではなく、資金を配る側の団体を選ぶ公募です。",
   "themes": [
    "休眠預金",
@@ -3416,7 +3570,7 @@
   "region_scope": "全国",
   "source_id": "janpia-news",
   "source_name": "JANPIA（休眠預金活用）お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "休眠預金を使い、地域の活動団体へ資金を配り、その活動を支える「資金分配団体」を募集するものです。助成を受けた団体は、さらに現場で活動する団体を選んで支援します。",
   "themes": [
    "休眠預金",
@@ -3446,7 +3600,7 @@
   "region_scope": "全国",
   "source_id": "janpia-news",
   "source_name": "JANPIA（休眠預金活用）お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "休眠預金を使い、緊急性の高い社会課題に1年間で集中的に取り組む「資金分配団体」を募集するものです。選ばれた団体は、現場で活動する団体へ資金を配り、その活動を支える役割を担います。",
   "themes": [
    "休眠預金",
@@ -3476,7 +3630,7 @@
   "source_dedicated": true,
   "source_id": "janpia-news",
   "source_name": "JANPIA（休眠預金活用）お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "休眠預金を活用し、地域の活動団体へ資金を配る役目の「資金分配団体」を募集する制度です。このページは、その第2回募集の助成総額（約40.1億円が目安）をお知らせするものです。",
   "themes": [
    "休眠預金",
@@ -4009,7 +4163,7 @@
   "source_dedicated": false,
   "source_id": "nippon-foundation-news",
   "source_name": "日本財団 お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "海や船に関する研究、人づくり、安全・環境を守る活動、海とふれあう事業に使える助成金です。",
   "themes": [
    "海洋",
@@ -4053,7 +4207,7 @@
   "source_dedicated": false,
   "source_id": "nippon-foundation-news",
   "source_name": "日本財団 お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "子ども、障害者、高齢者、災害などをテーマにした社会福祉・教育・文化の事業に使える助成金です。",
   "themes": [
    "災害",
@@ -4094,7 +4248,7 @@
   "source_dedicated": false,
   "source_id": "nippon-foundation-news",
   "source_name": "日本財団 お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "子どもが安心して過ごせる「第三の居場所」をつくり運営する事業に使える助成金です。",
   "themes": [
    "子ども",
@@ -4130,7 +4284,7 @@
   "source_dedicated": false,
   "source_id": "nippon-foundation-news",
   "source_name": "日本財団 お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "多機能型児童家庭支援センターを新しく建てたり改修したりする事業に使える助成金です。",
   "themes": [
    "子ども",
@@ -4169,7 +4323,7 @@
   "source_dedicated": false,
   "source_id": "nippon-foundation-news",
   "source_name": "日本財団 お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "犯罪の被害にあった人やその家族を支える活動、またその広がりに役立つ事業に使える助成金です。",
   "themes": [
    "犯罪被害者支援"
@@ -4204,7 +4358,7 @@
   "source_dedicated": false,
   "source_id": "nippon-foundation-news",
   "source_name": "日本財団 お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "海と船の研究、海を支える人づくり、海の安全・環境を守る活動、海と身近にふれあう事業に使える助成金です。",
   "themes": [
    "海洋",
@@ -4247,7 +4401,7 @@
   "source_dedicated": false,
   "source_id": "nippon-foundation-news",
   "source_name": "日本財団 お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "社会福祉・教育・文化などの事業に使える助成金です。子ども、障害者、高齢者、社会、災害がテーマです。",
   "themes": [
    "災害",
@@ -4288,7 +4442,7 @@
   "source_dedicated": false,
   "source_id": "nippon-foundation-news",
   "source_name": "日本財団 お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "子どもが安心して過ごせる「子ども第三の居場所」をつくり運営する事業に使える助成金です。",
   "themes": [
    "子ども",
@@ -4324,7 +4478,7 @@
   "source_dedicated": false,
   "source_id": "nippon-foundation-news",
   "source_name": "日本財団 お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "多機能型児童家庭支援センターの新築や改修に使える助成金です。",
   "themes": [
    "子ども",
@@ -4363,7 +4517,7 @@
   "source_dedicated": false,
   "source_id": "nippon-foundation-news",
   "source_name": "日本財団 お知らせ",
-  "status": "open",
+  "status": "closed",
   "summary": "犯罪の被害にあった人やその家族を支える活動、またその広がりにつながる事業に使える助成金です。",
   "themes": [
    "犯罪被害者支援"
@@ -4612,6 +4766,41 @@
   "title": "熊本県地域交通燃料価格高騰対策事業補助金（タクシー・自動車運転代行業 R8.10月受付開始分）",
   "url": "https://www.pref.kumamoto.jp/soshiki/25/281235.html"
  },
+ "https://www.pref.kumamoto.jp/soshiki/32/256576.html": {
+  "amount_max_yen": null,
+  "amount_note": "定員1人あたり18,000円が上限で、国の交付決定の範囲内です。",
+  "apply_url": "https://www.pref.kumamoto.jp/soshiki/32/256576.html",
+  "deadline": "2026-03-06",
+  "deadline_note": "交付申請の受付は令和8年3月6日で締め切られています。現在は交付が決まった施設が請求書を出す段階で、その期限は2026年11月13日です。",
+  "eligible_types": [
+   "介護施設等を運営する法人",
+   "社会福祉法人",
+   "自治体"
+  ],
+  "first_seen": "2026-11-02",
+  "fit_programs": [],
+  "fit_reason": "締切済みです。また、介護施設を運営する事業者だけが対象のため、うきのわは応募できません。",
+  "fit_score": 0,
+  "is_grant_program": true,
+  "last_checked": "2026-11-02",
+  "program_key": "熊本県|介護施設等に対するサービス継続支援事業補助金",
+  "provider": "熊本県（健康福祉部 高齢者支援課）",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_dedicated": false,
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "status": "closed",
+  "summary": "物価が上がるなかでも介護施設が食事の提供を続けられるよう、食料品の購入費などを補助する制度です。対象は特別養護老人ホームや老人保健施設などの介護施設です。",
+  "themes": [
+   "介護",
+   "高齢者",
+   "食料品",
+   "物価高騰対策"
+  ],
+  "title": "令和7年度熊本県介護施設等に対するサービス継続支援事業補助金",
+  "url": "https://www.pref.kumamoto.jp/soshiki/32/256576.html"
+ },
  "https://www.pref.kumamoto.jp/soshiki/33/273072.html": {
   "amount_max_yen": 1500000,
   "amount_note": "補助率2分の1以内。補助額は2.5万円以上150万円以内。1品5万円以上の機器が対象。予算の範囲内での交付",
@@ -4732,7 +4921,7 @@
   "source_dedicated": false,
   "source_id": "pref-kumamoto-news",
   "source_name": "熊本県 新着情報",
-  "status": "open",
+  "status": "closed",
   "summary": "在宅医療を進めるため、在宅医療に関わる認定看護師などの資格取得や、看護師の特定行為研修の受講にかかる費用の一部を助成する補助金です。",
   "themes": [
    "在宅医療",
@@ -4946,6 +5135,41 @@
   "title": "令和8年熊本地震にかかる「くまもと事業者再出発支援補助金」（現地サポートセンター開設のご案内）",
   "url": "https://www.pref.kumamoto.jp/soshiki/61/282260.html"
  },
+ "https://www.pref.kumamoto.jp/soshiki/61/282849.html": {
+  "amount_max_yen": null,
+  "amount_note": "対象経費の2分の1以内。上限額は本文に記載がありません。申請には所在市町村の「地方公共団体からの支援表明書」が必ず必要です。",
+  "apply_url": "https://www.pref.kumamoto.jp/soshiki/61/282849.html",
+  "deadline": "2027-01-15",
+  "deadline_note": "公募期間は2026年10月28日〜2027年1月15日（当日消印有効）。申請に応じて随時審査します。予算額に達した場合は予告なく打ち切られることがあります。",
+  "eligible_types": [
+   "商店街等組織"
+  ],
+  "first_seen": "2026-11-02",
+  "fit_programs": [
+   "01"
+  ],
+  "fit_reason": "申請できるのは被災した商店街等の組織で、アーケードや街路灯など商店街の共同施設の復旧が対象のため、市民活動団体のうきのわは応募できません。震災復興という点では関わりますが、うきのわの事業には合いません。",
+  "fit_score": 8,
+  "is_grant_program": true,
+  "last_checked": "2026-11-02",
+  "program_key": "熊本県|被災商店街等再建支援事業（商店街災害復旧事業）",
+  "provider": "熊本県（商工労働部 商工振興金融課）／中小企業庁",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_dedicated": false,
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "status": "open",
+  "summary": "令和8年熊本地震で被害を受けた県内の商店街等が行う、アーケードの撤去・改修、共同設備の改修・建て替え、街路灯などの復旧にかかる費用の一部を補助します。地域の買い物の場としての働きと、人が集まる場としての働きを取り戻すことが目的です。",
+  "themes": [
+   "震災復興",
+   "商店街",
+   "施設復旧",
+   "コミュニティ"
+  ],
+  "title": "令和8年熊本地震「被災商店街等再建支援事業（商店街災害復旧事業）」",
+  "url": "https://www.pref.kumamoto.jp/soshiki/61/282849.html"
+ },
  "https://www.pref.kumamoto.jp/soshiki/73/269970.html": {
   "amount_max_yen": null,
   "amount_note": "定額補助です。予算総額は256万8千円で、1件あたりの上限は書かれていません。要望額どおりに採択されるとは限りません。",
@@ -5003,7 +5227,7 @@
   "source_dedicated": false,
   "source_id": "pref-kumamoto-news",
   "source_name": "熊本県 新着情報",
-  "status": "open",
+  "status": "closed",
   "summary": "熊本県内で農業に参入する食品関連企業が、作物づくりに使う農業機械を買ったり直したりする費用を補助するものです。資材などの値上がりの影響を受ける企業の新しい農業参入と定着を後押しします。",
   "themes": [
    "農業参入",

@@ -6,38 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:うきのわ 助成金の締切
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:36be9587ca80660a-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
-SUMMARY:締切: 「ボラサポ・令和8年熊本地震」第2回短期助
- 成事業
-DESCRIPTION:令和8年熊本地震で被災した方々を支える、活
- 動日数30日以内の支援活動に使える助成金です。避難所
- での炊き出し、在宅・車中泊の避難者の見守り、物資
- 支援、倒壊した家や施設の復旧支援などが対象です。\n
- 上限: 50万円\nhttps://www.akaihane.or.jp/saigai-news/50550/
-TRANSP:TRANSPARENT
-URL:https://www.akaihane.or.jp/saigai-news/50550/
-END:VEVENT
-BEGIN:VEVENT
-UID:36be9587ca80660a-2@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:締切7日前: 「ボラサポ・令和8年熊本地震」第2回
- 短期助成事業
-DESCRIPTION:令和8年熊本地震で被災した方々を支える、活
- 動日数30日以内の支援活動に使える助成金です。避難所
- での炊き出し、在宅・車中泊の避難者の見守り、物資
- 支援、倒壊した家や施設の復旧支援などが対象です。\n
- 上限: 50万円\nhttps://www.akaihane.or.jp/saigai-news/50550/
-TRANSP:TRANSPARENT
-URL:https://www.akaihane.or.jp/saigai-news/50550/
-END:VEVENT
-BEGIN:VEVENT
 UID:db41c5c371ed2f77-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:締切: 令和９（2027）年度 住まいとコミュニティづ
@@ -52,7 +22,7 @@ URL:https://fields.canpan.info/grant/detail/2538
 END:VEVENT
 BEGIN:VEVENT
 UID:db41c5c371ed2f77-1@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:締切21日前: 令和９（2027）年度 住まいとコミュニ
@@ -67,7 +37,7 @@ URL:https://fields.canpan.info/grant/detail/2538
 END:VEVENT
 BEGIN:VEVENT
 UID:db41c5c371ed2f77-2@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:締切7日前: 令和９（2027）年度 住まいとコミュニ
@@ -81,24 +51,23 @@ TRANSP:TRANSPARENT
 URL:https://fields.canpan.info/grant/detail/2538
 END:VEVENT
 BEGIN:VEVENT
-UID:6501696bb1bb1651-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:締切: キリン福祉財団 令和9年度「キリン・地域の
- ちから応援事業」公募助成
-DESCRIPTION:子ども・子育て世代、高齢者、障害や困りごと
- のある人を元気にする活動や、地域のつながりづくり
- ・災害復興などのボランティア活動に使える助成金で
- す。活動期間は2027年4月1日から2028年3月31日までです。\
- n上限: 30万円\nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_
- id=367/r_id=2285
+UID:36be9587ca80660a-0@ukinowa-grants
+DTSTAMP:20261101T200838Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:締切: 「ボラサポ・令和8年熊本地震」第2回短期助
+ 成事業
+DESCRIPTION:令和8年熊本地震で被災した方々を支える、活
+ 動日数30日以内の支援活動に使える助成金です。避難所
+ での炊き出し、在宅・車中泊の避難者の見守り、物資
+ 支援、倒壊した家や施設の復旧支援などが対象です。\n
+ 上限: 50万円\nhttps://www.akaihane.or.jp/saigai-news/50550/
 TRANSP:TRANSPARENT
-URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2285
+URL:https://www.akaihane.or.jp/saigai-news/50550/
 END:VEVENT
 BEGIN:VEVENT
 UID:f4cad137f57cad0c-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:締切: ニッセイ財団 2027年度「児童・少年の健全育
@@ -114,7 +83,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
 END:VEVENT
 BEGIN:VEVENT
 UID:f4cad137f57cad0c-2@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:締切7日前: ニッセイ財団 2027年度「児童・少年の
@@ -129,8 +98,53 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266
 END:VEVENT
 BEGIN:VEVENT
+UID:3e0dd82a13568e7f-0@ukinowa-grants
+DTSTAMP:20261101T200838Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:締切: 2027年度環境分野の次世代育成支援活動（助
+ 成事業）
+DESCRIPTION:九州で子どもたち（おおむね高校生まで）を対
+ 象に、山・川・海の保全や自然・資源の大切さを学ぶ
+ 活動に使える助成金です。活動期間は2027年4月1日から20
+ 28年3月26日までです。\n上限: 80万円\nhttps://www.fukushi-kumam
+ oto.or.jp/pages/73/detail=1/b_id=367/r_id=2305
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305
+END:VEVENT
+BEGIN:VEVENT
+UID:3e0dd82a13568e7f-1@ukinowa-grants
+DTSTAMP:20261101T200838Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:締切21日前: 2027年度環境分野の次世代育成支援活
+ 動（助成事業）
+DESCRIPTION:九州で子どもたち（おおむね高校生まで）を対
+ 象に、山・川・海の保全や自然・資源の大切さを学ぶ
+ 活動に使える助成金です。活動期間は2027年4月1日から20
+ 28年3月26日までです。\n上限: 80万円\nhttps://www.fukushi-kumam
+ oto.or.jp/pages/73/detail=1/b_id=367/r_id=2305
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305
+END:VEVENT
+BEGIN:VEVENT
+UID:3e0dd82a13568e7f-2@ukinowa-grants
+DTSTAMP:20261101T200838Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:締切7日前: 2027年度環境分野の次世代育成支援活動
+ （助成事業）
+DESCRIPTION:九州で子どもたち（おおむね高校生まで）を対
+ 象に、山・川・海の保全や自然・資源の大切さを学ぶ
+ 活動に使える助成金です。活動期間は2027年4月1日から20
+ 28年3月26日までです。\n上限: 80万円\nhttps://www.fukushi-kumam
+ oto.or.jp/pages/73/detail=1/b_id=367/r_id=2305
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305
+END:VEVENT
+BEGIN:VEVENT
 UID:3fdb1c695eb38c29-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:締切: 2027年度日本郵便年賀寄付金配分団体の公募
@@ -144,24 +158,8 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261
 END:VEVENT
 BEGIN:VEVENT
-UID:3fdb1c695eb38c29-1@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:締切21日前: 2027年度日本郵便年賀寄付金配分団体
- の公募
-DESCRIPTION:年賀はがきや年賀切手の寄付金を、社会貢献や
- 地域貢献の活動をする団体に配る制度です。活動費、
- 施設の改修、機器や車両の購入に使え、令和8年熊本地
- 震の被災者支援・復興のための特別枠もあります。\n上
- 限: 250万円\nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=
- 367/r_id=2261
-TRANSP:TRANSPARENT
-URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261
-END:VEVENT
-BEGIN:VEVENT
 UID:3fdb1c695eb38c29-2@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:締切7日前: 2027年度日本郵便年賀寄付金配分団体の
@@ -177,7 +175,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261
 END:VEVENT
 BEGIN:VEVENT
 UID:3898ceb240cc4017-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:締切: 公益財団法人大阪コミュニティ財団 2027年度
@@ -191,7 +189,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283
 END:VEVENT
 BEGIN:VEVENT
 UID:3898ceb240cc4017-1@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:締切21日前: 公益財団法人大阪コミュニティ財団 20
@@ -205,7 +203,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283
 END:VEVENT
 BEGIN:VEVENT
 UID:3898ceb240cc4017-2@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:締切7日前: 公益財団法人大阪コミュニティ財団 202
@@ -218,23 +216,55 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283
 END:VEVENT
 BEGIN:VEVENT
-UID:5afe5ba22215809d-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:締切: セブン-イレブン記念財団 2027年度 環境市民
- 活動助成
-DESCRIPTION:全国で環境活動を行う非営利団体の地域美化や
- 環境市民活動を支える助成です。活動の内容や規模に
- 合わせて、4つの助成の種類から選んで応募します。\n
- 上限: 400万円\nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_
- id=367/r_id=2235
+UID:f9e1cbf7be69d697-0@ukinowa-grants
+DTSTAMP:20261101T200838Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:締切: 2027年度 POSC社会貢献活動支援のための助成
+DESCRIPTION:パチンコ・パチスロ依存問題の予防と解決、子
+ どもの居場所づくりや学習支援・情操教育など子ども
+ の健全育成、全国規模の社会貢献事業に使える助成金
+ です。2027年4月から2028年3月までの1年間に行う事業が対
+ 象です。\n上限: 150万円\nhttps://www.fukushi-kumamoto.or.jp/pages/
+ 73/detail=1/b_id=367/r_id=2299
 TRANSP:TRANSPARENT
-URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2235
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299
+END:VEVENT
+BEGIN:VEVENT
+UID:f9e1cbf7be69d697-1@ukinowa-grants
+DTSTAMP:20261101T200838Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:締切21日前: 2027年度 POSC社会貢献活動支援のための
+ 助成
+DESCRIPTION:パチンコ・パチスロ依存問題の予防と解決、子
+ どもの居場所づくりや学習支援・情操教育など子ども
+ の健全育成、全国規模の社会貢献事業に使える助成金
+ です。2027年4月から2028年3月までの1年間に行う事業が対
+ 象です。\n上限: 150万円\nhttps://www.fukushi-kumamoto.or.jp/pages/
+ 73/detail=1/b_id=367/r_id=2299
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299
+END:VEVENT
+BEGIN:VEVENT
+UID:f9e1cbf7be69d697-2@ukinowa-grants
+DTSTAMP:20261101T200838Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:締切7日前: 2027年度 POSC社会貢献活動支援のための
+ 助成
+DESCRIPTION:パチンコ・パチスロ依存問題の予防と解決、子
+ どもの居場所づくりや学習支援・情操教育など子ども
+ の健全育成、全国規模の社会貢献事業に使える助成金
+ です。2027年4月から2028年3月までの1年間に行う事業が対
+ 象です。\n上限: 150万円\nhttps://www.fukushi-kumamoto.or.jp/pages/
+ 73/detail=1/b_id=367/r_id=2299
+TRANSP:TRANSPARENT
+URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299
 END:VEVENT
 BEGIN:VEVENT
 UID:a17cfcf56de8157d-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:締切: 公益財団法人キユーピーみらいたまご財団 2
@@ -249,24 +279,8 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
 END:VEVENT
 BEGIN:VEVENT
-UID:a17cfcf56de8157d-1@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:締切21日前: 公益財団法人キユーピーみらいたまご
- 財団 2027年度 第Ⅰ期 助成事業
-DESCRIPTION:子どもを対象にした食育活動や、子ども食堂な
- どの食を通した居場所づくりを行う団体を支える助成
- です。講座やイベントの費用、拠点の改修や設備・備
- 品の購入、食材費、業務用冷凍冷蔵庫の提供など、5つ
- のプログラムがあります。\n上限: 100万円\nhttps://www.fukus
- hi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
-TRANSP:TRANSPARENT
-URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
-END:VEVENT
-BEGIN:VEVENT
 UID:a17cfcf56de8157d-2@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:締切7日前: 公益財団法人キユーピーみらいたまご
@@ -281,24 +295,40 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
 END:VEVENT
 BEGIN:VEVENT
-UID:79b0ae4ad81ae24d-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:締切: 2026年度 トヨタ財団 特定課題「人口減少と
- 日本社会」
-DESCRIPTION:人口減少を和らげる取り組みや、人口減少に合
- わせた地域の仕組み・暮らし方について、調べて分析
- し、これからの計画や提案をまとめる2〜3年間の取り組
- みに使える資金です。調べることと提案することが中
- 心の助成です。\n上限: 1\,000万円\nhttps://www.toyotafound.or.jp
- /grant/population/
+UID:52fdc982aaa9ad84-0@ukinowa-grants
+DTSTAMP:20261101T200838Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:締切: 「令和8（2026）年度の風水害にかかるボラサ
+ ポ」第2回助成事業
+DESCRIPTION:令和8年8月千葉豪雨、富山・石川・福井大雨、9
+ 月大雨、台風25号で被災した地域での、緊急支援から生
+ 活再建までの支援活動に使える資金です。30日以内の短
+ 期助成と、15日以上で人件費も対象になる中期助成があ
+ ります。\n上限: 100万円\nhttps://www.akaihane.or.jp/saigai-news/50
+ 541/
 TRANSP:TRANSPARENT
-URL:https://www.toyotafound.or.jp/grant/population/
+URL:https://www.akaihane.or.jp/saigai-news/50541/
+END:VEVENT
+BEGIN:VEVENT
+UID:52fdc982aaa9ad84-2@ukinowa-grants
+DTSTAMP:20261101T200838Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:締切7日前: 「令和8（2026）年度の風水害にかかる
+ ボラサポ」第2回助成事業
+DESCRIPTION:令和8年8月千葉豪雨、富山・石川・福井大雨、9
+ 月大雨、台風25号で被災した地域での、緊急支援から生
+ 活再建までの支援活動に使える資金です。30日以内の短
+ 期助成と、15日以上で人件費も対象になる中期助成があ
+ ります。\n上限: 100万円\nhttps://www.akaihane.or.jp/saigai-news/50
+ 541/
+TRANSP:TRANSPARENT
+URL:https://www.akaihane.or.jp/saigai-news/50541/
 END:VEVENT
 BEGIN:VEVENT
 UID:c6c5419e0a78b893-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:締切: 公益財団法人ヤマト福祉財団 2027年度助成金
@@ -316,7 +346,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
 END:VEVENT
 BEGIN:VEVENT
 UID:c6c5419e0a78b893-1@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:締切21日前: 公益財団法人ヤマト福祉財団 2027年度
@@ -334,7 +364,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
 END:VEVENT
 BEGIN:VEVENT
 UID:c6c5419e0a78b893-2@ukinowa-grants
-DTSTAMP:20261025T222154Z
+DTSTAMP:20261101T200838Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:締切7日前: 公益財団法人ヤマト福祉財団 2027年度
@@ -349,82 +379,5 @@ DESCRIPTION:障がいのある方の給料を増やす事業の設備購入
  pages/73/detail=1/b_id=367/r_id=1922
 TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
-END:VEVENT
-BEGIN:VEVENT
-UID:ba93331f3c7e571e-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:締切: 2027年度「公益・福祉募集」
-DESCRIPTION:社会福祉・教育・文化などの事業に使える助成
- 金です。子ども、障害者、高齢者、社会、災害がテー
- マです。\n上限: —\nhttps://www.nippon-foundation.or.jp/who/news/in
- formation/2026/20261001-125381.html
-TRANSP:TRANSPARENT
-URL:https://www.nippon-foundation.or.jp/who/news/information/2026/20261001-
- 125381.html
-END:VEVENT
-BEGIN:VEVENT
-UID:52fdc982aaa9ad84-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:締切: 「令和8（2026）年度の風水害にかかるボラサ
- ポ」第2回助成事業
-DESCRIPTION:令和8年8月千葉豪雨、富山・石川・福井大雨、9
- 月大雨、台風25号で被災した地域での、緊急支援から生
- 活再建までの支援活動に使える資金です。30日以内の短
- 期助成と、15日以上で人件費も対象になる中期助成があ
- ります。\n上限: 100万円\nhttps://www.akaihane.or.jp/saigai-news/50
- 541/
-TRANSP:TRANSPARENT
-URL:https://www.akaihane.or.jp/saigai-news/50541/
-END:VEVENT
-BEGIN:VEVENT
-UID:52fdc982aaa9ad84-1@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:締切21日前: 「令和8（2026）年度の風水害にかかる
- ボラサポ」第2回助成事業
-DESCRIPTION:令和8年8月千葉豪雨、富山・石川・福井大雨、9
- 月大雨、台風25号で被災した地域での、緊急支援から生
- 活再建までの支援活動に使える資金です。30日以内の短
- 期助成と、15日以上で人件費も対象になる中期助成があ
- ります。\n上限: 100万円\nhttps://www.akaihane.or.jp/saigai-news/50
- 541/
-TRANSP:TRANSPARENT
-URL:https://www.akaihane.or.jp/saigai-news/50541/
-END:VEVENT
-BEGIN:VEVENT
-UID:52fdc982aaa9ad84-2@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-SUMMARY:締切7日前: 「令和8（2026）年度の風水害にかかる
- ボラサポ」第2回助成事業
-DESCRIPTION:令和8年8月千葉豪雨、富山・石川・福井大雨、9
- 月大雨、台風25号で被災した地域での、緊急支援から生
- 活再建までの支援活動に使える資金です。30日以内の短
- 期助成と、15日以上で人件費も対象になる中期助成があ
- ります。\n上限: 100万円\nhttps://www.akaihane.or.jp/saigai-news/50
- 541/
-TRANSP:TRANSPARENT
-URL:https://www.akaihane.or.jp/saigai-news/50541/
-END:VEVENT
-BEGIN:VEVENT
-UID:94a2a767466a4570-0@ukinowa-grants
-DTSTAMP:20261025T222154Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:締切: キリン福祉財団 令和9年度「キリン・福祉の
- ちから開拓事業」公募助成
-DESCRIPTION:全国や複数の都道府県にまたがる社会の課題に
- 、長い目で取り組むボランティア活動を応援する助成
- です。障害者・高齢者・子どもや若者・地域社会の福
- 祉を良くする事業に使えます。\n上限: 100万円\nhttps://www
- .fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2286
-TRANSP:TRANSPARENT
-URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2286
 END:VEVENT
 END:VCALENDAR
