@@ -224,20 +224,34 @@
   "decide_by": "2026-10-19"
  },
  {
-  "title": "2027年度環境分野の次世代育成支援活動（助成事業）",
-  "provider": "公益財団法人九電みらい財団",
-  "summary": "九州で子どもたち（おおむね高校生まで）を対象に、山・川・海の保全や自然・資源の大切さを学ぶ活動に使える助成金です。活動期間は2027年4月1日から2028年3月26日までです。",
-  "deadline": "2026-12-21",
-  "deadline_note": "募集期間は2026年11月1日から12月21日までです。",
   "amount_max_yen": 800000,
   "amount_note": "Aコースは上限80万円、Bコースは上限20万円、Cコースは上限20万円を最長3年間（複数年の助成）です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305",
+  "deadline": "2026-12-21",
+  "deadline_note": "募集期間は2026年11月1日から12月21日までです。",
   "eligible_types": [
    "任意団体",
    "NPO法人",
    "一般社団法人",
    "非営利団体"
   ],
+  "first_seen": "2026-11-02",
+  "fit_programs": [
+   "05"
+  ],
+  "fit_reason": "法人格がなくても応募でき、九州が対象なので、里山体験（竹林の手入れや竹を使った子どもとの体験）を自然の大切さを学ぶ活動として組み立てれば合います。ただし、応募の日までに1年以上続けて活動していることが原則のため、その実績を示せるかの確認が必要です。",
+  "fit_score": 68,
+  "is_grant_program": true,
+  "last_checked": "2026-11-02",
+  "program_key": "九電みらい財団|環境分野の次世代育成支援活動",
+  "provider": "公益財団法人九電みらい財団",
+  "public_ok": true,
   "region_scope": "九州",
+  "source_dedicated": true,
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "九州で子どもたち（おおむね高校生まで）を対象に、山・川・海の保全や自然・資源の大切さを学ぶ活動に使える助成金です。活動期間は2027年4月1日から2028年3月26日までです。",
   "themes": [
    "環境",
    "子ども",
@@ -245,22 +259,8 @@
    "里山",
    "保全活動"
   ],
-  "fit_programs": [
-   "05"
-  ],
-  "fit_score": 68,
-  "fit_reason": "法人格がなくても応募でき、九州が対象なので、里山体験（竹林の手入れや竹を使った子どもとの体験）を自然の大切さを学ぶ活動として組み立てれば合います。ただし、応募の日までに1年以上続けて活動していることが原則のため、その実績を示せるかの確認が必要です。",
-  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305",
-  "program_key": "九電みらい財団|環境分野の次世代育成支援活動",
-  "is_grant_program": true,
+  "title": "2027年度環境分野の次世代育成支援活動（助成事業）",
   "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305",
-  "source_id": "kumamoto-shakyo-grants",
-  "source_name": "熊本県社会福祉協議会 助成金情報",
-  "source_dedicated": true,
-  "public_ok": true,
-  "first_seen": "2026-11-02",
-  "last_checked": "2026-11-02",
-  "status": "open",
   "also_at": [],
   "decide_by": "2026-11-30"
  },
@@ -436,6 +436,49 @@
   "decide_by": "2026-11-03"
  },
  {
+  "amount_max_yen": 1500000,
+  "amount_note": "1件150万円以内です。申請額100万円以上（総事業費125万円以上）の事業が対象です。",
+  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299",
+  "deadline": "2026-12-04",
+  "deadline_note": "申請期間は2026年11月16日（月）～12月4日（金）15:00 申請書データ必着です。郵送は当日消印有効です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "社会福祉法人",
+   "その他の非営利団体"
+  ],
+  "first_seen": "2026-11-02",
+  "fit_programs": [
+   "05",
+   "03"
+  ],
+  "fit_reason": "法人格を問わない非営利団体が対象なので任意団体のうきのわも応募でき、竹を使った里山体験やTOYONO-VAでの子どもの居場所づくりは「子どもの健全育成」に当てはまります。ただし申請額が100万円以上と大きめで、宗教活動を目的としないことが条件のため、寺を拠点にしていても宗教色のない子ども向け事業として組み立てる必要があります。",
+  "fit_score": 55,
+  "is_grant_program": true,
+  "last_checked": "2026-11-02",
+  "program_key": "POSC|社会貢献活動支援のための助成",
+  "provider": "一般社団法人パチンコ・パチスロ社会貢献機構（POSC）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "kumamoto-shakyo-grants",
+  "source_name": "熊本県社会福祉協議会 助成金情報",
+  "status": "open",
+  "summary": "パチンコ・パチスロ依存問題の予防と解決、子どもの居場所づくりや学習支援・情操教育など子どもの健全育成、全国規模の社会貢献事業に使える助成金です。2027年4月から2028年3月までの1年間に行う事業が対象です。",
+  "themes": [
+   "子どもの健全育成",
+   "子どもの居場所",
+   "学習支援",
+   "情操教育",
+   "依存問題"
+  ],
+  "title": "2027年度 POSC社会貢献活動支援のための助成",
+  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299",
+  "also_at": [],
+  "decide_by": "2026-11-13"
+ },
+ {
   "amount_max_yen": null,
   "amount_note": "",
   "apply_url": "https://www.jbf.ne.jp/wp-content/uploads/site211/files/pdf/shien/jyoseikin32.pdf",
@@ -468,49 +511,6 @@
   "url": "https://www.jbf.ne.jp/wp-content/uploads/site211/files/pdf/shien/jyoseikin32.pdf",
   "also_at": [],
   "decide_by": null
- },
- {
-  "title": "2027年度 POSC社会貢献活動支援のための助成",
-  "provider": "一般社団法人パチンコ・パチスロ社会貢献機構（POSC）",
-  "summary": "パチンコ・パチスロ依存問題の予防と解決、子どもの居場所づくりや学習支援・情操教育など子どもの健全育成、全国規模の社会貢献事業に使える助成金です。2027年4月から2028年3月までの1年間に行う事業が対象です。",
-  "deadline": "2026-12-04",
-  "deadline_note": "申請期間は2026年11月16日（月）～12月4日（金）15:00 申請書データ必着です。郵送は当日消印有効です。",
-  "amount_max_yen": 1500000,
-  "amount_note": "1件150万円以内です。申請額100万円以上（総事業費125万円以上）の事業が対象です。",
-  "eligible_types": [
-   "任意団体",
-   "NPO法人",
-   "一般社団法人",
-   "社会福祉法人",
-   "その他の非営利団体"
-  ],
-  "region_scope": "全国",
-  "themes": [
-   "子どもの健全育成",
-   "子どもの居場所",
-   "学習支援",
-   "情操教育",
-   "依存問題"
-  ],
-  "fit_programs": [
-   "05",
-   "03"
-  ],
-  "fit_score": 55,
-  "fit_reason": "法人格を問わない非営利団体が対象なので任意団体のうきのわも応募でき、竹を使った里山体験やTOYONO-VAでの子どもの居場所づくりは「子どもの健全育成」に当てはまります。ただし申請額が100万円以上と大きめで、宗教活動を目的としないことが条件のため、寺を拠点にしていても宗教色のない子ども向け事業として組み立てる必要があります。",
-  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299",
-  "program_key": "POSC|社会貢献活動支援のための助成",
-  "is_grant_program": true,
-  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299",
-  "source_id": "kumamoto-shakyo-grants",
-  "source_name": "熊本県社会福祉協議会 助成金情報",
-  "source_dedicated": true,
-  "public_ok": true,
-  "first_seen": "2026-11-02",
-  "last_checked": "2026-11-02",
-  "status": "open",
-  "also_at": [],
-  "decide_by": "2026-11-13"
  },
  {
   "amount_max_yen": null,
