@@ -45,55 +45,6 @@
   "decide_by": "2026-12-22"
  },
  {
-  "amount_max_yen": 500000,
-  "amount_note": "1件50万円以内です。人件費は応募できません。寄付金の状況から財源が限られるため、必要性や緊急性の高い活動が優先され、減額されることもあります。ボラGOの対象となる交通費は、そちらを優先して使う必要があります。",
-  "apply_url": "https://www.akaihane.or.jp/saigai-news/50550/",
-  "deadline": "2026-11-04",
-  "deadline_note": "受付期間は2026年10月21日から11月4日23時59分までです。応募はウェブの応募フォーム「e応募」のみで、メールや郵送は受け付けていません。11月上旬から第2回中長期助成事業の公募も予定されています。",
-  "eligible_types": [
-   "任意団体",
-   "NPO法人",
-   "ボランティアグループ"
-  ],
-  "first_seen": "2026-10-26",
-  "fit_programs": [
-   "01"
-  ],
-  "fit_reason": "ボランティアグループも応募でき、5名以上の構成員と会則があれば任意団体のうきのわでも応募できる見込みで、震災復興支援の避難受入・給水・物資配布にそのまま合います。ただし活動は30日以内、人件費は対象外で、締切の11月4日まで約9日と短いため、すぐに準備を始める必要があります。",
-  "fit_score": 88,
-  "is_grant_program": true,
-  "last_checked": "2026-10-26",
-  "program_key": "中央共同募金会|ボラサポ・令和8年熊本地震 短期助成事業",
-  "provider": "社会福祉法人中央共同募金会",
-  "public_ok": true,
-  "region_scope": "熊本県",
-  "source_dedicated": true,
-  "source_id": "akaihane-vorasapo",
-  "source_name": "中央共同募金会 ボラサポ",
-  "status": "open",
-  "summary": "令和8年熊本地震で被災した方々を支える、活動日数30日以内の支援活動に使える助成金です。避難所での炊き出し、在宅・車中泊の避難者の見守り、物資支援、倒壊した家や施設の復旧支援などが対象です。",
-  "themes": [
-   "災害",
-   "被災者支援",
-   "避難所",
-   "見守り",
-   "物資支援"
-  ],
-  "title": "「ボラサポ・令和8年熊本地震」第2回短期助成事業",
-  "url": "https://www.akaihane.or.jp/saigai-news/50550/",
-  "also_at": [
-   {
-    "source_name": "熊本県共同募金会（赤い羽根くまもと）",
-    "url": "https://www.akaihane-kumamoto.jp/2026/10/26/4113/"
-   },
-   {
-    "source_name": "中央共同募金会 ボラサポ",
-    "url": "https://www.akaihane.or.jp/saigai-news/50578/"
-   }
-  ],
-  "decide_by": "2026-10-14"
- },
- {
   "amount_max_yen": null,
   "amount_note": "金額は未発表です。",
   "apply_url": "https://www.akaihane.or.jp/saigai-news/50401/",
@@ -178,6 +129,93 @@
   "decide_by": null
  },
  {
+  "title": "2027年度 環境分野の次世代育成支援活動への助成",
+  "provider": "公益財団法人九電みらい財団",
+  "summary": "九州で、おおむね高校生までの子どもを対象に行う自然保全や自然体験、エコ活動への助成です。里山の整備や竹を使ったものづくり、農業体験、災害からの復旧を通じて防災を学ぶ活動などが例に挙がっています。",
+  "deadline": "2026-12-21",
+  "deadline_note": "募集期間は2026年11月1日〜12月21日です。結果は2027年3月末ごろに通知されます。",
+  "amount_max_yen": 800000,
+  "amount_note": "1年だけの助成は上限80万円と上限20万円の2コースがあります。複数年の助成は年20万円まで、最長3年間（2029年3月31日まで）です。複数年の助成と1年だけの20万円コースは同時に応募できます。助成総額の目標は600万円程度です。",
+  "eligible_types": [
+   "団体（法人格の指定は本文に記載なし。設立後1年以上の継続的な活動が必要）"
+  ],
+  "region_scope": "九州",
+  "themes": [
+   "環境保全",
+   "子ども",
+   "里山",
+   "竹",
+   "自然体験"
+  ],
+  "fit_programs": [
+   "05"
+  ],
+  "fit_score": 75,
+  "fit_reason": "竹を使ったものづくりや里山の整備を子どもと行う活動が例に挙がっており、里山体験の事業にそのまま当てはまります。ただし、任意団体が応募できるかと設立1年以上の条件を募集要項で確かめる必要があります。また、宗教に関わる活動は対象外なので、お寺の行事とは切り分けて計画することが大切です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2352",
+  "program_key": "九電みらい財団|環境分野の次世代育成支援活動への助成",
+  "is_grant_program": true,
+  "url": "https://fields.canpan.info/grant/detail/2352",
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-11-09",
+  "last_checked": "2026-11-09",
+  "status": "open",
+  "also_at": [
+   {
+    "source_name": "熊本県社会福祉協議会 助成金情報",
+    "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305"
+   }
+  ],
+  "decide_by": "2026-11-30"
+ },
+ {
+  "title": "SoilxMUFG（2026年度）",
+  "provider": "Soil（三菱ＵＦＪフィナンシャル・グループの寄付金を一部原資として実施）",
+  "summary": "「儲からない」けれど「意義がある」社会課題解決の活動に取り組む、立ち上げ期の個人・団体を支えるための助成金です。資金のほか、必要に応じて事業の相談や人のつながりづくりの支援も受けられます。",
+  "deadline": "2026-12-11",
+  "deadline_note": "募集期間は2026年11月2日～12月11日です。2026年11月18日13:00～14:00にオンライン説明会があります。決定は2027年3月予定です。",
+  "amount_max_yen": 3000000,
+  "amount_note": "1団体あたり最大300万円で、10団体に助成します（総額3,000万円）。助成金は対象となる事業活動にだけ使えます。昨年度は265件の応募に対して10件の採択でした。",
+  "eligible_types": [
+   "個人",
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "企業"
+  ],
+  "region_scope": "全国",
+  "themes": [
+   "災害支援",
+   "子ども支援",
+   "文化の保全と伝承",
+   "環境保全",
+   "社会課題解決"
+  ],
+  "fit_programs": [
+   "01",
+   "03",
+   "05"
+  ],
+  "fit_score": 70,
+  "fit_reason": "法人格の有無を問わないため任意団体のうきのわも応募でき、「災害等の支援」「子ども支援」「文化の保全と伝承」の分野が震災復興支援や竹を使った里山体験、地域拠点づくりに合います。ただし採択は10団体と狭き門で、提出書類に定款や登記の証明書が挙がっているため、任意団体の場合に何を出せばよいか事前に問い合わせが必要です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2539",
+  "program_key": "Soil|SoilxMUFG",
+  "is_grant_program": true,
+  "url": "https://fields.canpan.info/grant/detail/2539",
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-11-09",
+  "last_checked": "2026-11-09",
+  "status": "open",
+  "also_at": [],
+  "decide_by": "2026-11-20"
+ },
+ {
   "amount_max_yen": 800000,
   "amount_note": "児童・少年の健全育成助成は1団体30万円〜80万円で、物品の購入費に限ります。生き生きシニア活動顕彰は1団体5万円です。",
   "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2266",
@@ -222,47 +260,6 @@
    }
   ],
   "decide_by": "2026-10-19"
- },
- {
-  "amount_max_yen": 800000,
-  "amount_note": "Aコースは上限80万円、Bコースは上限20万円、Cコースは上限20万円を最長3年間（複数年の助成）です。",
-  "apply_url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305",
-  "deadline": "2026-12-21",
-  "deadline_note": "募集期間は2026年11月1日から12月21日までです。",
-  "eligible_types": [
-   "任意団体",
-   "NPO法人",
-   "一般社団法人",
-   "非営利団体"
-  ],
-  "first_seen": "2026-11-02",
-  "fit_programs": [
-   "05"
-  ],
-  "fit_reason": "法人格がなくても応募でき、九州が対象なので、里山体験（竹林の手入れや竹を使った子どもとの体験）を自然の大切さを学ぶ活動として組み立てれば合います。ただし、応募の日までに1年以上続けて活動していることが原則のため、その実績を示せるかの確認が必要です。",
-  "fit_score": 68,
-  "is_grant_program": true,
-  "last_checked": "2026-11-02",
-  "program_key": "九電みらい財団|環境分野の次世代育成支援活動",
-  "provider": "公益財団法人九電みらい財団",
-  "public_ok": true,
-  "region_scope": "九州",
-  "source_dedicated": true,
-  "source_id": "kumamoto-shakyo-grants",
-  "source_name": "熊本県社会福祉協議会 助成金情報",
-  "status": "open",
-  "summary": "九州で子どもたち（おおむね高校生まで）を対象に、山・川・海の保全や自然・資源の大切さを学ぶ活動に使える助成金です。活動期間は2027年4月1日から2028年3月26日までです。",
-  "themes": [
-   "環境",
-   "子ども",
-   "自然体験",
-   "里山",
-   "保全活動"
-  ],
-  "title": "2027年度環境分野の次世代育成支援活動（助成事業）",
-  "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2305",
-  "also_at": [],
-  "decide_by": "2026-11-30"
  },
  {
   "amount_max_yen": null,
@@ -585,6 +582,51 @@
   "url": "https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292",
   "also_at": [],
   "decide_by": "2026-10-26"
+ },
+ {
+  "title": "公益財団法人みらいRITA 第10回助成金募集（2026年度）",
+  "provider": "公益財団法人みらいRITA",
+  "summary": "「持続可能な社会と幸せな暮らし（ウェルビーイング）」を伝えるゲーム、アート、ワークショップ、物語・映像作品のアイデアづくりと実施に使える助成金です。自然体験や多世代を巻き込むワークショップなども対象です。",
+  "deadline": "2026-11-30",
+  "deadline_note": "郵送の場合は11月30日必着です。選考結果は2026年12月上旬に決まります。",
+  "amount_max_yen": 500000,
+  "amount_note": "助成金の総額は200万円です。採択された団体は2027年10月頃の報告会への参加が必要です。",
+  "eligible_types": [
+   "個人",
+   "任意団体",
+   "一般社団法人",
+   "公益社団法人",
+   "一般財団法人",
+   "公益財団法人",
+   "NPO法人"
+  ],
+  "region_scope": "全国",
+  "themes": [
+   "ウェルビーイング",
+   "SDGs",
+   "ワークショップ",
+   "自然体験",
+   "多世代"
+  ],
+  "fit_programs": [
+   "05",
+   "03"
+  ],
+  "fit_score": 45,
+  "fit_reason": "任意団体でも応募でき、竹を使った里山体験やTOYONO-VAでの多世代ワークショップとして企画すれば合います。ただし、中心となるのが30代以下の若者であることが条件なので、若い担当者が企画の主役になれるかどうか次第です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2545",
+  "program_key": "みらいRITA|助成金",
+  "is_grant_program": true,
+  "url": "https://fields.canpan.info/grant/detail/2545",
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "source_dedicated": true,
+  "public_ok": true,
+  "first_seen": "2026-11-09",
+  "last_checked": "2026-11-09",
+  "status": "open",
+  "also_at": [],
+  "decide_by": "2026-11-09"
  },
  {
   "amount_max_yen": 5000000,

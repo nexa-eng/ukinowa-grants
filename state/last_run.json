@@ -1,21 +1,20 @@
 {
  "eval_failed": 0,
- "evaluated": 1,
+ "evaluated": 20,
  "exit_code": 0,
- "grants_added": 0,
- "items": 960,
- "new": 50,
- "prefiltered": 6,
- "ran_at": "2026-11-04T09:26:00.716558+09:00",
- "report_url": "https://nexa-eng.github.io/ukinowa-grants/reports/2026-11-04.html",
+ "grants_added": 10,
+ "items": 984,
+ "new": 70,
+ "prefiltered": 20,
+ "ran_at": "2026-11-09T08:27:57.616087+09:00",
+ "report_url": "https://nexa-eng.github.io/ukinowa-grants/reports/2026-11-09.html",
  "sources_failed": [
-  "zenrosai-chiiki: FetchError",
   "7midori-josei: FetchError"
  ],
- "sources_ok": 22,
+ "sources_ok": 23,
  "usage": {
-  "cache_read_input_tokens": 0,
-  "input_tokens": 2696,
-  "output_tokens": 20
+  "cache_read_input_tokens": 74157,
+  "input_tokens": 58890,
+  "output_tokens": 8693
  }
 }

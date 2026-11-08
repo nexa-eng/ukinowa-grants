@@ -255,6 +255,76 @@
   "title": "2026年度 トヨタ財団 特定課題「人口減少と日本社会」",
   "url": "https://fields.canpan.info/grant/detail/2340"
  },
+ "https://fields.canpan.info/grant/detail/2352": {
+  "amount_max_yen": 800000,
+  "amount_note": "1年だけの助成は上限80万円と上限20万円の2コースがあります。複数年の助成は年20万円まで、最長3年間（2029年3月31日まで）です。複数年の助成と1年だけの20万円コースは同時に応募できます。助成総額の目標は600万円程度です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2352",
+  "deadline": "2026-12-21",
+  "deadline_note": "募集期間は2026年11月1日〜12月21日です。結果は2027年3月末ごろに通知されます。",
+  "eligible_types": [
+   "団体（法人格の指定は本文に記載なし。設立後1年以上の継続的な活動が必要）"
+  ],
+  "first_seen": "2026-11-09",
+  "fit_programs": [
+   "05"
+  ],
+  "fit_reason": "竹を使ったものづくりや里山の整備を子どもと行う活動が例に挙がっており、里山体験の事業にそのまま当てはまります。ただし、任意団体が応募できるかと設立1年以上の条件を募集要項で確かめる必要があります。また、宗教に関わる活動は対象外なので、お寺の行事とは切り分けて計画することが大切です。",
+  "fit_score": 75,
+  "is_grant_program": true,
+  "last_checked": "2026-11-09",
+  "program_key": "九電みらい財団|環境分野の次世代育成支援活動への助成",
+  "provider": "公益財団法人九電みらい財団",
+  "public_ok": true,
+  "region_scope": "九州",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "九州で、おおむね高校生までの子どもを対象に行う自然保全や自然体験、エコ活動への助成です。里山の整備や竹を使ったものづくり、農業体験、災害からの復旧を通じて防災を学ぶ活動などが例に挙がっています。",
+  "themes": [
+   "環境保全",
+   "子ども",
+   "里山",
+   "竹",
+   "自然体験"
+  ],
+  "title": "2027年度 環境分野の次世代育成支援活動への助成",
+  "url": "https://fields.canpan.info/grant/detail/2352"
+ },
+ "https://fields.canpan.info/grant/detail/2358": {
+  "amount_max_yen": 600000,
+  "amount_note": "助成金総額は180万円です",
+  "apply_url": "https://fields.canpan.info/grant/detail/2358",
+  "deadline": "2027-01-08",
+  "deadline_note": "2027年1月8日17時締切（募集期間は2026年11月4日から）",
+  "eligible_types": [
+   "個人",
+   "研究者グループ"
+  ],
+  "first_seen": "2026-11-09",
+  "fit_programs": [],
+  "fit_reason": "応募できるのは国内の教育・研究機関に所属する研究者などに限られ、市民活動団体のうきのわは応募できません。内容もハラスメントの研究で、うきのわの事業とは関係がありません。",
+  "fit_score": 3,
+  "is_grant_program": true,
+  "last_checked": "2026-11-09",
+  "program_key": "公益推進協会|大洋基金ハラスメント研究助成",
+  "provider": "公益財団法人公益推進協会（大洋基金）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "組織で起きるハラスメントの実態調査や原因の分析、予防策の開発など、研究にかかる費用を助成します。助成期間は2027年4月から1年間です。",
+  "themes": [
+   "ハラスメント",
+   "調査・研究",
+   "予防策",
+   "事例分析"
+  ],
+  "title": "大洋基金 ハラスメント研究助成",
+  "url": "https://fields.canpan.info/grant/detail/2358"
+ },
  "https://fields.canpan.info/grant/detail/2359": {
   "amount_max_yen": 500000,
   "amount_note": "助成金の総額は500万円です。家賃や通常の人件費、振込手数料などには使えません。",
@@ -1138,6 +1208,247 @@
   "title": "令和９（2027）年度 住まいとコミュニティづくり活動助成",
   "url": "https://fields.canpan.info/grant/detail/2538"
  },
+ "https://fields.canpan.info/grant/detail/2539": {
+  "amount_max_yen": 3000000,
+  "amount_note": "1団体あたり最大300万円で、10団体に助成します（総額3,000万円）。助成金は対象となる事業活動にだけ使えます。昨年度は265件の応募に対して10件の採択でした。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2539",
+  "deadline": "2026-12-11",
+  "deadline_note": "募集期間は2026年11月2日～12月11日です。2026年11月18日13:00～14:00にオンライン説明会があります。決定は2027年3月予定です。",
+  "eligible_types": [
+   "個人",
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "企業"
+  ],
+  "first_seen": "2026-11-09",
+  "fit_programs": [
+   "01",
+   "03",
+   "05"
+  ],
+  "fit_reason": "法人格の有無を問わないため任意団体のうきのわも応募でき、「災害等の支援」「子ども支援」「文化の保全と伝承」の分野が震災復興支援や竹を使った里山体験、地域拠点づくりに合います。ただし採択は10団体と狭き門で、提出書類に定款や登記の証明書が挙がっているため、任意団体の場合に何を出せばよいか事前に問い合わせが必要です。",
+  "fit_score": 70,
+  "is_grant_program": true,
+  "last_checked": "2026-11-09",
+  "program_key": "Soil|SoilxMUFG",
+  "provider": "Soil（三菱ＵＦＪフィナンシャル・グループの寄付金を一部原資として実施）",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "「儲からない」けれど「意義がある」社会課題解決の活動に取り組む、立ち上げ期の個人・団体を支えるための助成金です。資金のほか、必要に応じて事業の相談や人のつながりづくりの支援も受けられます。",
+  "themes": [
+   "災害支援",
+   "子ども支援",
+   "文化の保全と伝承",
+   "環境保全",
+   "社会課題解決"
+  ],
+  "title": "SoilxMUFG（2026年度）",
+  "url": "https://fields.canpan.info/grant/detail/2539"
+ },
+ "https://fields.canpan.info/grant/detail/2540": {
+  "amount_max_yen": 3000000,
+  "amount_note": "助成総額は1,500万円で、5団体程度に助成します。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2540",
+  "deadline": "2026-12-11",
+  "deadline_note": "募集期間は2026年11月4日〜12月11日です。2026年11月17日14:00〜15:00にオンライン説明会があります。最終選考会は2027年4月10日（東京都内・対面）、決定は2027年5月下旬の予定です。",
+  "eligible_types": [
+   "個人",
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "企業"
+  ],
+  "first_seen": "2026-11-09",
+  "fit_programs": [
+   "02"
+  ],
+  "fit_reason": "法人格は問われないため任意団体でも応募できますが、名古屋市内で実証実験を行うことが条件で、宇城市を拠点とするうきのわの活動とは場所が合いません。また事業として大きく広げていくことを目指す内容が求められ、東京での対面選考もあるため、うきのわには合いにくい制度です。",
+  "fit_score": 15,
+  "is_grant_program": true,
+  "last_checked": "2026-11-09",
+  "program_key": "Soil|SoilxNagoya",
+  "provider": "Soil（公益財団法人Soil）と名古屋市の共同プログラム",
+  "public_ok": true,
+  "region_scope": "その他地域",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "「儲からないけれど意義がある」社会課題解決の活動に取り組む個人・団体に、資金助成と名古屋市内での実証実験の機会を提供します。名古屋市が提携先の紹介や伴走を行い、必要に応じて事業相談やつながりづくりの支援も受けられます。",
+  "themes": [
+   "社会課題解決",
+   "防災・減災",
+   "子育て・教育",
+   "環境保全・森林活用",
+   "地域産業"
+  ],
+  "title": "SoilxNagoya",
+  "url": "https://fields.canpan.info/grant/detail/2540"
+ },
+ "https://fields.canpan.info/grant/detail/2541": {
+  "amount_max_yen": 1000000,
+  "amount_note": "病院・療養施設などを運営する法人は1件100万円以内、施設を運営していない法人は1件50万円以内です。補助率の制限はありません。助成総額は1000万円程度で、10〜15件程度の予定です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2541",
+  "deadline": "2027-01-15",
+  "deadline_note": "募集期間は2026年11月2日〜2027年1月15日です。採否は2027年3月下旬ごろに通知されます。",
+  "eligible_types": [
+   "NPO法人",
+   "一般社団法人",
+   "一般財団法人",
+   "公益社団法人",
+   "公益財団法人",
+   "社会福祉法人",
+   "医療法人",
+   "学校法人"
+  ],
+  "first_seen": "2026-11-09",
+  "fit_programs": [],
+  "fit_reason": "対象地域が東京都・埼玉県・神奈川県など関東の7都県に限られ、熊本県の団体は応募できません。また、設立から1年以上たった非営利の法人に限られるため、任意団体のうきのわは応募できず、テーマも病気の子どもへの支援でうきのわの事業とは合いません。",
+  "fit_score": 3,
+  "is_grant_program": true,
+  "last_checked": "2026-11-09",
+  "program_key": "公益推進協会|新井孝行基金",
+  "provider": "公益財団法人公益推進協会",
+  "public_ok": true,
+  "region_scope": "その他地域",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "小児がんや難病など、長い治療や療養が必要な子どもたちが楽しめる時間や居場所をつくる活動や施設・設備を支える助成です。病院や療養施設を運営する法人と、そうした施設を持たない法人とで上限額が分かれています。",
+  "themes": [
+   "子ども",
+   "難病",
+   "小児がん",
+   "居場所",
+   "療養支援"
+  ],
+  "title": "新井孝行基金（2027年）",
+  "url": "https://fields.canpan.info/grant/detail/2541"
+ },
+ "https://fields.canpan.info/grant/detail/2542": {
+  "amount_max_yen": 1000000,
+  "amount_note": "助成金の総額は650万円です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2542",
+  "deadline": "2027-01-15",
+  "deadline_note": "募集期間は2026年11月1日～2027年1月15日です。申請書は郵送、データは電子メールで提出します。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人"
+  ],
+  "first_seen": "2026-11-09",
+  "fit_programs": [],
+  "fit_reason": "アジアの対象国での支援を主な目的とする団体向けの助成で、宇城市を拠点に国内で活動するうきのわの事業とは合いません。",
+  "fit_score": 3,
+  "is_grant_program": true,
+  "last_checked": "2026-11-09",
+  "program_key": "今井記念海外協力基金|助成対象事業",
+  "provider": "公益信託今井記念海外協力基金（事務受任者：アジア・コミュニティ・センター21）",
+  "public_ok": true,
+  "region_scope": "その他地域",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "アジアの対象国で行う教育・人材育成、保健衛生、医療の事業に使える助成金です。困難な状況にある子どもを支える事業や、住民が参加して続けられる事業が優先されます。",
+  "themes": [
+   "国際協力",
+   "教育",
+   "保健衛生",
+   "医療",
+   "子ども"
+  ],
+  "title": "公益信託今井記念海外協力基金2027年度助成対象事業募集",
+  "url": "https://fields.canpan.info/grant/detail/2542"
+ },
+ "https://fields.canpan.info/grant/detail/2543": {
+  "amount_max_yen": 5000000,
+  "amount_note": "助成金の総額は1,200万円です。保険診療として受けられる治療・リハビリは対象外です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2543",
+  "deadline": "2027-01-08",
+  "deadline_note": "募集期間は2026年11月5日～2027年1月8日です。助成の決定は2027年3月下旬の予定です。",
+  "eligible_types": [
+   "任意団体",
+   "NPO法人",
+   "一般社団法人",
+   "企業",
+   "医療機関",
+   "研究機関"
+  ],
+  "first_seen": "2026-11-09",
+  "fit_programs": [],
+  "fit_reason": "任意団体も応募できますが、パーキンソン病の患者さんとご家族を支える事業に限られているため、うきのわの震災復興・防災・地域拠点・移住・里山体験の事業とはほとんど重なりません。また、活動実績1年以上という条件もあります。",
+  "fit_score": 12,
+  "is_grant_program": true,
+  "last_checked": "2026-11-09",
+  "program_key": "日本フィランソロピック財団|パーキンソン病QOL基金",
+  "provider": "公益財団法人日本フィランソロピック財団",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "パーキンソン病の患者さんが自分らしく暮らし続けられるよう、症状への対処や日常生活を支える取り組み、調査・研究に使える助成金です。運動プログラム、相談・交流の場づくり、若い患者さんの仕事や子育ての支援などが例として挙がっています。",
+  "themes": [
+   "パーキンソン病",
+   "患者支援",
+   "保健・医療・福祉",
+   "交流の場",
+   "調査・研究"
+  ],
+  "title": "第4回「パーキンソン病QOL基金」助成",
+  "url": "https://fields.canpan.info/grant/detail/2543"
+ },
+ "https://fields.canpan.info/grant/detail/2545": {
+  "amount_max_yen": 500000,
+  "amount_note": "助成金の総額は200万円です。採択された団体は2027年10月頃の報告会への参加が必要です。",
+  "apply_url": "https://fields.canpan.info/grant/detail/2545",
+  "deadline": "2026-11-30",
+  "deadline_note": "郵送の場合は11月30日必着です。選考結果は2026年12月上旬に決まります。",
+  "eligible_types": [
+   "個人",
+   "任意団体",
+   "一般社団法人",
+   "公益社団法人",
+   "一般財団法人",
+   "公益財団法人",
+   "NPO法人"
+  ],
+  "first_seen": "2026-11-09",
+  "fit_programs": [
+   "05",
+   "03"
+  ],
+  "fit_reason": "任意団体でも応募でき、竹を使った里山体験やTOYONO-VAでの多世代ワークショップとして企画すれば合います。ただし、中心となるのが30代以下の若者であることが条件なので、若い担当者が企画の主役になれるかどうか次第です。",
+  "fit_score": 45,
+  "is_grant_program": true,
+  "last_checked": "2026-11-09",
+  "program_key": "みらいRITA|助成金",
+  "provider": "公益財団法人みらいRITA",
+  "public_ok": true,
+  "region_scope": "全国",
+  "source_dedicated": true,
+  "source_id": "canpan-grant",
+  "source_name": "CANPAN 助成制度",
+  "status": "open",
+  "summary": "「持続可能な社会と幸せな暮らし（ウェルビーイング）」を伝えるゲーム、アート、ワークショップ、物語・映像作品のアイデアづくりと実施に使える助成金です。自然体験や多世代を巻き込むワークショップなども対象です。",
+  "themes": [
+   "ウェルビーイング",
+   "SDGs",
+   "ワークショップ",
+   "自然体験",
+   "多世代"
+  ],
+  "title": "公益財団法人みらいRITA 第10回助成金募集（2026年度）",
+  "url": "https://fields.canpan.info/grant/detail/2545"
+ },
  "https://foundation.kirinholdings.com/kobo/": {
   "amount_max_yen": null,
   "amount_note": "",
@@ -1298,7 +1609,7 @@
   "region_scope": "全国",
   "source_id": "jnet21-support",
   "source_name": "J-Net21 支援情報",
-  "status": "open",
+  "status": "closed",
   "summary": "工業団地を整備・運営する事業協同組合が、工業団地の機能強化や魅力向上などの課題に取り組むための調査費などを助成します。令和6年度から最長令和10年度までの5年間実施される事業です。",
   "themes": [
    "工業団地",
@@ -1921,7 +2232,7 @@
   "source_dedicated": false,
   "source_id": "akaihane-kumamoto",
   "source_name": "熊本県共同募金会（赤い羽根くまもと）",
-  "status": "open",
+  "status": "closed",
   "summary": "令和8年熊本地震で被災された方々の生活再建を支えるボランティアグループやNPO法人などの災害支援活動に使える助成です。避難所での炊き出し、在宅・車中泊避難者の見守り、物資支援、倒壊家屋や施設の復旧支援など、活動日数30日以内の活動が対象です。",
   "themes": [
    "災害",
@@ -2148,7 +2459,7 @@
   "source_dedicated": true,
   "source_id": "akaihane-vorasapo",
   "source_name": "中央共同募金会 ボラサポ",
-  "status": "open",
+  "status": "closed",
   "summary": "令和8年熊本地震で被災した方々を支える、活動日数30日以内の支援活動に使える助成金です。避難所での炊き出し、在宅・車中泊の避難者の見守り、物資支援、倒壊した家や施設の復旧支援などが対象です。",
   "themes": [
    "災害",
@@ -2182,7 +2493,7 @@
   "source_dedicated": true,
   "source_id": "akaihane-vorasapo",
   "source_name": "中央共同募金会 ボラサポ",
-  "status": "open",
+  "status": "closed",
   "summary": "令和8年熊本地震の被災者を支えるボランティア活動などに使える短期の助成です。公募の開始日が10月21日に変更されたことのお知らせで、詳しい条件は応募要項で公開されます。",
   "themes": [
    "災害",
@@ -4965,6 +5276,44 @@
   "title": "令和9年度地域連携周産期支援事業（産科施設ー施設・設備整備）に係る活用意向調査",
   "url": "https://www.pref.kumamoto.jp/soshiki/42/281846.html"
  },
+ "https://www.pref.kumamoto.jp/soshiki/42/283615.html": {
+  "amount_max_yen": null,
+  "amount_note": "金額や補助の割合は本文に記載がありません。添付の制度概要の資料で確認が必要です。",
+  "apply_url": "https://www.pref.kumamoto.jp/soshiki/42/283615.html",
+  "deadline": "2026-12-14",
+  "deadline_note": "2026年11月6日受付開始。提出期限は令和8年（2026年）12月14日（月曜日）です。",
+  "eligible_types": [
+   "医療法人",
+   "病院",
+   "診療所",
+   "歯科診療所",
+   "精神科医療機関",
+   "医療関係者養成施設"
+  ],
+  "first_seen": "2026-11-09",
+  "fit_programs": [],
+  "fit_reason": "病院や診療所などの医療施設が対象の補助金で、任意団体のうきのわは応募できません。地震からの復旧という点は重なりますが、うきのわの活動には使えない制度です。",
+  "fit_score": 3,
+  "is_grant_program": true,
+  "last_checked": "2026-11-09",
+  "program_key": "熊本県|医療施設等災害復旧費補助金",
+  "provider": "熊本県（健康福祉部 医療政策課・健康づくり推進課・障がい者支援課）",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_dedicated": false,
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "status": "open",
+  "summary": "令和8年熊本地震で被害を受けた病院や診療所などの医療施設について、建物や設備を直したり入れ替えたりする費用を補助する制度です。医療分・歯科分・精神科分に分かれ、オンラインのフォームで申請します。",
+  "themes": [
+   "災害",
+   "復旧",
+   "医療施設",
+   "熊本地震"
+  ],
+  "title": "令和8年度（2026年度）医療施設等災害復旧費補助金（令和8年熊本地震）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/42/283615.html"
+ },
  "https://www.pref.kumamoto.jp/soshiki/54/280402.html": {
   "amount_max_yen": 800000,
   "amount_note": "児童・少年の健全育成助成は1団体80万円が上限で、活動に必要な物品の購入費用が対象です。生き生きシニア活動顕彰は1団体5万円です。",
@@ -5033,6 +5382,45 @@
   ],
   "title": "令和8年度 熊本県トラック物流持続的発展支援事業補助金（第2弾）",
   "url": "https://www.pref.kumamoto.jp/soshiki/58/246551.html"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/61/232440.html": {
+  "amount_max_yen": 1000000,
+  "amount_note": "1メニューにつき上限100万円です。費用から市町村の助成額を差し引いた額の3分の2以内を補助します。市町村からの助成が条件で、その下限は10万円または事業費の10分の1のいずれか低い額です。メニュー1を複数団体で連携して申請する場合は、100万円×団体数が上限です。",
+  "apply_url": "https://www.pref.kumamoto.jp/soshiki/61/232440.html",
+  "deadline": "2026-12-04",
+  "deadline_note": "メニュー1・2の受付を10月30日から12月4日まで延長しました。予算額に達した場合は期限前でも受付を終了します。メニュー3（空き店舗への出店）は受付終了です。",
+  "eligible_types": [
+   "商店街振興組合",
+   "熊本県商店街活性化協議会の会員",
+   "商店街の任意団体（10店舗以上）"
+  ],
+  "first_seen": "2026-11-09",
+  "fit_programs": [
+   "05",
+   "03"
+  ],
+  "fit_reason": "応募できるのは熊本県内の商店街の組織（10店舗以上の任意団体など）だけで、うきのわは対象になりません。子どもの体験イベントは里山体験と近いため、地元商店街が申請する企画に協力する形での関わりにとどまります。",
+  "fit_score": 12,
+  "is_grant_program": true,
+  "last_checked": "2026-11-09",
+  "program_key": "熊本県|こどもキラキラ商店街支援事業",
+  "provider": "熊本県（窓口：熊本県商店街振興組合連合会）",
+  "public_ok": true,
+  "region_scope": "熊本県",
+  "source_dedicated": false,
+  "source_id": "pref-kumamoto-news",
+  "source_name": "熊本県 新着情報",
+  "status": "open",
+  "summary": "商店街を使った子ども主体の体験活動や交流イベント、子どもを守る防犯カメラ・街灯の整備にかかる費用の一部を補助します。空き店舗への出店の枠は受付を終えています。",
+  "themes": [
+   "商店街",
+   "子ども",
+   "体験",
+   "交流",
+   "防犯"
+  ],
+  "title": "熊本県こどもキラキラ商店街支援事業補助金（令和8年度）",
+  "url": "https://www.pref.kumamoto.jp/soshiki/61/232440.html"
  },
  "https://www.pref.kumamoto.jp/soshiki/61/280503.html": {
   "amount_max_yen": null,
