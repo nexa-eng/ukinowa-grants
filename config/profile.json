@@ -99,5 +99,7 @@
     "/tag/",
     "/category/"
   ],
-  "decide_days_before": 21
+  "decide_days_before": 21,
+  "decide_grace_days": 3,
+  "decide_margin_days": 3
 }

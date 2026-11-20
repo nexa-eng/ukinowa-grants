@@ -304,7 +304,7 @@ def main(argv: list[str] | None = None) -> int:
         min_fit = profile.get("min_fit_public", 0)
         visible = build.group_grants([rec for rec in grants.values() if rec["status"] == "open" and rec.get("public_ok", True) and rec["fit_score"] >= min_fit])
         for rec in visible:
-            rec["decide_by"] = build.decide_by(rec, profile.get("decide_days_before", 21))
+            build.apply_decide(rec, profile)
         new_urls = {rec["url"] for rec in visible if rec["url"] in new_urls or any(a["url"] in new_urls for a in rec.get("also_at", []))}
         open_new = sorted((rec for rec in visible if rec["url"] in new_urls), key=lambda r: -r["fit_score"])
         closing = sorted((rec for rec in visible if rec["url"] not in new_urls and rec.get("deadline")
@@ -313,7 +313,7 @@ def main(argv: list[str] | None = None) -> int:
         lines = [f"うきのわ 助成金の週報（{today.isoformat()}）", "",
                  f"今週の新着: {len(open_new)}件、締切が{profile['closing_soon_days']}日以内: {len(closing)}件", "",
                  f"週報ページ: {report_url}", ""]
-        lines += [f"・[{rec['fit_score']}点] {rec['title']}（締切 {rec['deadline'] or '不明'}" + (f"、判定日 {rec['decide_by']}" if rec.get('decide_by') else "") + "）" for rec in open_new[:10]]
+        lines += [f"・[{rec['fit_score']}点] {rec['title']}（締切 {rec['deadline'] or '不明'}" + (f"、{build.decide_text(rec)}" if rec.get('decide_by') else "") + "）" for rec in open_new[:10]]
         if closing:
             lines += ["", "締切が近いもの:"] + [f"・{rec['deadline']} {rec['title']}" for rec in closing[:10]]
         lines += ["", f"一覧: {pages_base_url()}/", f"カレンダー登録: {pages_base_url()}/subscribe.html"]

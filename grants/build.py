@@ -93,8 +93,8 @@ def _also(g: dict) -> str:
 
 
 def _decide(g: dict) -> str:
-    d = g.get("decide_by")
-    return f'<span class="chip warn">応募可否の判定日 {_esc(d)}</span>' if d else ""
+    text = decide_text(g)
+    return f'<span class="chip warn">{_esc(text)}</span>' if text else ""
 
 
 def _page(title: str, body: str, generated: datetime, depth: int = 0) -> str:
@@ -205,7 +205,7 @@ def build_all(grants: list[dict], new_urls: set[str], today: date, now: datetime
     grants = [g for g in grants if g.get("fit_score", 0) >= profile.get("min_fit_public", 0)]
     grants = group_grants(grants)
     for g in grants:
-        g["decide_by"] = decide_by(g, profile.get("decide_days_before", 21))
+        apply_decide(g, profile)
     new_urls = {g["url"] for g in grants if g["url"] in new_urls or any(a["url"] in new_urls for a in g.get("also_at", []))}
     out.mkdir(parents=True, exist_ok=True)
     (out / ".nojekyll").touch()
@@ -314,6 +314,10 @@ def group_grants(grants: list[dict], threshold: float = 0.86) -> list[dict]:
             primary = _better(primary, m)
         rec = dict(primary)
         rec["also_at"] = [{"source_name": m.get("source_name", ""), "url": m["url"]} for m in grp["members"] if m is not primary]
+        # 見つけた日は、束ねた中でいちばん早い日（判定日の繰り下げに使う）
+        seen = sorted(m["first_seen"] for m in grp["members"] if m.get("first_seen"))
+        if seen:
+            rec["first_seen"] = seen[0]
         # 締切は、代表に無ければ他の出所から補う
         if not rec.get("deadline"):
             for m in grp["members"]:
@@ -324,11 +328,41 @@ def group_grants(grants: list[dict], threshold: float = 0.86) -> list[dict]:
     return out
 
 
-def decide_by(g: dict, days_before: int) -> str | None:
-    d = g.get("deadline")
-    if not d:
-        return None
+def _iso_date(s) -> date | None:
     try:
-        return (date.fromisoformat(d) - timedelta(days=days_before)).isoformat()
-    except ValueError:
+        return date.fromisoformat(s) if s else None
+    except (TypeError, ValueError):
         return None
+
+
+def decide_by(g: dict, profile: dict) -> tuple[str | None, int | None]:
+    """応募可否の判定日と、急ぎなら「見つけた時に締切まで何日だったか」を返す。
+
+    基本は締切の decide_days_before 日前。それが見つけた日から decide_grace_days 日より前になる時
+    （締切の近い新着）は、見つけた日の decide_grace_days 日後に繰り下げる。ただし締切の
+    decide_margin_days 日前より後にはせず、見つけた日より前にもしない。
+    """
+    deadline = _iso_date(g.get("deadline"))
+    if deadline is None:
+        return None, None
+    plan = deadline - timedelta(days=profile.get("decide_days_before", 21))
+    seen = _iso_date(g.get("first_seen"))
+    grace = timedelta(days=profile.get("decide_grace_days", 3))
+    if seen is None or plan >= seen + grace:
+        return plan.isoformat(), None
+    latest = deadline - timedelta(days=profile.get("decide_margin_days", 3))
+    return max(seen, min(seen + grace, latest)).isoformat(), (deadline - seen).days
+
+
+def apply_decide(g: dict, profile: dict) -> dict:
+    g["decide_by"], g["decide_rush_days"] = decide_by(g, profile)
+    return g
+
+
+def decide_text(g: dict) -> str:
+    """週報のメールとカードに出す判定日の文。判定日が無ければ空。"""
+    d = g.get("decide_by")
+    if not d:
+        return ""
+    rush = g.get("decide_rush_days")
+    return f"応募可否の判定日 {d}" + (f"・急ぎ: 見つけた時に締切まで {rush} 日" if rush is not None else "")
