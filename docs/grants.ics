@@ -7,7 +7,7 @@ X-WR-CALNAME:うきのわ 助成金の締切
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:caf0d76dbb55bd42-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:締切: 「ボラサポ・令和8年熊本地震」第2回中長期
@@ -21,23 +21,8 @@ TRANSP:TRANSPARENT
 URL:https://www.akaihane.or.jp/saigai-news/50880/
 END:VEVENT
 BEGIN:VEVENT
-UID:caf0d76dbb55bd42-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:締切7日前: 「ボラサポ・令和8年熊本地震」第2回
- 中長期助成
-DESCRIPTION:令和8年熊本地震の被災地で、31日以上続ける緊
- 急支援や、住まいや暮らしを取り戻すための復旧支援
- の活動に使える資金です。活動する人への人件費も応
- 募できます。\n上限: 300万円\nhttps://www.akaihane.or.jp/saigai-n
- ews/50880/
-TRANSP:TRANSPARENT
-URL:https://www.akaihane.or.jp/saigai-news/50880/
-END:VEVENT
-BEGIN:VEVENT
 UID:db41c5c371ed2f77-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:締切: 令和９（2027）年度 住まいとコミュニティづ
@@ -52,7 +37,7 @@ URL:https://fields.canpan.info/grant/detail/2538
 END:VEVENT
 BEGIN:VEVENT
 UID:db41c5c371ed2f77-1@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:締切21日前: 令和９（2027）年度 住まいとコミュニ
@@ -67,7 +52,7 @@ URL:https://fields.canpan.info/grant/detail/2538
 END:VEVENT
 BEGIN:VEVENT
 UID:db41c5c371ed2f77-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:締切7日前: 令和９（2027）年度 住まいとコミュニ
@@ -82,7 +67,7 @@ URL:https://fields.canpan.info/grant/detail/2538
 END:VEVENT
 BEGIN:VEVENT
 UID:2e7cee5f15638c5d-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:締切: 2027年度 環境分野の次世代育成支援活動への
@@ -98,7 +83,7 @@ URL:https://fields.canpan.info/grant/detail/2352
 END:VEVENT
 BEGIN:VEVENT
 UID:2e7cee5f15638c5d-1@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:締切21日前: 2027年度 環境分野の次世代育成支援活
@@ -114,7 +99,7 @@ URL:https://fields.canpan.info/grant/detail/2352
 END:VEVENT
 BEGIN:VEVENT
 UID:2e7cee5f15638c5d-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261215
 SUMMARY:締切7日前: 2027年度 環境分野の次世代育成支援活
@@ -130,7 +115,7 @@ URL:https://fields.canpan.info/grant/detail/2352
 END:VEVENT
 BEGIN:VEVENT
 UID:167acf6f46182b13-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:締切: SoilxMUFG（2026年度）
@@ -143,22 +128,8 @@ TRANSP:TRANSPARENT
 URL:https://fields.canpan.info/grant/detail/2539
 END:VEVENT
 BEGIN:VEVENT
-UID:167acf6f46182b13-1@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:締切21日前: SoilxMUFG（2026年度）
-DESCRIPTION:「儲からない」けれど「意義がある」社会課題
- 解決の活動に取り組む、立ち上げ期の個人・団体を支
- えるための助成金です。資金のほか、必要に応じて事
- 業の相談や人のつながりづくりの支援も受けられます
- 。\n上限: 300万円\nhttps://fields.canpan.info/grant/detail/2539
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2539
-END:VEVENT
-BEGIN:VEVENT
 UID:167acf6f46182b13-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:締切7日前: SoilxMUFG（2026年度）
@@ -171,23 +142,8 @@ TRANSP:TRANSPARENT
 URL:https://fields.canpan.info/grant/detail/2539
 END:VEVENT
 BEGIN:VEVENT
-UID:3fdb1c695eb38c29-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:締切: 2027年度日本郵便年賀寄付金配分団体の公募
-DESCRIPTION:年賀はがきや年賀切手の寄付金を、社会貢献や
- 地域貢献の活動をする団体に配る制度です。活動費、
- 施設の改修、機器や車両の購入に使え、令和8年熊本地
- 震の被災者支援・復興のための特別枠もあります。\n上
- 限: 250万円\nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=
- 367/r_id=2261
-TRANSP:TRANSPARENT
-URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2261
-END:VEVENT
-BEGIN:VEVENT
 UID:cfedcf8f7cd4065a-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:締切: ノエビアグリーン財団 2026年度助成事業
@@ -201,7 +157,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2311
 END:VEVENT
 BEGIN:VEVENT
 UID:cfedcf8f7cd4065a-1@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:締切21日前: ノエビアグリーン財団 2026年度助成事
@@ -216,7 +172,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2311
 END:VEVENT
 BEGIN:VEVENT
 UID:cfedcf8f7cd4065a-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:締切7日前: ノエビアグリーン財団 2026年度助成事
@@ -231,7 +187,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2311
 END:VEVENT
 BEGIN:VEVENT
 UID:43e9e63bd4470b46-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:締切: 赤い羽根福祉基金 2027年度事業助成
@@ -245,23 +201,8 @@ TRANSP:TRANSPARENT
 URL:https://www.akaihane.or.jp/subsidies/sub-kikin/50818/
 END:VEVENT
 BEGIN:VEVENT
-UID:43e9e63bd4470b46-1@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:締切21日前: 赤い羽根福祉基金 2027年度事業助成
-DESCRIPTION:公的な制度やサービスでは対応できない福祉の
- 課題に取り組む、先駆けとなる活動に使える助成です
- 。生活に困っている人や生きづらさを抱える人への直
- 接の支援、支援のためのつながりづくり、調査に使え
- ます。\n上限: 1\,000万円\nhttps://www.akaihane.or.jp/subsidies/sub-
- kikin/50818/
-TRANSP:TRANSPARENT
-URL:https://www.akaihane.or.jp/subsidies/sub-kikin/50818/
-END:VEVENT
-BEGIN:VEVENT
 UID:43e9e63bd4470b46-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:締切7日前: 赤い羽根福祉基金 2027年度事業助成
@@ -275,8 +216,36 @@ TRANSP:TRANSPARENT
 URL:https://www.akaihane.or.jp/subsidies/sub-kikin/50818/
 END:VEVENT
 BEGIN:VEVENT
+UID:4c3a70a7e6c4f5ad-0@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:締切: 2027年度 金融相談等活動助成 追加募集
+DESCRIPTION:高齢者や大きな災害の被災者、障がいのある人
+ などに向けた金融相談会や、お金の知識を広める活動
+ にかかる費用の一部を助成します。対象は2027年4月から
+ 2028年3月までに行う、収益を目的としない活動です。\n
+ 上限: 60万円\nhttps://fields.canpan.info/grant/detail/2455
+TRANSP:TRANSPARENT
+URL:https://fields.canpan.info/grant/detail/2455
+END:VEVENT
+BEGIN:VEVENT
+UID:4c3a70a7e6c4f5ad-2@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:締切7日前: 2027年度 金融相談等活動助成 追加募集
+DESCRIPTION:高齢者や大きな災害の被災者、障がいのある人
+ などに向けた金融相談会や、お金の知識を広める活動
+ にかかる費用の一部を助成します。対象は2027年4月から
+ 2028年3月までに行う、収益を目的としない活動です。\n
+ 上限: 60万円\nhttps://fields.canpan.info/grant/detail/2455
+TRANSP:TRANSPARENT
+URL:https://fields.canpan.info/grant/detail/2455
+END:VEVENT
+BEGIN:VEVENT
 UID:3898ceb240cc4017-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:締切: 公益財団法人大阪コミュニティ財団 2027年度
@@ -289,22 +258,8 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283
 END:VEVENT
 BEGIN:VEVENT
-UID:3898ceb240cc4017-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:締切7日前: 公益財団法人大阪コミュニティ財団 202
- 7年度助成
-DESCRIPTION:1年以上の活動実績がある非営利団体が、2027年4
- 月から2028年3月までに行う公益のための事業に使える助
- 成金です。法人格がなくても応募できます。\n上限: —\
- nhttps://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283
-TRANSP:TRANSPARENT
-URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2283
-END:VEVENT
-BEGIN:VEVENT
 UID:f9e1cbf7be69d697-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:締切: 2027年度 POSC社会貢献活動支援のための助成
@@ -319,7 +274,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299
 END:VEVENT
 BEGIN:VEVENT
 UID:f9e1cbf7be69d697-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:締切7日前: 2027年度 POSC社会貢献活動支援のための
@@ -334,50 +289,8 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2299
 END:VEVENT
 BEGIN:VEVENT
-UID:4c3a70a7e6c4f5ad-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:締切: 2027年度 金融相談等活動助成 追加募集
-DESCRIPTION:高齢者や大きな災害の被災者、障がいのある人
- などに向けた金融相談会や、お金の知識を広める活動
- にかかる費用の一部を助成します。対象は2027年4月から
- 2028年3月までに行う、収益を目的としない活動です。\n
- 上限: 60万円\nhttps://fields.canpan.info/grant/detail/2455
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2455
-END:VEVENT
-BEGIN:VEVENT
-UID:4c3a70a7e6c4f5ad-1@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:締切21日前: 2027年度 金融相談等活動助成 追加募集
-DESCRIPTION:高齢者や大きな災害の被災者、障がいのある人
- などに向けた金融相談会や、お金の知識を広める活動
- にかかる費用の一部を助成します。対象は2027年4月から
- 2028年3月までに行う、収益を目的としない活動です。\n
- 上限: 60万円\nhttps://fields.canpan.info/grant/detail/2455
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2455
-END:VEVENT
-BEGIN:VEVENT
-UID:4c3a70a7e6c4f5ad-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261204
-DTEND;VALUE=DATE:20261205
-SUMMARY:締切7日前: 2027年度 金融相談等活動助成 追加募集
-DESCRIPTION:高齢者や大きな災害の被災者、障がいのある人
- などに向けた金融相談会や、お金の知識を広める活動
- にかかる費用の一部を助成します。対象は2027年4月から
- 2028年3月までに行う、収益を目的としない活動です。\n
- 上限: 60万円\nhttps://fields.canpan.info/grant/detail/2455
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2455
-END:VEVENT
-BEGIN:VEVENT
 UID:bb4b8a41c1a734c5-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:締切: 公益財団法人みらいRITA 第10回助成金募集（2
@@ -393,7 +306,7 @@ URL:https://fields.canpan.info/grant/detail/2545
 END:VEVENT
 BEGIN:VEVENT
 UID:bb4b8a41c1a734c5-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:締切7日前: 公益財団法人みらいRITA 第10回助成金募
@@ -408,54 +321,142 @@ TRANSP:TRANSPARENT
 URL:https://fields.canpan.info/grant/detail/2545
 END:VEVENT
 BEGIN:VEVENT
-UID:a17cfcf56de8157d-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:締切: 公益財団法人キユーピーみらいたまご財団 2
- 027年度 第Ⅰ期 助成事業
-DESCRIPTION:子どもを対象にした食育活動や、子ども食堂な
- どの食を通した居場所づくりを行う団体を支える助成
- です。講座やイベントの費用、拠点の改修や設備・備
- 品の購入、食材費、業務用冷凍冷蔵庫の提供など、5つ
- のプログラムがあります。\n上限: 100万円\nhttps://www.fukus
- hi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
+UID:aa56f0a9fb35a872-0@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:締切: 棚田の守り人応援基金～美しい棚田を、未
+ 来へつなぐために～
+DESCRIPTION:耕作されている、または耕作を再開できる棚田
+ を舞台にした活動を支える助成金です。農機具や拠点
+ ・トイレの整備、担い手づくりや関係人口づくり、イ
+ ベント・交流、農家民宿や体験プログラムなどに使え
+ ます。\n上限: 100万円\nhttps://fields.canpan.info/grant/detail/2548
 TRANSP:TRANSPARENT
-URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2292
+URL:https://fields.canpan.info/grant/detail/2548
 END:VEVENT
 BEGIN:VEVENT
-UID:2a341533798e1ca8-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:締切: ニッセイ財団 令和9年度（2027年度）生き生
- きシニア活動顕彰（追加募集）
-DESCRIPTION:元気な高齢者が中心となって行う、子どもの健
- やかな成長を支える活動や地域に役立つ活動をたたえ
- 、助成金を贈ります。\n上限: 5万円\nhttps://www.pref.kumamoto
- .jp/soshiki/54/284410.html
+UID:aa56f0a9fb35a872-1@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:締切21日前: 棚田の守り人応援基金～美しい棚田を
+ 、未来へつなぐために～
+DESCRIPTION:耕作されている、または耕作を再開できる棚田
+ を舞台にした活動を支える助成金です。農機具や拠点
+ ・トイレの整備、担い手づくりや関係人口づくり、イ
+ ベント・交流、農家民宿や体験プログラムなどに使え
+ ます。\n上限: 100万円\nhttps://fields.canpan.info/grant/detail/2548
 TRANSP:TRANSPARENT
-URL:https://www.pref.kumamoto.jp/soshiki/54/284410.html
+URL:https://fields.canpan.info/grant/detail/2548
 END:VEVENT
 BEGIN:VEVENT
-UID:52fdc982aaa9ad84-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:締切: 「令和8（2026）年度の風水害にかかるボラサ
- ポ」第2回助成事業
-DESCRIPTION:令和8年8月千葉豪雨、富山・石川・福井大雨、9
- 月大雨、台風25号で被災した地域での、緊急支援から生
- 活再建までの支援活動に使える資金です。30日以内の短
- 期助成と、15日以上で人件費も対象になる中期助成があ
- ります。\n上限: 100万円\nhttps://www.akaihane.or.jp/saigai-news/50
- 541/
+UID:aa56f0a9fb35a872-2@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:締切7日前: 棚田の守り人応援基金～美しい棚田を
+ 、未来へつなぐために～
+DESCRIPTION:耕作されている、または耕作を再開できる棚田
+ を舞台にした活動を支える助成金です。農機具や拠点
+ ・トイレの整備、担い手づくりや関係人口づくり、イ
+ ベント・交流、農家民宿や体験プログラムなどに使え
+ ます。\n上限: 100万円\nhttps://fields.canpan.info/grant/detail/2548
 TRANSP:TRANSPARENT
-URL:https://www.akaihane.or.jp/saigai-news/50541/
+URL:https://fields.canpan.info/grant/detail/2548
+END:VEVENT
+BEGIN:VEVENT
+UID:d6ec49e3b1bbc84f-0@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:締切: 第6回「ソーシャル・グッド基金」公募助成
+DESCRIPTION:さまざまな格差で困難を抱える子どもや若者が
+ 、希望を持って成長し自立する力を伸ばせるよう支え
+ る活動に使える資金です。既存事業の発展や新しい事
+ 業づくりが対象で、スタッフの人件費や管理費も含め
+ られます。\n上限: 200万円\nhttps://fields.canpan.info/grant/detai
+ l/2549
+TRANSP:TRANSPARENT
+URL:https://fields.canpan.info/grant/detail/2549
+END:VEVENT
+BEGIN:VEVENT
+UID:d6ec49e3b1bbc84f-1@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:締切21日前: 第6回「ソーシャル・グッド基金」公
+ 募助成
+DESCRIPTION:さまざまな格差で困難を抱える子どもや若者が
+ 、希望を持って成長し自立する力を伸ばせるよう支え
+ る活動に使える資金です。既存事業の発展や新しい事
+ 業づくりが対象で、スタッフの人件費や管理費も含め
+ られます。\n上限: 200万円\nhttps://fields.canpan.info/grant/detai
+ l/2549
+TRANSP:TRANSPARENT
+URL:https://fields.canpan.info/grant/detail/2549
+END:VEVENT
+BEGIN:VEVENT
+UID:d6ec49e3b1bbc84f-2@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:締切7日前: 第6回「ソーシャル・グッド基金」公募
+ 助成
+DESCRIPTION:さまざまな格差で困難を抱える子どもや若者が
+ 、希望を持って成長し自立する力を伸ばせるよう支え
+ る活動に使える資金です。既存事業の発展や新しい事
+ 業づくりが対象で、スタッフの人件費や管理費も含め
+ られます。\n上限: 200万円\nhttps://fields.canpan.info/grant/detai
+ l/2549
+TRANSP:TRANSPARENT
+URL:https://fields.canpan.info/grant/detail/2549
+END:VEVENT
+BEGIN:VEVENT
+UID:9ba5dd830bbcb8ec-0@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:締切: 第６回「日本の学び応援基金」
+DESCRIPTION:日本の哲学・歴史・文化・政治・文学などを学
+ び、日本人としての自覚を育てて、青少年の健やかな
+ 成長を支える教育事業に使える助成金です。事業にか
+ かわるスタッフの人件費や管理費も対象になります。\n
+ 上限: 100万円\nhttps://fields.canpan.info/grant/detail/2550
+TRANSP:TRANSPARENT
+URL:https://fields.canpan.info/grant/detail/2550
+END:VEVENT
+BEGIN:VEVENT
+UID:9ba5dd830bbcb8ec-1@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:締切21日前: 第６回「日本の学び応援基金」
+DESCRIPTION:日本の哲学・歴史・文化・政治・文学などを学
+ び、日本人としての自覚を育てて、青少年の健やかな
+ 成長を支える教育事業に使える助成金です。事業にか
+ かわるスタッフの人件費や管理費も対象になります。\n
+ 上限: 100万円\nhttps://fields.canpan.info/grant/detail/2550
+TRANSP:TRANSPARENT
+URL:https://fields.canpan.info/grant/detail/2550
+END:VEVENT
+BEGIN:VEVENT
+UID:9ba5dd830bbcb8ec-2@ukinowa-grants
+DTSTAMP:20261122T200903Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:締切7日前: 第６回「日本の学び応援基金」
+DESCRIPTION:日本の哲学・歴史・文化・政治・文学などを学
+ び、日本人としての自覚を育てて、青少年の健やかな
+ 成長を支える教育事業に使える助成金です。事業にか
+ かわるスタッフの人件費や管理費も対象になります。\n
+ 上限: 100万円\nhttps://fields.canpan.info/grant/detail/2550
+TRANSP:TRANSPARENT
+URL:https://fields.canpan.info/grant/detail/2550
 END:VEVENT
 BEGIN:VEVENT
 UID:c6c5419e0a78b893-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:締切: 公益財団法人ヤマト福祉財団 2027年度助成金
@@ -473,7 +474,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
 END:VEVENT
 BEGIN:VEVENT
 UID:c6c5419e0a78b893-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:締切7日前: 公益財団法人ヤマト福祉財団 2027年度
@@ -490,163 +491,8 @@ TRANSP:TRANSPARENT
 URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=1922
 END:VEVENT
 BEGIN:VEVENT
-UID:9ba5dd830bbcb8ec-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20270107
-DTEND;VALUE=DATE:20270108
-SUMMARY:締切: 第６回「日本の学び応援基金」
-DESCRIPTION:日本の哲学・歴史・文化・政治・文学などを学
- び、日本人としての自覚を育てて、青少年の健やかな
- 成長を支える教育事業に使える助成金です。事業にか
- かわるスタッフの人件費や管理費も対象になります。\n
- 上限: 100万円\nhttps://fields.canpan.info/grant/detail/2550
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2550
-END:VEVENT
-BEGIN:VEVENT
-UID:9ba5dd830bbcb8ec-1@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-SUMMARY:締切21日前: 第６回「日本の学び応援基金」
-DESCRIPTION:日本の哲学・歴史・文化・政治・文学などを学
- び、日本人としての自覚を育てて、青少年の健やかな
- 成長を支える教育事業に使える助成金です。事業にか
- かわるスタッフの人件費や管理費も対象になります。\n
- 上限: 100万円\nhttps://fields.canpan.info/grant/detail/2550
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2550
-END:VEVENT
-BEGIN:VEVENT
-UID:9ba5dd830bbcb8ec-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261231
-DTEND;VALUE=DATE:20270101
-SUMMARY:締切7日前: 第６回「日本の学び応援基金」
-DESCRIPTION:日本の哲学・歴史・文化・政治・文学などを学
- び、日本人としての自覚を育てて、青少年の健やかな
- 成長を支える教育事業に使える助成金です。事業にか
- かわるスタッフの人件費や管理費も対象になります。\n
- 上限: 100万円\nhttps://fields.canpan.info/grant/detail/2550
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2550
-END:VEVENT
-BEGIN:VEVENT
-UID:d6ec49e3b1bbc84f-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261224
-DTEND;VALUE=DATE:20261225
-SUMMARY:締切: 第6回「ソーシャル・グッド基金」公募助成
-DESCRIPTION:さまざまな格差で困難を抱える子どもや若者が
- 、希望を持って成長し自立する力を伸ばせるよう支え
- る活動に使える資金です。既存事業の発展や新しい事
- 業づくりが対象で、スタッフの人件費や管理費も含め
- られます。\n上限: 200万円\nhttps://fields.canpan.info/grant/detai
- l/2549
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2549
-END:VEVENT
-BEGIN:VEVENT
-UID:d6ec49e3b1bbc84f-1@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-SUMMARY:締切21日前: 第6回「ソーシャル・グッド基金」公
- 募助成
-DESCRIPTION:さまざまな格差で困難を抱える子どもや若者が
- 、希望を持って成長し自立する力を伸ばせるよう支え
- る活動に使える資金です。既存事業の発展や新しい事
- 業づくりが対象で、スタッフの人件費や管理費も含め
- られます。\n上限: 200万円\nhttps://fields.canpan.info/grant/detai
- l/2549
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2549
-END:VEVENT
-BEGIN:VEVENT
-UID:d6ec49e3b1bbc84f-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-SUMMARY:締切7日前: 第6回「ソーシャル・グッド基金」公募
- 助成
-DESCRIPTION:さまざまな格差で困難を抱える子どもや若者が
- 、希望を持って成長し自立する力を伸ばせるよう支え
- る活動に使える資金です。既存事業の発展や新しい事
- 業づくりが対象で、スタッフの人件費や管理費も含め
- られます。\n上限: 200万円\nhttps://fields.canpan.info/grant/detai
- l/2549
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2549
-END:VEVENT
-BEGIN:VEVENT
-UID:aa56f0a9fb35a872-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20270106
-DTEND;VALUE=DATE:20270107
-SUMMARY:締切: 棚田の守り人応援基金～美しい棚田を、未
- 来へつなぐために～
-DESCRIPTION:耕作されている、または耕作を再開できる棚田
- を舞台にした活動を支える助成金です。農機具や拠点
- ・トイレの整備、担い手づくりや関係人口づくり、イ
- ベント・交流、農家民宿や体験プログラムなどに使え
- ます。\n上限: 100万円\nhttps://fields.canpan.info/grant/detail/2548
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2548
-END:VEVENT
-BEGIN:VEVENT
-UID:aa56f0a9fb35a872-1@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261217
-SUMMARY:締切21日前: 棚田の守り人応援基金～美しい棚田を
- 、未来へつなぐために～
-DESCRIPTION:耕作されている、または耕作を再開できる棚田
- を舞台にした活動を支える助成金です。農機具や拠点
- ・トイレの整備、担い手づくりや関係人口づくり、イ
- ベント・交流、農家民宿や体験プログラムなどに使え
- ます。\n上限: 100万円\nhttps://fields.canpan.info/grant/detail/2548
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2548
-END:VEVENT
-BEGIN:VEVENT
-UID:aa56f0a9fb35a872-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261230
-DTEND;VALUE=DATE:20261231
-SUMMARY:締切7日前: 棚田の守り人応援基金～美しい棚田を
- 、未来へつなぐために～
-DESCRIPTION:耕作されている、または耕作を再開できる棚田
- を舞台にした活動を支える助成金です。農機具や拠点
- ・トイレの整備、担い手づくりや関係人口づくり、イ
- ベント・交流、農家民宿や体験プログラムなどに使え
- ます。\n上限: 100万円\nhttps://fields.canpan.info/grant/detail/2548
-TRANSP:TRANSPARENT
-URL:https://fields.canpan.info/grant/detail/2548
-END:VEVENT
-BEGIN:VEVENT
-UID:210bf6fa37e45a93-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:締切: ニッセイ財団 令和9年度（2027年度）児童・
- 少年の健全育成助成【追加募集】
-DESCRIPTION:子どもや少年の健全な育成に取り組む地域の民
- 間団体に、活動に必要な物品の購入費用を助成します
- 。今回の追加募集は、子育て支援活動・療育支援活動
- ・フリースクール活動に限られます。\n上限: 80万円\nhtt
- ps://www.parea.pref.kumamoto.jp/2026/11/13/%e3%83%8b%e3%83%83%e3%82%bb%e3%
- 82%a4%e8%b2%a1%e5%9b%a3%e3%80%8c%e5%85%90%e7%ab%a5%e3%83%bb%e5%b0%91%e5%b9
- %b4%e3%81%ae%e5%81%a5%e5%85%a8%e8%82%b2%e6%88%90%e5%8a%a9%e6%88%90%e3%80%8
- d%e3%80%8c%e7%94%9f/
-TRANSP:TRANSPARENT
-URL:https://www.parea.pref.kumamoto.jp/2026/11/13/%e3%83%8b%e3%83%83%e3%82%
- bb%e3%82%a4%e8%b2%a1%e5%9b%a3%e3%80%8c%e5%85%90%e7%ab%a5%e3%83%bb%e5%b0%91
- %e5%b9%b4%e3%81%ae%e5%81%a5%e5%85%a8%e8%82%b2%e6%88%90%e5%8a%a9%e6%88%90%e
- 3%80%8d%e3%80%8c%e7%94%9f/
-END:VEVENT
-BEGIN:VEVENT
 UID:ef615ca11e2d3254-0@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:締切: 第16回 杉浦地域医療振興助成（活動分野）
@@ -661,7 +507,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2310
 END:VEVENT
 BEGIN:VEVENT
 UID:ef615ca11e2d3254-1@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:締切21日前: 第16回 杉浦地域医療振興助成（活動分
@@ -677,7 +523,7 @@ URL:https://www.fukushi-kumamoto.or.jp/pages/73/detail=1/b_id=367/r_id=2310
 END:VEVENT
 BEGIN:VEVENT
 UID:ef615ca11e2d3254-2@ukinowa-grants
-DTSTAMP:20261115T200854Z
+DTSTAMP:20261122T200903Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:締切7日前: 第16回 杉浦地域医療振興助成（活動分

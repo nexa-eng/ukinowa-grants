@@ -44,6 +44,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://fields.canpan.info/organization/detail/1340171006": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://fields.canpan.info/organization/detail/1357498516": {
   "first_seen": "2026-11-02",
   "is_grant": false,
@@ -56,6 +61,11 @@
  },
  "https://fields.canpan.info/organization/detail/1441100821": {
   "first_seen": "2026-11-09",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://fields.canpan.info/organization/detail/1442025605": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -1106,6 +1116,46 @@
  },
  "https://j-net21.smrj.go.jp/snavi/articles/196188": {
   "first_seen": "2026-11-16",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://j-net21.smrj.go.jp/snavi/articles/196671": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://j-net21.smrj.go.jp/snavi/articles/196672": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://j-net21.smrj.go.jp/snavi/articles/196673": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://j-net21.smrj.go.jp/snavi/articles/196674": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://j-net21.smrj.go.jp/snavi/articles/196675": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://j-net21.smrj.go.jp/snavi/articles/196676": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://j-net21.smrj.go.jp/snavi/articles/196677": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://j-net21.smrj.go.jp/snavi/articles/196680": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -3684,6 +3734,11 @@
   "is_grant": false,
   "reason": "not_grant"
  },
+ "https://www.janpia.or.jp/press/news_20261118_01.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.jbf.ne.jp/about/about_JBF": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -4429,6 +4484,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.nippon-foundation.or.jp/who/news/information/2026/20261118-126560.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.parea.pref.kumamoto.jp/2026/08/18/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6%ef%bc%882026%e5%b9%b4%e5%ba%a6%ef%bc%89%e3%81%8f%e3%81%be%e3%82%82%e3%81%a8%e7%9c%8c%e6%b0%91%e3%82%ab%e3%83%ac%e3%83%83%e3%82%b8%e3%83%91%e3%83%ac%e3%82%a2-4/": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -4611,6 +4671,21 @@
  },
  "https://www.parea.pref.kumamoto.jp/2026/11/13/parearoom_tsushin_2026_11_no101/": {
   "first_seen": "2026-11-16",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.parea.pref.kumamoto.jp/2026/11/16/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e5%ba%a6%e5%ae%b6%e5%ba%ad%e3%81%8b%e3%82%89%e6%9a%b4%e5%8a%9b%e3%82%92%e3%81%aa%e3%81%8f%e3%81%99%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%9a%e3%83%bc%e3%83%b3%e3%80%80dv/": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.parea.pref.kumamoto.jp/2026/11/22/%e3%80%90%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e6%83%85%e5%a0%b1%e3%80%91%e3%80%8c%e3%81%93%e3%81%a9%e3%82%82%e3%83%bb%e3%81%be%e3%82%93%e3%81%aa%e3%81%8b-%e5%9c%b0%e5%9f%9f%e3%81%ae%e7%b8%81%e3%81%8c/": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.parea.pref.kumamoto.jp/2026/11/22/%e3%80%90%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e6%83%85%e5%a0%b1%e3%80%91%e5%9c%b0%e5%9f%9f%e3%81%aenpo%e3%82%92%e6%94%af%e3%81%88%e3%82%8b%e5%ae%9f%e8%b7%b5%e5%9e%8b%e3%83%97%e3%83%ad%e3%82%b0/": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5119,8 +5194,18 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/site/amakusa/255986.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/site/amakusa/275824.html": {
   "first_seen": "2026-10-12",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/site/amakusa/284826.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5134,10 +5219,20 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/site/chiji/284649.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/site/eduuki/282775.html": {
   "first_seen": "2026-11-09",
   "is_grant": false,
   "reason": "not_grant"
+ },
+ "https://www.pref.kumamoto.jp/site/eepro/284534.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
  },
  "https://www.pref.kumamoto.jp/site/gikai/176805.html": {
   "first_seen": "2026-10-26",
@@ -5159,6 +5254,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/site/graph/284146.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/site/gyogyounokyoka/267679.html": {
   "first_seen": "2026-10-12",
   "is_grant": false,
@@ -5176,6 +5276,16 @@
  },
  "https://www.pref.kumamoto.jp/site/kaigo/279406.html": {
   "first_seen": "2026-11-02",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/site/kaigo/284337.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/site/kaigo/284374.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5204,8 +5314,18 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/site/kenhoku/283243.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/site/kenhoku/283387.html": {
   "first_seen": "2026-11-02",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/site/kenhoku/284860.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5226,6 +5346,16 @@
  },
  "https://www.pref.kumamoto.jp/site/kennan/282853.html": {
   "first_seen": "2026-10-26",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/site/kennan/283419.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.pref.kumamoto.jp/site/kennan/8470.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5256,6 +5386,11 @@
  },
  "https://www.pref.kumamoto.jp/site/kyouiku/217341.html": {
   "first_seen": "2026-10-19",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/site/kyouiku/217891.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5379,6 +5514,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/site/kyouiku/9171.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.pref.kumamoto.jp/site/maitsuki-kinrou/263780.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -5423,6 +5563,11 @@
   "first_seen": "2026-11-16",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/site/saiyou/284929.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.pref.kumamoto.jp/site/shouhisha-bukka/258885.html": {
   "first_seen": "2026-10-01",
@@ -5484,6 +5629,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/1/282461.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/1/282465.html": {
   "first_seen": "2026-11-16",
   "is_grant": false,
@@ -5499,8 +5649,28 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/1/283023.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/1/283937.html": {
   "first_seen": "2026-11-09",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/10/283677.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/10/284072.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/101/284586.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5624,6 +5794,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/115/284403.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/115/85889.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -5669,6 +5844,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/12/284223.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/125/279595.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -5676,6 +5856,11 @@
  },
  "https://www.pref.kumamoto.jp/soshiki/125/280818.html": {
   "first_seen": "2026-10-26",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/125/283392.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5764,8 +5949,18 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/137/284893.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/14/267118.html": {
   "first_seen": "2026-10-12",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/14/283370.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5773,6 +5968,11 @@
   "first_seen": "2026-10-19",
   "is_grant": false,
   "reason": "not_grant"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/144/284443.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
  },
  "https://www.pref.kumamoto.jp/soshiki/145/282870.html": {
   "first_seen": "2026-10-26",
@@ -5844,6 +6044,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/17/196927.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/173/281058.html": {
   "first_seen": "2026-10-26",
   "is_grant": false,
@@ -5854,8 +6059,23 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/18/253301.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/18/281115.html": {
   "first_seen": "2026-11-09",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/18/283375.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/18/283520.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5863,6 +6083,11 @@
   "first_seen": "2026-10-26",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/188/284012.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.pref.kumamoto.jp/soshiki/20/178449.html": {
   "first_seen": "2026-10-05",
@@ -5881,6 +6106,11 @@
  },
  "https://www.pref.kumamoto.jp/soshiki/20/50343.html": {
   "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/201/218913.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -5951,6 +6181,11 @@
  },
  "https://www.pref.kumamoto.jp/soshiki/222/283041.html": {
   "first_seen": "2026-10-26",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/222/283844.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -6026,6 +6261,11 @@
  },
  "https://www.pref.kumamoto.jp/soshiki/27/283709.html": {
   "first_seen": "2026-11-09",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/27/284532.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -6114,6 +6354,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/33/284808.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/33/50311.html": {
   "first_seen": "2026-11-09",
   "is_grant": false,
@@ -6154,6 +6399,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/35/284589.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/36/282483.html": {
   "first_seen": "2026-11-02",
   "is_grant": false,
@@ -6191,6 +6441,16 @@
  },
  "https://www.pref.kumamoto.jp/soshiki/39/281437.html": {
   "first_seen": "2026-10-19",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/39/284085.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/39/284527.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -6264,6 +6524,16 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/44/284713.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/44/284846.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/45/110964.html": {
   "first_seen": "2026-10-01",
   "is_grant": false,
@@ -6301,6 +6571,11 @@
  },
  "https://www.pref.kumamoto.jp/soshiki/46/206122.html": {
   "first_seen": "2026-11-02",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/49/272413.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -6374,8 +6649,18 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/52/284620.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/53/247140.html": {
   "first_seen": "2026-10-01",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/53/258603.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -6398,6 +6683,11 @@
   "first_seen": "2026-11-09",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/54/284376.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.pref.kumamoto.jp/soshiki/54/51729.html": {
   "first_seen": "2026-10-12",
@@ -6438,6 +6728,16 @@
   "first_seen": "2026-10-01",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/56/284428.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/56/284513.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.pref.kumamoto.jp/soshiki/57/123039.html": {
   "first_seen": "2026-10-01",
@@ -6524,6 +6824,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/61/254984.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/61/257821.html": {
   "first_seen": "2026-10-12",
   "is_grant": false,
@@ -6536,6 +6841,11 @@
  },
  "https://www.pref.kumamoto.jp/soshiki/61/282591.html": {
   "first_seen": "2026-11-09",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/61/284414.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "not_grant"
  },
@@ -6641,6 +6951,11 @@
  },
  "https://www.pref.kumamoto.jp/soshiki/62/284324.html": {
   "first_seen": "2026-11-16",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/62/284560.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "not_grant"
  },
@@ -6759,8 +7074,18 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/7/281831.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/7/283231.html": {
   "first_seen": "2026-11-16",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/70/191913.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
@@ -6864,6 +7189,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/8/282133.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.pref.kumamoto.jp/soshiki/81/212435.html": {
   "first_seen": "2026-10-26",
   "is_grant": false,
@@ -6914,6 +7244,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/84/284472.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
  "https://www.pref.kumamoto.jp/soshiki/85/137336.html": {
   "first_seen": "2026-11-02",
   "is_grant": false,
@@ -6923,6 +7258,11 @@
   "first_seen": "2026-10-12",
   "is_grant": false,
   "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/88/222376.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
  },
  "https://www.pref.kumamoto.jp/soshiki/88/281883.html": {
   "first_seen": "2026-10-12",
@@ -6934,6 +7274,11 @@
   "is_grant": false,
   "reason": "prefilter"
  },
+ "https://www.pref.kumamoto.jp/soshiki/90/256842.html": {
+  "first_seen": "2026-11-23",
+  "is_grant": false,
+  "reason": "not_grant"
+ },
  "https://www.pref.kumamoto.jp/soshiki/90/261592.html": {
   "first_seen": "2026-10-05",
   "is_grant": false,
@@ -6941,6 +7286,11 @@
  },
  "https://www.pref.kumamoto.jp/soshiki/92/152359.html": {
   "first_seen": "2026-10-05",
+  "is_grant": false,
+  "reason": "prefilter"
+ },
+ "https://www.pref.kumamoto.jp/soshiki/92/251629.html": {
+  "first_seen": "2026-11-23",
   "is_grant": false,
   "reason": "prefilter"
  },
